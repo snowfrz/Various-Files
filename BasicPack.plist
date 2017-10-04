@@ -4512,11 +4512,112 @@
 				</dict>
 			</array>
 		</dict>
+		<dict>
+			<key>Type</key>
+			<string>Maintenance</string>
+			<key>Description</key>
+			<string>The NSA builds some viruses to help hack into enemy computers, but accidentally releases them into the wild. What do you do?</string>
+			<key>Options</key>
+			<array>
+				<dict>
+					<key>Title</key>
+					<string>Shut down the hacking program</string>
+					<key>Type</key>
+					<string>Maintenance</string>
+					<key>Future</key>
+					<array/>
+					<key>Effects</key>
+					<dict>
+						<key>Felony</key>
+						<integer>0</integer>
+						<key>Finance</key>
+						<integer>0</integer>
+						<key>Popular</key>
+						<real>-0.2</real>
+						<key>Foreign</key>
+						<real>0.1</real>
+						<key>Republican</key>
+						<real>-0.2</real>
+						<key>Democratic</key>
+						<real>0.1</real>
+					</dict>
+				</dict>
+				<dict>
+					<key>Title</key>
+					<string>Blame it on an enemy country</string>
+					<key>Type</key>
+					<string>PR</string>
+					<key>Future</key>
+					<array/>
+					<key>Effects</key>
+					<dict>
+						<key>Felony</key>
+						<real>-0.2</real>
+						<key>Finance</key>
+						<integer>0</integer>
+						<key>Popular</key>
+						<real>-0.1</real>
+						<key>Foreign</key>
+						<real>-0.25</real>
+						<key>Republican</key>
+						<real>0.2</real>
+						<key>Democratic</key>
+						<real>-0.2</real>
+					</dict>
+				</dict>
+				<dict>
+					<key>Title</key>
+					<string>Help build fixes for the computers</string>
+					<key>Type</key>
+					<string>Maintenance</string>
+					<key>Future</key>
+					<array/>
+					<key>Effects</key>
+					<dict>
+						<key>Felony</key>
+						<integer>0</integer>
+						<key>Finance</key>
+						<real>-0.2</real>
+						<key>Popular</key>
+						<real>0.1</real>
+						<key>Foreign</key>
+						<real>-0.2</real>
+						<key>Republican</key>
+						<real>-0.2</real>
+						<key>Democratic</key>
+						<real>0.1</real>
+					</dict>
+				</dict>
+				<dict>
+					<key>Title</key>
+					<string>Pretend it didn&apos;t happen</string>
+					<key>Type</key>
+					<string>PR</string>
+					<key>Future</key>
+					<array/>
+					<key>Effects</key>
+					<dict>
+						<key>Felony</key>
+						<real>-0.2</real>
+						<key>Finance</key>
+						<integer>0</integer>
+						<key>Popular</key>
+						<real>-0.2</real>
+						<key>Foreign</key>
+						<real>-0.2</real>
+						<key>Republican</key>
+						<real>0.2</real>
+						<key>Democratic</key>
+						<real>-0.2</real>
+					</dict>
+				</dict>
+			</array>
+		</dict>
 	</array>
 	<key>Metadata</key>
 	<dict>
 		<key>Version</key>
-		<integer>7</integer>
+		<integer>8</integer>
 	</dict>
 </dict>
 </plist>
