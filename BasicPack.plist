@@ -4613,11 +4613,112 @@
 				</dict>
 			</array>
 		</dict>
+		<dict>
+			<key>Type</key>
+			<string>Maintenance</string>
+			<key>Description</key>
+			<string>There has been an increase in gun violence lately. How do you respond?</string>
+			<key>Options</key>
+			<array>
+				<dict>
+					<key>Title</key>
+					<string>Confiscate all guns</string>
+					<key>Type</key>
+					<string>Executive</string>
+					<key>Future</key>
+					<array/>
+					<key>Effects</key>
+					<dict>
+						<key>Felony</key>
+						<real>-0.25</real>
+						<key>Finance</key>
+						<integer>0</integer>
+						<key>Popular</key>
+						<real>0.1</real>
+						<key>Foreign</key>
+						<real>0.1</real>
+						<key>Republican</key>
+						<real>-0.3</real>
+						<key>Democratic</key>
+						<real>0.2</real>
+					</dict>
+				</dict>
+				<dict>
+					<key>Title</key>
+					<string>Say that guns are a constitutional right</string>
+					<key>Type</key>
+					<string>PR</string>
+					<key>Future</key>
+					<array/>
+					<key>Effects</key>
+					<dict>
+						<key>Felony</key>
+						<integer>0</integer>
+						<key>Finance</key>
+						<integer>0</integer>
+						<key>Popular</key>
+						<real>-0.2</real>
+						<key>Foreign</key>
+						<real>-0.2</real>
+						<key>Republican</key>
+						<real>0.2</real>
+						<key>Democratic</key>
+						<real>-0.2</real>
+					</dict>
+				</dict>
+				<dict>
+					<key>Title</key>
+					<string>More psychological tests for gun owners</string>
+					<key>Type</key>
+					<string>Maintenance</string>
+					<key>Future</key>
+					<array/>
+					<key>Effects</key>
+					<dict>
+						<key>Felony</key>
+						<integer>0</integer>
+						<key>Finance</key>
+						<real>-0.25</real>
+						<key>Popular</key>
+						<real>0.1</real>
+						<key>Foreign</key>
+						<real>-0.1</real>
+						<key>Republican</key>
+						<real>-0.1</real>
+						<key>Democratic</key>
+						<real>0.1</real>
+					</dict>
+				</dict>
+				<dict>
+					<key>Title</key>
+					<string>Only allow guns for hunting</string>
+					<key>Type</key>
+					<string>Legislation</string>
+					<key>Future</key>
+					<array/>
+					<key>Effects</key>
+					<dict>
+						<key>Felony</key>
+						<integer>0</integer>
+						<key>Finance</key>
+						<integer>0</integer>
+						<key>Popular</key>
+						<real>-0.2</real>
+						<key>Foreign</key>
+						<real>0.1</real>
+						<key>Republican</key>
+						<real>-0.2</real>
+						<key>Democratic</key>
+						<real>0.1</real>
+					</dict>
+				</dict>
+			</array>
+		</dict>
 	</array>
 	<key>Metadata</key>
 	<dict>
 		<key>Version</key>
-		<integer>8</integer>
+		<integer>9</integer>
 	</dict>
 </dict>
 </plist>
