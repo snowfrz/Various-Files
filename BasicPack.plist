@@ -5141,11 +5141,213 @@
 				</dict>
 			</array>
 		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PR</string>
+			<key>Description</key>
+			<string>Some conspiracy theorists accuse your administration of brainwashing the population. What do you do?</string>
+			<key>Options</key>
+			<array>
+				<dict>
+					<key>Title</key>
+					<string>Laugh at them</string>
+					<key>Type</key>
+					<string>PR</string>
+					<key>Future</key>
+					<array/>
+					<key>Effects</key>
+					<dict>
+						<key>Felony</key>
+						<integer>0</integer>
+						<key>Finance</key>
+						<integer>0</integer>
+						<key>Popular</key>
+						<real>-0.25</real>
+						<key>Foreign</key>
+						<integer>0</integer>
+						<key>Republican</key>
+						<real>-0.2</real>
+						<key>Democratic</key>
+						<real>0.2</real>
+					</dict>
+				</dict>
+				<dict>
+					<key>Title</key>
+					<string>Scientifically expose them as fakes</string>
+					<key>Type</key>
+					<string>PR</string>
+					<key>Future</key>
+					<array/>
+					<key>Effects</key>
+					<dict>
+						<key>Felony</key>
+						<integer>0</integer>
+						<key>Finance</key>
+						<real>-0.25</real>
+						<key>Popular</key>
+						<real>0.1</real>
+						<key>Foreign</key>
+						<integer>0</integer>
+						<key>Republican</key>
+						<real>-0.2</real>
+						<key>Democratic</key>
+						<real>0.2</real>
+					</dict>
+				</dict>
+				<dict>
+					<key>Title</key>
+					<string>Admit to brainwashing your population</string>
+					<key>Type</key>
+					<string>PR</string>
+					<key>Future</key>
+					<array/>
+					<key>Effects</key>
+					<dict>
+						<key>Felony</key>
+						<real>-0.3</real>
+						<key>Finance</key>
+						<real>-0.25</real>
+						<key>Popular</key>
+						<real>-0.35</real>
+						<key>Foreign</key>
+						<real>-0.2</real>
+						<key>Republican</key>
+						<real>-0.2</real>
+						<key>Democratic</key>
+						<real>-0.2</real>
+					</dict>
+				</dict>
+				<dict>
+					<key>Title</key>
+					<string>Ignore their nonsense</string>
+					<key>Type</key>
+					<string>PR</string>
+					<key>Future</key>
+					<array/>
+					<key>Effects</key>
+					<dict>
+						<key>Felony</key>
+						<integer>0</integer>
+						<key>Finance</key>
+						<integer>0</integer>
+						<key>Popular</key>
+						<real>-0.1</real>
+						<key>Foreign</key>
+						<integer>0</integer>
+						<key>Republican</key>
+						<real>-0.2</real>
+						<key>Democratic</key>
+						<integer>0</integer>
+					</dict>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>Maintenance</string>
+			<key>Description</key>
+			<string>NASA would like to plan a trip to another planet, but needs more funding, so they ask for it. What do you do?</string>
+			<key>Options</key>
+			<array>
+				<dict>
+					<key>Title</key>
+					<string>Tell them to leave it to private companies</string>
+					<key>Type</key>
+					<string>Maintenance</string>
+					<key>Future</key>
+					<array/>
+					<key>Effects</key>
+					<dict>
+						<key>Felony</key>
+						<integer>0</integer>
+						<key>Finance</key>
+						<integer>0</integer>
+						<key>Popular</key>
+						<real>-0.25</real>
+						<key>Foreign</key>
+						<real>0.1</real>
+						<key>Republican</key>
+						<real>0.2</real>
+						<key>Democratic</key>
+						<real>-0.2</real>
+					</dict>
+				</dict>
+				<dict>
+					<key>Title</key>
+					<string>Give them more funding</string>
+					<key>Type</key>
+					<string>Maintenance</string>
+					<key>Future</key>
+					<array/>
+					<key>Effects</key>
+					<dict>
+						<key>Felony</key>
+						<integer>0</integer>
+						<key>Finance</key>
+						<real>-0.3</real>
+						<key>Popular</key>
+						<real>0.2</real>
+						<key>Foreign</key>
+						<real>-0.1</real>
+						<key>Republican</key>
+						<real>-0.25</real>
+						<key>Democratic</key>
+						<real>0.25</real>
+					</dict>
+				</dict>
+				<dict>
+					<key>Title</key>
+					<string>Rejected. It&apos;s a fraud, like the moon landing</string>
+					<key>Type</key>
+					<string>Maintenance</string>
+					<key>Future</key>
+					<array/>
+					<key>Effects</key>
+					<dict>
+						<key>Felony</key>
+						<integer>0</integer>
+						<key>Finance</key>
+						<integer>0</integer>
+						<key>Popular</key>
+						<real>-0.25</real>
+						<key>Foreign</key>
+						<real>-0.25</real>
+						<key>Republican</key>
+						<real>0.2</real>
+						<key>Democratic</key>
+						<real>-0.2</real>
+					</dict>
+				</dict>
+				<dict>
+					<key>Title</key>
+					<string>Fund it if they can prove it&apos;ll make money</string>
+					<key>Type</key>
+					<string>Maintenance</string>
+					<key>Future</key>
+					<array/>
+					<key>Effects</key>
+					<dict>
+						<key>Felony</key>
+						<integer>0</integer>
+						<key>Finance</key>
+						<real>-0.25</real>
+						<key>Popular</key>
+						<real>0.1</real>
+						<key>Foreign</key>
+						<real>-0.1</real>
+						<key>Republican</key>
+						<real>-0.2</real>
+						<key>Democratic</key>
+						<real>0.2</real>
+					</dict>
+				</dict>
+			</array>
+		</dict>
 	</array>
 	<key>Metadata</key>
 	<dict>
 		<key>Version</key>
-		<integer>11</integer>
+		<integer>12</integer>
 	</dict>
 </dict>
 </plist>
