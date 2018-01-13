@@ -4443,7 +4443,7 @@
 				</dict>
 				<dict>
 					<key>Title</key>
-					<string>Make them pay to fix the issue</string>
+					<string>Fine them, but they stop donating to you</string>
 					<key>Type</key>
 					<string>Maintenance</string>
 					<key>Future</key>
@@ -4998,7 +4998,7 @@
 	<key>Metadata</key>
 	<dict>
 		<key>Version</key>
-		<integer>15</integer>
+		<integer>16</integer>
 	</dict>
 </dict>
 </plist>
