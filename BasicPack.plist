@@ -3824,9 +3824,9 @@
 						<key>Felony</key>
 						<integer>0</integer>
 						<key>Finance</key>
-						<real>-0.2</real>
-						<key>Popular</key>
 						<real>0.1</real>
+						<key>Popular</key>
+						<integer>0</integer>
 						<key>Foreign</key>
 						<integer>0</integer>
 						<key>Republican</key>
