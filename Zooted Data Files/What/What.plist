@@ -13,7 +13,14 @@
 			<key>Text</key>
 			<string>Take a sip</string>
 			<key>Incompatibility</key>
-			<array/>
+			<dict>
+				<key>When</key>
+				<array>
+					<integer>0</integer>
+					<integer>1</integer>
+					<integer>2</integer>
+				</array>
+			</dict>
 		</dict>
 	</array>
 </dict>
