@@ -19,7 +19,7 @@
 		</dict>
 		<dict>
 			<key>Text</key>
-			<string>Until someone drinks</string>
+			<string>Until someone drinks or loses</string>
 			<key>TimeFormat</key>
 			<integer>-1</integer>
 			<key>Incompatibility</key>
