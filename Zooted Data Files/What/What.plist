@@ -5,13 +5,13 @@
 	<key>Metadata</key>
 	<dict>
 		<key>Version</key>
-		<integer>2</integer>
+		<integer>1</integer>
 	</dict>
 	<key>Content</key>
 	<array>
 		<dict>
 			<key>Text</key>
-			<string>Take 3 sips</string>
+			<string>Take a sip</string>
 			<key>Incompatibility</key>
 			<array/>
 		</dict>
