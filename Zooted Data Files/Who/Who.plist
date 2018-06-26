@@ -5,7 +5,7 @@
 	<key>Metadata</key>
 	<dict>
 		<key>Version</key>
-		<string>1.0</string>
+		<integer>1</integer>
 	</dict>
 	<key>Content</key>
 	<array>
