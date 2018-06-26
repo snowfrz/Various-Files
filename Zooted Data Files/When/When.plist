@@ -15,7 +15,7 @@
 			<key>TimeFormat</key>
 			<integer>0</integer>
 			<key>Incompatibility</key>
-			<array/>
+			<dict/>
 		</dict>
 		<dict>
 			<key>Text</key>
@@ -23,11 +23,14 @@
 			<key>TimeFormat</key>
 			<integer>-1</integer>
 			<key>Incompatibility</key>
-			<array>
-				<integer>0</integer>
-				<integer>1</integer>
-				<integer>2</integer>
-			</array>
+			<dict>
+				<key>Who</key>
+				<array>
+					<integer>0</integer>
+					<integer>1</integer>
+					<integer>2</integer>
+				</array>
+			</dict>
 		</dict>
 		<dict>
 			<key>Text</key>
@@ -43,6 +46,14 @@
 					<integer>2</integer>
 				</array>
 			</dict>
+		</dict>
+		<dict>
+			<key>Text</key>
+			<string>Now</string>
+			<key>TimeFormat</key>
+			<integer>-1</integer>
+			<key>Incompatibility</key>
+			<dict/>
 		</dict>
 	</array>
 </dict>
