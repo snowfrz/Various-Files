@@ -11,9 +11,7 @@
 	<array>
 		<dict>
 			<key>Text</key>
-			<string>Until the timer runs out</string>
-			<key>TimeFormat</key>
-			<integer>0</integer>
+			<string>Take 3 sips</string>
 			<key>Incompatibility</key>
 			<array/>
 		</dict>
