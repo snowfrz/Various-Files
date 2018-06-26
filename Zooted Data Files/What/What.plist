@@ -22,6 +22,12 @@
 				</array>
 			</dict>
 		</dict>
+		<dict>
+			<key>Text</key>
+			<string>Play Never Have I Ever</string>
+			<key>Incompatibility</key>
+			<dict/>
+		</dict>
 	</array>
 </dict>
 </plist>
