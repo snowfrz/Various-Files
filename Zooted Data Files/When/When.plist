@@ -34,7 +34,7 @@
 		</dict>
 		<dict>
 			<key>Text</key>
-			<string>Until everyone&apos;s had a turn</string>
+			<string>Until all players have had a turn</string>
 			<key>TimeFormat</key>
 			<integer>-1</integer>
 			<key>Incompatibility</key>
