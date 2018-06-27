@@ -5,13 +5,15 @@
 	<key>Metadata</key>
 	<dict>
 		<key>Version</key>
-		<integer>8</integer>
+		<integer>9</integer>
 	</dict>
 	<key>Content</key>
 	<array>
 		<dict>
 			<key>Text</key>
 			<string>Take a sip</string>
+			<key>Instructions</key>
+			<string>Whoever has to take a sip takes a sip for as long as the Time card says. If it says now, you can sip for as long as you want.</string>
 			<key>Incompatibility</key>
 			<dict>
 				<key>When</key>
@@ -24,6 +26,8 @@
 		<dict>
 			<key>Text</key>
 			<string>Take a shot</string>
+			<key>Instructions</key>
+			<string>Take a shot!</string>
 			<key>Incompatibility</key>
 			<dict>
 				<key>When</key>
@@ -37,6 +41,8 @@
 		<dict>
 			<key>Text</key>
 			<string>Play Never Have I Ever</string>
+			<key>Instructions</key>
+			<string>Everyone playing puts up five fingers. You say something you&apos;ve never done, and if the other players have done it, they must lower a finger. Then, the person to your left says something they&apos;ve never done. This continues until someone runs out of fingers.</string>
 			<key>Incompatibility</key>
 			<dict>
 				<key>When</key>
@@ -55,6 +61,28 @@
 		<dict>
 			<key>Text</key>
 			<string>Play Truth or Drink</string>
+			<key>Instructions</key>
+			<string>You ask any other player a question. They can either answer it truthfully, or drink to avoid answering. Then, it is their turn to ask someone a question.</string>
+			<key>Incompatibility</key>
+			<dict>
+				<key>When</key>
+				<array>
+					<integer>0</integer>
+					<integer>3</integer>
+				</array>
+				<key>Who</key>
+				<array>
+					<integer>0</integer>
+					<integer>1</integer>
+					<integer>2</integer>
+				</array>
+			</dict>
+		</dict>
+		<dict>
+			<key>Text</key>
+			<string>Play Categories</string>
+			<key>Instructions</key>
+			<string>You say a category of things (for example, &quot;countries&quot;), then the person to your left says something that fits that category (for example, &quot;Canada&quot;). The person to their left goes after, and this continues according to what the Time card says.</string>
 			<key>Incompatibility</key>
 			<dict>
 				<key>When</key>
