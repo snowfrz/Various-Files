@@ -5,7 +5,7 @@
 	<key>Metadata</key>
 	<dict>
 		<key>Version</key>
-		<integer>9</integer>
+		<integer>10</integer>
 	</dict>
 	<key>Content</key>
 	<array>
@@ -80,7 +80,7 @@
 		</dict>
 		<dict>
 			<key>Text</key>
-			<string>Play Categories</string>
+			<string>Play Category</string>
 			<key>Instructions</key>
 			<string>You say a category of things (for example, &quot;countries&quot;), then the person to your left says something that fits that category (for example, &quot;Canada&quot;). The person to their left goes after, and this continues according to what the Time card says.</string>
 			<key>Incompatibility</key>
