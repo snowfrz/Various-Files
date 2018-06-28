@@ -5,7 +5,7 @@
 	<key>Metadata</key>
 	<dict>
 		<key>Version</key>
-		<integer>10</integer>
+		<integer>11</integer>
 	</dict>
 	<key>Content</key>
 	<array>
@@ -22,6 +22,10 @@
 					<integer>2</integer>
 				</array>
 			</dict>
+			<key>TimerMin</key>
+			<integer>3</integer>
+			<key>TimerMax</key>
+			<string>15</string>
 		</dict>
 		<dict>
 			<key>Text</key>
