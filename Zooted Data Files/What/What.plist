@@ -5,7 +5,7 @@
 	<key>Metadata</key>
 	<dict>
 		<key>Version</key>
-		<integer>16</integer>
+		<integer>18</integer>
 	</dict>
 	<key>Content</key>
 	<array>
@@ -182,7 +182,7 @@
 				</array>
 			</dict>
 			<key>TimerMin</key>
-			<integer>15</integer>
+			<integer>30</integer>
 			<key>TimerMax</key>
 			<integer>60</integer>
 		</dict>
@@ -212,6 +212,48 @@
 			<string>Prime Minister</string>
 			<key>Instructions</key>
 			<string>The person on the Person Card is now the Prime Minister, and they&apos;re allowed to make up a new rule, which will apply until the next time this card comes out. Whoever breaks the rule has to drink. For example, the Prime Minister could say that you&apos;re no longer allowed to say anyone&apos;s name, and then, if you said a friend&apos;s name, you&apos;d have to drink.</string>
+			<key>Incompatibility</key>
+			<dict>
+				<key>When</key>
+				<array>
+					<integer>0</integer>
+					<integer>1</integer>
+					<integer>2</integer>
+				</array>
+				<key>Who</key>
+				<array>
+					<integer>4</integer>
+					<integer>5</integer>
+					<integer>6</integer>
+				</array>
+			</dict>
+		</dict>
+		<dict>
+			<key>Text</key>
+			<string>Niagara Falls</string>
+			<key>Instructions</key>
+			<string>Start drinking. The person beside you starts right after, then the person beside them, and so on. The person beside you can stop when you do, and then the person beside them, and so on.</string>
+			<key>Incompatibility</key>
+			<dict>
+				<key>When</key>
+				<array>
+					<integer>0</integer>
+					<integer>1</integer>
+					<integer>2</integer>
+				</array>
+				<key>Who</key>
+				<array>
+					<integer>4</integer>
+					<integer>5</integer>
+					<integer>6</integer>
+				</array>
+			</dict>
+		</dict>
+		<dict>
+			<key>Text</key>
+			<string>Confess</string>
+			<key>Instructions</key>
+			<string>The chosen person must confess something they&apos;ve never told anyone, or drink.</string>
 			<key>Incompatibility</key>
 			<dict>
 				<key>When</key>
