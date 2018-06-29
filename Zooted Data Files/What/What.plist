@@ -5,7 +5,7 @@
 	<key>Metadata</key>
 	<dict>
 		<key>Version</key>
-		<integer>12</integer>
+		<integer>13</integer>
 	</dict>
 	<key>Content</key>
 	<array>
@@ -86,7 +86,7 @@
 			<key>Text</key>
 			<string>Play Category</string>
 			<key>Instructions</key>
-			<string>You say a category of things (for example, &quot;countries&quot;), then the person to your left says something that fits that category (for example, &quot;Canada&quot;). The person to their left goes after, and this continues according to what the Time card says.</string>
+			<string>You say a category of things (for example, &quot;countries&quot;), then the person to your left says something that fits that category (for example, &quot;Canada&quot;). The person to their left goes after, and so on. Whoever can&apos;t come up with an object has to drink.</string>
 			<key>Incompatibility</key>
 			<dict>
 				<key>When</key>
@@ -101,6 +101,90 @@
 					<integer>2</integer>
 				</array>
 			</dict>
+		</dict>
+		<dict>
+			<key>Text</key>
+			<string>Play Rhyme Time</string>
+			<key>Instructions</key>
+			<string>You say a word, and the person to your left says a word that rhymes with it, and the next person, and so on. Whoever can&apos;t rhyme has to drink.</string>
+			<key>Incompatibility</key>
+			<dict>
+				<key>When</key>
+				<array>
+					<integer>0</integer>
+					<integer>3</integer>
+				</array>
+				<key>Who</key>
+				<array>
+					<integer>0</integer>
+					<integer>1</integer>
+					<integer>2</integer>
+				</array>
+			</dict>
+		</dict>
+		<dict>
+			<key>Text</key>
+			<string>Play Q&amp;A</string>
+			<key>Instructions</key>
+			<string>You ask someone a question, and they have to answer. Then they ask someone a question, and so on. Whoever can&apos;t answer their question has to drink.</string>
+			<key>Incompatibility</key>
+			<dict>
+				<key>When</key>
+				<array>
+					<integer>0</integer>
+					<integer>3</integer>
+				</array>
+				<key>Who</key>
+				<array>
+					<integer>0</integer>
+					<integer>1</integer>
+					<integer>2</integer>
+				</array>
+			</dict>
+		</dict>
+		<dict>
+			<key>Text</key>
+			<string>King&apos;s Cup</string>
+			<key>Instructions</key>
+			<string>Drink the King&apos;s Cup!</string>
+			<key>Incompatibility</key>
+			<dict>
+				<key>When</key>
+				<array>
+					<integer>0</integer>
+					<integer>1</integer>
+					<integer>2</integer>
+				</array>
+				<key>Who</key>
+				<array>
+					<integer>4</integer>
+					<integer>5</integer>
+					<integer>6</integer>
+				</array>
+			</dict>
+		</dict>
+		<dict>
+			<key>Text</key>
+			<string>Play Don&apos;t Laugh</string>
+			<key>Instructions</key>
+			<string>Everyone in the group has to take turns trying to make the victim laugh. Every time they laugh, they have to drink. If it&apos;s on a timer, the others don&apos;t need to take turns, and can all go at once.</string>
+			<key>Incompatibility</key>
+			<dict>
+				<key>When</key>
+				<array>
+					<integer>3</integer>
+				</array>
+				<key>Who</key>
+				<array>
+					<integer>4</integer>
+					<integer>5</integer>
+					<integer>6</integer>
+				</array>
+			</dict>
+			<key>TimerMin</key>
+			<integer>15</integer>
+			<key>TimerMax</key>
+			<integer>60</integer>
 		</dict>
 	</array>
 </dict>
