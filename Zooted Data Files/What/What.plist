@@ -5,7 +5,7 @@
 	<key>Metadata</key>
 	<dict>
 		<key>Version</key>
-		<integer>14</integer>
+		<integer>15</integer>
 	</dict>
 	<key>Content</key>
 	<array>
@@ -190,7 +190,7 @@
 			<key>Text</key>
 			<string>Play Two Truths and a Lie</string>
 			<key>Instructions</key>
-			<string>The person decided by the Person Card has to say three things about themselves, but one of them is false. The rest of the group needs to work together to figure out which one is the lie. They only get once chance. If they get it right, the Person Card person drinks. If not, the rest of the group drinks.</string>
+			<string>The person decided by the Person Card has to say three things about themselves, but one of them has to be a lie. The rest of the group needs to work together to figure out which one is the lie. They only get once chance. If they get it right, the Person Card person drinks. If not, the rest of the group drinks.</string>
 			<key>Incompatibility</key>
 			<dict>
 				<key>When</key>
