@@ -5,7 +5,7 @@
 	<key>Metadata</key>
 	<dict>
 		<key>Version</key>
-		<integer>19</integer>
+		<integer>20</integer>
 	</dict>
 	<key>Content</key>
 	<array>
@@ -305,6 +305,28 @@
 				<key>Who</key>
 				<array>
 					<integer>0</integer>
+				</array>
+			</dict>
+		</dict>
+		<dict>
+			<key>Text</key>
+			<string>Arm Wrestle</string>
+			<key>Instructions</key>
+			<string>You and the person specified on the Person Card have an arm wrestling match. Loser has to drink.</string>
+			<key>Incompatibility</key>
+			<dict>
+				<key>When</key>
+				<array>
+					<integer>0</integer>
+					<integer>1</integer>
+					<integer>2</integer>
+				</array>
+				<key>Who</key>
+				<array>
+					<integer>0</integer>
+					<integer>4</integer>
+					<integer>5</integer>
+					<integer>6</integer>
 				</array>
 			</dict>
 		</dict>
