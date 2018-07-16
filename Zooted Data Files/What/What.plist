@@ -5,7 +5,7 @@
 	<key>Metadata</key>
 	<dict>
 		<key>Version</key>
-		<integer>20</integer>
+		<integer>21</integer>
 	</dict>
 	<key>Content</key>
 	<array>
@@ -47,26 +47,6 @@
 			<string>Play Never Have I Ever</string>
 			<key>Instructions</key>
 			<string>Everyone playing puts up five fingers. You say something you&apos;ve never done, and if the other players have done it, they must lower a finger. Then, the person to your left says something they&apos;ve never done. This continues until someone runs out of fingers.</string>
-			<key>Incompatibility</key>
-			<dict>
-				<key>When</key>
-				<array>
-					<integer>0</integer>
-					<integer>3</integer>
-				</array>
-				<key>Who</key>
-				<array>
-					<integer>0</integer>
-					<integer>1</integer>
-					<integer>2</integer>
-				</array>
-			</dict>
-		</dict>
-		<dict>
-			<key>Text</key>
-			<string>Play Truth, Dare or Drink</string>
-			<key>Instructions</key>
-			<string>You ask any other player a question, or dare them to do something (their choice). They can either answer the question/do the dare, or drink to not have to. Then, it is their turn to ask someone a question or challenge them.</string>
 			<key>Incompatibility</key>
 			<dict>
 				<key>When</key>
@@ -165,50 +145,6 @@
 		</dict>
 		<dict>
 			<key>Text</key>
-			<string>Play Don&apos;t Laugh</string>
-			<key>Instructions</key>
-			<string>Everyone in the group has to take turns trying to make the victim laugh. Every time they laugh, they have to drink. If it&apos;s on a timer, the others don&apos;t need to take turns, and can all go at once.</string>
-			<key>Incompatibility</key>
-			<dict>
-				<key>When</key>
-				<array>
-					<integer>3</integer>
-				</array>
-				<key>Who</key>
-				<array>
-					<integer>4</integer>
-					<integer>5</integer>
-					<integer>6</integer>
-				</array>
-			</dict>
-			<key>TimerMin</key>
-			<integer>30</integer>
-			<key>TimerMax</key>
-			<integer>60</integer>
-		</dict>
-		<dict>
-			<key>Text</key>
-			<string>Play Two Truths and a Lie</string>
-			<key>Instructions</key>
-			<string>The person decided by the Person Card has to say three things about themselves, but one of them has to be a lie. The rest of the group needs to work together to figure out which one is the lie. They only get once chance. If they get it right, the Person Card person drinks. If not, the rest of the group drinks.</string>
-			<key>Incompatibility</key>
-			<dict>
-				<key>When</key>
-				<array>
-					<integer>0</integer>
-					<integer>1</integer>
-					<integer>2</integer>
-				</array>
-				<key>Who</key>
-				<array>
-					<integer>4</integer>
-					<integer>5</integer>
-					<integer>6</integer>
-				</array>
-			</dict>
-		</dict>
-		<dict>
-			<key>Text</key>
 			<string>Prime Minister</string>
 			<key>Instructions</key>
 			<string>The person on the Person Card is now the Prime Minister, and they&apos;re allowed to make up a new rule, which will apply until the next time this card comes out. Whoever breaks the rule has to drink. For example, the Prime Minister could say that you&apos;re no longer allowed to say anyone&apos;s name, and then, if you said a friend&apos;s name, you&apos;d have to drink.</string>
@@ -272,63 +208,26 @@
 		</dict>
 		<dict>
 			<key>Text</key>
-			<string>Play Would You Rather</string>
+			<string>Play Don&apos;t Laugh</string>
 			<key>Instructions</key>
-			<string>Whoever drew the cards presents two situations to whoever is specified on the Person Card, who has to either pick one option, or drink.</string>
+			<string>Everyone in the group has to take turns trying to make the victim laugh. Every time they laugh, they have to drink. If it&apos;s on a timer, the others don&apos;t need to take turns, and can all go at once.</string>
 			<key>Incompatibility</key>
 			<dict>
 				<key>When</key>
 				<array>
-					<integer>0</integer>
-					<integer>1</integer>
-					<integer>2</integer>
+					<integer>3</integer>
 				</array>
 				<key>Who</key>
 				<array>
-					<integer>0</integer>
-				</array>
-			</dict>
-		</dict>
-		<dict>
-			<key>Text</key>
-			<string>Play 20Qs</string>
-			<key>Instructions</key>
-			<string>You need to think of an object, person or something else. The person or people decided by the Person Card can ask up to 20 questions (shared with all the guessers) to figure out what it is. If they do it, then you have to drink. Otherwise, they have to drink.</string>
-			<key>Incompatibility</key>
-			<dict>
-				<key>When</key>
-				<array>
-					<integer>0</integer>
-					<integer>1</integer>
-					<integer>2</integer>
-				</array>
-				<key>Who</key>
-				<array>
-					<integer>0</integer>
-				</array>
-			</dict>
-		</dict>
-		<dict>
-			<key>Text</key>
-			<string>Arm Wrestle</string>
-			<key>Instructions</key>
-			<string>You and the person specified on the Person Card have an arm wrestling match. Loser has to drink.</string>
-			<key>Incompatibility</key>
-			<dict>
-				<key>When</key>
-				<array>
-					<integer>0</integer>
-					<integer>1</integer>
-					<integer>2</integer>
-				</array>
-				<key>Who</key>
-				<array>
-					<integer>0</integer>
 					<integer>4</integer>
 					<integer>5</integer>
 					<integer>6</integer>
 				</array>
 			</dict>
+			<key>TimerMin</key>
+			<integer>30</integer>
+			<key>TimerMax</key>
+			<integer>60</integer>
 		</dict>
 	</array>
 </dict>
