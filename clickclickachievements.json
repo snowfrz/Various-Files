@@ -1,7 +1,7 @@
 [
   {
     "score": 1,
-    "comparison": "=="
+    "comparison": "<="
   },
   {
     "score": 21,
