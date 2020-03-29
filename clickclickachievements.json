@@ -1,0 +1,58 @@
+[
+  {
+    score: 1,
+    comparison: "=="
+  },
+  {
+    score: 21,
+    comparison: "=="
+  },
+  {
+    score: 42,
+    comparison: "=="
+  },
+  {
+    score: 69,
+    comparison: "=="
+  },
+  {
+    score: 417,
+    comparison: "=="
+  },
+  {
+    score: 420,
+    comparison: "=="
+  },
+  {
+    score: 500,
+    comparison: "=="
+  },
+  {
+    score: 1000,
+    comparison: "=="
+  },
+  {
+    score: 1017,
+    comparison: "=="
+  },
+  {
+    score: 1337,
+    comparison: "=="
+  },
+  {
+    score: 1738,
+    comparison: "=="
+  },
+  {
+    score: 9001,
+    comparison: ">="
+  },
+  {
+    score: 54419,
+    comparison: "=="
+  },
+  {
+    score: 60000,
+    comparison: ">="
+  }
+]
