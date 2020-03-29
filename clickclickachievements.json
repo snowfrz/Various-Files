@@ -4,6 +4,10 @@
     "comparison": "<="
   },
   {
+    "score": 10,
+    "comparison": "<="
+  },
+  {
     "score": 21,
     "comparison": "=="
   },
@@ -14,6 +18,10 @@
   {
     "score": 69,
     "comparison": "=="
+  },
+  {
+    "score": 100,
+    "comparison": "<="
   },
   {
     "score": 314,
