@@ -5637,11 +5637,135 @@
 				</dict>
 			</array>
 		</dict>
+		<dict>
+			<key>Type</key>
+			<string>Maintenance</string>
+			<key>Description</key>
+			<string>There are some privacy concerns surrounding a popular social media platform that is based in an enemy country. What do you do?</string>
+			<key>Options</key>
+			<array>
+				<dict>
+					<key>Title</key>
+					<string>Ban them, claiming you &quot;have the authority&quot;</string>
+					<key>Type</key>
+					<string>Legislation</string>
+					<key>Future</key>
+					<array/>
+					<key>Effects</key>
+					<dict>
+						<key>Felony</key>
+						<real>-0.1</real>
+						<key>Finance</key>
+						<real>-0.15</real>
+						<key>Popular</key>
+						<real>-0.2</real>
+						<key>Foreign</key>
+						<real>-0.2</real>
+						<key>Republican</key>
+						<real>0.3</real>
+						<key>Democratic</key>
+						<integer>0</integer>
+					</dict>
+				</dict>
+				<dict>
+					<key>Title</key>
+					<string>Force them to sell out to Microsoft</string>
+					<key>Type</key>
+					<string>Maintenance</string>
+					<key>Future</key>
+					<array/>
+					<key>Effects</key>
+					<dict>
+						<key>Felony</key>
+						<integer>0</integer>
+						<key>Finance</key>
+						<real>0.15</real>
+						<key>Popular</key>
+						<real>-0.1</real>
+						<key>Foreign</key>
+						<real>-0.2</real>
+						<key>Republican</key>
+						<real>0.2</real>
+						<key>Democratic</key>
+						<real>0.1</real>
+					</dict>
+				</dict>
+				<dict>
+					<key>Title</key>
+					<string>Let them bribe you to stay</string>
+					<key>Type</key>
+					<string>Maintenance</string>
+					<key>Future</key>
+					<array/>
+					<key>Effects</key>
+					<dict>
+						<key>Felony</key>
+						<real>-0.3</real>
+						<key>Finance</key>
+						<real>0.3</real>
+						<key>Popular</key>
+						<real>-0.2</real>
+						<key>Foreign</key>
+						<real>-0.1</real>
+						<key>Republican</key>
+						<real>-0.2</real>
+						<key>Democratic</key>
+						<real>-0.2</real>
+					</dict>
+				</dict>
+				<dict>
+					<key>Title</key>
+					<string>Investigate their operations</string>
+					<key>Type</key>
+					<string>Maintenance</string>
+					<key>Future</key>
+					<array/>
+					<key>Effects</key>
+					<dict>
+						<key>Felony</key>
+						<integer>0</integer>
+						<key>Finance</key>
+						<real>-0.1</real>
+						<key>Popular</key>
+						<real>0.15</real>
+						<key>Foreign</key>
+						<real>-0.15</real>
+						<key>Republican</key>
+						<real>0.1</real>
+						<key>Democratic</key>
+						<real>0.1</real>
+					</dict>
+				</dict>
+				<dict>
+					<key>Title</key>
+					<string>Let them be</string>
+					<key>Type</key>
+					<string>Maintenance</string>
+					<key>Future</key>
+					<array/>
+					<key>Effects</key>
+					<dict>
+						<key>Felony</key>
+						<integer>0</integer>
+						<key>Finance</key>
+						<integer>0</integer>
+						<key>Popular</key>
+						<real>0.1</real>
+						<key>Foreign</key>
+						<real>0.1</real>
+						<key>Republican</key>
+						<real>-0.2</real>
+						<key>Democratic</key>
+						<integer>0</integer>
+					</dict>
+				</dict>
+			</array>
+		</dict>
 	</array>
 	<key>Metadata</key>
 	<dict>
 		<key>Version</key>
-		<integer>21</integer>
+		<integer>22</integer>
 	</dict>
 </dict>
 </plist>
