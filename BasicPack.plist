@@ -5761,11 +5761,112 @@
 				</dict>
 			</array>
 		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PR</string>
+			<key>Description</key>
+			<string>A former President criticizes some of your actions. How do you respond?</string>
+			<key>Options</key>
+			<array>
+				<dict>
+					<key>Title</key>
+					<string>Call him a loser</string>
+					<key>Type</key>
+					<string>PR</string>
+					<key>Future</key>
+					<array/>
+					<key>Effects</key>
+					<dict>
+						<key>Felony</key>
+						<integer>0</integer>
+						<key>Finance</key>
+						<integer>0</integer>
+						<key>Popular</key>
+						<real>-0.2</real>
+						<key>Foreign</key>
+						<integer>0</integer>
+						<key>Republican</key>
+						<real>-0.1</real>
+						<key>Democratic</key>
+						<real>-0.1</real>
+					</dict>
+				</dict>
+				<dict>
+					<key>Title</key>
+					<string>Explain your decisions</string>
+					<key>Type</key>
+					<string>PR</string>
+					<key>Future</key>
+					<array/>
+					<key>Effects</key>
+					<dict>
+						<key>Felony</key>
+						<integer>0</integer>
+						<key>Finance</key>
+						<integer>0</integer>
+						<key>Popular</key>
+						<real>0.1</real>
+						<key>Foreign</key>
+						<integer>0</integer>
+						<key>Republican</key>
+						<real>0.1</real>
+						<key>Democratic</key>
+						<real>0.1</real>
+					</dict>
+				</dict>
+				<dict>
+					<key>Title</key>
+					<string>Claim he wasn&apos;t a U.S. citizen anyway</string>
+					<key>Type</key>
+					<string>PR</string>
+					<key>Future</key>
+					<array/>
+					<key>Effects</key>
+					<dict>
+						<key>Felony</key>
+						<real>-0.1</real>
+						<key>Finance</key>
+						<integer>0</integer>
+						<key>Popular</key>
+						<real>-0.15</real>
+						<key>Foreign</key>
+						<integer>0</integer>
+						<key>Republican</key>
+						<real>0.1</real>
+						<key>Democratic</key>
+						<real>-0.2</real>
+					</dict>
+				</dict>
+				<dict>
+					<key>Title</key>
+					<string>Don&apos;t respond</string>
+					<key>Type</key>
+					<string>PR</string>
+					<key>Future</key>
+					<array/>
+					<key>Effects</key>
+					<dict>
+						<key>Felony</key>
+						<integer>0</integer>
+						<key>Finance</key>
+						<integer>0</integer>
+						<key>Popular</key>
+						<real>-0.1</real>
+						<key>Foreign</key>
+						<integer>0</integer>
+						<key>Republican</key>
+						<integer>0</integer>
+						<key>Democratic</key>
+						<integer>0</integer>
+					</dict>
+				</dict>
+			</array>
+		</dict>
 	</array>
 	<key>Metadata</key>
 	<dict>
 		<key>Version</key>
-		<integer>22</integer>
+		<integer>23</integer>
 	</dict>
 </dict>
 </plist>
