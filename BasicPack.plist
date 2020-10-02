@@ -1971,6 +1971,29 @@
 						<real>-0.2</real>
 					</dict>
 				</dict>
+				<dict>
+					<key>Title</key>
+					<string>Accidentally catch it</string>
+					<key>Type</key>
+					<string>Personal</string>
+					<key>Future</key>
+					<array/>
+					<key>Effects</key>
+					<dict>
+						<key>Felony</key>
+						<integer>0</integer>
+						<key>Finance</key>
+						<integer>0</integer>
+						<key>Popular</key>
+						<real>-0.2</real>
+						<key>Foreign</key>
+						<real>-0.1</real>
+						<key>Republican</key>
+						<real>-0.2</real>
+						<key>Democratic</key>
+						<real>-0.2</real>
+					</dict>
+				</dict>
 			</array>
 		</dict>
 		<dict>
@@ -5866,7 +5889,7 @@
 	<key>Metadata</key>
 	<dict>
 		<key>Version</key>
-		<integer>23</integer>
+		<integer>24</integer>
 	</dict>
 </dict>
 </plist>
