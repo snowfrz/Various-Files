@@ -1,0 +1,16 @@
+[
+    {
+        "isFree": true,
+        "productID": "Scorekeeper_Free_Product",
+        "externalDownloadSource": "",
+        "prePackagedFile":"",
+        "directory":""
+    },
+    {
+        "isFree": false,
+        "productID": "Scorekeeper_Paid_Product",
+        "externalDownloadSource": null,
+        "prePackagedFile":null,
+        "directory":""
+    }
+]
