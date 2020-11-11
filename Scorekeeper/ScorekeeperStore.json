@@ -12,5 +12,13 @@
         "externalDownloadSource": null,
         "prePackagedFile":null,
         "directory":""
+    },
+    {
+        "isFree": false,
+        "productID": "Scorekeeper_Paid_Product_2",
+        "titleOverride": "Paid Product 2",
+        "externalDownloadSource": null,
+        "prePackagedFile":null,
+        "directory":""
     }
 ]
