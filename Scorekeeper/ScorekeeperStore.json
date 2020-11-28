@@ -3,7 +3,8 @@
         "isFree": false,
         "isExpansionPack": false,
         "productID": "Scorekeeper_Everything_Forever",
-        "directory":""
+        "directory": "keys",
+        "fileName": "master.key"
     },
     {
         "isFree": false,
@@ -11,7 +12,8 @@
         "productID": "Scorekeeper_Paid_Product",
         "externalDownloadSource": null,
         "prePackagedFile":null,
-        "directory":""
+        "directory":"",
+        "fileName": "fake1.key"
     },
     {
         "isFree": false,
@@ -20,6 +22,7 @@
         "titleOverride": "Paid Product 2",
         "externalDownloadSource": null,
         "prePackagedFile":null,
-        "directory":""
+        "directory":"",
+        "fileName": "fake2.key"
     }, 
 ]
