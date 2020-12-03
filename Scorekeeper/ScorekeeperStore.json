@@ -4,7 +4,7 @@
         "isExpansionPack": false,
         "productID": "Scorekeeper_Everything_Forever",
         "directory": "keys",
-        "fileName": "master.key"
+        "keyName": "master.key",
     },
     {
         "isFree": false,
@@ -13,7 +13,7 @@
         "externalDownloadSource": null,
         "prePackagedFile":null,
         "directory":"",
-        "fileName": "fake1.key"
+        "fileName": "fake1.file"
     },
     {
         "isFree": false,
@@ -23,6 +23,6 @@
         "externalDownloadSource": null,
         "prePackagedFile":null,
         "directory":"",
-        "fileName": "fake2.key"
+        "fileName": "fake2.file"
     }, 
 ]
