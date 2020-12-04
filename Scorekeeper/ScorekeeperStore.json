@@ -8,20 +8,7 @@
     {
         "isFree": false,
         "isExpansionPack": false,
-        "productID": "Scorekeeper_Paid_Product",
-        "externalDownloadSource": null,
-        "prePackagedFile":null,
-        "directory":"",
-        "fileName": "fake1.file"
+        "productID": "Scorekeeper_Unlimited_Competitions",
+        "keyName": "unlimcomp.key"
     },
-    {
-        "isFree": false,
-        "isExpansionPack": false,
-        "productID": "Scorekeeper_Paid_Product_2",
-        "titleOverride": "Paid Product 2",
-        "externalDownloadSource": null,
-        "prePackagedFile":null,
-        "directory":"",
-        "fileName": "fake2.file"
-    }, 
 ]
