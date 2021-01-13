@@ -6188,11 +6188,213 @@
 				</dict>
 			</array>
 		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PR</string>
+			<key>Description</key>
+			<string>You and your supporters get suspended from Twitter. What do you do?</string>
+			<key>Options</key>
+			<array>
+				<dict>
+					<key>Title</key>
+					<string>Switch to another site</string>
+					<key>Type</key>
+					<string>Maintenance</string>
+					<key>Future</key>
+					<array/>
+					<key>Effects</key>
+					<dict>
+						<key>Felony</key>
+						<integer>0</integer>
+						<key>Finance</key>
+						<integer>0</integer>
+						<key>Popular</key>
+						<real>-0.2</real>
+						<key>Foreign</key>
+						<integer>0</integer>
+						<key>Republican</key>
+						<integer>0</integer>
+						<key>Democratic</key>
+						<integer>0</integer>
+					</dict>
+				</dict>
+				<dict>
+					<key>Title</key>
+					<string>Take over your employees&apos; accounts</string>
+					<key>Type</key>
+					<string>Maintenance</string>
+					<key>Future</key>
+					<array/>
+					<key>Effects</key>
+					<dict>
+						<key>Felony</key>
+						<integer>0</integer>
+						<key>Finance</key>
+						<integer>0</integer>
+						<key>Popular</key>
+						<real>-0.2</real>
+						<key>Foreign</key>
+						<integer>0</integer>
+						<key>Republican</key>
+						<real>-0.1</real>
+						<key>Democratic</key>
+						<integer>0</integer>
+					</dict>
+				</dict>
+				<dict>
+					<key>Title</key>
+					<string>Send messages via Presidential Alert</string>
+					<key>Type</key>
+					<string>Maintenance</string>
+					<key>Future</key>
+					<array/>
+					<key>Effects</key>
+					<dict>
+						<key>Felony</key>
+						<integer>0</integer>
+						<key>Finance</key>
+						<real>-0.1</real>
+						<key>Popular</key>
+						<real>-0.4</real>
+						<key>Foreign</key>
+						<real>-0.2</real>
+						<key>Republican</key>
+						<real>-0.1</real>
+						<key>Democratic</key>
+						<real>-0.2</real>
+					</dict>
+				</dict>
+				<dict>
+					<key>Title</key>
+					<string>Force Twitter to reinstate your account</string>
+					<key>Type</key>
+					<string>Legislation</string>
+					<key>Future</key>
+					<array/>
+					<key>Effects</key>
+					<dict>
+						<key>Felony</key>
+						<real>-0.3</real>
+						<key>Finance</key>
+						<real>-0.1</real>
+						<key>Popular</key>
+						<real>-0.3</real>
+						<key>Foreign</key>
+						<real>-0.2</real>
+						<key>Republican</key>
+						<real>0.1</real>
+						<key>Democratic</key>
+						<real>-0.2</real>
+					</dict>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>Maintenance</string>
+			<key>Description</key>
+			<string>You don&apos;t get your way. What do you do?</string>
+			<key>Options</key>
+			<array>
+				<dict>
+					<key>Title</key>
+					<string>Encourage your fans to attack the Capitol</string>
+					<key>Type</key>
+					<string>PR</string>
+					<key>Future</key>
+					<array/>
+					<key>Effects</key>
+					<dict>
+						<key>Felony</key>
+						<real>-0.5</real>
+						<key>Finance</key>
+						<integer>0</integer>
+						<key>Popular</key>
+						<real>-0.8</real>
+						<key>Foreign</key>
+						<real>-0.5</real>
+						<key>Republican</key>
+						<real>-0.5</real>
+						<key>Democratic</key>
+						<real>-1</real>
+					</dict>
+				</dict>
+				<dict>
+					<key>Title</key>
+					<string>Complain on Twitter</string>
+					<key>Type</key>
+					<string>PR</string>
+					<key>Future</key>
+					<array/>
+					<key>Effects</key>
+					<dict>
+						<key>Felony</key>
+						<integer>0</integer>
+						<key>Finance</key>
+						<integer>0</integer>
+						<key>Popular</key>
+						<real>-0.1</real>
+						<key>Foreign</key>
+						<integer>0</integer>
+						<key>Republican</key>
+						<integer>0</integer>
+						<key>Democratic</key>
+						<real>-0.2</real>
+					</dict>
+				</dict>
+				<dict>
+					<key>Title</key>
+					<string>Attempt to coerce state officials</string>
+					<key>Type</key>
+					<string>Maintenance</string>
+					<key>Future</key>
+					<array/>
+					<key>Effects</key>
+					<dict>
+						<key>Felony</key>
+						<real>-0.3</real>
+						<key>Finance</key>
+						<integer>0</integer>
+						<key>Popular</key>
+						<real>-0.3</real>
+						<key>Foreign</key>
+						<real>-0.2</real>
+						<key>Republican</key>
+						<real>-0.1</real>
+						<key>Democratic</key>
+						<real>-0.2</real>
+					</dict>
+				</dict>
+				<dict>
+					<key>Title</key>
+					<string>Accept it gracefully</string>
+					<key>Type</key>
+					<string>PR</string>
+					<key>Future</key>
+					<array/>
+					<key>Effects</key>
+					<dict>
+						<key>Felony</key>
+						<integer>0</integer>
+						<key>Finance</key>
+						<integer>0</integer>
+						<key>Popular</key>
+						<real>0.1</real>
+						<key>Foreign</key>
+						<integer>0</integer>
+						<key>Republican</key>
+						<integer>0</integer>
+						<key>Democratic</key>
+						<integer>0</integer>
+					</dict>
+				</dict>
+			</array>
+		</dict>
 	</array>
 	<key>Metadata</key>
 	<dict>
 		<key>Version</key>
-		<integer>27</integer>
+		<integer>28</integer>
 	</dict>
 </dict>
 </plist>
