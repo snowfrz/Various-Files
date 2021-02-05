@@ -1,20 +1,44 @@
 [
     {
-        "isFree": false,
-        "isExpansionPack": false,
-        "productID": "Scorekeeper_Everything_Forever",
-        "keyName": "master.key",
+        
+        "products": [
+            {
+                "isFree": false,
+                "isExpansionPack": false,
+                "productID": "Scorekeeper_Unlimited_Competitions",
+                "keyName": "unlimcomp.key",
+            },
+            {
+                "isFree": false,
+                "isExpansionPack": false,
+                "productID": "Scorekeeper_Unlimited_Players",
+                "keyName": "unlimplay.key",
+            },
+         ]
+        
     },
     {
         "isFree": false,
         "isExpansionPack": false,
-        "productID": "Scorekeeper_Unlimited_Competitions",
-        "keyName": "unlimcomp.key"
+        "products": [
+            {
+                "isFree": false,
+                "isExpansionPack": false,
+                "productID": "Scorekeeper_Unlimited_Competitions",
+                "keyName": "unlimcomp.key",
+            }
+         ]
     },
     {
         "isFree": false,
         "isExpansionPack": false,
-        "productID": "Scorekeeper_Unlimited_Players",
-        "keyName": "unlimplay.key"
+        "products": [
+            {
+                "isFree": false,
+                "isExpansionPack": false,
+                "productID": "Scorekeeper_Unlimited_Players",
+                "keyName": "unlimplay.key",
+            }
+         ]
     },
 ]
