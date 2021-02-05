@@ -1,7 +1,7 @@
 [
     {
         "isFree": false,
-        "productID": "Scorekeeper_Everything_Forever",
+        "bundleID": "Scorekeeper_Everything_Forever",
         "products": [
             {
                 "isExpansionPack": false,
@@ -17,7 +17,7 @@
     },
     {
         "isFree": false,
-        "productID": "Scorekeeper_Unlimited_Competitions",
+        "bundleID": "Scorekeeper_Unlimited_Competitions",
         "products": [
             {
                 "isExpansionPack": false,
@@ -28,7 +28,7 @@
     },
     {
         "isFree": false,
-        "productID": "Scorekeeper_Unlimited_Players",
+        "bundleID": "Scorekeeper_Unlimited_Players",
         "products": [
             {
                 "isExpansionPack": false,
