@@ -1,15 +1,14 @@
 [
     {
+        "isFree": false,
         "productID": "Scorekeeper_Everything_Forever",
         "products": [
             {
-                "isFree": false,
                 "isExpansionPack": false,
                 "productID": "Scorekeeper_Unlimited_Competitions",
                 "keyName": "unlimcomp.key",
             },
             {
-                "isFree": false,
                 "isExpansionPack": false,
                 "productID": "Scorekeeper_Unlimited_Players",
                 "keyName": "unlimplay.key",
@@ -17,10 +16,10 @@
          ]
     },
     {
+        "isFree": false,
         "productID": "Scorekeeper_Unlimited_Competitions",
         "products": [
             {
-                "isFree": false,
                 "isExpansionPack": false,
                 "productID": "Scorekeeper_Unlimited_Competitions",
                 "keyName": "unlimcomp.key",
@@ -28,10 +27,10 @@
          ]
     },
     {
+        "isFree": false,
         "productID": "Scorekeeper_Unlimited_Players",
         "products": [
             {
-                "isFree": false,
                 "isExpansionPack": false,
                 "productID": "Scorekeeper_Unlimited_Players",
                 "keyName": "unlimplay.key",
