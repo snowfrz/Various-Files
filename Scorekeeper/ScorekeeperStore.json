@@ -11,4 +11,10 @@
         "productID": "Scorekeeper_Unlimited_Competitions",
         "keyName": "unlimcomp.key"
     },
+    {
+        "isFree": false,
+        "isExpansionPack": false,
+        "productID": "Scorekeeper_Unlimited_Players",
+        "keyName": "unlimplay.key"
+    },
 ]
