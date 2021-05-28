@@ -18,6 +18,11 @@
                 "productID": "Scorekeeper_Advanced_Settings",
                 "keyName": "adset.key",
             },
+            {
+                "isExpansionPack": false,
+                "productID": "Scorekeeper_Advanced_Stats",
+                "keyName": "adset.key",
+            },
          ]
     },
     {
@@ -50,6 +55,17 @@
                 "isExpansionPack": false,
                 "productID": "Scorekeeper_Advanced_Settings",
                 "keyName": "adset.key",
+            }
+         ]
+    },
+    {
+        "isFree": false,
+        "bundleID": "Scorekeeper_Advanced_Stats",
+        "products": [
+            {
+                "isExpansionPack": false,
+                "productID": "Scorekeeper_Advanced_Stats",
+                "keyName": "adstat.key",
             }
          ]
     },
