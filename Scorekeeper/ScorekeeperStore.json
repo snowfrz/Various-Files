@@ -21,7 +21,7 @@
             {
                 "isExpansionPack": false,
                 "productID": "Scorekeeper_Advanced_Stats",
-                "keyName": "adset.key",
+                "keyName": "adstat.key",
             },
          ]
     },
