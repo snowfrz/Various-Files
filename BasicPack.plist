@@ -6390,11 +6390,112 @@
 				</dict>
 			</array>
 		</dict>
+		<dict>
+			<key>Type</key>
+			<string>Maintenance</string>
+			<key>Description</key>
+			<string>Your favorite unhinged authoritarian invades a peaceful neighboring country for unknown reasons. What do you do?</string>
+			<key>Options</key>
+			<array>
+				<dict>
+					<key>Title</key>
+					<string>Publicly disapprove of his actions</string>
+					<key>Type</key>
+					<string>PR</string>
+					<key>Future</key>
+					<array/>
+					<key>Effects</key>
+					<dict>
+						<key>Felony</key>
+						<integer>0</integer>
+						<key>Finance</key>
+						<integer>0</integer>
+						<key>Popular</key>
+						<real>0.1</real>
+						<key>Foreign</key>
+						<real>0.1</real>
+						<key>Republican</key>
+						<real>0.2</real>
+						<key>Democratic</key>
+						<real>0.2</real>
+					</dict>
+				</dict>
+				<dict>
+					<key>Title</key>
+					<string>Impose harsh sanctions on his country</string>
+					<key>Type</key>
+					<string>Maintenance</string>
+					<key>Future</key>
+					<array/>
+					<key>Effects</key>
+					<dict>
+						<key>Felony</key>
+						<integer>0</integer>
+						<key>Finance</key>
+						<real>-0.3</real>
+						<key>Popular</key>
+						<real>0.25</real>
+						<key>Foreign</key>
+						<real>0.2</real>
+						<key>Republican</key>
+						<real>0.1</real>
+						<key>Democratic</key>
+						<real>0.2</real>
+					</dict>
+				</dict>
+				<dict>
+					<key>Title</key>
+					<string>Provide weapons to the country under attack</string>
+					<key>Type</key>
+					<string>Maintenance</string>
+					<key>Future</key>
+					<array/>
+					<key>Effects</key>
+					<dict>
+						<key>Felony</key>
+						<integer>0</integer>
+						<key>Finance</key>
+						<real>-0.2</real>
+						<key>Popular</key>
+						<real>0.2</real>
+						<key>Foreign</key>
+						<real>0.3</real>
+						<key>Republican</key>
+						<real>0.2</real>
+						<key>Democratic</key>
+						<real>0.1</real>
+					</dict>
+				</dict>
+				<dict>
+					<key>Title</key>
+					<string>Join the invasion</string>
+					<key>Type</key>
+					<string>Maintenance</string>
+					<key>Future</key>
+					<array/>
+					<key>Effects</key>
+					<dict>
+						<key>Felony</key>
+						<integer>0</integer>
+						<key>Finance</key>
+						<real>-0.3</real>
+						<key>Popular</key>
+						<real>-0.25</real>
+						<key>Foreign</key>
+						<real>-0.4</real>
+						<key>Republican</key>
+						<real>-0.2</real>
+						<key>Democratic</key>
+						<real>-0.4</real>
+					</dict>
+				</dict>
+			</array>
+		</dict>
 	</array>
 	<key>Metadata</key>
 	<dict>
 		<key>Version</key>
-		<integer>28</integer>
+		<integer>29</integer>
 	</dict>
 </dict>
 </plist>
