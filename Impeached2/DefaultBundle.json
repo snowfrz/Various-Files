@@ -3,7 +3,7 @@
     "source": "https://raw.githubusercontent.com/Sn0wCh1ld/Various-Files/master/Impeached2/Packs/",
     "updateURL": "https://raw.githubusercontent.com/Sn0wCh1ld/Various-Files/master/Impeached2/DefaultBundle.json",
     "version": 1,
-    "files": {
-        "BasicPack": null
+    "packsAndId": {
+        "Re-Elected": null
     }
 }
