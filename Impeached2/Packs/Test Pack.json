@@ -1,0 +1,324 @@
+{
+  "author": "Impeached",
+  "iapId": null,
+  "scenarios": [
+    {
+      "action": "Test",
+      "options": [
+        {
+          "reaction": "Test",
+          "passLaw": false,
+          "partisan": 0.0,
+          "demAligned": 0.25,
+          "repAligned": 0.25,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": -500,
+            "economy": -100,
+            "taxRate": 0.0,
+            "popular": 0.1,
+            "foreign": 0.0,
+            "incrimination": 0.0
+          },
+          "futureEffects": [],
+          "deathFlags": null
+        },
+        {
+          "reaction": "Test",
+          "passLaw": false,
+          "partisan": 0.3,
+          "demAligned": -0.2,
+          "repAligned": 0.1,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 0,
+            "economy": -150,
+            "taxRate": 0.0,
+            "popular": 0.0,
+            "foreign": 0.0,
+            "incrimination": 0.0
+          },
+          "futureEffects": [],
+          "deathFlags": null
+        },
+        {
+          "reaction": "Test",
+          "passLaw": false,
+          "partisan": 0.0,
+          "demAligned": 0.25,
+          "repAligned": 0.1,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": -650,
+            "economy": 0,
+            "taxRate": 0.0,
+            "popular": 0.1,
+            "foreign": 0.0,
+            "incrimination": 0.0
+          },
+          "futureEffects": [],
+          "deathFlags": null
+        },
+        {
+          "reaction": "Test",
+          "passLaw": false,
+          "partisan": 0.3,
+          "demAligned": -0.3,
+          "repAligned": -0.1,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 0,
+            "economy": -250,
+            "taxRate": 0.0,
+            "popular": -0.2,
+            "foreign": 0.0,
+            "incrimination": 0.0
+          },
+          "futureEffects": [],
+          "deathFlags": null
+        },
+        {
+          "reaction": "Test",
+          "passLaw": false,
+          "partisan": 0.35,
+          "demAligned": -0.2,
+          "repAligned": -0.1,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 0,
+            "economy": -250,
+            "taxRate": 0.0,
+            "popular": -0.2,
+            "foreign": 0.0,
+            "incrimination": 0.0
+          },
+          "futureEffects": [],
+          "deathFlags": null
+        },
+        {
+          "reaction": "Test",
+          "passLaw": false,
+          "partisan": 0.2,
+          "demAligned": -0.2,
+          "repAligned": -0.1,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 50,
+            "economy": -250,
+            "taxRate": 0.0,
+            "popular": -0.2,
+            "foreign": 0.0,
+            "incrimination": 0.0
+          },
+          "futureEffects": [],
+          "deathFlags": null
+        },
+        {
+          "reaction": "Test",
+          "passLaw": false,
+          "partisan": 0.25,
+          "demAligned": 0.1,
+          "repAligned": 0.1,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": -400,
+            "economy": -150,
+            "taxRate": 0.0,
+            "popular": 0.1,
+            "foreign": 0.0,
+            "incrimination": 0.0
+          },
+          "futureEffects": [],
+          "deathFlags": null
+        },
+        {
+          "reaction": "Test",
+          "passLaw": false,
+          "partisan": 0.0,
+          "demAligned": -0.2,
+          "repAligned": -0.2,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 150,
+            "economy": -250,
+            "taxRate": 0.0,
+            "popular": -0.3,
+            "foreign": -0.2,
+            "incrimination": 0.25
+          },
+          "futureEffects": [],
+          "deathFlags": null
+        }
+      ]
+    },
+    {
+      "action": "Test2",
+      "options": [
+        {
+          "reaction": "Test",
+          "passLaw": false,
+          "partisan": 0.0,
+          "demAligned": 0.25,
+          "repAligned": 0.25,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": -500,
+            "economy": -100,
+            "taxRate": 0.0,
+            "popular": 0.1,
+            "foreign": 0.0,
+            "incrimination": 0.0
+          },
+          "futureEffects": [],
+          "deathFlags": null
+        },
+        {
+          "reaction": "Test",
+          "passLaw": false,
+          "partisan": 0.3,
+          "demAligned": -0.2,
+          "repAligned": 0.1,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 0,
+            "economy": -150,
+            "taxRate": 0.0,
+            "popular": 0.0,
+            "foreign": 0.0,
+            "incrimination": 0.0
+          },
+          "futureEffects": [],
+          "deathFlags": null
+        },
+        {
+          "reaction": "Test",
+          "passLaw": false,
+          "partisan": 0.0,
+          "demAligned": 0.25,
+          "repAligned": 0.1,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": -650,
+            "economy": 0,
+            "taxRate": 0.0,
+            "popular": 0.1,
+            "foreign": 0.0,
+            "incrimination": 0.0
+          },
+          "futureEffects": [],
+          "deathFlags": null
+        },
+        {
+          "reaction": "Test",
+          "passLaw": false,
+          "partisan": 0.3,
+          "demAligned": -0.3,
+          "repAligned": -0.1,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 0,
+            "economy": -250,
+            "taxRate": 0.0,
+            "popular": -0.2,
+            "foreign": 0.0,
+            "incrimination": 0.0
+          },
+          "futureEffects": [],
+          "deathFlags": null
+        },
+        {
+          "reaction": "Test",
+          "passLaw": false,
+          "partisan": 0.35,
+          "demAligned": -0.2,
+          "repAligned": -0.1,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 0,
+            "economy": -250,
+            "taxRate": 0.0,
+            "popular": -0.2,
+            "foreign": 0.0,
+            "incrimination": 0.0
+          },
+          "futureEffects": [],
+          "deathFlags": null
+        },
+        {
+          "reaction": "Test",
+          "passLaw": false,
+          "partisan": 0.2,
+          "demAligned": -0.2,
+          "repAligned": -0.1,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 50,
+            "economy": -250,
+            "taxRate": 0.0,
+            "popular": -0.2,
+            "foreign": 0.0,
+            "incrimination": 0.0
+          },
+          "futureEffects": [],
+          "deathFlags": null
+        },
+        {
+          "reaction": "Test",
+          "passLaw": false,
+          "partisan": 0.25,
+          "demAligned": 0.1,
+          "repAligned": 0.1,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": -400,
+            "economy": -150,
+            "taxRate": 0.0,
+            "popular": 0.1,
+            "foreign": 0.0,
+            "incrimination": 0.0
+          },
+          "futureEffects": [],
+          "deathFlags": null
+        },
+        {
+          "reaction": "Test",
+          "passLaw": false,
+          "partisan": 0.0,
+          "demAligned": -0.2,
+          "repAligned": -0.2,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 150,
+            "economy": -250,
+            "taxRate": 0.0,
+            "popular": -0.3,
+            "foreign": -0.2,
+            "incrimination": 0.25
+          },
+          "futureEffects": [],
+          "deathFlags": null
+        }
+      ]
+    }
+  ],
+  "title": "Test Pack",
+  "updateURL": null,
+  "version": 1,
+  "enabled": false
+}
