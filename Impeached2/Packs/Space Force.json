@@ -3,156 +3,80 @@
   "iapId": "deck_aliens",
   "scenarios": [
     {
-      "action": "SPACE TEST",
+      "action": "An object made of an unidentified material has been found on a remote island in international waters. How do you handle the situation?",
       "options": [
         {
-          "reaction": "Test",
+          "reaction": "Extract the object and securely contain it in the U.S. for study",
           "passLaw": false,
-          "partisan": 0.0,
-          "demAligned": 0.25,
-          "repAligned": 0.25,
+          "partisan": 0.5,
+          "demAligned": 0.2,
+          "repAligned": -0.3,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": -600,
+            "economy": 100,
+            "taxRate": 0.0,
+            "popular": -0.1,
+            "foreign": -0.1,
+            "incrimination": 0.0
+          },
+          "futureEffects": [],
+          "deathFlags": null
+        },
+        {
+          "reaction": "Annex the island to claim the artifact for the U.S.",
+          "passLaw": false,
+          "partisan": 0,
+          "demAligned": 0.1,
+          "repAligned": 0.3,
           "effect": {
             "turnDelay": 0,
             "repeatEffect": 0,
             "budget": -500,
-            "economy": -100,
+            "economy": 100,
             "taxRate": 0.0,
             "popular": 0.1,
-            "foreign": 0.0,
+            "foreign": -0.2,
             "incrimination": 0.0
           },
           "futureEffects": [],
           "deathFlags": null
         },
         {
-          "reaction": "Test",
+          "reaction": "Help fund an international effort to study the object",
           "passLaw": false,
-          "partisan": 0.3,
-          "demAligned": -0.2,
-          "repAligned": 0.1,
+          "partisan": 0.5,
+          "demAligned": 0.1,
+          "repAligned": -0.2,
           "effect": {
             "turnDelay": 0,
             "repeatEffect": 0,
-            "budget": 0,
-            "economy": -150,
-            "taxRate": 0.0,
-            "popular": 0.0,
-            "foreign": 0.0,
-            "incrimination": 0.0
-          },
-          "futureEffects": [],
-          "deathFlags": null
-        },
-        {
-          "reaction": "Test",
-          "passLaw": false,
-          "partisan": 0.0,
-          "demAligned": 0.25,
-          "repAligned": 0.1,
-          "effect": {
-            "turnDelay": 0,
-            "repeatEffect": 0,
-            "budget": -650,
+            "budget": -600,
             "economy": 0,
             "taxRate": 0.0,
             "popular": 0.1,
-            "foreign": 0.0,
+            "foreign": 0.1,
             "incrimination": 0.0
           },
           "futureEffects": [],
           "deathFlags": null
         },
         {
-          "reaction": "Test",
+          "reaction": "Steal the object and sell it to private companies",
           "passLaw": false,
-          "partisan": 0.3,
-          "demAligned": -0.3,
-          "repAligned": -0.1,
-          "effect": {
-            "turnDelay": 0,
-            "repeatEffect": 0,
-            "budget": 0,
-            "economy": -250,
-            "taxRate": 0.0,
-            "popular": -0.2,
-            "foreign": 0.0,
-            "incrimination": 0.0
-          },
-          "futureEffects": [],
-          "deathFlags": null
-        },
-        {
-          "reaction": "Test",
-          "passLaw": false,
-          "partisan": 0.35,
-          "demAligned": -0.2,
-          "repAligned": -0.1,
-          "effect": {
-            "turnDelay": 0,
-            "repeatEffect": 0,
-            "budget": 0,
-            "economy": -250,
-            "taxRate": 0.0,
-            "popular": -0.2,
-            "foreign": 0.0,
-            "incrimination": 0.0
-          },
-          "futureEffects": [],
-          "deathFlags": null
-        },
-        {
-          "reaction": "Test",
-          "passLaw": false,
-          "partisan": 0.2,
-          "demAligned": -0.2,
-          "repAligned": -0.1,
-          "effect": {
-            "turnDelay": 0,
-            "repeatEffect": 0,
-            "budget": 50,
-            "economy": -250,
-            "taxRate": 0.0,
-            "popular": -0.2,
-            "foreign": 0.0,
-            "incrimination": 0.0
-          },
-          "futureEffects": [],
-          "deathFlags": null
-        },
-        {
-          "reaction": "Test",
-          "passLaw": false,
-          "partisan": 0.25,
-          "demAligned": 0.1,
+          "partisan": 0,
+          "demAligned": 0,
           "repAligned": 0.1,
           "effect": {
             "turnDelay": 0,
             "repeatEffect": 0,
             "budget": -400,
-            "economy": -150,
+            "economy": 100,
             "taxRate": 0.0,
-            "popular": 0.1,
-            "foreign": 0.0,
-            "incrimination": 0.0
-          },
-          "futureEffects": [],
-          "deathFlags": null
-        },
-        {
-          "reaction": "Test",
-          "passLaw": false,
-          "partisan": 0.0,
-          "demAligned": -0.2,
-          "repAligned": -0.2,
-          "effect": {
-            "turnDelay": 0,
-            "repeatEffect": 0,
-            "budget": 150,
-            "economy": -250,
-            "taxRate": 0.0,
-            "popular": -0.3,
+            "popular": 0,
             "foreign": -0.2,
-            "incrimination": 0.25
+            "incrimination": 0.1
           },
           "futureEffects": [],
           "deathFlags": null
@@ -160,40 +84,40 @@
       ]
     },
     {
-      "action": "SPACE TEST 2",
+      "action": "A military test goes wrong and crashes into a small town, and residents claim it to be a crashed alien ship. What do you do?",
       "options": [
         {
-          "reaction": "Test",
+          "reaction": "Brush them off as conspiracy theorists",
           "passLaw": false,
           "partisan": 0.0,
-          "demAligned": 0.25,
-          "repAligned": 0.25,
-          "effect": {
-            "turnDelay": 0,
-            "repeatEffect": 0,
-            "budget": -500,
-            "economy": -100,
-            "taxRate": 0.0,
-            "popular": 0.1,
-            "foreign": 0.0,
-            "incrimination": 0.0
-          },
-          "futureEffects": [],
-          "deathFlags": null
-        },
-        {
-          "reaction": "Test",
-          "passLaw": false,
-          "partisan": 0.3,
-          "demAligned": -0.2,
+          "demAligned": 0.1,
           "repAligned": 0.1,
           "effect": {
             "turnDelay": 0,
             "repeatEffect": 0,
             "budget": 0,
-            "economy": -150,
+            "economy": 0,
             "taxRate": 0.0,
-            "popular": 0.0,
+            "popular": -0.1,
+            "foreign": 0.0,
+            "incrimination": 0.1
+          },
+          "futureEffects": [],
+          "deathFlags": null
+        },
+        {
+          "reaction": "Admit to conducting military tests in the area",
+          "passLaw": false,
+          "partisan": 0,
+          "demAligned": -0.1,
+          "repAligned": -0.2,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 0,
+            "economy": 0,
+            "taxRate": 0.0,
+            "popular": -0.2,
             "foreign": 0.0,
             "incrimination": 0.0
           },
@@ -201,15 +125,15 @@
           "deathFlags": null
         },
         {
-          "reaction": "Test",
+          "reaction": "Appoint a phony committee to \"investigate\" the crash",
           "passLaw": false,
           "partisan": 0.0,
-          "demAligned": 0.25,
+          "demAligned": 0.1,
           "repAligned": 0.1,
           "effect": {
             "turnDelay": 0,
             "repeatEffect": 0,
-            "budget": -650,
+            "budget": -450,
             "economy": 0,
             "taxRate": 0.0,
             "popular": 0.1,
@@ -220,96 +144,20 @@
           "deathFlags": null
         },
         {
-          "reaction": "Test",
-          "passLaw": false,
-          "partisan": 0.3,
-          "demAligned": -0.3,
-          "repAligned": -0.1,
+          "reaction": "Ban military testing near inhabited areas",
+          "passLaw": true,
+          "partisan": 0,
+          "demAligned": -0.1,
+          "repAligned": -0.2,
           "effect": {
             "turnDelay": 0,
             "repeatEffect": 0,
             "budget": 0,
-            "economy": -250,
-            "taxRate": 0.0,
-            "popular": -0.2,
-            "foreign": 0.0,
-            "incrimination": 0.0
-          },
-          "futureEffects": [],
-          "deathFlags": null
-        },
-        {
-          "reaction": "Test",
-          "passLaw": false,
-          "partisan": 0.35,
-          "demAligned": -0.2,
-          "repAligned": -0.1,
-          "effect": {
-            "turnDelay": 0,
-            "repeatEffect": 0,
-            "budget": 0,
-            "economy": -250,
-            "taxRate": 0.0,
-            "popular": -0.2,
-            "foreign": 0.0,
-            "incrimination": 0.0
-          },
-          "futureEffects": [],
-          "deathFlags": null
-        },
-        {
-          "reaction": "Test",
-          "passLaw": false,
-          "partisan": 0.2,
-          "demAligned": -0.2,
-          "repAligned": -0.1,
-          "effect": {
-            "turnDelay": 0,
-            "repeatEffect": 0,
-            "budget": 50,
-            "economy": -250,
-            "taxRate": 0.0,
-            "popular": -0.2,
-            "foreign": 0.0,
-            "incrimination": 0.0
-          },
-          "futureEffects": [],
-          "deathFlags": null
-        },
-        {
-          "reaction": "Test",
-          "passLaw": false,
-          "partisan": 0.25,
-          "demAligned": 0.1,
-          "repAligned": 0.1,
-          "effect": {
-            "turnDelay": 0,
-            "repeatEffect": 0,
-            "budget": -400,
             "economy": -150,
             "taxRate": 0.0,
             "popular": 0.1,
             "foreign": 0.0,
             "incrimination": 0.0
-          },
-          "futureEffects": [],
-          "deathFlags": null
-        },
-        {
-          "reaction": "Test",
-          "passLaw": false,
-          "partisan": 0.0,
-          "demAligned": -0.2,
-          "repAligned": -0.2,
-          "effect": {
-            "turnDelay": 0,
-            "repeatEffect": 0,
-            "budget": 150,
-            "economy": -250,
-            "taxRate": 0.0,
-            "popular": -0.3,
-            "foreign": -0.2,
-            "incrimination": 0.25
           },
           "futureEffects": [],
           "deathFlags": null
