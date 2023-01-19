@@ -181,7 +181,7 @@
             "taxRate": 0.0,
             "popular": 0.1,
             "foreign": 0.1,
-            "incrimination": 0.1
+            "incrimination": 0
           },
           "futureEffects": [],
           "deathFlags": null
@@ -228,7 +228,7 @@
         },
         {
           "reaction": "Crash a spaceship into the asteroid to alter its trajectory",
-          "passLaw": true,
+          "passLaw": false,
           "partisan": 0,
           "demAligned": 0.1,
           "repAligned": 0.1,
@@ -246,9 +246,252 @@
           "deathFlags": null
         }
       ]
+    },
+    {
+      "action": "A private company has developed a new rocket technology that drastically reduces the cost of space travel. How do you respond?",
+      "options": [
+        {
+          "reaction": "Invest in the company and provide funding for further development",
+          "passLaw": false,
+          "partisan": 0.5,
+          "demAligned": 0.3,
+          "repAligned": -0.1,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": -600,
+            "economy": 100,
+            "taxRate": 0.0,
+            "popular": 0,
+            "foreign": 0,
+            "incrimination": 0
+          },
+          "futureEffects": [],
+          "deathFlags": null
+        },
+        {
+          "reaction": "Compete with the company by investing in government-funded space programs",
+          "passLaw": false,
+          "partisan": 0.5,
+          "demAligned": 0.1,
+          "repAligned": -0.3,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": -500,
+            "economy": 0,
+            "taxRate": 0.0,
+            "popular": 0,
+            "foreign": 0.0,
+            "incrimination": 0.0
+          },
+          "futureEffects": [],
+          "deathFlags": null
+        },
+        {
+          "reaction": "Break up the company to prevent a monopoly on space travel",
+          "passLaw": false,
+          "partisan": 0.0,
+          "demAligned": 0.2,
+          "repAligned": -0.3,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 0,
+            "economy": -150,
+            "taxRate": 0.0,
+            "popular": -0.1,
+            "foreign": 0,
+            "incrimination": 0.0
+          },
+          "futureEffects": [],
+          "deathFlags": null
+        },
+        {
+          "reaction": "Attempt to nationalize the company",
+          "passLaw": true,
+          "partisan": 0.5,
+          "demAligned": -0.1,
+          "repAligned": -0.3,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": -300,
+            "economy": -100,
+            "taxRate": 0.0,
+            "popular": 0,
+            "foreign": 0.0,
+            "incrimination": 0.0
+          },
+          "futureEffects": [],
+          "deathFlags": null
+        }
+      ]
+    },
+    {
+      "action": "Another habitable planet is discovered near Earth. How do you respond?",
+      "options": [
+        {
+          "reaction": "Send a probe to the planet to gather more information",
+          "passLaw": false,
+          "partisan": 0,
+          "demAligned": 0.2,
+          "repAligned": 0.1,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": -400,
+            "economy": 0,
+            "taxRate": 0.0,
+            "popular": 0.1,
+            "foreign": 0,
+            "incrimination": 0
+          },
+          "futureEffects": [],
+          "deathFlags": null
+        },
+        {
+          "reaction": "Collaborate with other countries to explore and colonize the planet",
+          "passLaw": false,
+          "partisan": 0,
+          "demAligned": -0.1,
+          "repAligned": -0.3,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": -500,
+            "economy": 0,
+            "taxRate": 0.0,
+            "popular": 0.1,
+            "foreign": 0.1,
+            "incrimination": 0.0
+          },
+          "futureEffects": [],
+          "deathFlags": null
+        },
+        {
+          "reaction": "Claim the planet for American military and industrial use",
+          "passLaw": false,
+          "partisan": 0.0,
+          "demAligned": 0.2,
+          "repAligned": 0.3,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": -700,
+            "economy": 150,
+            "taxRate": 0.0,
+            "popular": 0.1,
+            "foreign": -0.2,
+            "incrimination": 0.0
+          },
+          "futureEffects": [],
+          "deathFlags": null
+        },
+        {
+          "reaction": "Attempt to contact any aliens that may live there",
+          "passLaw": false,
+          "partisan": 0,
+          "demAligned": 0,
+          "repAligned": 0,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": -300,
+            "economy": 0,
+            "taxRate": 0.0,
+            "popular": 0,
+            "foreign": 0.0,
+            "incrimination": 0.0
+          },
+          "futureEffects": [],
+          "deathFlags": null
+        }
+      ]
+    },
+    {
+      "action": "A satellite owned by a foreign government has malfunctioned and is on a collision course with a critical U.S. satellite. What do you do?",
+      "options": [
+        {
+          "reaction": "Get them to pay for any damage caused",
+          "passLaw": false,
+          "partisan": 0,
+          "demAligned": 0.1,
+          "repAligned": 0.2,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 100,
+            "economy": -150,
+            "taxRate": 0.0,
+            "popular": 0.1,
+            "foreign": -0.2,
+            "incrimination": 0
+          },
+          "futureEffects": [],
+          "deathFlags": null
+        },
+        {
+          "reaction": "Send a missile to destroy the foreign satellite",
+          "passLaw": false,
+          "partisan": 0,
+          "demAligned": 0.1,
+          "repAligned": 0.1,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": -400,
+            "economy": 0,
+            "taxRate": 0.0,
+            "popular": 0.1,
+            "foreign": -0.2,
+            "incrimination": 0.0
+          },
+          "futureEffects": [],
+          "deathFlags": null
+        },
+        {
+          "reaction": "Attempt to redirect the foreign satellite with a laser",
+          "passLaw": false,
+          "partisan": 0.0,
+          "demAligned": 0,
+          "repAligned": 0,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": -300,
+            "economy": -75,
+            "taxRate": 0.0,
+            "popular": 0.1,
+            "foreign": 0,
+            "incrimination": 0.0
+          },
+          "futureEffects": [],
+          "deathFlags": null
+        },
+        {
+          "reaction": "Prepare to replace the American satellite",
+          "passLaw": false,
+          "partisan": 0,
+          "demAligned": 0,
+          "repAligned": 0,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": -300,
+            "economy": -150,
+            "taxRate": 0.0,
+            "popular": -0.1,
+            "foreign": 0.0,
+            "incrimination": 0.0
+          },
+          "futureEffects": [],
+          "deathFlags": null
+        }
+      ]
     }
   ],
   "title": "Space Force",
   "updateURL": "https://raw.githubusercontent.com/Sn0wCh1ld/Various-Files/master/Impeached2/Packs/Space%20Force.json",
-  "version": 2
+  "version": 3
 }
