@@ -3,7 +3,7 @@
   "author": "Impeached",
   "updateURL": "https://raw.githubusercontent.com/Sn0wCh1ld/Various-Files/master/Impeached2/Packs/Re-Elected.json",
   "iapId": null,
-  "version": 1,
+  "version": 2,
   "scenarios": [
     {
       "action": "A major hurricane hits a heavily populated area of the country. What do you do?",
@@ -3323,7 +3323,7 @@
       ]
     },
     {
-      "action": "NASA wants to plan a trip to another planet, but needs more funding. What do you do?",
+      "action": "NASA wants to send astronauts to Mars, but needs more funding. What do you do?",
       "options": [
         {
           "reaction": "Tell them to leave it to private companies",
@@ -3388,6 +3388,25 @@
             "foreign": 0
           },
           "futureEffects": []
+        },
+        {
+          "reaction": "Fund it if they let you go to Mars",
+          "passLaw": false,
+          "partisan": 0,
+          "demAligned": 0,
+          "repAligned": 0,
+          "effect": {
+            "incrimination": 0,
+            "budget": -550,
+            "economy": 0,
+            "taxRate": 0,
+            "popular": 0,
+            "foreign": 0
+          },
+          "futureEffects": [],
+          "deathFlags": {
+            "mars": true
+          }
         }
       ]
     },
