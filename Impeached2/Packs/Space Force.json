@@ -163,6 +163,89 @@
           "deathFlags": null
         }
       ]
+    },
+    {
+      "action": "An asteroid is on a collision course with Earth and scientists have determined that it will hit in a few years. What do you do?",
+      "options": [
+        {
+          "reaction": "Initiate a joint international mission to deflect the asteroid",
+          "passLaw": false,
+          "partisan": 0.0,
+          "demAligned": 0.1,
+          "repAligned": 0.1,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": -400,
+            "economy": 0,
+            "taxRate": 0.0,
+            "popular": 0.1,
+            "foreign": 0.1,
+            "incrimination": 0.1
+          },
+          "futureEffects": [],
+          "deathFlags": null
+        },
+        {
+          "reaction": "Destroy the asteroid with nuclear weapons",
+          "passLaw": false,
+          "partisan": 0,
+          "demAligned": 0.1,
+          "repAligned": 0.2,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": -550,
+            "economy": 0,
+            "taxRate": 0.0,
+            "popular": 0.2,
+            "foreign": 0.0,
+            "incrimination": 0.0
+          },
+          "futureEffects": [],
+          "deathFlags": null
+        },
+        {
+          "reaction": "Ignore the warnings",
+          "passLaw": false,
+          "partisan": 0.0,
+          "demAligned": -0.3,
+          "repAligned": -0.1,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 0,
+            "economy": 0,
+            "taxRate": 0.0,
+            "popular": -0.2,
+            "foreign": -0.1,
+            "incrimination": 0.0
+          },
+          "futureEffects": [],
+          "deathFlags": {
+            "asteroid": true
+          }
+        },
+        {
+          "reaction": "Crash a spaceship into the asteroid to alter its trajectory",
+          "passLaw": true,
+          "partisan": 0,
+          "demAligned": 0.1,
+          "repAligned": 0.1,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": -550,
+            "economy": 0,
+            "taxRate": 0.0,
+            "popular": 0.1,
+            "foreign": 0.0,
+            "incrimination": 0.0
+          },
+          "futureEffects": [],
+          "deathFlags": null
+        }
+      ]
     }
   ],
   "title": "Space Force",
