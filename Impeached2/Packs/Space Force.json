@@ -478,8 +478,8 @@
           "effect": {
             "turnDelay": 0,
             "repeatEffect": 0,
-            "budget": -300,
-            "economy": -150,
+            "budget": -200,
+            "economy": -200,
             "taxRate": 0.0,
             "popular": -0.1,
             "foreign": 0.0,
@@ -836,5 +836,5 @@
   ],
   "title": "Space Force",
   "updateURL": "https://raw.githubusercontent.com/Sn0wCh1ld/Various-Files/master/Impeached2/Packs/Space%20Force.json",
-  "version": 4
+  "version": 5
 }
