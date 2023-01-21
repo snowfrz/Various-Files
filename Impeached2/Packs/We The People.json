@@ -458,9 +458,347 @@
           "deathFlags": null
         }
       ]
+    },
+    {
+      "action": "The International Olympic Committee has offered the United States the opportunity to host the Olympics. What do you do?",
+      "options": [
+        {
+          "reaction": "Pursue the bid and invest in necessary infrastructure",
+          "passLaw": false,
+          "partisan": 0,
+          "demAligned": 0.2,
+          "repAligned": 0.1,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": -700,
+            "economy": 150,
+            "taxRate": 0.0,
+            "popular": 0.2,
+            "foreign": 0,
+            "incrimination": 0.0
+          },
+          "futureEffects": [],
+          "deathFlags": null
+        },
+        {
+          "reaction": "Decline the opportunity due to financial concerns",
+          "passLaw": false,
+          "partisan": 0,
+          "demAligned": -0.1,
+          "repAligned": -0.1,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 0,
+            "economy": 0,
+            "taxRate": 0.0,
+            "popular": -0.1,
+            "foreign": 0,
+            "incrimination": 0
+          },
+          "futureEffects": [],
+          "deathFlags": null
+        },
+        {
+          "reaction": "Quietly bribe officials to secure the bid",
+          "passLaw": false,
+          "partisan": 0,
+          "demAligned": -0.1,
+          "repAligned": -0.1,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": -400,
+            "economy": 150,
+            "taxRate": 0.0,
+            "popular": 0,
+            "foreign": 0.0,
+            "incrimination": 0.3
+          },
+          "futureEffects": [],
+          "deathFlags": null
+        },
+        {
+          "reaction": "Place your bid after negotiating for more \"benefits\" from the IOC",
+          "passLaw": false,
+          "partisan": 0,
+          "demAligned": -0.1,
+          "repAligned": -0.1,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": -700,
+            "economy": 250,
+            "taxRate": 0.0,
+            "popular": 0.2,
+            "foreign": -0.2,
+            "incrimination": 0.2
+          },
+          "futureEffects": [],
+          "deathFlags": null
+        },
+        {
+          "reaction": "Partner with private companies to fund your bid",
+          "passLaw": false,
+          "partisan": 0,
+          "demAligned": -0.1,
+          "repAligned": 0.3,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": -500,
+            "economy": 100,
+            "taxRate": 0.0,
+            "popular": 0.1,
+            "foreign": -0.1,
+            "incrimination": 0.0
+          },
+          "futureEffects": [],
+          "deathFlags": null
+        }
+      ]
+    },
+    {
+      "action": "The Interstate Highway System is in dire need of major structural renovations to ensure safety and reliability. What do you do?",
+      "options": [
+        {
+          "reaction": "Increase funding for regular maintenance and repairs",
+          "passLaw": false,
+          "partisan": 0,
+          "demAligned": 0.1,
+          "repAligned": 0,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": -500,
+            "economy": -50,
+            "taxRate": 0.0,
+            "popular": 0.1,
+            "foreign": 0,
+            "incrimination": 0.0
+          },
+          "futureEffects": [],
+          "deathFlags": null
+        },
+        {
+          "reaction": "Raise taxes to fund major renovations",
+          "passLaw": false,
+          "partisan": 0.6,
+          "demAligned": 0.3,
+          "repAligned": -0.3,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": -650,
+            "economy": 0,
+            "taxRate": 0.02,
+            "popular": -0.05,
+            "foreign": 0,
+            "incrimination": 0
+          },
+          "futureEffects": [],
+          "deathFlags": null
+        },
+        {
+          "reaction": "Implement tolls on the freeways to fund renovations",
+          "passLaw": true,
+          "partisan": 0,
+          "demAligned": -0.1,
+          "repAligned": 0.2,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": -650,
+            "economy": 100,
+            "taxRate": 0.0,
+            "popular": -0.2,
+            "foreign": 0.0,
+            "incrimination": 0.1
+          },
+          "futureEffects": [],
+          "deathFlags": null
+        },
+        {
+          "reaction": "Privatize the freeway system",
+          "passLaw": true,
+          "partisan": 0.5,
+          "demAligned": -0.3,
+          "repAligned": 0.1,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": -300,
+            "economy": 100,
+            "taxRate": 0.0,
+            "popular": 0,
+            "foreign": 0,
+            "incrimination": 0
+          },
+          "futureEffects": [],
+          "deathFlags": null
+        },
+        {
+          "reaction": "Invest in new technology to make the system more efficient",
+          "passLaw": false,
+          "partisan": 0,
+          "demAligned": 0.3,
+          "repAligned": -0.1,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": -750,
+            "economy": 150,
+            "taxRate": 0.0,
+            "popular": 0,
+            "foreign": 0,
+            "incrimination": 0.0
+          },
+          "futureEffects": [],
+          "deathFlags": null
+        }
+      ]
+    },
+    {
+      "action": "A crash in the housing market has led to widespread foreclosures and declining property values. What do you do?",
+      "options": [
+        {
+          "reaction": "Implement a government-funded mortgage relief program",
+          "passLaw": true,
+          "partisan": 0.5,
+          "demAligned": 0.2,
+          "repAligned": -0.1,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": -600,
+            "economy": 0,
+            "taxRate": 0.0,
+            "popular": 0.1,
+            "foreign": 0,
+            "incrimination": 0.0
+          },
+          "futureEffects": [],
+          "deathFlags": null
+        },
+        {
+          "reaction": "Increase interest rates to stabilize the market",
+          "passLaw": false,
+          "partisan": 0,
+          "demAligned": 0.1,
+          "repAligned": 0.3,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 0,
+            "economy": -150,
+            "taxRate": 0,
+            "popular": -0.2,
+            "foreign": 0,
+            "incrimination": 0
+          },
+          "futureEffects": [],
+          "deathFlags": null
+        },
+        {
+          "reaction": "Provide tax incentives for home buyers",
+          "passLaw": false,
+          "partisan": 0,
+          "demAligned": 0.1,
+          "repAligned": 0.2,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 0,
+            "economy": 100,
+            "taxRate": -0.01,
+            "popular": 0.1,
+            "foreign": 0.0,
+            "incrimination": 0
+          },
+          "futureEffects": [],
+          "deathFlags": null
+        },
+        {
+          "reaction": "Increase funding for affordable housing programs",
+          "passLaw": false,
+          "partisan": 0.5,
+          "demAligned": 0.2,
+          "repAligned": -0.3,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": -500,
+            "economy": -100,
+            "taxRate": 0.0,
+            "popular": 0,
+            "foreign": 0,
+            "incrimination": 0
+          },
+          "futureEffects": [],
+          "deathFlags": null
+        },
+        {
+          "reaction": "Allow large financial institutions to fail and let the market handle it",
+          "passLaw": false,
+          "partisan": 0,
+          "demAligned": -0.3,
+          "repAligned": -0.1,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 0,
+            "economy": -250,
+            "taxRate": 0.0,
+            "popular": -0.2,
+            "foreign": 0,
+            "incrimination": 0.0
+          },
+          "futureEffects": [],
+          "deathFlags": null
+        },
+        {
+          "reaction": "Implement stricter regulations on lending practices",
+          "passLaw": true,
+          "partisan": 0,
+          "demAligned": 0.2,
+          "repAligned": -0.2,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 0,
+            "economy": -150,
+            "taxRate": 0.0,
+            "popular": 0.1,
+            "foreign": 0,
+            "incrimination": 0.0
+          },
+          "futureEffects": [],
+          "deathFlags": null
+        },
+        {
+          "reaction": "Encourage foreign investment in the housing market",
+          "passLaw": true,
+          "partisan": 0,
+          "demAligned": -0.2,
+          "repAligned": -0.2,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 0,
+            "economy": 0,
+            "taxRate": 0.0,
+            "popular": -0.2,
+            "foreign": 0.2,
+            "incrimination": 0.0
+          },
+          "futureEffects": [],
+          "deathFlags": null
+        }
+      ]
     }
   ],
   "title": "We The People",
   "updateURL": "https://raw.githubusercontent.com/Sn0wCh1ld/Various-Files/master/Impeached2/Packs/We%20The%20People.json",
-  "version": 4
+  "version": 5
 }
