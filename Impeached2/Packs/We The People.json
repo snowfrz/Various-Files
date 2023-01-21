@@ -958,9 +958,185 @@
           "deathFlags": null
         }
       ]
+    },
+    {
+      "action": "The country is considering creating a new federal holiday to honor an important figure in American history. Who should be honored?",
+      "options": [
+        {
+          "reaction": "President Ronald Reagan",
+          "passLaw": false,
+          "partisan": 0.5,
+          "demAligned": -0.3,
+          "repAligned": 0.3,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 0,
+            "economy": 0,
+            "taxRate": 0.0,
+            "popular": 0,
+            "foreign": 0,
+            "incrimination": 0
+          },
+          "futureEffects": [],
+          "deathFlags": null
+        },
+        {
+          "reaction": "Harriet Tubman",
+          "passLaw": false,
+          "partisan": 0.5,
+          "demAligned": 0.3,
+          "repAligned": 0,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 0,
+            "economy": 0,
+            "taxRate": 0,
+            "popular": 0,
+            "foreign": 0,
+            "incrimination": 0
+          },
+          "futureEffects": [],
+          "deathFlags": null
+        },
+        {
+          "reaction": "Susan B. Anthony",
+          "passLaw": false,
+          "partisan": 0,
+          "demAligned": 0.1,
+          "repAligned": 0.1,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 0,
+            "economy": 0,
+            "taxRate": 0,
+            "popular": 0.1,
+            "foreign": 0.0,
+            "incrimination": 0
+          },
+          "futureEffects": [],
+          "deathFlags": null
+        },
+        {
+          "reaction": "President Abraham Lincoln",
+          "passLaw": false,
+          "partisan": 0,
+          "demAligned": 0.2,
+          "repAligned": 0.1,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 0,
+            "economy": 0,
+            "taxRate": 0.0,
+            "popular": 0.1,
+            "foreign": 0,
+            "incrimination": 0
+          },
+          "futureEffects": [],
+          "deathFlags": null
+        },
+        {
+          "reaction": "Senator John McCain",
+          "passLaw": false,
+          "partisan": 0,
+          "demAligned": 0,
+          "repAligned": 0.2,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 0,
+            "economy": 0,
+            "taxRate": 0.0,
+            "popular": 0.1,
+            "foreign": 0,
+            "incrimination": 0
+          },
+          "futureEffects": [],
+          "deathFlags": null
+        },
+        {
+          "reaction": "Governor Sarah Palin",
+          "passLaw": false,
+          "partisan": 0,
+          "demAligned": -0.2,
+          "repAligned": 0.1,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 0,
+            "economy": 0,
+            "taxRate": 0.0,
+            "popular": -0.1,
+            "foreign": 0,
+            "incrimination": 0
+          },
+          "futureEffects": [],
+          "deathFlags": null
+        },
+        {
+          "reaction": "Ronald McDonald",
+          "passLaw": false,
+          "partisan": 0,
+          "demAligned": -0.2,
+          "repAligned": -0.2,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 0,
+            "economy": 0,
+            "taxRate": 0.0,
+            "popular": -0.1,
+            "foreign": 0,
+            "incrimination": 0
+          },
+          "futureEffects": [],
+          "deathFlags": null
+        },
+        {
+          "reaction": "Governor Arnold Schwarzenegger",
+          "passLaw": false,
+          "partisan": 0,
+          "demAligned": 0,
+          "repAligned": 0.1,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 0,
+            "economy": 0,
+            "taxRate": 0.0,
+            "popular": 0.1,
+            "foreign": 0,
+            "incrimination": 0
+          },
+          "futureEffects": [],
+          "deathFlags": null
+        },
+        {
+          "reaction": "Malcom X",
+          "passLaw": false,
+          "partisan": 0.5,
+          "demAligned": 0.2,
+          "repAligned": -0.2,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 0,
+            "economy": 0,
+            "taxRate": 0.0,
+            "popular": 0,
+            "foreign": 0,
+            "incrimination": 0
+          },
+          "futureEffects": [],
+          "deathFlags": null
+        }
+      ]
     }
   ],
   "title": "We The People",
   "updateURL": "https://raw.githubusercontent.com/Sn0wCh1ld/Various-Files/master/Impeached2/Packs/We%20The%20People.json",
-  "version": 6
+  "version": 7
 }
