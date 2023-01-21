@@ -84,7 +84,7 @@
       ]
     },
     {
-      "action": "A military test goes wrong and crashes into a small town, and residents claim it to be a crashed alien ship. What do you do?",
+      "action": "A military test goes wrong and an aircraft crashes into a small town. Residents claim it to be an alien ship. What do you do?",
       "options": [
         {
           "reaction": "Brush them off as conspiracy theorists",
@@ -594,7 +594,7 @@
           "deathFlags": null
         },
         {
-          "reaction": "Focus on protecting other planets from human activity",
+          "reaction": "Focus on protecting other worlds from human activity",
           "passLaw": false,
           "partisan": 0,
           "demAligned": -0.1,
@@ -734,7 +734,7 @@
       ]
     },
     {
-      "action": "A NASA spacecraft carrying a crew of astronauts has crashed during a mission, resulting in the loss of life. How do you respond?",
+      "action": "A NASA spacecraft carrying a crew of astronauts has been destroyed during a mission, resulting in the loss of life. How do you respond?",
       "options": [
         {
           "reaction": "Launch an investigation to determine the cause of the crash",
@@ -836,5 +836,5 @@
   ],
   "title": "Space Force",
   "updateURL": "https://raw.githubusercontent.com/Sn0wCh1ld/Various-Files/master/Impeached2/Packs/Space%20Force.json",
-  "version": 5
+  "version": 6
 }
