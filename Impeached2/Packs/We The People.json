@@ -421,7 +421,7 @@
         },
         {
           "reaction": "Offer witness protection to any cartel members who snitch",
-          "passLaw": true,
+          "passLaw": false,
           "partisan": 0,
           "demAligned": 0.2,
           "repAligned": 0.2,
