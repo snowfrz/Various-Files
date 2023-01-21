@@ -428,10 +428,10 @@
           "effect": {
             "turnDelay": 0,
             "repeatEffect": 0,
-            "budget": -400,
+            "budget": 0,
             "economy": 0,
             "taxRate": 0.0,
-            "popular": -0.1,
+            "popular": -0.2,
             "foreign": -0.1,
             "incrimination": 0.0
           },
@@ -1138,5 +1138,5 @@
   ],
   "title": "We The People",
   "updateURL": "https://raw.githubusercontent.com/Sn0wCh1ld/Various-Files/master/Impeached2/Packs/We%20The%20People.json",
-  "version": 7
+  "version": 8
 }
