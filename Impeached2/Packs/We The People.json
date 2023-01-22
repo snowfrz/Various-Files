@@ -1836,7 +1836,7 @@
       ]
     },
     {
-      "action": "A major cyber attack has been launched against the United States, targeting critical infrastructure such as power grids, transportation systems, and financial institutions. What do you do?",
+      "action": "A major cyber attack has been launched against the United States, targeting critical infrastructure. What do you do?",
       "options": [
         {
           "reaction": "Increase funding for cybersecurity",
@@ -2100,5 +2100,5 @@
   ],
   "title": "We The People",
   "updateURL": "https://raw.githubusercontent.com/Sn0wCh1ld/Various-Files/master/Impeached2/Packs/We%20The%20People.json",
-  "version": 11
+  "version": 12
 }
