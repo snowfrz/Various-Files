@@ -1261,8 +1261,8 @@
           "reaction": "The right of the people to keep and bear Arms shall not be infringed",
           "passLaw": false,
           "partisan": 0,
-          "demAligned": 0.2,
-          "repAligned": -0.2,
+          "demAligned": -0.2,
+          "repAligned": 0.2,
           "effect": {
             "turnDelay": 0,
             "repeatEffect": 0,
@@ -1319,7 +1319,7 @@
           "passLaw": false,
           "partisan": 0.5,
           "demAligned": 0.2,
-          "repAligned": -0.3,
+          "repAligned": -0.1,
           "effect": {
             "turnDelay": 0,
             "repeatEffect": 0,
@@ -1338,7 +1338,7 @@
           "passLaw": true,
           "partisan": 0.5,
           "demAligned": 0.2,
-          "repAligned": 0,
+          "repAligned": -0.2,
           "effect": {
             "turnDelay": 0,
             "repeatEffect": 0,
