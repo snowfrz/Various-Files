@@ -501,30 +501,11 @@
           },
           "futureEffects": [],
           "deathFlags": null
-        },
-        {
-          "reaction": "Implement the death penalty for all crimes",
-          "passLaw": true,
-          "partisan": 0,
-          "demAligned": -0.2,
-          "repAligned": -0.2,
-          "effect": {
-            "turnDelay": 0,
-            "repeatEffect": 0,
-            "budget": -350,
-            "economy": -250,
-            "taxRate": 0.0,
-            "popular": -0.2,
-            "foreign": 0.0,
-            "incrimination": 0.2
-          },
-          "futureEffects": [],
-          "deathFlags": null
         }
       ]
     }
   ],
   "title": "The Orwellian Dream",
   "updateURL": "https://raw.githubusercontent.com/Sn0wCh1ld/Various-Files/master/Impeached2/Packs/The%20Orwellian%20Dream.json",
-  "version": 3
+  "version": 4
 }
