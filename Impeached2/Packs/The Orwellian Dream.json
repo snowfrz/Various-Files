@@ -3,21 +3,21 @@
   "iapId": "deck_dystopian",
   "scenarios": [
     {
-      "action": "Test",
+      "action": "The U.S. is facing is a major food shortage. The population is starving and riots are beginning to break out. What do you do?",
       "options": [
         {
-          "reaction": "Test",
-          "passLaw": false,
+          "reaction": "Implement a strict rationing system",
+          "passLaw": true,
           "partisan": 0.0,
-          "demAligned": 0.25,
-          "repAligned": 0.25,
+          "demAligned": 0.1,
+          "repAligned": 0.1,
           "effect": {
             "turnDelay": 0,
             "repeatEffect": 0,
-            "budget": -500,
-            "economy": -100,
+            "budget": 0,
+            "economy": 0,
             "taxRate": 0.0,
-            "popular": 0.1,
+            "popular": -0.2,
             "foreign": 0.0,
             "incrimination": 0.0
           },
@@ -25,16 +25,16 @@
           "deathFlags": null
         },
         {
-          "reaction": "Test",
+          "reaction": "Create a government-run factory farm system",
           "passLaw": false,
-          "partisan": 0.3,
-          "demAligned": -0.2,
-          "repAligned": 0.1,
+          "partisan": 0.5,
+          "demAligned": 0.2,
+          "repAligned": -0.2,
           "effect": {
             "turnDelay": 0,
             "repeatEffect": 0,
-            "budget": 0,
-            "economy": -150,
+            "budget": -600,
+            "economy": 100,
             "taxRate": 0.0,
             "popular": 0.0,
             "foreign": 0.0,
@@ -44,94 +44,37 @@
           "deathFlags": null
         },
         {
-          "reaction": "Test",
+          "reaction": "Increase imports of food from other countries",
           "passLaw": false,
           "partisan": 0.0,
-          "demAligned": 0.25,
-          "repAligned": 0.1,
-          "effect": {
-            "turnDelay": 0,
-            "repeatEffect": 0,
-            "budget": -650,
-            "economy": 0,
-            "taxRate": 0.0,
-            "popular": 0.1,
-            "foreign": 0.0,
-            "incrimination": 0.0
-          },
-          "futureEffects": [],
-          "deathFlags": null
-        },
-        {
-          "reaction": "Test",
-          "passLaw": false,
-          "partisan": 0.3,
-          "demAligned": -0.3,
-          "repAligned": -0.1,
-          "effect": {
-            "turnDelay": 0,
-            "repeatEffect": 0,
-            "budget": 0,
-            "economy": -250,
-            "taxRate": 0.0,
-            "popular": -0.2,
-            "foreign": 0.0,
-            "incrimination": 0.0
-          },
-          "futureEffects": [],
-          "deathFlags": null
-        },
-        {
-          "reaction": "Test",
-          "passLaw": false,
-          "partisan": 0.35,
-          "demAligned": -0.2,
-          "repAligned": -0.1,
-          "effect": {
-            "turnDelay": 0,
-            "repeatEffect": 0,
-            "budget": 0,
-            "economy": -250,
-            "taxRate": 0.0,
-            "popular": -0.2,
-            "foreign": 0.0,
-            "incrimination": 0.0
-          },
-          "futureEffects": [],
-          "deathFlags": null
-        },
-        {
-          "reaction": "Test",
-          "passLaw": false,
-          "partisan": 0.2,
-          "demAligned": -0.2,
-          "repAligned": -0.1,
-          "effect": {
-            "turnDelay": 0,
-            "repeatEffect": 0,
-            "budget": 50,
-            "economy": -250,
-            "taxRate": 0.0,
-            "popular": -0.2,
-            "foreign": 0.0,
-            "incrimination": 0.0
-          },
-          "futureEffects": [],
-          "deathFlags": null
-        },
-        {
-          "reaction": "Test",
-          "passLaw": false,
-          "partisan": 0.25,
-          "demAligned": 0.1,
+          "demAligned": 0.2,
           "repAligned": 0.1,
           "effect": {
             "turnDelay": 0,
             "repeatEffect": 0,
             "budget": -400,
-            "economy": -150,
+            "economy": 0,
             "taxRate": 0.0,
             "popular": 0.1,
+            "foreign": 0.1,
+            "incrimination": 0.0
+          },
+          "futureEffects": [],
+          "deathFlags": null
+        },
+        {
+          "reaction": "Encourage citizens to grow their own food",
+          "passLaw": false,
+          "partisan": 0.5,
+          "demAligned": -0.1,
+          "repAligned": 0.2,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 0,
+            "economy": -100,
+            "taxRate": 0.0,
+            "popular": -0.05,
             "foreign": 0.0,
             "incrimination": 0.0
           },
@@ -139,20 +82,39 @@
           "deathFlags": null
         },
         {
-          "reaction": "Test",
+          "reaction": "Create a black market for food",
           "passLaw": false,
-          "partisan": 0.0,
+          "partisan": 0,
           "demAligned": -0.2,
           "repAligned": -0.2,
           "effect": {
             "turnDelay": 0,
             "repeatEffect": 0,
-            "budget": 150,
-            "economy": -250,
+            "budget": 0,
+            "economy": 100,
             "taxRate": 0.0,
-            "popular": -0.3,
-            "foreign": -0.2,
-            "incrimination": 0.25
+            "popular": -0.1,
+            "foreign": 0.0,
+            "incrimination": 0.2
+          },
+          "futureEffects": [],
+          "deathFlags": null
+        },
+        {
+          "reaction": "Increase funding for sustainable agriculture",
+          "passLaw": false,
+          "partisan": 0.5,
+          "demAligned": 0.2,
+          "repAligned": -0.1,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": -500,
+            "economy": 75,
+            "taxRate": 0.0,
+            "popular": 0.1,
+            "foreign": 0.0,
+            "incrimination": 0.0
           },
           "futureEffects": [],
           "deathFlags": null
@@ -160,40 +122,21 @@
       ]
     },
     {
-      "action": "Test2",
+      "action": "Mass protests and civil unrest are breaking out due to widespread poverty and unemployment. How do you respond?",
       "options": [
         {
-          "reaction": "Test",
+          "reaction": "Implement martial law and a curfew",
           "passLaw": false,
           "partisan": 0.0,
-          "demAligned": 0.25,
-          "repAligned": 0.25,
-          "effect": {
-            "turnDelay": 0,
-            "repeatEffect": 0,
-            "budget": -500,
-            "economy": -100,
-            "taxRate": 0.0,
-            "popular": 0.1,
-            "foreign": 0.0,
-            "incrimination": 0.0
-          },
-          "futureEffects": [],
-          "deathFlags": null
-        },
-        {
-          "reaction": "Test",
-          "passLaw": false,
-          "partisan": 0.3,
           "demAligned": -0.2,
-          "repAligned": 0.1,
+          "repAligned": -0.2,
           "effect": {
             "turnDelay": 0,
             "repeatEffect": 0,
             "budget": 0,
-            "economy": -150,
+            "economy": -200,
             "taxRate": 0.0,
-            "popular": 0.0,
+            "popular": -0.2,
             "foreign": 0.0,
             "incrimination": 0.0
           },
@@ -201,15 +144,15 @@
           "deathFlags": null
         },
         {
-          "reaction": "Test",
+          "reaction": "Spread viral propaganda on the Internet",
           "passLaw": false,
-          "partisan": 0.0,
-          "demAligned": 0.25,
+          "partisan": 0,
+          "demAligned": 0.1,
           "repAligned": 0.1,
           "effect": {
             "turnDelay": 0,
             "repeatEffect": 0,
-            "budget": -650,
+            "budget": -400,
             "economy": 0,
             "taxRate": 0.0,
             "popular": 0.1,
@@ -220,75 +163,37 @@
           "deathFlags": null
         },
         {
-          "reaction": "Test",
+          "reaction": "Develop advanced technology to monitor and control the population",
           "passLaw": false,
-          "partisan": 0.3,
-          "demAligned": -0.3,
-          "repAligned": -0.1,
-          "effect": {
-            "turnDelay": 0,
-            "repeatEffect": 0,
-            "budget": 0,
-            "economy": -250,
-            "taxRate": 0.0,
-            "popular": -0.2,
-            "foreign": 0.0,
-            "incrimination": 0.0
-          },
-          "futureEffects": [],
-          "deathFlags": null
-        },
-        {
-          "reaction": "Test",
-          "passLaw": false,
-          "partisan": 0.35,
-          "demAligned": -0.2,
-          "repAligned": -0.1,
-          "effect": {
-            "turnDelay": 0,
-            "repeatEffect": 0,
-            "budget": 0,
-            "economy": -250,
-            "taxRate": 0.0,
-            "popular": -0.2,
-            "foreign": 0.0,
-            "incrimination": 0.0
-          },
-          "futureEffects": [],
-          "deathFlags": null
-        },
-        {
-          "reaction": "Test",
-          "passLaw": false,
-          "partisan": 0.2,
-          "demAligned": -0.2,
-          "repAligned": -0.1,
-          "effect": {
-            "turnDelay": 0,
-            "repeatEffect": 0,
-            "budget": 50,
-            "economy": -250,
-            "taxRate": 0.0,
-            "popular": -0.2,
-            "foreign": 0.0,
-            "incrimination": 0.0
-          },
-          "futureEffects": [],
-          "deathFlags": null
-        },
-        {
-          "reaction": "Test",
-          "passLaw": false,
-          "partisan": 0.25,
+          "partisan": 0.0,
           "demAligned": 0.1,
           "repAligned": 0.1,
           "effect": {
             "turnDelay": 0,
             "repeatEffect": 0,
-            "budget": -400,
-            "economy": -150,
+            "budget": -650,
+            "economy": 0,
             "taxRate": 0.0,
             "popular": 0.1,
+            "foreign": 0.0,
+            "incrimination": 0.2
+          },
+          "futureEffects": [],
+          "deathFlags": null
+        },
+        {
+          "reaction": "Increase funding for social welfare",
+          "passLaw": false,
+          "partisan": 0.5,
+          "demAligned": 0.3,
+          "repAligned": -0.3,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": -500,
+            "economy": -150,
+            "taxRate": 0.0,
+            "popular": 0.05,
             "foreign": 0.0,
             "incrimination": 0.0
           },
@@ -296,20 +201,120 @@
           "deathFlags": null
         },
         {
-          "reaction": "Test",
+          "reaction": "Pass a stimulus package to create jobs",
           "passLaw": false,
-          "partisan": 0.0,
-          "demAligned": -0.2,
-          "repAligned": -0.2,
+          "partisan": 0.5,
+          "demAligned": 0.3,
+          "repAligned": -0.1,
           "effect": {
             "turnDelay": 0,
             "repeatEffect": 0,
-            "budget": 150,
-            "economy": -250,
+            "budget": -800,
+            "economy": 200,
             "taxRate": 0.0,
-            "popular": -0.3,
+            "popular": 0.2,
+            "foreign": 0.0,
+            "incrimination": 0.0
+          },
+          "futureEffects": [],
+          "deathFlags": null
+        }
+      ]
+    },
+    {
+      "action": "A secret government program has developed technology that can manipulate a person's behavior. How do you react?",
+      "options": [
+        {
+          "reaction": "Implement the technology in high-crime areas",
+          "passLaw": false,
+          "partisan": 0.5,
+          "demAligned": -0.2,
+          "repAligned": 0.2,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": -400,
+            "economy": 100,
+            "taxRate": 0.0,
+            "popular": -0.05,
+            "foreign": 0.0,
+            "incrimination": 0.2
+          },
+          "futureEffects": [],
+          "deathFlags": null
+        },
+        {
+          "reaction": "Reduce sentences for convicts who agree to use this technology",
+          "passLaw": false,
+          "partisan": 0.5,
+          "demAligned": 0.3,
+          "repAligned": -0.3,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 0,
+            "economy": 100,
+            "taxRate": 0.0,
+            "popular": 0,
+            "foreign": 0.0,
+            "incrimination": 0.0
+          },
+          "futureEffects": [],
+          "deathFlags": null
+        },
+        {
+          "reaction": "Prohibit the use of this technology on American citizens",
+          "passLaw": true,
+          "partisan": 0.0,
+          "demAligned": 0.1,
+          "repAligned": 0.1,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 0,
+            "economy": 0,
+            "taxRate": 0.0,
+            "popular": 0.2,
+            "foreign": 0.0,
+            "incrimination": 0
+          },
+          "futureEffects": [],
+          "deathFlags": null
+        },
+        {
+          "reaction": "Use the technology against enemy countries",
+          "passLaw": false,
+          "partisan": 0,
+          "demAligned": 0.1,
+          "repAligned": 0.1,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": -300,
+            "economy": 0,
+            "taxRate": 0.0,
+            "popular": 0,
             "foreign": -0.2,
-            "incrimination": 0.25
+            "incrimination": 0.2
+          },
+          "futureEffects": [],
+          "deathFlags": null
+        },
+        {
+          "reaction": "Increase funding for the secret program",
+          "passLaw": false,
+          "partisan": 0,
+          "demAligned": 0.1,
+          "repAligned": 0.1,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": -350,
+            "economy": 0,
+            "taxRate": 0.0,
+            "popular": 0,
+            "foreign": 0.0,
+            "incrimination": 0.0
           },
           "futureEffects": [],
           "deathFlags": null
@@ -319,5 +324,5 @@
   ],
   "title": "The Orwellian Dream",
   "updateURL": "https://raw.githubusercontent.com/Sn0wCh1ld/Various-Files/master/Impeached2/Packs/The%20Orwellian%20Dream.json",
-  "version": 1
+  "version": 2
 }
