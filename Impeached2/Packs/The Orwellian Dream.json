@@ -719,7 +719,7 @@
             "budget": -300,
             "economy": -100,
             "taxRate": 0.0,
-            "popular": -0.2,
+            "popular": -0.3,
             "foreign": -0.1,
             "incrimination": 0.2
           },
@@ -748,7 +748,7 @@
         {
           "reaction": "Allow parents to opt their children out of these lessons",
           "passLaw": false,
-          "partisan": 0.0,
+          "partisan": 0.5,
           "demAligned": -0.2,
           "repAligned": 0.3,
           "effect": {
@@ -767,7 +767,7 @@
         {
           "reaction": "Increase education budget to ensure effective teaching of the material",
           "passLaw": false,
-          "partisan": 0,
+          "partisan": 0.5,
           "demAligned": 0.2,
           "repAligned": -0.2,
           "effect": {
@@ -867,16 +867,78 @@
           }
         },
         {
-          "reaction": "Increase education budget to ensure effective teaching of the material",
+          "reaction": "Require regular NSA inspections of sentient A.I. to protect national security",
           "passLaw": false,
           "partisan": 0,
           "demAligned": 0.2,
+          "repAligned": 0.1,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 0,
+            "economy": -100,
+            "taxRate": 0.0,
+            "popular": 0.1,
+            "foreign": 0,
+            "incrimination": 0
+          },
+          "futureEffects": [],
+          "deathFlags": null
+        }
+      ]
+    },
+    {
+      "action": "Some Americans fear that overpopulation will cause higher unemployment and a strain on infrastructure and resources. What do you do?",
+      "options": [
+        {
+          "reaction": "Implement a one-child policy to curb growth",
+          "passLaw": true,
+          "partisan": 0,
+          "demAligned": -0.2,
           "repAligned": -0.2,
           "effect": {
             "turnDelay": 0,
             "repeatEffect": 0,
-            "budget": -500,
-            "economy": 0,
+            "budget": 0,
+            "economy": -200,
+            "taxRate": 0.0,
+            "popular": -0.2,
+            "foreign": 0,
+            "incrimination": 0
+          },
+          "futureEffects": [],
+          "deathFlags": null
+        },
+        {
+          "reaction": "Invest in the economy and infrastructure",
+          "passLaw": false,
+          "partisan": 0.5,
+          "demAligned": 0.2,
+          "repAligned": -0.3,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": -800,
+            "economy": 200,
+            "taxRate": 0.0,
+            "popular": 0.1,
+            "foreign": 0,
+            "incrimination": 0.0
+          },
+          "futureEffects": [],
+          "deathFlags": null
+        },
+        {
+          "reaction": "Reduce immigration",
+          "passLaw": false,
+          "partisan": 0.0,
+          "demAligned": -0.2,
+          "repAligned": 0.3,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 0,
+            "economy": -100,
             "taxRate": 0.0,
             "popular": 0,
             "foreign": 0,
@@ -886,15 +948,15 @@
           "deathFlags": null
         },
         {
-          "reaction": "Remove them from schools but preserve them in the National Archives",
+          "reaction": "Tell them their claim is baseless",
           "passLaw": false,
           "partisan": 0.5,
-          "demAligned": -0.1,
-          "repAligned": 0.2,
+          "demAligned": 0.2,
+          "repAligned": -0.1,
           "effect": {
             "turnDelay": 0,
             "repeatEffect": 0,
-            "budget": -400,
+            "budget": 0,
             "economy": 0,
             "taxRate": 0.0,
             "popular": 0,
@@ -909,5 +971,5 @@
   ],
   "title": "The Orwellian Dream",
   "updateURL": "https://raw.githubusercontent.com/Sn0wCh1ld/Various-Files/master/Impeached2/Packs/The%20Orwellian%20Dream.json",
-  "version": 7
+  "version": 8
 }
