@@ -554,7 +554,7 @@
           "effect": {
             "turnDelay": 0,
             "repeatEffect": 0,
-            "budget": 0,
+            "budget": -250,
             "economy": 0,
             "taxRate": 0.0,
             "popular": -0.1,
@@ -573,8 +573,8 @@
           "effect": {
             "turnDelay": 0,
             "repeatEffect": 0,
-            "budget": -100,
-            "economy": 0,
+            "budget": 0,
+            "economy": -100,
             "taxRate": 0.0,
             "popular": 0.1,
             "foreign": 0,
@@ -701,11 +701,213 @@
           },
           "futureEffects": [],
           "deathFlags": null
+        }
+      ]
+    },
+    {
+      "action": "Some citizens are concerned that certain classic books use offensive language and contain themes they consider inappropriate. What do you do?",
+      "options": [
+        {
+          "reaction": "Order those books to be banned nationwide and burned",
+          "passLaw": false,
+          "partisan": 0,
+          "demAligned": -0.2,
+          "repAligned": -0.2,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": -300,
+            "economy": -100,
+            "taxRate": 0.0,
+            "popular": -0.2,
+            "foreign": -0.1,
+            "incrimination": 0.2
+          },
+          "futureEffects": [],
+          "deathFlags": null
         },
+        {
+          "reaction": "Vehemently defend classic literature and its use in education",
+          "passLaw": false,
+          "partisan": 0.5,
+          "demAligned": 0.3,
+          "repAligned": -0.1,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 0,
+            "economy": 0,
+            "taxRate": 0.0,
+            "popular": 0,
+            "foreign": 0,
+            "incrimination": 0.0
+          },
+          "futureEffects": [],
+          "deathFlags": null
+        },
+        {
+          "reaction": "Allow parents to opt their children out of these lessons",
+          "passLaw": false,
+          "partisan": 0.0,
+          "demAligned": -0.2,
+          "repAligned": 0.3,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 0,
+            "economy": 0,
+            "taxRate": 0.0,
+            "popular": 0,
+            "foreign": 0,
+            "incrimination": 0
+          },
+          "futureEffects": [],
+          "deathFlags": null
+        },
+        {
+          "reaction": "Increase education budget to ensure effective teaching of the material",
+          "passLaw": false,
+          "partisan": 0,
+          "demAligned": 0.2,
+          "repAligned": -0.2,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": -500,
+            "economy": 0,
+            "taxRate": 0.0,
+            "popular": 0,
+            "foreign": 0,
+            "incrimination": 0
+          },
+          "futureEffects": [],
+          "deathFlags": null
+        },
+        {
+          "reaction": "Remove them from schools but preserve them in the National Archives",
+          "passLaw": false,
+          "partisan": 0.5,
+          "demAligned": -0.1,
+          "repAligned": 0.2,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": -400,
+            "economy": 0,
+            "taxRate": 0.0,
+            "popular": 0,
+            "foreign": 0,
+            "incrimination": 0
+          },
+          "futureEffects": [],
+          "deathFlags": null
+        }
+      ]
+    },
+    {
+      "action": "A new form of artificial intelligence has emerged, capable of self-awareness and consciousness. What do you do?",
+      "options": [
+        {
+          "reaction": "Ban the creation and use of sentient A.I.",
+          "passLaw": false,
+          "partisan": 0,
+          "demAligned": 0.2,
+          "repAligned": 0.2,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 0,
+            "economy": -100,
+            "taxRate": 0.0,
+            "popular": 0.1,
+            "foreign": 0,
+            "incrimination": 0
+          },
+          "futureEffects": [],
+          "deathFlags": null
+        },
+        {
+          "reaction": "Grant human rights to sentient A.I.",
+          "passLaw": true,
+          "partisan": 0.5,
+          "demAligned": 0,
+          "repAligned": -0.3,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 0,
+            "economy": 100,
+            "taxRate": 0.0,
+            "popular": 0,
+            "foreign": 0,
+            "incrimination": 0.0
+          },
+          "futureEffects": [],
+          "deathFlags": null
+        },
+        {
+          "reaction": "Allow private companies use sentient A.I. without restriction",
+          "passLaw": false,
+          "partisan": 0.0,
+          "demAligned": -0.1,
+          "repAligned": 0.3,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 0,
+            "economy": 150,
+            "taxRate": 0.0,
+            "popular": 0,
+            "foreign": 0,
+            "incrimination": 0
+          },
+          "futureEffects": [],
+          "deathFlags": {
+            "enemyAI": true
+          }
+        },
+        {
+          "reaction": "Increase education budget to ensure effective teaching of the material",
+          "passLaw": false,
+          "partisan": 0,
+          "demAligned": 0.2,
+          "repAligned": -0.2,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": -500,
+            "economy": 0,
+            "taxRate": 0.0,
+            "popular": 0,
+            "foreign": 0,
+            "incrimination": 0
+          },
+          "futureEffects": [],
+          "deathFlags": null
+        },
+        {
+          "reaction": "Remove them from schools but preserve them in the National Archives",
+          "passLaw": false,
+          "partisan": 0.5,
+          "demAligned": -0.1,
+          "repAligned": 0.2,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": -400,
+            "economy": 0,
+            "taxRate": 0.0,
+            "popular": 0,
+            "foreign": 0,
+            "incrimination": 0
+          },
+          "futureEffects": [],
+          "deathFlags": null
+        }
       ]
     }
   ],
   "title": "The Orwellian Dream",
   "updateURL": "https://raw.githubusercontent.com/Sn0wCh1ld/Various-Files/master/Impeached2/Packs/The%20Orwellian%20Dream.json",
-  "version": 6
+  "version": 7
 }
