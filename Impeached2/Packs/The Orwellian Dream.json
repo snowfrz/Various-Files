@@ -247,8 +247,8 @@
           "reaction": "Reduce sentences for convicts who agree to use this technology",
           "passLaw": false,
           "partisan": 0.65,
-          "demAligned": 0.3,
-          "repAligned": -0.3,
+          "demAligned": 0.2,
+          "repAligned": -0.2,
           "effect": {
             "turnDelay": 0,
             "repeatEffect": 0,
@@ -1090,5 +1090,5 @@
   ],
   "title": "The Orwellian Dream",
   "updateURL": "https://raw.githubusercontent.com/Sn0wCh1ld/Various-Files/master/Impeached2/Packs/The%20Orwellian%20Dream.json",
-  "version": 13
+  "version": 14
 }
