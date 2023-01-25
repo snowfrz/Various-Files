@@ -3,7 +3,7 @@
   "author": "Impeached",
   "updateURL": "https://raw.githubusercontent.com/Sn0wCh1ld/Various-Files/master/Impeached2/Packs/Re-Elected.json",
   "iapId": null,
-  "version": 3,
+  "version": 4,
   "scenarios": [
     {
       "action": "A major hurricane hits a heavily populated area of the country. What do you do?",
@@ -1696,7 +1696,7 @@
       "action": "Refugees from a war-torn country wish to enter the United States. How do you handle this?",
       "options": [
         {
-          "reaction": "Allow them to stay in the US and set up refugee camps",
+          "reaction": "Allow them to stay in the U.S. and set up refugee camps",
           "passLaw": false,
           "partisan": 0.5,
           "demAligned": 0.2,
@@ -1728,7 +1728,7 @@
           "futureEffects": []
         },
         {
-          "reaction": "Ban them from the US",
+          "reaction": "Ban them from the U.S.",
           "passLaw": false,
           "partisan": 0.4,
           "demAligned": -0.3,
@@ -2569,7 +2569,7 @@
       ]
     },
     {
-      "action": "A region wants to secede from the USA. What do you do?",
+      "action": "A region wants to secede from the U.S.A. What do you do?",
       "options": [
         {
           "reaction": "Allow them to have a referendum",
@@ -2808,7 +2808,7 @@
       ]
     },
     {
-      "action": "An earthquake has destroyed a prescription drug manufacturing facility in the US.",
+      "action": "An earthquake has destroyed a prescription drug manufacturing facility in the U.S.",
       "options": [
         {
           "reaction": "Fully fund reconstruction",
@@ -4548,7 +4548,7 @@
           "futureEffects": []
         },
         {
-          "reaction": "Help them come to the US",
+          "reaction": "Help them come to the U.S.",
           "passLaw": false,
           "partisan": 0.6,
           "demAligned": 0.3,
@@ -4930,7 +4930,7 @@
       ]
     },
     {
-      "action": "Dangerous and illegal items, such as chocolate eggs with toys inside them, keep being smuggled into the US. What do you do?",
+      "action": "Dangerous and illegal items, such as chocolate eggs with toys inside them, keep being smuggled into the U.S.. What do you do?",
       "options": [
         {
           "reaction": "Improve luggage scanners",

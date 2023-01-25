@@ -360,7 +360,7 @@
       ]
     },
     {
-      "action": "A powerful drug cartel has been found to be trafficking large quantities of illegal drugs into the US. What do you do?",
+      "action": "A powerful drug cartel has been found to be trafficking large quantities of illegal drugs into the U.S. What do you do?",
       "options": [
         {
           "reaction": "Increase funding and resources for border security",
@@ -667,14 +667,14 @@
           "passLaw": true,
           "partisan": 0.5,
           "demAligned": 0.2,
-          "repAligned": -0.1,
+          "repAligned": -0.2,
           "effect": {
             "turnDelay": 0,
             "repeatEffect": 0,
             "budget": -600,
             "economy": 0,
             "taxRate": 0.0,
-            "popular": 0.1,
+            "popular": 0.05,
             "foreign": 0,
             "incrimination": 0.0
           },
@@ -1751,25 +1751,6 @@
           },
           "futureEffects": [],
           "deathFlags": null
-        },
-        {
-          "reaction": "Leverage the investigation to get Big Tech to help you develop a social credit system",
-          "passLaw": false,
-          "partisan": 0,
-          "demAligned": -0.1,
-          "repAligned": -0.1,
-          "effect": {
-            "turnDelay": 0,
-            "repeatEffect": 0,
-            "budget": 0,
-            "economy": 0,
-            "taxRate": 0.0,
-            "popular": -0.3,
-            "foreign": -0.1,
-            "incrimination": 0.3
-          },
-          "futureEffects": [],
-          "deathFlags": null
         }
       ]
     },
@@ -2036,7 +2017,7 @@
       ]
     },
     {
-      "action": "A model of passenger jet has been involved in multiple major crashes, with FAA investigations revealing a design flaw as the cause. What do you do?",
+      "action": "A model of passenger jet has been involved in multiple major crashes, with F.A.A. investigations revealing a design flaw as the cause. What do you do?",
       "options": [
         {
           "reaction": "Ground all flights of the affected model and order a recall",
@@ -2119,5 +2100,5 @@
   ],
   "title": "We The People",
   "updateURL": "https://raw.githubusercontent.com/Sn0wCh1ld/Various-Files/master/Impeached2/Packs/We%20The%20People.json",
-  "version": 13
+  "version": 14
 }

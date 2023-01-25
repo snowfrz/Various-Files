@@ -246,7 +246,7 @@
         {
           "reaction": "Reduce sentences for convicts who agree to use this technology",
           "passLaw": false,
-          "partisan": 0.5,
+          "partisan": 0.65,
           "demAligned": 0.3,
           "repAligned": -0.3,
           "effect": {
@@ -290,7 +290,7 @@
           "effect": {
             "turnDelay": 0,
             "repeatEffect": 0,
-            "budget": -300,
+            "budget": 0,
             "economy": 0,
             "taxRate": 0.0,
             "popular": 0,
@@ -952,16 +952,135 @@
           "passLaw": false,
           "partisan": 0.5,
           "demAligned": 0.2,
-          "repAligned": -0.1,
+          "repAligned": -0.2,
           "effect": {
             "turnDelay": 0,
             "repeatEffect": 0,
             "budget": 0,
             "economy": 0,
             "taxRate": 0.0,
-            "popular": 0,
+            "popular": -0.05,
             "foreign": 0,
             "incrimination": 0
+          },
+          "futureEffects": [],
+          "deathFlags": null
+        }
+      ]
+    },
+    {
+      "action": "Your campaign manager is concerned about your popularity in the polls. What do you do?",
+      "options": [
+        {
+          "reaction": "Implement a social credit system to suppress dissenters",
+          "passLaw": false,
+          "partisan": 0,
+          "demAligned": -0.2,
+          "repAligned": -0.2,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 0,
+            "economy": 0,
+            "taxRate": 0.0,
+            "popular": -0.2,
+            "foreign": -0.2,
+            "incrimination": 0.2
+          },
+          "futureEffects": [],
+          "deathFlags": null
+        },
+        {
+          "reaction": "Run misleading ads to inflate your achievements",
+          "passLaw": false,
+          "partisan": 0,
+          "demAligned": -0.1,
+          "repAligned": -0.1,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": -500,
+            "economy": 0,
+            "taxRate": 0.0,
+            "popular": 0.1,
+            "foreign": 0,
+            "incrimination": 0.1
+          },
+          "futureEffects": [],
+          "deathFlags": null
+        },
+        {
+          "reaction": "Reduce taxes for the middle and working classes",
+          "passLaw": false,
+          "partisan": 0.0,
+          "demAligned": 0.2,
+          "repAligned": 0.1,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 0,
+            "economy": 100,
+            "taxRate": -0.01,
+            "popular": 0.1,
+            "foreign": 0,
+            "incrimination": 0
+          },
+          "futureEffects": [],
+          "deathFlags": null
+        },
+        {
+          "reaction": "Expand welfare programs to improve the average standard of living",
+          "passLaw": false,
+          "partisan": 0.5,
+          "demAligned": 0.2,
+          "repAligned": -0.3,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": -600,
+            "economy": 0,
+            "taxRate": 0.0,
+            "popular": 0.05,
+            "foreign": 0,
+            "incrimination": 0
+          },
+          "futureEffects": [],
+          "deathFlags": null
+        },
+        {
+          "reaction": "Encourage the masses to take euphoric drugs to escape reality",
+          "passLaw": false,
+          "partisan": 0,
+          "demAligned": -0.3,
+          "repAligned": -0.3,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 0,
+            "economy": -100,
+            "taxRate": 0.0,
+            "popular": 0.1,
+            "foreign": -0.2,
+            "incrimination": 0
+          },
+          "futureEffects": [],
+          "deathFlags": null
+        },
+        {
+          "reaction": "Create an agency to surveil, arrest and \"rehabilitate\" your critics",
+          "passLaw": false,
+          "partisan": 0,
+          "demAligned": -0.4,
+          "repAligned": -0.4,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": -400,
+            "economy": 0,
+            "taxRate": 0.0,
+            "popular": 0.2,
+            "foreign": -0.2,
+            "incrimination": 0.3
           },
           "futureEffects": [],
           "deathFlags": null
@@ -971,5 +1090,5 @@
   ],
   "title": "The Orwellian Dream",
   "updateURL": "https://raw.githubusercontent.com/Sn0wCh1ld/Various-Files/master/Impeached2/Packs/The%20Orwellian%20Dream.json",
-  "version": 8
+  "version": 9
 }

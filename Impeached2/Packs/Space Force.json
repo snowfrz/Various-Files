@@ -71,12 +71,12 @@
           "effect": {
             "turnDelay": 0,
             "repeatEffect": 0,
-            "budget": -400,
-            "economy": 100,
+            "budget": -0,
+            "economy": 150,
             "taxRate": 0.0,
-            "popular": 0,
-            "foreign": -0.2,
-            "incrimination": 0.1
+            "popular": -0.1,
+            "foreign": -0.3,
+            "incrimination": 0.2
           },
           "futureEffects": [],
           "deathFlags": null
@@ -172,7 +172,7 @@
           "passLaw": false,
           "partisan": 0.0,
           "demAligned": 0.1,
-          "repAligned": 0.1,
+          "repAligned": 0,
           "effect": {
             "turnDelay": 0,
             "repeatEffect": 0,
@@ -836,5 +836,5 @@
   ],
   "title": "Space Force",
   "updateURL": "https://raw.githubusercontent.com/Sn0wCh1ld/Various-Files/master/Impeached2/Packs/Space%20Force.json",
-  "version": 6
+  "version": 7
 }
