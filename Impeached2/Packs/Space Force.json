@@ -694,7 +694,7 @@
           "deathFlags": null
         },
         {
-          "reaction": "Request help from other countries to remove space junk",
+          "reaction": "Demand help from other countries to remove space junk",
           "passLaw": false,
           "partisan": 0.5,
           "demAligned": 0.2,
@@ -702,11 +702,11 @@
           "effect": {
             "turnDelay": 0,
             "repeatEffect": 0,
-            "budget": -500,
+            "budget": -400,
             "economy": 0,
             "taxRate": 0.0,
             "popular": 0,
-            "foreign": 0,
+            "foreign": -0.2,
             "incrimination": 0.0
           },
           "futureEffects": [],
@@ -836,5 +836,5 @@
   ],
   "title": "Space Force",
   "updateURL": "https://raw.githubusercontent.com/Sn0wCh1ld/Various-Files/master/Impeached2/Packs/Space%20Force.json",
-  "version": 7
+  "version": 8
 }

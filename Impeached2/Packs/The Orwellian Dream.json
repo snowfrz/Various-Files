@@ -384,7 +384,7 @@
         {
           "reaction": "Build advanced A.I. to predict crimes before they happen",
           "passLaw": false,
-          "partisan": 0,
+          "partisan": 0.5,
           "demAligned": -0.1,
           "repAligned": 0.2,
           "effect": {
@@ -393,7 +393,7 @@
             "budget": -600,
             "economy": 100,
             "taxRate": 0.0,
-            "popular": 0,
+            "popular": -0.05,
             "foreign": -0.2,
             "incrimination": 0.1
           },
@@ -658,7 +658,7 @@
             "economy": 100,
             "taxRate": 0.0,
             "popular": -0.1,
-            "foreign": -0.2,
+            "foreign": -0.3,
             "incrimination": 0
           },
           "futureEffects": [],
@@ -1090,5 +1090,5 @@
   ],
   "title": "The Orwellian Dream",
   "updateURL": "https://raw.githubusercontent.com/Sn0wCh1ld/Various-Files/master/Impeached2/Packs/The%20Orwellian%20Dream.json",
-  "version": 11
+  "version": 12
 }

@@ -84,9 +84,9 @@
         {
           "reaction": "Increase funding for police departments",
           "passLaw": false,
-          "partisan": 0,
+          "partisan": 0.7,
           "demAligned": 0.1,
-          "repAligned": 0.2,
+          "repAligned": 0.3,
           "effect": {
             "turnDelay": 0,
             "repeatEffect": 0,
@@ -2100,5 +2100,5 @@
   ],
   "title": "We The People",
   "updateURL": "https://raw.githubusercontent.com/Sn0wCh1ld/Various-Files/master/Impeached2/Packs/We%20The%20People.json",
-  "version": 16
+  "version": 17
 }
