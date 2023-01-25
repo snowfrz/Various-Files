@@ -284,7 +284,7 @@
         {
           "reaction": "Let the free market handle it",
           "passLaw": false,
-          "partisan": 0,
+          "partisan": 0.5,
           "demAligned": -0.3,
           "repAligned": -0.1,
           "effect": {
@@ -293,7 +293,7 @@
             "budget": 0,
             "economy": -400,
             "taxRate": 0.0,
-            "popular": -0.2,
+            "popular": -0.05,
             "foreign": 0,
             "incrimination": 0
           },

@@ -365,7 +365,7 @@
         {
           "reaction": "Increase funding for schools in affected areas",
           "passLaw": false,
-          "partisan": 0.0,
+          "partisan": 0.5,
           "demAligned": 0.2,
           "repAligned": -0.2,
           "effect": {
@@ -848,7 +848,7 @@
         {
           "reaction": "Allow private companies use sentient A.I. without restriction",
           "passLaw": false,
-          "partisan": 0.0,
+          "partisan": 0.5,
           "demAligned": -0.1,
           "repAligned": 0.3,
           "effect": {
