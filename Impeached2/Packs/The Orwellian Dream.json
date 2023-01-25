@@ -222,7 +222,7 @@
       ]
     },
     {
-      "action": "A secret government program has developed technology that can manipulate a person's behavior. How do you react?",
+      "action": "A secret government program has produced technology that can manipulate a person's behavior. How do you react?",
       "options": [
         {
           "reaction": "Implement the technology in high-crime areas",
@@ -731,7 +731,7 @@
           "passLaw": false,
           "partisan": 0.5,
           "demAligned": 0.3,
-          "repAligned": -0.1,
+          "repAligned": -0.2,
           "effect": {
             "turnDelay": 0,
             "repeatEffect": 0,
@@ -931,7 +931,7 @@
         {
           "reaction": "Reduce immigration",
           "passLaw": false,
-          "partisan": 0.0,
+          "partisan": 0.5,
           "demAligned": -0.2,
           "repAligned": 0.3,
           "effect": {
@@ -1090,5 +1090,5 @@
   ],
   "title": "The Orwellian Dream",
   "updateURL": "https://raw.githubusercontent.com/Sn0wCh1ld/Various-Files/master/Impeached2/Packs/The%20Orwellian%20Dream.json",
-  "version": 9
+  "version": 10
 }
