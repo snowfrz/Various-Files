@@ -3,7 +3,7 @@
   "author": "Impeached",
   "updateURL": "https://raw.githubusercontent.com/Sn0wCh1ld/Various-Files/master/Impeached2/Packs/Re-Elected.json",
   "iapId": null,
-  "version": 5,
+  "version": 6,
   "scenarios": [
     {
       "action": "A major hurricane hits a heavily populated area of the country. What do you do?",
@@ -625,9 +625,9 @@
         {
           "reaction": "Negotiate it heavily in your favor",
           "passLaw": true,
-          "partisan": 0.3,
+          "partisan": 0.5,
           "demAligned": -0.1,
-          "repAligned": 0.2,
+          "repAligned": 0.3,
           "effect": {
             "incrimination": 0,
             "budget": 0,
@@ -3328,15 +3328,15 @@
         {
           "reaction": "Tell them to leave it to private companies",
           "passLaw": false,
-          "partisan": 0.35,
+          "partisan": 0.5,
           "demAligned": -0.2,
-          "repAligned": 0.2,
+          "repAligned": 0.3,
           "effect": {
             "incrimination": 0,
             "budget": 0,
             "economy": 0,
             "taxRate": 0,
-            "popular": -0.1,
+            "popular": -0.05,
             "foreign": 0
           },
           "futureEffects": []
@@ -3507,7 +3507,7 @@
           "effect": {
             "incrimination": 0,
             "budget": -750,
-            "economy": 100,
+            "economy": 200,
             "taxRate": 0,
             "popular": 0,
             "foreign": -0.3
@@ -3539,7 +3539,7 @@
           "effect": {
             "incrimination": 0,
             "budget": -550,
-            "economy": 0,
+            "economy": 100,
             "taxRate": 0,
             "popular": 0.1,
             "foreign": -0.2
@@ -3555,7 +3555,7 @@
           "effect": {
             "incrimination": 0,
             "budget": -400,
-            "economy": 0,
+            "economy": 100,
             "taxRate": 0,
             "popular": -0.1,
             "foreign": -0.1
@@ -4988,7 +4988,7 @@
           "repAligned": -0.3,
           "effect": {
             "incrimination": 0.1,
-            "budget": 0,
+            "budget": 50,
             "economy": 0,
             "taxRate": 0,
             "popular": 0,
