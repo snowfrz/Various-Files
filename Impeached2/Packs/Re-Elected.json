@@ -3,7 +3,7 @@
   "author": "Impeached",
   "updateURL": "https://raw.githubusercontent.com/Sn0wCh1ld/Various-Files/master/Impeached2/Packs/Re-Elected.json",
   "iapId": null,
-  "version": 7,
+  "version": 8,
   "scenarios": [
     {
       "action": "A major hurricane hits a heavily populated area of the country. What do you do?",
@@ -4592,8 +4592,8 @@
           "repAligned": 0.3,
           "effect": {
             "incrimination": 0,
-            "budget": -700,
-            "economy": 100,
+            "budget": -600,
+            "economy": 150,
             "taxRate": 0,
             "popular": 0,
             "foreign": -0.3
@@ -4625,7 +4625,7 @@
           "effect": {
             "incrimination": 0,
             "budget": -800,
-            "economy": 0,
+            "economy": 150,
             "taxRate": 0,
             "popular": 0,
             "foreign": 0.1
@@ -4920,7 +4920,7 @@
           "effect": {
             "incrimination": 0,
             "budget": -800,
-            "economy": 0,
+            "economy": 100,
             "taxRate": 0,
             "popular": 0.2,
             "foreign": 0
@@ -4930,7 +4930,7 @@
       ]
     },
     {
-      "action": "Dangerous and illegal items, such as chocolate eggs with toys inside them, keep being smuggled into the U.S.. What do you do?",
+      "action": "Dangerous and illegal items, such as chocolate eggs with toys inside them, keep being smuggled into the U.S. What do you do?",
       "options": [
         {
           "reaction": "Improve luggage scanners",
