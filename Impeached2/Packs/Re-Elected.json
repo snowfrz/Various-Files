@@ -3,7 +3,7 @@
   "author": "Impeached",
   "updateURL": "https://raw.githubusercontent.com/Sn0wCh1ld/Various-Files/master/Impeached2/Packs/Re-Elected.json",
   "iapId": null,
-  "version": 8,
+  "version": 9,
   "scenarios": [
     {
       "action": "A major hurricane hits a heavily populated area of the country. What do you do?",
@@ -2623,13 +2623,13 @@
           "reaction": "Give them tax incentives to stay",
           "passLaw": false,
           "partisan": 0.5,
-          "demAligned": 0.1,
-          "repAligned": -0.2,
+          "demAligned": -0.2,
+          "repAligned": 0.1,
           "effect": {
             "incrimination": 0,
-            "budget": -500,
+            "budget": 0,
             "economy": 0,
-            "taxRate": -0.01,
+            "taxRate": -0.02,
             "popular": 0,
             "foreign": 0
           },
