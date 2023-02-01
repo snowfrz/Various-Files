@@ -786,7 +786,7 @@
             "turnDelay": 0,
             "repeatEffect": 0,
             "budget": 0,
-            "economy": 0,
+            "economy": 100,
             "taxRate": 0.0,
             "popular": -0.2,
             "foreign": 0.2,
