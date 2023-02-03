@@ -432,7 +432,7 @@
             "economy": 0,
             "taxRate": 0.0,
             "popular": -0.2,
-            "foreign": -0.1,
+            "foreign": 0,
             "incrimination": 0.0
           },
           "futureEffects": [],
@@ -453,6 +453,25 @@
             "popular": 0.1,
             "foreign": -0.2,
             "incrimination": 0.0
+          },
+          "futureEffects": [],
+          "deathFlags": null
+        },
+        {
+          "reaction": "Have the CIA fund the cartel to destabilize the region",
+          "passLaw": false,
+          "partisan": 0,
+          "demAligned": 0.2,
+          "repAligned": 0.3,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": -500,
+            "economy": 150,
+            "taxRate": 0.0,
+            "popular": 0,
+            "foreign": -0.3,
+            "incrimination": 0.2
           },
           "futureEffects": [],
           "deathFlags": null
@@ -2100,5 +2119,5 @@
   ],
   "title": "We The People",
   "updateURL": "https://raw.githubusercontent.com/Sn0wCh1ld/Various-Files/master/Impeached2/Packs/We%20The%20People.json",
-  "version": 20
+  "version": 21
 }
