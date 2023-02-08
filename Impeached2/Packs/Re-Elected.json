@@ -3,7 +3,7 @@
   "author": "Impeached",
   "updateURL": "https://raw.githubusercontent.com/Sn0wCh1ld/Various-Files/master/Impeached2/Packs/Re-Elected.json",
   "iapId": null,
-  "version": 11,
+  "version": 12,
   "scenarios": [
     {
       "action": "A major hurricane hits a heavily populated area of the country. What do you do?",
@@ -4089,6 +4089,22 @@
             "economy": 0,
             "taxRate": 0,
             "popular": -0.1,
+            "foreign": 0
+          },
+          "futureEffects": []
+        },
+        {
+          "reaction": "Offer to debate him on TV",
+          "passLaw": false,
+          "partisan": 0,
+          "demAligned": 0,
+          "repAligned": 0,
+          "effect": {
+            "incrimination": 0,
+            "budget": -200,
+            "economy": 0,
+            "taxRate": 0,
+            "popular": 0.1,
             "foreign": 0
           },
           "futureEffects": []

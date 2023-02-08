@@ -855,7 +855,7 @@
             "turnDelay": 0,
             "repeatEffect": 0,
             "budget": 0,
-            "economy": 100,
+            "economy": -50,
             "taxRate": 0.0,
             "popular": 0,
             "foreign": 0,
@@ -931,9 +931,9 @@
         {
           "reaction": "Invest in the economy and infrastructure",
           "passLaw": false,
-          "partisan": 0.5,
+          "partisan": 0,
           "demAligned": 0.2,
-          "repAligned": -0.3,
+          "repAligned": 0.1,
           "effect": {
             "turnDelay": 0,
             "repeatEffect": 0,
@@ -1109,5 +1109,5 @@
   ],
   "title": "The Orwellian Dream",
   "updateURL": "https://raw.githubusercontent.com/Sn0wCh1ld/Various-Files/master/Impeached2/Packs/The%20Orwellian%20Dream.json",
-  "version": 17
+  "version": 18
 }
