@@ -3,7 +3,7 @@
   "author": "Impeached",
   "updateURL": "https://raw.githubusercontent.com/Sn0wCh1ld/Various-Files/master/Impeached2/Packs/Re-Elected.json",
   "iapId": null,
-  "version": 10,
+  "version": 11,
   "scenarios": [
     {
       "action": "A major hurricane hits a heavily populated area of the country. What do you do?",
@@ -6307,6 +6307,208 @@
           "partisan": 0,
           "demAligned": -0.1,
           "repAligned": -0.1,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 0,
+            "economy": 0,
+            "taxRate": 0.0,
+            "popular": -0.1,
+            "foreign": 0,
+            "incrimination": 0
+          },
+          "futureEffects": [],
+          "deathFlags": null
+        }
+      ]
+    },
+    {
+      "action": "A nuclear power facility is reaching the end of its lifespan, but shutting it down would increase electricity prices nationwide. What do you do?",
+      "options": [
+        {
+          "reaction": "Renovate it to extend its lifespan",
+          "passLaw": false,
+          "partisan": 0.5,
+          "demAligned": 0.2,
+          "repAligned": -0.2,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": -400,
+            "economy": 0,
+            "taxRate": 0.0,
+            "popular": 0.05,
+            "foreign": 0,
+            "incrimination": 0
+          },
+          "futureEffects": [],
+          "deathFlags": null
+        },
+        {
+          "reaction": "Shut it down and replace it with coal plants",
+          "passLaw": false,
+          "partisan": 0.5,
+          "demAligned": -0.2,
+          "repAligned": 0.3,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": -500,
+            "economy": 100,
+            "taxRate": 0,
+            "popular": 0,
+            "foreign": 0,
+            "incrimination": 0
+          },
+          "futureEffects": [],
+          "deathFlags": null
+        },
+        {
+          "reaction": "Shut it down safely",
+          "passLaw": false,
+          "partisan": 0.5,
+          "demAligned": -0.2,
+          "repAligned": 0.2,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 0,
+            "economy": -150,
+            "taxRate": 0,
+            "popular": 0.05,
+            "foreign": 0.0,
+            "incrimination": 0
+          },
+          "futureEffects": [],
+          "deathFlags": null
+        },
+        {
+          "reaction": "Hide any danger from the public",
+          "passLaw": false,
+          "partisan": 0,
+          "demAligned": -0.2,
+          "repAligned": -0.2,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 0,
+            "economy": 0,
+            "taxRate": 0.0,
+            "popular": 0,
+            "foreign": 0,
+            "incrimination": 0.25
+          },
+          "futureEffects": [],
+          "deathFlags": {
+            "selfNuked": true
+          }
+        },
+        {
+          "reaction": "Attempt to replace it with a wind farm",
+          "passLaw": false,
+          "partisan": 0.5,
+          "demAligned": 0.2,
+          "repAligned": -0.2,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": -300,
+            "economy": -75,
+            "taxRate": 0.0,
+            "popular": 0,
+            "foreign": 0,
+            "incrimination": 0
+          },
+          "futureEffects": [],
+          "deathFlags": null
+        }
+      ]
+    },
+    {
+      "action": "A surveillance balloon belonging to an enemy country has been spotted flying above the U.S. What do you do?",
+      "options": [
+        {
+          "reaction": "Shoot it down and recover it",
+          "passLaw": false,
+          "partisan": 0,
+          "demAligned": 0.1,
+          "repAligned": 0.2,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": -250,
+            "economy": 0,
+            "taxRate": 0.0,
+            "popular": 0.1,
+            "foreign": -0.15,
+            "incrimination": 0
+          },
+          "futureEffects": [],
+          "deathFlags": null
+        },
+        {
+          "reaction": "Jam its signal and collect intelligence from it",
+          "passLaw": false,
+          "partisan": 0.5,
+          "demAligned": 0.2,
+          "repAligned": 0,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": -300,
+            "economy": 0,
+            "taxRate": 0,
+            "popular": 0.05,
+            "foreign": -0.1,
+            "incrimination": 0
+          },
+          "futureEffects": [],
+          "deathFlags": null
+        },
+        {
+          "reaction": "Keep it secret from the public",
+          "passLaw": false,
+          "partisan": 0,
+          "demAligned": -0.1,
+          "repAligned": -0.1,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 0,
+            "economy": 0,
+            "taxRate": 0,
+            "popular": 0,
+            "foreign": 0.0,
+            "incrimination": 0.1
+          },
+          "futureEffects": [],
+          "deathFlags": null
+        },
+        {
+          "reaction": "Launch a counter-espionage operation",
+          "passLaw": false,
+          "partisan": 0,
+          "demAligned": 0.1,
+          "repAligned": 0.1,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": -400,
+            "economy": 0,
+            "taxRate": 0.0,
+            "popular": 0.1,
+            "foreign": -0.2,
+            "incrimination": 0
+          },
+          "futureEffects": [],
+          "deathFlags": null
+        },
+        {
+          "reaction": "Have a meeting with the leader of that country",
+          "passLaw": false,
+          "partisan": 0,
+          "demAligned": -0.1,
+          "repAligned": -0.2,
           "effect": {
             "turnDelay": 0,
             "repeatEffect": 0,
