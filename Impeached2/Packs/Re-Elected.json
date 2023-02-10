@@ -3,7 +3,7 @@
   "author": "Impeached",
   "updateURL": "https://raw.githubusercontent.com/Sn0wCh1ld/Various-Files/master/Impeached2/Packs/Re-Elected.json",
   "iapId": null,
-  "version": 12,
+  "version": 13,
   "scenarios": [
     {
       "action": "A major hurricane hits a heavily populated area of the country. What do you do?",
@@ -561,7 +561,7 @@
           "repAligned": 0.3,
           "effect": {
             "incrimination": 0,
-            "budget": -400,
+            "budget": 0,
             "economy": 100,
             "taxRate": -0.02,
             "popular": 0.1,
@@ -577,10 +577,10 @@
           "repAligned": -0.2,
           "effect": {
             "incrimination": 0,
-            "budget": -700,
+            "budget": 0,
             "economy": 0,
-            "taxRate": -0.15,
-            "popular": 0.2,
+            "taxRate": -0.1,
+            "popular": 0.3,
             "foreign": 0
           },
           "futureEffects": []
@@ -3427,7 +3427,10 @@
             "popular": -0.2,
             "foreign": 0.2
           },
-          "futureEffects": []
+          "futureEffects": [],
+          "deathFlags": {
+            "ambushed": true
+          }
         },
         {
           "reaction": "Trick them into a deal that favors you",
@@ -3921,7 +3924,10 @@
             "popular": -0.3,
             "foreign": -0.3
           },
-          "futureEffects": []
+          "futureEffects": [],
+          "deathFlags": {
+            "revolution": true
+          }
         },
         {
           "reaction": "Refuse, the current system is fine",
