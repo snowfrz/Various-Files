@@ -3,7 +3,7 @@
   "author": "Impeached",
   "updateURL": "https://raw.githubusercontent.com/Sn0wCh1ld/Various-Files/master/Impeached2/Packs/Re-Elected.json",
   "iapId": null,
-  "version": 13,
+  "version": 14,
   "scenarios": [
     {
       "action": "A major hurricane hits a heavily populated area of the country. What do you do?",
@@ -3653,7 +3653,10 @@
             "popular": -0.3,
             "foreign": -0.2
           },
-          "futureEffects": []
+          "futureEffects": [],
+          "deathFlags": {
+            "revolution": true
+          }
         },
         {
           "reaction": "Find a lawyer",
