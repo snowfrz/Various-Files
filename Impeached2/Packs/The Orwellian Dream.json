@@ -3,7 +3,7 @@
   "iapId": "deck_dystopian",
   "scenarios": [
     {
-      "action": "The U.S. is facing is a major food shortage. The population is starving and riots are beginning to break out. What do you do?",
+      "action": "The U.S. is facing a major food shortage. The population is starving and riots are beginning to break out. What do you do?",
       "options": [
         {
           "reaction": "Implement a strict rationing system",
@@ -1111,5 +1111,5 @@
   ],
   "title": "The Orwellian Dream",
   "updateURL": "https://raw.githubusercontent.com/Sn0wCh1ld/Various-Files/master/Impeached2/Packs/The%20Orwellian%20Dream.json",
-  "version": 19
+  "version": 20
 }
