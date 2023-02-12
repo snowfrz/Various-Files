@@ -757,7 +757,7 @@
         },
         {
           "reaction": "Offer condolences to the affected families but otherwise do nothing",
-          "passLaw": true,
+          "passLaw": false,
           "partisan": 0,
           "demAligned": 0.1,
           "repAligned": 0.1,
@@ -836,5 +836,5 @@
   ],
   "title": "Space Force",
   "updateURL": "https://raw.githubusercontent.com/Sn0wCh1ld/Various-Files/master/Impeached2/Packs/Space%20Force.json",
-  "version": 8
+  "version": 9
 }
