@@ -1240,7 +1240,7 @@
             "turnDelay": 0,
             "repeatEffect": 0,
             "budget": 0,
-            "economy": -200,
+            "economy": -300,
             "taxRate": 0.03,
             "popular": -0.3,
             "foreign": 0,
@@ -1530,5 +1530,5 @@
   ],
   "title": "The Orwellian Dream",
   "updateURL": "https://raw.githubusercontent.com/Sn0wCh1ld/Various-Files/master/Impeached2/Packs/The%20Orwellian%20Dream.json",
-  "version": 21
+  "version": 22
 }
