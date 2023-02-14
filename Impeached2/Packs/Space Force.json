@@ -698,7 +698,7 @@
           "passLaw": false,
           "partisan": 0.5,
           "demAligned": 0.2,
-          "repAligned": -0.1,
+          "repAligned": 0,
           "effect": {
             "turnDelay": 0,
             "repeatEffect": 0,
@@ -836,5 +836,5 @@
   ],
   "title": "Space Force",
   "updateURL": "https://raw.githubusercontent.com/Sn0wCh1ld/Various-Files/master/Impeached2/Packs/Space%20Force.json",
-  "version": 9
+  "version": 10
 }

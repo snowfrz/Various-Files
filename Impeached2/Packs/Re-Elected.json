@@ -3,7 +3,7 @@
   "author": "Impeached",
   "updateURL": "https://raw.githubusercontent.com/Sn0wCh1ld/Various-Files/master/Impeached2/Packs/Re-Elected.json",
   "iapId": null,
-  "version": 16,
+  "version": 17,
   "scenarios": [
     {
       "action": "A major hurricane hits a heavily populated area of the country. What do you do?",
@@ -5475,15 +5475,15 @@
         {
           "reaction": "Keep allowing unpaid internships",
           "passLaw": false,
-          "partisan": 0,
-          "demAligned": 0.1,
-          "repAligned": 0.1,
+          "partisan": 0.5,
+          "demAligned": 0,
+          "repAligned": 0.2,
           "effect": {
             "incrimination": 0,
             "budget": 0,
             "economy": 0,
             "taxRate": 0,
-            "popular": -0.1,
+            "popular": -0.05,
             "foreign": 0
           },
           "futureEffects": []

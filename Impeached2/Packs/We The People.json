@@ -452,7 +452,7 @@
             "taxRate": 0.0,
             "popular": 0.1,
             "foreign": -0.2,
-            "incrimination": 0.0
+            "incrimination": 0.1
           },
           "futureEffects": [],
           "deathFlags": null
@@ -1584,7 +1584,7 @@
             "economy": -150,
             "taxRate": 0.0,
             "popular": -0.2,
-            "foreign": 0,
+            "foreign": 0.2,
             "incrimination": 0
           },
           "futureEffects": [],
@@ -2119,5 +2119,5 @@
   ],
   "title": "We The People",
   "updateURL": "https://raw.githubusercontent.com/Sn0wCh1ld/Various-Files/master/Impeached2/Packs/We%20The%20People.json",
-  "version": 22
+  "version": 23
 }
