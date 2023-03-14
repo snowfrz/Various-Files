@@ -223,7 +223,9 @@
           },
           "futureEffects": [],
           "deathFlags": {
-            "asteroid": true
+            "flags": {
+              "asteroid": true
+            }
           }
         },
         {
@@ -834,7 +836,18 @@
       ]
     }
   ],
+  "endings": [
+    {
+      "title": "Apocalypse",
+      "description": "As you were being removed from office, the asteroid you previously ignored unexpectedly collided with the Earth. Well, unexpectedly to you anyway. Humanity is finished.",
+      "imageName": "Apocalypse",
+      "priority": 3,
+      "flagConditions": {
+        "asteroid": true
+      }
+    }
+  ],
   "title": "Space Force",
   "updateURL": "https://raw.githubusercontent.com/Sn0wCh1ld/Various-Files/master/Impeached2/Packs/Space%20Force.json",
-  "version": 10
+  "version": 11
 }

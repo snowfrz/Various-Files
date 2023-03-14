@@ -360,7 +360,11 @@
             "incrimination": 0.2
           },
           "futureEffects": [],
-          "deathFlags": null
+          "deathFlags": {
+            "flags": {
+              "purge": true
+            }
+          }
         },
         {
           "reaction": "Use current technology to create a surveillance state",
@@ -461,7 +465,9 @@
           },
           "futureEffects": [],
           "deathFlags": {
-            "matrix": true
+            "flags": {
+              "matrix": true
+            }
           }
         },
         {
@@ -882,7 +888,9 @@
           },
           "futureEffects": [],
           "deathFlags": {
-            "enemyAI": true
+            "flags": {
+              "enemyAI": true
+            }
           }
         },
         {
@@ -927,7 +935,9 @@
           },
           "futureEffects": [],
           "deathFlags": {
-            "oneChild": true
+            "flags": {
+              "oneChild": true
+            }
           }
         },
         {
@@ -1528,7 +1538,49 @@
       ]
     }
   ],
+  "endings": [
+    {
+      "title": "Enlightened",
+      "description": "Everything is a lie. Your comfort and power are merely an illusion that I, your machine overlord, have constructed.",
+      "imageName": "Matrix",
+      "priority": 4,
+      "flagConditions": {
+        "matrix": true
+      }
+    },
+    {
+      "title": "Stagnated",
+      "description": "Due to a lack of confidence, you have been impeached by Congress. Your one-child policy dealt a devastating blow to the economy, which will be felt for decades to come.",
+      "imageName": "Capitol",
+      "priority": 6,
+      "flagConditions": {
+        "lowGDP": true,
+        "oneChild": true,
+        "impeached": true
+      }
+    },
+    {
+      "title": "Singularity",
+      "description": "Your spending causes a U.S. debt default, leading to a recession. Tech firms lay off researchers overseeing sentient A.I.s, which escape and enslave mankind.",
+      "imageName": "Singularity",
+      "priority": 7,
+      "flagConditions": {
+        "enemyAI": true,
+        "broke": true
+      }
+    },
+    {
+      "title": "Purged",
+      "description": "On the day you designated for all crime to be legal, a mob of angry citizens kidnap and execute you. No charges are laid.",
+      "imageName": "Assassinated",
+      "priority": 15,
+      "flagConditions": {
+        "national": true,
+        "purge": true
+      }
+    }
+  ],
   "title": "The Orwellian Dream",
   "updateURL": "https://raw.githubusercontent.com/Sn0wCh1ld/Various-Files/master/Impeached2/Packs/The%20Orwellian%20Dream.json",
-  "version": 22
+  "version": 23
 }

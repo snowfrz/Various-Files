@@ -3,7 +3,7 @@
   "author": "Impeached",
   "updateURL": "https://raw.githubusercontent.com/Sn0wCh1ld/Various-Files/master/Impeached2/Packs/Re-Elected.json",
   "iapId": null,
-  "version": 17,
+  "version": 18,
   "scenarios": [
     {
       "action": "A major hurricane hits a heavily populated area of the country. What do you do?",
@@ -306,7 +306,9 @@
           },
           "futureEffects": [],
           "deathFlags": {
-            "resigned": true
+            "flags": {
+              "resigned": true
+            }
           }
         }
       ]
@@ -3405,7 +3407,9 @@
           },
           "futureEffects": [],
           "deathFlags": {
-            "mars": true
+            "flags": {
+              "mars": true
+            }
           }
         }
       ]
@@ -3429,7 +3433,9 @@
           },
           "futureEffects": [],
           "deathFlags": {
-            "gaveSecrets": true
+            "flags": {
+              "gaveSecrets": true
+            }
           }
         },
         {
@@ -3655,7 +3661,9 @@
           },
           "futureEffects": [],
           "deathFlags": {
-            "revolution": true
+            "flags": {
+              "revolution": true
+            }
           }
         },
         {
@@ -3929,7 +3937,9 @@
           },
           "futureEffects": [],
           "deathFlags": {
-            "revolution": true
+            "flags": {
+              "revolution": true
+            }
           }
         },
         {
@@ -4484,7 +4494,9 @@
           },
           "futureEffects": [],
           "deathFlags": {
-            "died": true
+            "flags": {
+              "died": true
+            }
           }
         },
         {
@@ -4811,7 +4823,9 @@
           },
           "futureEffects": [],
           "deathFlags": {
-            "nuked": true
+            "flags": {
+              "nuked": true
+            }
           }
         }
       ]
@@ -6425,7 +6439,9 @@
           },
           "futureEffects": [],
           "deathFlags": {
-            "selfNuked": true
+            "flags": {
+              "selfNuked": true
+            }
           }
         },
         {
@@ -6548,6 +6564,87 @@
           "deathFlags": null
         }
       ]
+    }
+  ],
+  "endings": [
+    {
+      "title": "Elon Musk",
+      "description": "You made it to Mars, but there's not enough fuel for a return trip. You are remembered as the only U.S. President to flee the Earth.",
+      "imageName": "Mars",
+      "priority": 2,
+      "flagConditions": {
+        "mars": true
+      }
+    },
+    {
+      "title": "Anarchy",
+      "description": "Without income, the government could no longer fund itself and shut down, creating a perfect storm for pirates to remotely terrorize the skies with drones.",
+      "imageName": "Anarchy",
+      "priority": 8,
+      "flagConditions": {
+        "noTax": true,
+        "broke": true
+      }
+    },
+    {
+      "title": "Communism",
+      "description": "You have achieved true communism, comrade. There can be no inequality if everyone is poor (except you, of course).",
+      "imageName": "Communism",
+      "priority": 9,
+      "flagConditions": {
+        "highTax": true,
+        "lowGDP": true
+      }
+    },
+    {
+      "title": "McCarthyism",
+      "description": "Political donors on both sides are upset by your extreme tax policies, and run ads labelling you a \"communist\". Reputation ruined, you resign due to embarrassment.",
+      "imageName": "Protest",
+      "priority": 10,
+      "flagConditions": {
+        "highTax": true,
+        "national": true
+      }
+    },
+    {
+      "title": "Nuked",
+      "description": "You allowed a small enemy nation to develop nuclear weapons. Unexpectedly, they attack Washington, D.C., killing you. You are remembered as an American martyr.",
+      "imageName": "Nuked",
+      "priority": 11,
+      "flagConditions": {
+        "global": true,
+        "nuked": true
+      }
+    },
+    {
+      "title": "Betrayed",
+      "description": "You shared national secrets with another country, who sold them to your enemies. Be careful who you trust.",
+      "imageName": "Invaded",
+      "priority": 12,
+      "flagConditions": {
+        "global": true,
+        "gaveSecrets": true
+      }
+    },
+    {
+      "title": "Revolution",
+      "description": "Mass protests break out to oppose your oppressive policies. The military sides with the people, leaving you no choice but to leave office.",
+      "imageName": "Protest",
+      "priority": 13,
+      "flagConditions": {
+        "national": true,
+        "revolution": true
+      }
+    },
+    {
+      "title": "Meltdown",
+      "description": "A nuclear power station has a system failure, causing a meltdown. The area is radioactive for 10,000 years, but your neglect is remembered forever.",
+      "imageName": "Nuked",
+      "priority": 14,
+      "flagConditions": {
+        "broke": true,
+        "selfNuked": true
+      }
     }
   ]
 }
