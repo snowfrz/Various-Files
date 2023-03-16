@@ -3,7 +3,7 @@
   "author": "Impeached",
   "updateURL": "https://raw.githubusercontent.com/Sn0wCh1ld/Various-Files/master/Impeached2/Packs/Re-Elected.json",
   "iapId": null,
-  "version": 19,
+  "version": 20,
   "scenarios": [
     {
       "action": "A major hurricane hits a heavily populated area of the country. What do you do?",
@@ -6633,6 +6633,17 @@
       "priority": 13,
       "flagConditions": {
         "national": true,
+        "revolution": true
+      }
+    },
+    {
+      "title": "Dictatorship",
+      "description": "Faced with removal from office, you declare martial law, suspend the Constitution and name yourself Supreme Leader of the United States. Your reign of terror begins.",
+      "imageName": "Capitol",
+      "priority": 13.5,
+      "flagConditions": {
+        "national": false,
+        "global": false,
         "revolution": true
       }
     },
