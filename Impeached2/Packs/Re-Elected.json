@@ -3,7 +3,7 @@
   "author": "Impeached",
   "updateURL": "https://raw.githubusercontent.com/Sn0wCh1ld/Various-Files/master/Impeached2/Packs/Re-Elected.json",
   "iapId": null,
-  "version": 21,
+  "version": 22,
   "scenarios": [
     {
       "action": "A major hurricane hits a heavily populated area of the country. What do you do?",
@@ -6579,6 +6579,17 @@
       "priority": 2,
       "flagConditions": {
         "mars": true
+      }
+    },
+    {
+      "title": "The American Dream",
+      "description": "Due to corruption, you are \"asked\" to resign. However, your actions have (miraculously) turbocharged the economy and your libertarian legacy will never be forgotten.",
+      "imageName": "Capitol",
+      "priority": 7.5,
+      "flagConditions": {
+        "noTax": true,
+        "broke": false,
+        "lowGDP": false
       }
     },
     {
