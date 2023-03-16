@@ -407,7 +407,11 @@
             "incrimination": 0.0
           },
           "futureEffects": [],
-          "deathFlags": null
+          "deathFlags": {
+            "flags": {
+              "aliens": true
+            }
+          }
         }
       ]
     },
@@ -845,10 +849,21 @@
       "flagConditions": {
         "asteroid": true
       }
+    },
+    {
+      "title": "Abducted",
+      "description": "Your signal was heard by nearby aliens, who abduct you to be Earth's galactic representative. However, they let Jerry drive so you never make it to the Mothership. America is confused.",
+      "imageName": "Aliens",
+      "priority": 5,
+      "flagConditions": {
+        "aliens": true,
+        "global": false,
+        "national": false
+      }
     }
   ],
   "endingImageLocation": "https://raw.githubusercontent.com/Sn0wCh1ld/Various-Files/master/Impeached2/Packs/Endings/",
   "title": "Space Force",
   "updateURL": "https://raw.githubusercontent.com/Sn0wCh1ld/Various-Files/master/Impeached2/Packs/Space%20Force.json",
-  "version": 12
+  "version": 13
 }
