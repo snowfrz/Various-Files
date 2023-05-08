@@ -3234,8 +3234,8 @@
           "repAligned": 0.2,
           "effect": {
             "incrimination": 0,
-            "budget": -400,
-            "economy": 100,
+            "budget": 0,
+            "economy": 200,
             "taxRate": -0.02,
             "popular": 0.15,
             "foreign": 0
