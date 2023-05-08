@@ -620,7 +620,7 @@
           "deathFlags": null
         },
         {
-          "reaction": "Implement tolls on the freeways to fund renovations",
+          "reaction": "Implement tolls on the freeways to offset renovation costs",
           "passLaw": true,
           "partisan": 0,
           "demAligned": -0.1,
@@ -628,8 +628,8 @@
           "effect": {
             "turnDelay": 0,
             "repeatEffect": 0,
-            "budget": -650,
-            "economy": 100,
+            "budget": -450,
+            "economy": 0,
             "taxRate": 0.0,
             "popular": -0.2,
             "foreign": 0.0,
@@ -647,8 +647,8 @@
           "effect": {
             "turnDelay": 0,
             "repeatEffect": 0,
-            "budget": -300,
-            "economy": 100,
+            "budget": 300,
+            "economy": 150,
             "taxRate": 0.0,
             "popular": 0,
             "foreign": 0,
@@ -667,7 +667,7 @@
             "turnDelay": 0,
             "repeatEffect": 0,
             "budget": -750,
-            "economy": 150,
+            "economy": 200,
             "taxRate": 0.0,
             "popular": 0,
             "foreign": 0,
@@ -2119,5 +2119,5 @@
   ],
   "title": "We The People",
   "updateURL": "https://raw.githubusercontent.com/Sn0wCh1ld/Various-Files/master/Impeached2/Packs/We%20The%20People.json",
-  "version": 23
+  "version": 24
 }

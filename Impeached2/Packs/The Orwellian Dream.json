@@ -1119,7 +1119,7 @@
       ]
     },
     {
-      "action": "Your administration is accused of committing human rights violation at the Guantanamo Bay detention camp. What do you do?",
+      "action": "Your administration is accused of committing human rights violations at the Guantanamo Bay detention camp. What do you do?",
       "options": [
         {
           "reaction": "Deny the accusations and suppress any evidence",
@@ -1583,5 +1583,5 @@
   "endingImageLocation": "https://raw.githubusercontent.com/Sn0wCh1ld/Various-Files/master/Impeached2/Packs/Endings/",
   "title": "The Orwellian Dream",
   "updateURL": "https://raw.githubusercontent.com/Sn0wCh1ld/Various-Files/master/Impeached2/Packs/The%20Orwellian%20Dream.json",
-  "version": 24
+  "version": 25
 }
