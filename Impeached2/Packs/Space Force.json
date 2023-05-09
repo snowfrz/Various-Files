@@ -583,7 +583,7 @@
         {
           "reaction": "Allow unrestricted space mining for all countries",
           "passLaw": false,
-          "partisan": 0,
+          "partisan": 0.4,
           "demAligned": -0.1,
           "repAligned": 0.2,
           "effect": {
@@ -602,7 +602,7 @@
         {
           "reaction": "Focus on protecting other worlds from human activity",
           "passLaw": false,
-          "partisan": 0,
+          "partisan": 0.4,
           "demAligned": -0.1,
           "repAligned": -0.3,
           "effect": {
@@ -621,7 +621,7 @@
         {
           "reaction": "Only the U.S. can access these resources",
           "passLaw": false,
-          "partisan": 0.0,
+          "partisan": 0.4,
           "demAligned": -0.1,
           "repAligned": 0.2,
           "effect": {
@@ -640,7 +640,7 @@
         {
           "reaction": "Jointly fund exploration then evenly share resources",
           "passLaw": false,
-          "partisan": 0,
+          "partisan": 0.3,
           "demAligned": 0,
           "repAligned": -0.2,
           "effect": {
@@ -865,5 +865,5 @@
   "endingImageLocation": "https://raw.githubusercontent.com/Sn0wCh1ld/Various-Files/master/Impeached2/Packs/Endings/",
   "title": "Space Force",
   "updateURL": "https://raw.githubusercontent.com/Sn0wCh1ld/Various-Files/master/Impeached2/Packs/Space%20Force.json",
-  "version": 15
+  "version": 16
 }
