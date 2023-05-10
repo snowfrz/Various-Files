@@ -1,0 +1,212 @@
+{
+  "author": "Impeached 2",
+  "iapId": "deck_economy",
+  "scenarios": [
+    {
+      "action": "Corporate profits continue to rise, while wages remain stagnant. Major unions are threatening to go on strike. What do you do?",
+      "options": [
+        {
+          "reaction": "Repeal anti-scabbing laws to allow companies to hire replacement workers",
+          "passLaw": true,
+          "partisan": 0.5,
+          "demAligned": -0.3,
+          "repAligned": 0,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 0,
+            "economy": 100,
+            "taxRate": 0.0,
+            "popular": 0,
+            "foreign": 0,
+            "incrimination": 0.0
+          },
+          "futureEffects": [],
+          "deathFlags": null
+        },
+        {
+          "reaction": "Offer tax incentives for companies who pay workers more instead of buying back their own stock",
+          "passLaw": false,
+          "partisan": 0.6,
+          "demAligned": 0.2,
+          "repAligned": -0.3,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 0,
+            "economy": 0,
+            "taxRate": -0.01,
+            "popular": 0.05,
+            "foreign": 0,
+            "incrimination": 0.0
+          },
+          "futureEffects": [],
+          "deathFlags": null
+        },
+        {
+          "reaction": "Raise the corporate tax rate",
+          "passLaw": true,
+          "partisan": 0.6,
+          "demAligned": 0.2,
+          "repAligned": -0.3,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 0,
+            "economy": -200,
+            "taxRate": 0.03,
+            "popular": 0.05,
+            "foreign": 0,
+            "incrimination": 0.0
+          },
+          "futureEffects": [],
+          "deathFlags": null
+        },
+        {
+          "reaction": "Negotiate with the union and corporations to find a compromise",
+          "passLaw": false,
+          "partisan": 0.6,
+          "demAligned": 0.2,
+          "repAligned": -0.2,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 0,
+            "economy": -100,
+            "taxRate": 0.01,
+            "popular": 0.05,
+            "foreign": 0,
+            "incrimination": 0
+          },
+          "futureEffects": [],
+          "deathFlags": null
+        },
+        {
+          "reaction": "Refuse to intervene",
+          "passLaw": false,
+          "partisan": 0,
+          "demAligned": 0,
+          "repAligned": 0.2,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 0,
+            "economy": -100,
+            "taxRate": 0.0,
+            "popular": 0,
+            "foreign": 0,
+            "incrimination": 0
+          },
+          "futureEffects": [],
+          "deathFlags": null
+        }
+      ]
+    },
+    {
+      "action": "After an economic downturn, many Americans are worried about their retirement savings. What do you do?",
+      "options": [
+        {
+          "reaction": "Raise taxes on the wealthy to fund social security",
+          "passLaw": true,
+          "partisan": 0.6,
+          "demAligned": 0.2,
+          "repAligned": -0.3,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 0,
+            "economy": -150,
+            "taxRate": 0.02,
+            "popular": 0.05,
+            "foreign": 0,
+            "incrimination": 0.0
+          },
+          "futureEffects": [],
+          "deathFlags": null
+        },
+        {
+          "reaction": "Require employers to match their employees' 401k contributions",
+          "passLaw": false,
+          "partisan": 0.6,
+          "demAligned": 0.2,
+          "repAligned": -0.2,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 0,
+            "economy": -100,
+            "taxRate": 0,
+            "popular": 0,
+            "foreign": 0,
+            "incrimination": 0.0
+          },
+          "futureEffects": [],
+          "deathFlags": null
+        },
+        {
+          "reaction": "Contribute to everyone's retirement savings using taxpayer money",
+          "passLaw": true,
+          "partisan": 0.6,
+          "demAligned": 0.2,
+          "repAligned": -0.3,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": -650,
+            "economy": 0,
+            "taxRate": 0,
+            "popular": 0.05,
+            "foreign": 0,
+            "incrimination": 0.0
+          },
+          "futureEffects": [],
+          "deathFlags": null
+        },
+        {
+          "reaction": "Tell them to just retire later",
+          "passLaw": false,
+          "partisan": 0.6,
+          "demAligned": -0.3,
+          "repAligned": -0.1,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 0,
+            "economy": 0,
+            "taxRate": 0,
+            "popular": 0,
+            "foreign": 0,
+            "incrimination": 0
+          },
+          "futureEffects": [],
+          "deathFlags": null
+        },
+        {
+          "reaction": "Encourage foreign investment to boost the economy",
+          "passLaw": false,
+          "partisan": 0.5,
+          "demAligned": -0.1,
+          "repAligned": -0.3,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 0,
+            "economy": -100,
+            "taxRate": 0.0,
+            "popular": 0.05,
+            "foreign": 0.2,
+            "incrimination": 0
+          },
+          "futureEffects": [],
+          "deathFlags": null
+        }
+      ]
+    }
+  ],
+  "endings": [
+  ],
+  "endingImageLocation": "https://raw.githubusercontent.com/Sn0wCh1ld/Various-Files/master/Impeached2/Packs/Endings/",
+  "title": "The Free Market",
+  "updateURL": "https://raw.githubusercontent.com/Sn0wCh1ld/Various-Files/master/Impeached2/Packs/The%20Free%20Market.json",
+  "version": 1
+}
