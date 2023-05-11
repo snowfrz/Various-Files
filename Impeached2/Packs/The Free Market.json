@@ -588,7 +588,7 @@
             "repeatEffect": 0,
             "budget": 0,
             "economy": -50,
-            "taxRate": 0.3,
+            "taxRate": 0.03,
             "popular": 0,
             "foreign": 0,
             "incrimination": 0.0
@@ -635,6 +635,297 @@
           "deathFlags": null
         }
       ]
+    },
+    {
+      "action": "The country is facing a severe housing shortage and prices are rising rapidly. What do you do?",
+      "options": [
+        {
+          "reaction": "Increase funding for affordable housing programs",
+          "passLaw": false,
+          "partisan": 0.5,
+          "demAligned": 0.2,
+          "repAligned": -0.2,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": -600,
+            "economy": 0,
+            "taxRate": 0,
+            "popular": 0,
+            "foreign": 0,
+            "incrimination": 0.0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        },
+        {
+          "reaction": "Increase taxes on vacant land and second homes",
+          "passLaw": false,
+          "partisan": 0.7,
+          "demAligned": 0.2,
+          "repAligned": -0.3,
+          "effect": {
+            "incrimination": 0,
+            "budget": 0,
+            "economy": 100,
+            "taxRate": 0.03,
+            "popular": 0,
+            "foreign": 0
+          },
+          "futureEffects": []
+        },
+        {
+          "reaction": "Give tax breaks to landowners who improve their properties",
+          "passLaw": false,
+          "partisan": 0.7,
+          "demAligned": -0.2,
+          "repAligned": 0.3,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 0,
+            "economy": 150,
+            "taxRate": -0.02,
+            "popular": 0,
+            "foreign": 0,
+            "incrimination": 0.0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        },
+        {
+          "reaction": "Implement rent control policies",
+          "passLaw": true,
+          "partisan": 0.7,
+          "demAligned": 0.2,
+          "repAligned": -0.3,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 0,
+            "economy": -100,
+            "taxRate": 0,
+            "popular": 0.05,
+            "foreign": 0.0,
+            "incrimination": 0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        },
+        {
+          "reaction": "Let the free market do its thing",
+          "passLaw": false,
+          "partisan": 0.5,
+          "demAligned": -0.3,
+          "repAligned": 0.3,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 0,
+            "economy": 200,
+            "taxRate": 0,
+            "popular": -0.1,
+            "foreign": 0.0,
+            "incrimination": 0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        },
+        {
+          "reaction": "Ban foreign investors from buying multiple properties",
+          "passLaw": true,
+          "partisan": 0.5,
+          "demAligned": -0.1,
+          "repAligned": 0.2,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 0,
+            "economy": 0,
+            "taxRate": 0,
+            "popular": 0.05,
+            "foreign": -0.2,
+            "incrimination": 0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        }
+      ]
+    },
+    {
+      "action": "A trillion-dollar corporation is threatening to leave the country due to high taxes. How do you respond?",
+      "options": [
+        {
+          "reaction": "Offer them a special tax deal to get them to stay",
+          "passLaw": false,
+          "partisan": 0.5,
+          "demAligned": -0.2,
+          "repAligned": 0.1,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": -600,
+            "economy": 0,
+            "taxRate": -0.01,
+            "popular": 0,
+            "foreign": 0,
+            "incrimination": 0.2
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        },
+        {
+          "reaction": "Tax their assets as they leave",
+          "passLaw": false,
+          "partisan": 0.5,
+          "demAligned": 0.3,
+          "repAligned": -0.2,
+          "effect": {
+            "incrimination": 0,
+            "budget": 300,
+            "economy": -50,
+            "taxRate": 0,
+            "popular": 0,
+            "foreign": 0
+          },
+          "futureEffects": []
+        },
+        {
+          "reaction": "Reduce the corporate tax rate for all companies",
+          "passLaw": false,
+          "partisan": 0.7,
+          "demAligned": -0.3,
+          "repAligned": 0.3,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 0,
+            "economy": 150,
+            "taxRate": -0.03,
+            "popular": 0,
+            "foreign": 0,
+            "incrimination": 0.0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        },
+        {
+          "reaction": "Ban companies from leaving America",
+          "passLaw": true,
+          "partisan": 0,
+          "demAligned": -0.2,
+          "repAligned": -0.2,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 0,
+            "economy": 0,
+            "taxRate": 0,
+            "popular": 0.1,
+            "foreign": -0.1,
+            "incrimination": 0.2
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        },
+        {
+          "reaction": "Implement more tax loopholes for corporations",
+          "passLaw": true,
+          "partisan": 0.5,
+          "demAligned": -0.3,
+          "repAligned": 0.2,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 0,
+            "economy": 100,
+            "taxRate": -0.01,
+            "popular": -0.1,
+            "foreign": 0.0,
+            "incrimination": 0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        }
+      ]
+    },
+    {
+      "action": "Your political donors are complaining about the estate tax, a tax paid mostly by the rich when they die. What do you do?",
+      "options": [
+        {
+          "reaction": "Abolish the death tax",
+          "passLaw": true,
+          "partisan": 0.5,
+          "demAligned": -0.2,
+          "repAligned": 0.3,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 0,
+            "economy": 0,
+            "taxRate": -0.01,
+            "popular": 0,
+            "foreign": 0,
+            "incrimination": 0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        },
+        {
+          "reaction": "Increase the estate tax rate",
+          "passLaw": false,
+          "partisan": 0.5,
+          "demAligned": 0.3,
+          "repAligned": -0.2,
+          "effect": {
+            "incrimination": 0,
+            "budget": 300,
+            "economy": 0,
+            "taxRate": 0.01,
+            "popular": 0,
+            "foreign": 0
+          },
+          "futureEffects": []
+        },
+        {
+          "reaction": "Replace the estate tax with increased income taxes for everyone",
+          "passLaw": false,
+          "partisan": 0,
+          "demAligned": -0.3,
+          "repAligned": -0.2,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 0,
+            "economy": 0,
+            "taxRate": 0,
+            "popular": -0.2,
+            "foreign": 0,
+            "incrimination": 0.0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        },
+        {
+          "reaction": "Ignore your political donors and do nothing",
+          "passLaw": true,
+          "partisan": 0,
+          "demAligned": 0.1,
+          "repAligned": -0.1,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 0,
+            "economy": 0,
+            "taxRate": 0,
+            "popular": 0.1,
+            "foreign": 0,
+            "incrimination": 0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        }
+      ]
     }
   ],
   "endings": [
@@ -642,5 +933,5 @@
   "endingImageLocation": "https://raw.githubusercontent.com/Sn0wCh1ld/Various-Files/master/Impeached2/Packs/Endings/",
   "title": "The Free Market",
   "updateURL": "https://raw.githubusercontent.com/Sn0wCh1ld/Various-Files/master/Impeached2/Packs/The%20Free%20Market.json",
-  "version": 4
+  "version": 5
 }
