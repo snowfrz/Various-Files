@@ -382,6 +382,84 @@
           "deathFlags": null
         }
       ]
+    },
+    {
+      "action": "Government officials are making a lot of money in the stock market and are facing accusations of insider trading. What do you do?",
+      "options": [
+        {
+          "reaction": "Prohibit government officials from trading stocks",
+          "passLaw": true,
+          "partisan": 0,
+          "demAligned": -0.2,
+          "repAligned": -0.2,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 0,
+            "economy": 0,
+            "taxRate": 0.0,
+            "popular": 0.2,
+            "foreign": 0,
+            "incrimination": 0.0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        },
+        {
+          "reaction": "Legalize insider trading for everyone",
+          "passLaw": true,
+          "partisan": 0,
+          "demAligned": -0.2,
+          "repAligned": -0.2,
+          "effect": {
+            "incrimination": 0.2,
+            "budget": 200,
+            "economy": -200,
+            "taxRate": 0,
+            "popular": -0.3,
+            "foreign": -0.15
+          },
+          "futureEffects": []
+        },
+        {
+          "reaction": "Create a public investment fund that matches politicians' stock picks",
+          "passLaw": false,
+          "partisan": 0.0,
+          "demAligned": 0,
+          "repAligned": 0,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": -400,
+            "economy": 100,
+            "taxRate": 0.0,
+            "popular": 0,
+            "foreign": 0,
+            "incrimination": 0.0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        },
+        {
+          "reaction": "Implement a special tax on politicians' capital gains",
+          "passLaw": false,
+          "partisan": 0.0,
+          "demAligned": -0.2,
+          "repAligned": -0.2,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 0,
+            "economy": 100,
+            "taxRate": 0.02,
+            "popular": 0,
+            "foreign": 0.0,
+            "incrimination": 0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        }
+      ]
     }
   ],
   "endings": [
@@ -389,5 +467,5 @@
   "endingImageLocation": "https://raw.githubusercontent.com/Sn0wCh1ld/Various-Files/master/Impeached2/Packs/Endings/",
   "title": "The Free Market",
   "updateURL": "https://raw.githubusercontent.com/Sn0wCh1ld/Various-Files/master/Impeached2/Packs/The%20Free%20Market.json",
-  "version": 2
+  "version": 3
 }
