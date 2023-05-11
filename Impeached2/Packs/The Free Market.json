@@ -460,6 +460,181 @@
           "deathFlags": null
         }
       ]
+    },
+    {
+      "action": "Lottery winners are complaining about the heavy taxes they must pay on their winnings. What do you do?",
+      "options": [
+        {
+          "reaction": "Abolish taxes on lottery winnings",
+          "passLaw": true,
+          "partisan": 0.5,
+          "demAligned": -0.2,
+          "repAligned": 0.1,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 0,
+            "economy": 0,
+            "taxRate": -0.02,
+            "popular": 0.1,
+            "foreign": 0,
+            "incrimination": 0.0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        },
+        {
+          "reaction": "Set a 90% tax rate on lottery winnings",
+          "passLaw": true,
+          "partisan": 0.5,
+          "demAligned": 0.1,
+          "repAligned": -0.2,
+          "effect": {
+            "incrimination": 0,
+            "budget": 200,
+            "economy": 0,
+            "taxRate": 0.01,
+            "popular": -0.1,
+            "foreign": 0
+          },
+          "futureEffects": []
+        },
+        {
+          "reaction": "Dismiss the issue as unimportant",
+          "passLaw": false,
+          "partisan": 0.0,
+          "demAligned": 0.1,
+          "repAligned": 0.1,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 0,
+            "economy": 0,
+            "taxRate": 0.0,
+            "popular": -0.1,
+            "foreign": 0,
+            "incrimination": 0.0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        },
+        {
+          "reaction": "Tax lottery winnings like regular income",
+          "passLaw": false,
+          "partisan": 0.0,
+          "demAligned": 0,
+          "repAligned": 0.1,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 0,
+            "economy": 0,
+            "taxRate": -0.01,
+            "popular": 0.05,
+            "foreign": 0.0,
+            "incrimination": 0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        }
+      ]
+    },
+    {
+      "action": "Working parents are demanding support from the federal government. What do you do?",
+      "options": [
+        {
+          "reaction": "Make employers provide paid parental leave",
+          "passLaw": true,
+          "partisan": 0.5,
+          "demAligned": 0.2,
+          "repAligned": -0.2,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 0,
+            "economy": -100,
+            "taxRate": 0,
+            "popular": 0.1,
+            "foreign": 0,
+            "incrimination": 0.0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        },
+        {
+          "reaction": "Increase the existing per-child tax credit",
+          "passLaw": false,
+          "partisan": 0.5,
+          "demAligned": 0.2,
+          "repAligned": -0.2,
+          "effect": {
+            "incrimination": 0,
+            "budget": 0,
+            "economy": 100,
+            "taxRate": -0.02,
+            "popular": -0.1,
+            "foreign": 0
+          },
+          "futureEffects": []
+        },
+        {
+          "reaction": "Tax the rich to pay for new childcare subsidies",
+          "passLaw": false,
+          "partisan": 0.7,
+          "demAligned": 0.2,
+          "repAligned": -0.3,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 0,
+            "economy": -50,
+            "taxRate": 0.3,
+            "popular": 0,
+            "foreign": 0,
+            "incrimination": 0.0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        },
+        {
+          "reaction": "Offer free daycare through public schools for all children",
+          "passLaw": true,
+          "partisan": 0.5,
+          "demAligned": 0.2,
+          "repAligned": -0.2,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": -700,
+            "economy": 50,
+            "taxRate": 0,
+            "popular": 0.05,
+            "foreign": 0.0,
+            "incrimination": 0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        },
+        {
+          "reaction": "The current system is fine",
+          "passLaw": false,
+          "partisan": 0.5,
+          "demAligned": -0.1,
+          "repAligned": 0.3,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 0,
+            "economy": 0,
+            "taxRate": 0,
+            "popular": -0.05,
+            "foreign": 0.0,
+            "incrimination": 0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        }
+      ]
     }
   ],
   "endings": [
@@ -467,5 +642,5 @@
   "endingImageLocation": "https://raw.githubusercontent.com/Sn0wCh1ld/Various-Files/master/Impeached2/Packs/Endings/",
   "title": "The Free Market",
   "updateURL": "https://raw.githubusercontent.com/Sn0wCh1ld/Various-Files/master/Impeached2/Packs/The%20Free%20Market.json",
-  "version": 3
+  "version": 4
 }
