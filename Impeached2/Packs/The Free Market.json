@@ -201,6 +201,187 @@
           "deathFlags": null
         }
       ]
+    },
+    {
+      "action": "A major tech company wants to acquire a smaller competitor. What do you do?",
+      "options": [
+        {
+          "reaction": "Show your support for the acquisition",
+          "passLaw": false,
+          "partisan": 0.6,
+          "demAligned": -0.2,
+          "repAligned": 0.2,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 0,
+            "economy": 150,
+            "taxRate": 0.0,
+            "popular": 0.0,
+            "foreign": 0.0,
+            "incrimination": 0.0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        },
+        {
+          "reaction": "Instruct the FTC to block the acquisition",
+          "passLaw": false,
+          "partisan": 0.6,
+          "demAligned": 0.2,
+          "repAligned": -0.3,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 0,
+            "economy": -150,
+            "taxRate": 0.0,
+            "popular": 0.0,
+            "foreign": 0.0,
+            "incrimination": 0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        },
+        {
+          "reaction": "Refuse to comment and let the FTC do their job",
+          "passLaw": false,
+          "partisan": 0.0,
+          "demAligned": 0.1,
+          "repAligned": 0.1,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 0,
+            "economy": 0,
+            "taxRate": 0.0,
+            "popular": -0.1,
+            "foreign": 0.0,
+            "incrimination": 0.0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        },
+        {
+          "reaction": "Buy shares in the parent company and push the FTC to allow it",
+          "passLaw": false,
+          "partisan": 0.0,
+          "demAligned": -0.1,
+          "repAligned": -0.1,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 250,
+            "economy": 150,
+            "taxRate": 0.0,
+            "popular": -0.2,
+            "foreign": 0.0,
+            "incrimination": 0.2
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        },
+        {
+          "reaction": "Make anti-trust laws more strict",
+          "passLaw": true,
+          "partisan": 0.6,
+          "demAligned": 0.2,
+          "repAligned": -0.1,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 0,
+            "economy": -100,
+            "taxRate": 0.0,
+            "popular": 0,
+            "foreign": 0.0,
+            "incrimination": 0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        }
+      ]
+    },
+    {
+      "action": "A trade agreement with Canada and Mexico is up for renewal. What do you do?",
+      "options": [
+        {
+          "reaction": "Negotiate a better deal for the U.S.",
+          "passLaw": false,
+          "partisan": 0.5,
+          "demAligned": 0.1,
+          "repAligned": 0.3,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": -300,
+            "economy": 150,
+            "taxRate": 0.0,
+            "popular": 0.1,
+            "foreign": -0.1,
+            "incrimination": 0.0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        },
+        {
+          "reaction": "Cancel the agreement and impose tariffs on Canada and Mexico",
+          "passLaw": false,
+          "partisan": 0,
+          "demAligned": -0.2,
+          "repAligned": -0.1,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 0,
+            "economy": -100,
+            "taxRate": 0.02,
+            "popular": -0.1,
+            "foreign": -0.2,
+            "incrimination": 0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        },
+        {
+          "reaction": "Extend the agreement as is",
+          "passLaw": false,
+          "partisan": 0.0,
+          "demAligned": 0.1,
+          "repAligned": 0.1,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 0,
+            "economy": 50,
+            "taxRate": 0.0,
+            "popular": 0,
+            "foreign": 0.1,
+            "incrimination": 0.0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        },
+        {
+          "reaction": "Expand the agreement to cover more products",
+          "passLaw": false,
+          "partisan": 0.0,
+          "demAligned": 0.1,
+          "repAligned": -0.1,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": -300,
+            "economy": 100,
+            "taxRate": 0.0,
+            "popular": 0,
+            "foreign": 0.0,
+            "incrimination": 0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        }
+      ]
     }
   ],
   "endings": [
@@ -208,5 +389,5 @@
   "endingImageLocation": "https://raw.githubusercontent.com/Sn0wCh1ld/Various-Files/master/Impeached2/Packs/Endings/",
   "title": "The Free Market",
   "updateURL": "https://raw.githubusercontent.com/Sn0wCh1ld/Various-Files/master/Impeached2/Packs/The%20Free%20Market.json",
-  "version": 1
+  "version": 2
 }
