@@ -25,7 +25,7 @@
           "deathFlags": null
         },
         {
-          "reaction": "Offer tax incentives for companies who pay workers more instead of buying back their own stock",
+          "reaction": "Offer tax incentives for companies who invest in workers instead of stock buybacks",
           "passLaw": false,
           "partisan": 0.6,
           "demAligned": 0.2,
@@ -933,5 +933,5 @@
   "endingImageLocation": "https://raw.githubusercontent.com/Sn0wCh1ld/Various-Files/master/Impeached2/Packs/Endings/",
   "title": "The Free Market",
   "updateURL": "https://raw.githubusercontent.com/Sn0wCh1ld/Various-Files/master/Impeached2/Packs/The%20Free%20Market.json",
-  "version": 5
+  "version": 6
 }
