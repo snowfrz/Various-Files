@@ -1,10 +1,10 @@
 [
   {
-    "productName":"Impeached: Be The President",
-    "iconLink": "https://is5-ssl.mzstatic.com/image/thumb/Purple113/v4/18/01/56/18015685-0af3-528e-92ca-69e69e147cbb/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-85-220.png/460x0w.png",
-    "description": "In a surprise victory, you have been elected President. Now, it is up to you to push your morals and values upon hundreds of millions of people. What will be the fate of the United States of America?\n\nCreate laws, grant and revoke freedoms, commit crimes, and yell at your enemies on Twitter. Oh yeah, and play lots of golf, because what else could a President have to do?\n\nHow long can you stay in power?",
-    "buttonText" : "Download Now",
-    "bundleID": "com.lbastudios.Impeached",
-    "productLink": "https://apps.apple.com/us/app/impeached-be-the-president/id1289067948"
+    "productName":"Impeached 2",
+    "iconLink": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/b0/c2/ce/b0c2ce03-73da-a55b-ac8d-709b45a52903/AppIcon-1x_U007emarketing-0-7-0-85-220.png/460x0w.png",
+    "description": "In a(nother) surprise victory, you have been elected President of the United States. You now wield the power to push your morals and values upon hundreds of millions of people. Will you be a benevolent leader or a ruthless dictator?\n\nMake laws, fight wars, commit crimes and change the world, all on the taxpayer's dime! Who could ask for anything more?\n\nHow long can you stay in power?",
+    "buttonText" : "Play Now",
+    "bundleID": "com.lbastudios.Impeached2",
+    "productLink": "https://apps.apple.com/us/app/impeached-2/id1663664237"
   }
 ]
