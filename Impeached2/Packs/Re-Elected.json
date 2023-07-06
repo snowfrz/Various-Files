@@ -3,7 +3,7 @@
   "author": "Impeached",
   "updateURL": "https://raw.githubusercontent.com/Sn0wCh1ld/Various-Files/master/Impeached2/Packs/Re-Elected.json",
   "iapId": null,
-  "version": 27,
+  "version": 28,
   "scenarios": [
     {
       "action": "A major hurricane hits a heavily populated area of the country. What do you do?",
@@ -6583,6 +6583,110 @@
             "popular": -0.1,
             "foreign": 0,
             "incrimination": 0
+          },
+          "futureEffects": [],
+          "deathFlags": null
+        }
+      ]
+    },
+    {
+      "action": "Illegal drugs are found laying around the White House, probably left by one of your family members. What do you do?",
+      "options": [
+        {
+          "reaction": "Legalize medical cocaine",
+          "passLaw": true,
+          "partisan": 0.8,
+          "demAligned": 0.1,
+          "repAligned": -0.2,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 0,
+            "economy": 50,
+            "taxRate": 0.0,
+            "popular": 0,
+            "foreign": 0,
+            "incrimination": 0
+          },
+          "futureEffects": [],
+          "deathFlags": null
+        },
+        {
+          "reaction": "Have the drugs destroyed and keep it secret from the public",
+          "passLaw": false,
+          "partisan": 0,
+          "demAligned": 0.2,
+          "repAligned": -0.2,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": -400,
+            "economy": 0,
+            "taxRate": 0,
+            "popular": 0,
+            "foreign": 0,
+            "incrimination": 0.2
+          },
+          "futureEffects": [],
+          "deathFlags": null
+        },
+        {
+          "reaction": "Take a sniff while nobody's watching",
+          "passLaw": false,
+          "partisan": 0,
+          "demAligned": -0.1,
+          "repAligned": -0.1,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 0,
+            "economy": 0,
+            "taxRate": 0,
+            "popular": 0,
+            "foreign": 0,
+            "incrimination": 0.1
+          },
+          "futureEffects": [],
+          "deathFlags": {
+            "flags": {
+              "died": true
+            }
+          }
+        },
+        {
+          "reaction": "Investigate and prosecute the culprit",
+          "passLaw": false,
+          "partisan": 0.5,
+          "demAligned": 0.1,
+          "repAligned": 0.2,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": -500,
+            "economy": 0,
+            "taxRate": 0.0,
+            "popular": 0,
+            "foreign": 0,
+            "incrimination": 0
+          },
+          "futureEffects": [],
+          "deathFlags": null
+        },
+        {
+          "reaction": "Blame the CIA",
+          "passLaw": false,
+          "partisan": 0,
+          "demAligned": -0.2,
+          "repAligned": -0.2,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 0,
+            "economy": 0,
+            "taxRate": 0.0,
+            "popular": -0.2,
+            "foreign": 0,
+            "incrimination": 0.1
           },
           "futureEffects": [],
           "deathFlags": null
