@@ -332,9 +332,78 @@
           "futureEffects": []
         }
       ]
+    },
+    {
+      "action": "How red should the sky be?",
+      "options": [
+        {
+          "reaction": "Blue",
+          "passLaw": false,
+          "partisan": 0,
+          "demAligned": 0,
+          "repAligned": 0,
+          "effect": {
+            "incrimination": -1,
+            "budget": 0,
+            "economy": 0,
+            "taxRate": 0,
+            "popular": 0,
+            "foreign": 0
+          },
+          "futureEffects": []
+        },
+        {
+          "reaction": "A little redder",
+          "passLaw": false,
+          "partisan": 0,
+          "demAligned": 0,
+          "repAligned": 0,
+          "effect": {
+            "incrimination": 0.2,
+            "budget": 0,
+            "economy": 0,
+            "taxRate": 0,
+            "popular": 0,
+            "foreign": 0
+          },
+          "futureEffects": []
+        },
+        {
+          "reaction": "A lot redder",
+          "passLaw": false,
+          "partisan": 0,
+          "demAligned": 0,
+          "repAligned": 0,
+          "effect": {
+            "incrimination": 0.5,
+            "budget": -500,
+            "economy": 0,
+            "taxRate": 0,
+            "popular": -0.2,
+            "foreign": 0
+          },
+          "futureEffects": []
+        },
+        {
+          "reaction": "Max red",
+          "passLaw": false,
+          "partisan": 0,
+          "demAligned": 0,
+          "repAligned": 0,
+          "effect": {
+            "incrimination": 1,
+            "budget": 0,
+            "economy": 0,
+            "taxRate": 0,
+            "popular": 0,
+            "foreign": 0
+          },
+          "futureEffects": []
+        }
+      ]
     }
   ],
   "title": "Ad Pack",
   "updateURL": "https://raw.githubusercontent.com/Sn0wCh1ld/Various-Files/master/Impeached2/Packs/Ad%20Pack.json",
-  "version": 1
+  "version": 2
 }
