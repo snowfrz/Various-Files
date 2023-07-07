@@ -1,0 +1,340 @@
+{
+  "author": "Justin Proulx",
+  "iapId": null,
+  "scenarios": [
+    {
+      "action": "A trade agreement with Canada and Mexico is up for renewal. What do you do?",
+      "options": [
+        {
+          "reaction": "Negotiate a better deal for the U.S.",
+          "passLaw": false,
+          "partisan": 0.5,
+          "demAligned": 0.1,
+          "repAligned": 0.3,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": -300,
+            "economy": 150,
+            "taxRate": 0.0,
+            "popular": 0.1,
+            "foreign": -0.1,
+            "incrimination": 0.0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        },
+        {
+          "reaction": "Cancel the agreement and impose tariffs on Canada and Mexico",
+          "passLaw": false,
+          "partisan": 0,
+          "demAligned": -0.2,
+          "repAligned": -0.1,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 0,
+            "economy": -100,
+            "taxRate": 0.02,
+            "popular": -0.1,
+            "foreign": -0.2,
+            "incrimination": 0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        },
+        {
+          "reaction": "Extend the agreement as is",
+          "passLaw": false,
+          "partisan": 0.0,
+          "demAligned": 0.1,
+          "repAligned": 0.1,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 0,
+            "economy": 50,
+            "taxRate": 0.0,
+            "popular": 0,
+            "foreign": 0.1,
+            "incrimination": 0.0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        },
+        {
+          "reaction": "Expand the agreement to cover more products",
+          "passLaw": false,
+          "partisan": 0.0,
+          "demAligned": 0.1,
+          "repAligned": -0.1,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": -300,
+            "economy": 100,
+            "taxRate": 0.0,
+            "popular": 0,
+            "foreign": 0.0,
+            "incrimination": 0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        }
+      ]
+    },
+    {
+      "action": "Big Tech is being investigated for alleged anticompetitive practices. What do you do?",
+      "options": [
+        {
+          "reaction": "Implement GDPR-style regulations on data protection",
+          "passLaw": true,
+          "partisan": 0,
+          "demAligned": 0.1,
+          "repAligned": 0.1,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 0,
+            "economy": -100,
+            "taxRate": 0.0,
+            "popular": 0.1,
+            "foreign": 0,
+            "incrimination": 0
+          },
+          "futureEffects": [],
+          "deathFlags": null
+        },
+        {
+          "reaction": "Offer tax incentives to smaller tech companies",
+          "passLaw": false,
+          "partisan": 0.5,
+          "demAligned": -0.2,
+          "repAligned": 0.3,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 0,
+            "economy": 100,
+            "taxRate": -0.01,
+            "popular": 0,
+            "foreign": 0,
+            "incrimination": 0
+          },
+          "futureEffects": [],
+          "deathFlags": null
+        },
+        {
+          "reaction": "Cancel the investigation at the request of tech lobbyists",
+          "passLaw": false,
+          "partisan": 0,
+          "demAligned": -0.2,
+          "repAligned": -0.2,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 100,
+            "economy": 100,
+            "taxRate": 0,
+            "popular": -0.1,
+            "foreign": 0,
+            "incrimination": 0.2
+          },
+          "futureEffects": [],
+          "deathFlags": null
+        },
+        {
+          "reaction": "Implement stricter acquisition regulations",
+          "passLaw": true,
+          "partisan": 0.5,
+          "demAligned": 0.2,
+          "repAligned": -0.2,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 0,
+            "economy": -100,
+            "taxRate": 0,
+            "popular": 0,
+            "foreign": 0,
+            "incrimination": 0
+          },
+          "futureEffects": [],
+          "deathFlags": null
+        }
+      ]
+    },
+    {
+      "action": "The Interstate Highway System is in dire need of major structural renovations to ensure safety and reliability. What do you do?",
+      "options": [
+        {
+          "reaction": "Increase funding for regular maintenance and repairs",
+          "passLaw": false,
+          "partisan": 0,
+          "demAligned": 0.1,
+          "repAligned": 0,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": -500,
+            "economy": -50,
+            "taxRate": 0.0,
+            "popular": 0.1,
+            "foreign": 0,
+            "incrimination": 0.0
+          },
+          "futureEffects": [],
+          "deathFlags": null
+        },
+        {
+          "reaction": "Raise taxes to fund major renovations",
+          "passLaw": false,
+          "partisan": 0.6,
+          "demAligned": 0.3,
+          "repAligned": -0.3,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": -650,
+            "economy": 0,
+            "taxRate": 0.02,
+            "popular": -0.05,
+            "foreign": 0,
+            "incrimination": 0
+          },
+          "futureEffects": [],
+          "deathFlags": null
+        },
+        {
+          "reaction": "Implement tolls on the freeways to offset renovation costs",
+          "passLaw": true,
+          "partisan": 0,
+          "demAligned": -0.1,
+          "repAligned": 0.2,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": -450,
+            "economy": 0,
+            "taxRate": 0.0,
+            "popular": -0.2,
+            "foreign": 0.0,
+            "incrimination": 0.1
+          },
+          "futureEffects": [],
+          "deathFlags": null
+        },
+        {
+          "reaction": "Privatize the freeway system",
+          "passLaw": true,
+          "partisan": 0.5,
+          "demAligned": -0.3,
+          "repAligned": 0.1,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 300,
+            "economy": 150,
+            "taxRate": 0.0,
+            "popular": 0,
+            "foreign": 0,
+            "incrimination": 0
+          },
+          "futureEffects": [],
+          "deathFlags": null
+        },
+        {
+          "reaction": "Invest in new technology to make the system more efficient",
+          "passLaw": false,
+          "partisan": 0,
+          "demAligned": 0.3,
+          "repAligned": -0.1,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": -750,
+            "economy": 200,
+            "taxRate": 0.0,
+            "popular": 0,
+            "foreign": 0,
+            "incrimination": 0.0
+          },
+          "futureEffects": [],
+          "deathFlags": null
+        }
+      ]
+    },
+    {
+      "action": "One of your drone strikes in an enemy country kills an American citizen. What do you do?",
+      "options": [
+        {
+          "reaction": "Blame the enemy country",
+          "passLaw": false,
+          "partisan": 0,
+          "demAligned": -0.1,
+          "repAligned": -0.2,
+          "effect": {
+            "incrimination": 0,
+            "budget": 0,
+            "economy": 0,
+            "taxRate": 0,
+            "popular": 0.1,
+            "foreign": -0.3
+          },
+          "futureEffects": []
+        },
+        {
+          "reaction": "Deny the existence of a drone strike program",
+          "passLaw": false,
+          "partisan": 0,
+          "demAligned": -0.1,
+          "repAligned": -0.1,
+          "effect": {
+            "incrimination": 0,
+            "budget": 0,
+            "economy": 0,
+            "taxRate": 0,
+            "popular": -0.2,
+            "foreign": -0.2
+          },
+          "futureEffects": []
+        },
+        {
+          "reaction": "Compensate the family of the victim",
+          "passLaw": false,
+          "partisan": 0,
+          "demAligned": -0.1,
+          "repAligned": -0.1,
+          "effect": {
+            "incrimination": 0,
+            "budget": -500,
+            "economy": 0,
+            "taxRate": 0,
+            "popular": -0.2,
+            "foreign": 0
+          },
+          "futureEffects": []
+        },
+        {
+          "reaction": "Cover it up",
+          "passLaw": false,
+          "partisan": 0,
+          "demAligned": -0.2,
+          "repAligned": -0.2,
+          "effect": {
+            "incrimination": 0.2,
+            "budget": -400,
+            "economy": 0,
+            "taxRate": 0,
+            "popular": 0,
+            "foreign": 0
+          },
+          "futureEffects": []
+        }
+      ]
+    }
+  ],
+  "title": "Ad Pack",
+  "updateURL": "https://raw.githubusercontent.com/Sn0wCh1ld/Various-Files/master/Impeached2/Packs/Ad%20Pack.json",
+  "version": 1
+}
