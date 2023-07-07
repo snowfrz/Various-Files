@@ -376,10 +376,10 @@
           "repAligned": 0,
           "effect": {
             "incrimination": 0.5,
-            "budget": -500,
+            "budget": 0,
             "economy": 0,
             "taxRate": 0,
-            "popular": -0.2,
+            "popular": 0,
             "foreign": 0
           },
           "futureEffects": []
@@ -405,5 +405,5 @@
   ],
   "title": "Ad Pack",
   "updateURL": "https://raw.githubusercontent.com/Sn0wCh1ld/Various-Files/master/Impeached2/Packs/Ad%20Pack.json",
-  "version": 2
+  "version": 3
 }
