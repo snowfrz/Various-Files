@@ -84,8 +84,8 @@
         {
           "reaction": "Refuse to intervene",
           "passLaw": false,
-          "partisan": 0,
-          "demAligned": 0,
+          "partisan": 0.5,
+          "demAligned": -0.2,
           "repAligned": 0.2,
           "effect": {
             "turnDelay": 0,
@@ -933,5 +933,5 @@
   "endingImageLocation": "https://raw.githubusercontent.com/Sn0wCh1ld/Various-Files/master/Impeached2/Packs/Endings/",
   "title": "The Free Market",
   "updateURL": "https://raw.githubusercontent.com/Sn0wCh1ld/Various-Files/master/Impeached2/Packs/The%20Free%20Market.json",
-  "version": 6
+  "version": 7
 }
