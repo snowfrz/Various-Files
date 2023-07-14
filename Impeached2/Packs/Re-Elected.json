@@ -3,7 +3,7 @@
   "author": "Impeached",
   "updateURL": "https://raw.githubusercontent.com/Sn0wCh1ld/Various-Files/master/Impeached2/Packs/Re-Elected.json",
   "iapId": null,
-  "version": 28,
+  "version": 29,
   "scenarios": [
     {
       "action": "A major hurricane hits a heavily populated area of the country. What do you do?",
@@ -3575,6 +3575,27 @@
             "foreign": -0.1
           },
           "futureEffects": []
+        },
+        {
+          "reaction": "Ask for support from your allies",
+          "passLaw": false,
+          "partisan": 0,
+          "demAligned": 0.1,
+          "repAligned": 0.1,
+          "effect": {
+            "incrimination": 0,
+            "budget": 0,
+            "economy": 0,
+            "taxRate": 0,
+            "popular": 0.1,
+            "foreign": -0.1
+          },
+          "futureEffects": [],
+          "deathFlags": {
+            "flags": {
+              "worldwar": true
+            }
+          }
         }
       ]
     },
@@ -4477,6 +4498,27 @@
             "foreign": -0.3
           },
           "futureEffects": []
+        },
+        {
+          "reaction": "Convince NATO to intervene",
+          "passLaw": false,
+          "partisan": 0.8,
+          "demAligned": 0.3,
+          "repAligned": -0.3,
+          "effect": {
+            "incrimination": 0.1,
+            "budget": -450,
+            "economy": 200,
+            "taxRate": 0,
+            "popular": 0,
+            "foreign": -0.3
+          },
+          "futureEffects": [],
+          "deathFlags": {
+            "flags": {
+              "worldwar": true
+            }
+          }
         }
       ]
     },
@@ -6744,6 +6786,16 @@
       "flagConditions": {
         "highTax": true,
         "national": true
+      }
+    },
+    {
+      "title": "World War III",
+      "description": "One of your wars has escalated into a nuclear conflict involving all world powers, and humanity is destroyed. You are the last U.S. President.",
+      "imageName": "Nuked",
+      "priority": 10.5,
+      "flagConditions": {
+        "global": true,
+        "worldwar": true
       }
     },
     {
