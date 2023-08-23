@@ -3,7 +3,7 @@
   "author": "Impeached",
   "updateURL": "https://raw.githubusercontent.com/Sn0wCh1ld/Various-Files/master/Impeached2/Packs/Re-Elected.json",
   "iapId": null,
-  "version": 32,
+  "version": 33,
   "scenarios": [
     {
       "action": "A major hurricane hits a heavily populated area of the country. What do you do?",
@@ -5775,7 +5775,7 @@
       ]
     },
     {
-      "action": "A large pharmaceutical company increases the price of a very important medication by 50x. The public is outraged. What do you do?",
+      "action": "A pharmaceutical company increases the price of a very important medication by 50x. The public is outraged. What do you do?",
       "options": [
         {
           "reaction": "Nothing. They own the drug, so they can",
