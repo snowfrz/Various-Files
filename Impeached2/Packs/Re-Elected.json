@@ -5775,7 +5775,7 @@
       ]
     },
     {
-      "action": "A pharmaceutical company increases the price of a very important medication by 50x. The public is outraged. What do you do?",
+      "action": "A pharmaceutical company increases the price of a rare medication by 50x. The public is outraged. What do you do?",
       "options": [
         {
           "reaction": "Nothing. They own the drug, so they can",
@@ -5858,7 +5858,7 @@
           "futureEffects": []
         },
         {
-          "reaction": "Nothing, they help fund your government",
+          "reaction": "Nothing, if they give you a cut",
           "passLaw": false,
           "partisan": 0,
           "demAligned": -0.2,
@@ -5870,6 +5870,22 @@
             "taxRate": 0,
             "popular": -0.2,
             "foreign": -0.1
+          },
+          "futureEffects": []
+        },
+        {
+          "reaction": "Require insurance companies to pay the new price",
+          "passLaw": true,
+          "partisan": 0,
+          "demAligned": 0.1,
+          "repAligned": 0,
+          "effect": {
+            "incrimination": 0,
+            "budget": 0,
+            "economy": -50,
+            "taxRate": 0,
+            "popular": 0.2,
+            "foreign": 0
           },
           "futureEffects": []
         }
