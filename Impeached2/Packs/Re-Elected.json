@@ -6809,14 +6809,10 @@
             "incrimination": 0.1
           },
           "futureEffects": [],
-          "deathFlags": {
-            "flags": {
-              "died": true
-            }
-          }
+          "deathFlags": null
         },
         {
-          "reaction": "Evacuate the area where it might crash and compensate victims for any property damage",
+          "reaction": "Evacuate the potential crash area and pay for any property damage",
           "passLaw": false,
           "partisan": 0,
           "demAligned": 0.1,
@@ -6878,7 +6874,7 @@
           "deathFlags": null
         },
         {
-          "reaction": "Enact building and crowd management laws for stadiums to prevent future accidents",
+          "reaction": "Enact federal building and crowd management laws for stadiums",
           "passLaw": true,
           "partisan": 0.7,
           "demAligned": 0.2,
@@ -6913,11 +6909,7 @@
             "incrimination": 0
           },
           "futureEffects": [],
-          "deathFlags": {
-            "flags": {
-              "died": true
-            }
-          }
+          "deathFlags": null
         },
         {
           "reaction": "Investigate the organizers of the event for negligence",
