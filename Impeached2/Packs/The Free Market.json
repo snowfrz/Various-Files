@@ -873,7 +873,7 @@
         },
         {
           "reaction": "Increase the estate tax rate",
-          "passLaw": false,
+          "passLaw": true,
           "partisan": 0.5,
           "demAligned": 0.3,
           "repAligned": -0.2,
@@ -889,7 +889,7 @@
         },
         {
           "reaction": "Replace the estate tax with increased income taxes for everyone",
-          "passLaw": false,
+          "passLaw": true,
           "partisan": 0,
           "demAligned": -0.3,
           "repAligned": -0.2,
@@ -908,7 +908,7 @@
         },
         {
           "reaction": "Ignore your political donors and do nothing",
-          "passLaw": true,
+          "passLaw": false,
           "partisan": 0,
           "demAligned": 0.1,
           "repAligned": -0.1,
@@ -933,5 +933,5 @@
   "endingImageLocation": "https://raw.githubusercontent.com/Sn0wCh1ld/Various-Files/master/Impeached2/Packs/Endings/",
   "title": "The Free Market",
   "updateURL": "https://raw.githubusercontent.com/Sn0wCh1ld/Various-Files/master/Impeached2/Packs/The%20Free%20Market.json",
-  "version": 7
+  "version": 8
 }
