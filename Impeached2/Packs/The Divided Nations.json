@@ -143,9 +143,7 @@
             "incrimination": 0.2
           },
           "futureEffects": [],
-          "deathFlags": {
-            "british": true
-          }
+          "deathFlags": null
         },
         {
           "reaction": "Investigate European countries operating in the U.S. in retaliation",
@@ -792,7 +790,7 @@
         },
         {
           "reaction": "Allow companies to claim IP losses on their taxes",
-          "passLaw": true,
+          "passLaw": false,
           "partisan": 0,
           "demAligned": -0.2,
           "repAligned": 0.2,
@@ -973,7 +971,7 @@
         },
         {
           "reaction": "Blame the company that sold the oil rig, and fine them",
-          "passLaw": true,
+          "passLaw": false,
           "partisan": 0,
           "demAligned": -0.1,
           "repAligned": -0.1,
@@ -1073,7 +1071,7 @@
         },
         {
           "reaction": "Boil them off and hope they rain back on U.S. soil",
-          "passLaw": true,
+          "passLaw": false,
           "partisan": 0,
           "demAligned": -0.1,
           "repAligned": -0.1,
@@ -1120,12 +1118,12 @@
       "priority": 14,
       "flagConditions": {
         "british": true,
-        "foreign": true
+        "global": true
       }
     }
   ],
   "endingImageLocation": "https://raw.githubusercontent.com/Sn0wCh1ld/Various-Files/master/Impeached2/Packs/Endings/",
   "title": "The Divided Nations",
   "updateURL": "https://raw.githubusercontent.com/Sn0wCh1ld/Various-Files/master/Impeached2/Packs/The%20Divided%20Nations.json",
-  "version": 2
+  "version": 3
 }
