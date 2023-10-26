@@ -61,7 +61,9 @@
           },
           "futureEffects": [],
           "deathFlags": {
-            "british": true
+            "flags": {
+              "british": true
+            }
           }
         },
         {
@@ -1125,5 +1127,5 @@
   "endingImageLocation": "https://raw.githubusercontent.com/Sn0wCh1ld/Various-Files/master/Impeached2/Packs/Endings/",
   "title": "The Divided Nations",
   "updateURL": "https://raw.githubusercontent.com/Sn0wCh1ld/Various-Files/master/Impeached2/Packs/The%20Divided%20Nations.json",
-  "version": 3
+  "version": 4
 }
