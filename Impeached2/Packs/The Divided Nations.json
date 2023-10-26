@@ -647,7 +647,7 @@
             "taxRate": 0.0,
             "popular": -0.1,
             "foreign": -0.2,
-            "incrimination": 0.2
+            "incrimination": 0
           },
           "futureEffects": [],
           "deathFlags": null
@@ -666,7 +666,7 @@
             "taxRate": 0.0,
             "popular": 0.1,
             "foreign": -0.1,
-            "incrimination": 0.2
+            "incrimination": 0
           },
           "futureEffects": [],
           "deathFlags": null
@@ -1127,5 +1127,5 @@
   "endingImageLocation": "https://raw.githubusercontent.com/Sn0wCh1ld/Various-Files/master/Impeached2/Packs/Endings/",
   "title": "The Divided Nations",
   "updateURL": "https://raw.githubusercontent.com/Sn0wCh1ld/Various-Files/master/Impeached2/Packs/The%20Divided%20Nations.json",
-  "version": 4
+  "version": 5
 }
