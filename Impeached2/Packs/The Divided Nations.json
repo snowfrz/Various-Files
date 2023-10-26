@@ -1116,7 +1116,7 @@
     {
       "title": "British",
       "description": "It turns out that the UK's invitation was a trap. The fine print hands over the power to the British monarchy, which swiftly enacts tea taxes for all.",
-      "imageName": "Apocalypse",
+      "imageName": "British",
       "priority": 14,
       "flagConditions": {
         "british": true,
@@ -1127,5 +1127,5 @@
   "endingImageLocation": "https://raw.githubusercontent.com/Sn0wCh1ld/Various-Files/master/Impeached2/Packs/Endings/",
   "title": "The Divided Nations",
   "updateURL": "https://raw.githubusercontent.com/Sn0wCh1ld/Various-Files/master/Impeached2/Packs/The%20Divided%20Nations.json",
-  "version": 1
+  "version": 2
 }
