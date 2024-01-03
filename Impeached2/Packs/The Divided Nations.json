@@ -1023,7 +1023,7 @@
           "effect": {
             "turnDelay": 0,
             "repeatEffect": 0,
-            "budget": 0,
+            "budget": -450,
             "economy": 150,
             "taxRate": 0.0,
             "popular": 0,
@@ -1042,8 +1042,8 @@
           "effect": {
             "turnDelay": 0,
             "repeatEffect": 0,
-            "budget": 0,
-            "economy": 0,
+            "budget": -350,
+            "economy": -50,
             "taxRate": 0.0,
             "popular": 0.1,
             "foreign": 0.1,
@@ -1061,7 +1061,7 @@
           "effect": {
             "turnDelay": 0,
             "repeatEffect": 0,
-            "budget": 0,
+            "budget": -350,
             "economy": -100,
             "taxRate": 0,
             "popular": -0.05,
