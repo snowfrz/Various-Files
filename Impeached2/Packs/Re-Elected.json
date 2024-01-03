@@ -3,7 +3,7 @@
   "author": "Impeached",
   "updateURL": "https://raw.githubusercontent.com/Sn0wCh1ld/Various-Files/master/Impeached2/Packs/Re-Elected.json",
   "iapId": null,
-  "version": 38,
+  "version": 39,
   "scenarios": [
     {
       "action": "A major hurricane hits a heavily populated area of the country. What do you do?",
@@ -7074,6 +7074,15 @@
       "zPos": 15,
       "flagConditions": {
         "highTax": true
+      }
+    },
+    {
+      "title": "",
+      "description": "",
+      "imageName": "Eagle",
+      "zPos": -1,
+      "flagConditions": {
+        "noTax": true
       }
     }
   ],
