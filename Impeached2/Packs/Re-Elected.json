@@ -3,7 +3,7 @@
   "author": "Impeached",
   "updateURL": "https://raw.githubusercontent.com/Sn0wCh1ld/Various-Files/master/Impeached2/Packs/Re-Elected.json",
   "iapId": null,
-  "version": 37,
+  "version": 38,
   "scenarios": [
     {
       "action": "A major hurricane hits a heavily populated area of the country. What do you do?",
@@ -7063,6 +7063,17 @@
       "flagConditions": {
         "broke": true,
         "selfNuked": true
+      }
+    }
+  ],
+  "overlays": [
+    {
+      "title": "",
+      "description": "",
+      "imageName": "CommieFlag",
+      "zPos": 15,
+      "flagConditions": {
+        "highTax": true
       }
     }
   ],
