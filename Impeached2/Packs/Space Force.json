@@ -862,8 +862,19 @@
       }
     }
   ],
+  "overlays": [
+    {
+      "title": "",
+      "description": "",
+      "imageName": "Alien",
+      "zPos": -1,
+      "flagConditions": {
+        "aliens": true
+      }
+    }
+  ],
   "endingImageLocation": "https://raw.githubusercontent.com/Sn0wCh1ld/Various-Files/master/Impeached2/Packs/Endings/",
   "title": "Space Force",
   "updateURL": "https://raw.githubusercontent.com/Sn0wCh1ld/Various-Files/master/Impeached2/Packs/Space%20Force.json",
-  "version": 16
+  "version": 17
 }
