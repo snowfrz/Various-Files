@@ -931,7 +931,11 @@
             "incrimination": 0
           },
           "futureEffects": [],
-          "deathFlags": null
+          "deathFlags": {
+            "flags": {
+              "snek": true
+            }
+          }
         },
         {
           "reaction": "Invite their leader to negotiate, then assassinate them",
@@ -1007,7 +1011,11 @@
             "incrimination": 0.2
           },
           "futureEffects": [],
-          "deathFlags": null
+          "deathFlags": {
+            "flags": {
+              "snek": true
+            }
+          }
         }
       ]
     },
@@ -1429,8 +1437,19 @@
       }
     }
   ],
+  "overlays": [
+    {
+      "title": "",
+      "description": "",
+      "imageName": "Venom",
+      "zPos": -1,
+      "flagConditions": {
+        "snek": true
+      }
+    }
+  ],
   "endingImageLocation": "https://raw.githubusercontent.com/Sn0wCh1ld/Various-Files/master/Impeached2/Packs/Endings/",
   "title": "The Divided Nations",
   "updateURL": "https://raw.githubusercontent.com/Sn0wCh1ld/Various-Files/master/Impeached2/Packs/The%20Divided%20Nations.json",
-  "version": 9
+  "version": 10
 }
