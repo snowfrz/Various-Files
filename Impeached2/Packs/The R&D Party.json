@@ -1,0 +1,837 @@
+{
+  "author": "Impeached 2",
+  "iapId": "deck_tech",
+  "scenarios": [
+    {
+      "action": "A controversial new gene therapy for children is going through clinical trials and many are outraged. What do you do?",
+      "options": [
+        {
+          "reaction": "Instruct the FDA to reject it regardless of results",
+          "passLaw": false,
+          "partisan": 0.7,
+          "demAligned": -0.1,
+          "repAligned": 0.2,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 0,
+            "economy": -100,
+            "taxRate": 0.0,
+            "popular": 0.0,
+            "foreign": 0.0,
+            "incrimination": 0.0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        },
+        {
+          "reaction": "Let the FDA make the decision without your influence",
+          "passLaw": false,
+          "partisan": 0.0,
+          "demAligned": -0.15,
+          "repAligned": -0.15,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 0,
+            "economy": 0,
+            "taxRate": 0.0,
+            "popular": 0.05,
+            "foreign": 0.0,
+            "incrimination": 0.0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        },
+        {
+          "reaction": "Pass laws to make sure new research is safe and ethical",
+          "passLaw": true,
+          "partisan": 0.0,
+          "demAligned": 0.1,
+          "repAligned": 0.1,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": -550,
+            "economy": 0,
+            "taxRate": 0.0,
+            "popular": 0.1,
+            "foreign": 0.0,
+            "incrimination": 0.0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        },
+        {
+          "reaction": "Make a decision based on your stock portfolio",
+          "passLaw": false,
+          "partisan": 0.0,
+          "demAligned": -0.1,
+          "repAligned": -0.1,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 200,
+            "economy": 50,
+            "taxRate": 0.0,
+            "popular": -0.15,
+            "foreign": 0.0,
+            "incrimination": 0.0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        }
+      ]
+    },
+    {
+      "action": "Cryopreservation (freezing after death) is becoming more popular among wealthy terminally ill people hoping to be resurrected in the future.",
+      "options": [
+        {
+          "reaction": "Sign a contract to preserve yourself when you die",
+          "passLaw": false,
+          "partisan": 0.0,
+          "demAligned": 0.0,
+          "repAligned": 0.0,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": -300,
+            "economy": 0,
+            "taxRate": 0.0,
+            "popular": 0.0,
+            "foreign": 0.0,
+            "incrimination": 0.0
+          },
+          "futureEffects": null,
+          "deathFlags": {
+            "flags": {
+              "cryo": true
+            }
+          }
+        },
+        {
+          "reaction": "Prohibit it until it is affordable for the masses",
+          "passLaw": false,
+          "partisan": 0.75,
+          "demAligned": 0.15,
+          "repAligned": -0.2,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 0,
+            "economy": -50,
+            "taxRate": 0.0,
+            "popular": 0.0,
+            "foreign": 0.0,
+            "incrimination": 0.0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        },
+        {
+          "reaction": "Pass laws to protect the rights of the frozen",
+          "passLaw": true,
+          "partisan": 0.0,
+          "demAligned": 0.1,
+          "repAligned": 0.1,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": -450,
+            "economy": 0,
+            "taxRate": 0.0,
+            "popular": 0.0,
+            "foreign": 0.0,
+            "incrimination": 0.0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        },
+        {
+          "reaction": "Increase taxes to add preservation to Medicare",
+          "passLaw": false,
+          "partisan": 0.75,
+          "demAligned": 0.2,
+          "repAligned": -0.3,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 0,
+            "economy": 0,
+            "taxRate": 0.02,
+            "popular": 0.0,
+            "foreign": 0.0,
+            "incrimination": 0.0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        }
+      ]
+    },
+    {
+      "action": "People are complaining that tax filing is too complicated, but many companies are benefiting from this. What do you do?",
+      "options": [
+        {
+          "reaction": "Release an online tool to simplify the process",
+          "passLaw": false,
+          "partisan": 0.0,
+          "demAligned": -0.1,
+          "repAligned": -0.1,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": -500,
+            "economy": -100,
+            "taxRate": 0.0,
+            "popular": 0.15,
+            "foreign": 0.0,
+            "incrimination": 0.0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        },
+        {
+          "reaction": "Refuse to do anything",
+          "passLaw": false,
+          "partisan": 0.0,
+          "demAligned": 0.1,
+          "repAligned": 0.1,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 0,
+            "economy": 100,
+            "taxRate": 0.0,
+            "popular": 0.0,
+            "foreign": 0.0,
+            "incrimination": 0.0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        },
+        {
+          "reaction": "Simplify income & small business payroll taxes",
+          "passLaw": true,
+          "partisan": 0.75,
+          "demAligned": -0.2,
+          "repAligned": 0.2,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 0,
+            "economy": -100,
+            "taxRate": -0.02,
+            "popular": 0.05,
+            "foreign": 0.0,
+            "incrimination": 0.0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        },
+        {
+          "reaction": "Reimburse individuals for expenses related to filing their taxes",
+          "passLaw": false,
+          "partisan": 0.75,
+          "demAligned": 0.2,
+          "repAligned": -0.2,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 0,
+            "economy": 0,
+            "taxRate": -0.01,
+            "popular": 0.05,
+            "foreign": 0.0,
+            "incrimination": 0.0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        }
+      ]
+    },
+    {
+      "action": "A trillion-dollar tech giant buys a large defense company and starts building a fortress around their headquarters. What do you do?",
+      "options": [
+        {
+          "reaction": "Monitor the company to ensure it does not go rogue",
+          "passLaw": false,
+          "partisan": 0.0,
+          "demAligned": 0.1,
+          "repAligned": 0.1,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": -500,
+            "economy": 0,
+            "taxRate": 0.0,
+            "popular": 0.0,
+            "foreign": 0.0,
+            "incrimination": 0.0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        },
+        {
+          "reaction": "Force them to divest the defense company",
+          "passLaw": true,
+          "partisan": 0.75,
+          "demAligned": 0.2,
+          "repAligned": -0.2,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 0,
+            "economy": -100,
+            "taxRate": 0.0,
+            "popular": 0.0,
+            "foreign": 0.0,
+            "incrimination": 0.0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        },
+        {
+          "reaction": "Send in the Army to shut the construction down",
+          "passLaw": false,
+          "partisan": 0.0,
+          "demAligned": -0.1,
+          "repAligned": -0.1,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": -400,
+            "economy": 0,
+            "taxRate": 0.0,
+            "popular": -0.1,
+            "foreign": 0.0,
+            "incrimination": 0.1
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        },
+        {
+          "reaction": "Hope nothing bad happens",
+          "passLaw": false,
+          "partisan": 0.0,
+          "demAligned": -0.1,
+          "repAligned": -0.1,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 0,
+            "economy": 100,
+            "taxRate": 0.0,
+            "popular": -0.1,
+            "foreign": -0.1,
+            "incrimination": 0.0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        }
+      ]
+    },
+    {
+      "action": "Artists, writers and other professionals are concerned about the impact of new artificial intelligence tech on their fields. What do you do?",
+      "options": [
+        {
+          "reaction": "Put a legal speed limit on computers & math",
+          "passLaw": true,
+          "partisan": 1.0,
+          "demAligned": -0.1,
+          "repAligned": 0.1,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 0,
+            "economy": -150,
+            "taxRate": 0.0,
+            "popular": -0.1,
+            "foreign": 0.0,
+            "incrimination": 0.0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        },
+        {
+          "reaction": "Require companies with supercomputers to report to the government",
+          "passLaw": true,
+          "partisan": 0.0,
+          "demAligned": 0.1,
+          "repAligned": 0.1,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": -250,
+            "economy": -50,
+            "taxRate": 0.0,
+            "popular": 0.1,
+            "foreign": 0.0,
+            "incrimination": 0.0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        },
+        {
+          "reaction": "Run ads encouraging them to take advantage of new tech",
+          "passLaw": false,
+          "partisan": 0.0,
+          "demAligned": 0.0,
+          "repAligned": 0.0,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": -400,
+            "economy": 150,
+            "taxRate": 0.0,
+            "popular": 0.0,
+            "foreign": 0.0,
+            "incrimination": 0.0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        },
+        {
+          "reaction": "Dismiss their concerns",
+          "passLaw": false,
+          "partisan": 0.0,
+          "demAligned": 0.0,
+          "repAligned": 0.0,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 0,
+            "economy": 0,
+            "taxRate": 0.0,
+            "popular": -0.1,
+            "foreign": 0.0,
+            "incrimination": 0.0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        }
+      ]
+    },
+    {
+      "action": "Quantum computers are becoming powerful enough to threaten computer security and cryptography. What do you do?",
+      "options": [
+        {
+          "reaction": "Fund the development of a quantum internet for secure communication",
+          "passLaw": true,
+          "partisan": 0.0,
+          "demAligned": 0.1,
+          "repAligned": -0.2,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": -800,
+            "economy": 150,
+            "taxRate": 0.0,
+            "popular": 0.1,
+            "foreign": 0.0,
+            "incrimination": 0.0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        },
+        {
+          "reaction": "Let private companies figure it out",
+          "passLaw": false,
+          "partisan": 1.0,
+          "demAligned": -0.1,
+          "repAligned": 0.15,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 0,
+            "economy": -50,
+            "taxRate": 0.0,
+            "popular": 0.0,
+            "foreign": 0.0,
+            "incrimination": 0.0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        },
+        {
+          "reaction": "Tell the intelligence agencies to use this technology",
+          "passLaw": false,
+          "partisan": 0.0,
+          "demAligned": 0.1,
+          "repAligned": 0.1,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 0,
+            "economy": 0,
+            "taxRate": 0.0,
+            "popular": -0.2,
+            "foreign": -0.15,
+            "incrimination": 0.15
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        },
+        {
+          "reaction": "Ignore the issue until quantum computers are cheaper",
+          "passLaw": false,
+          "partisan": 0.0,
+          "demAligned": -0.1,
+          "repAligned": -0.1,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 0,
+            "economy": 0,
+            "taxRate": 0.0,
+            "popular": -0.1,
+            "foreign": 0.0,
+            "incrimination": 0.0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        }
+      ]
+    },
+    {
+      "action": "American tech giants are relying on European technology to build advanced chips. What do you do?",
+      "options": [
+        {
+          "reaction": "Strengthen relations with the European Union",
+          "passLaw": false,
+          "partisan": 0.0,
+          "demAligned": 0.15,
+          "repAligned": 0.15,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": -350,
+            "economy": 0,
+            "taxRate": 0.0,
+            "popular": 0.1,
+            "foreign": 0.1,
+            "incrimination": 0.0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        },
+        {
+          "reaction": "Offer a special deal to get those companies to relocate to the U.S.",
+          "passLaw": false,
+          "partisan": 0.75,
+          "demAligned": -0.1,
+          "repAligned": 0.2,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": -500,
+            "economy": 200,
+            "taxRate": -0.01,
+            "popular": 0.0,
+            "foreign": -0.15,
+            "incrimination": 0.1
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        },
+        {
+          "reaction": "Create an investment fund to build competing companies",
+          "passLaw": true,
+          "partisan": 0.0,
+          "demAligned": 0.1,
+          "repAligned": 0.1,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": -600,
+            "economy": 150,
+            "taxRate": 0.0,
+            "popular": 0.1,
+            "foreign": -0.05,
+            "incrimination": 0.0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        },
+        {
+          "reaction": "Convince the E.U. to ban those companies from doing business with U.S. enemies",
+          "passLaw": false,
+          "partisan": 0.0,
+          "demAligned": 0.2,
+          "repAligned": 0.2,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": -500,
+            "economy": 0,
+            "taxRate": 0.0,
+            "popular": 0.1,
+            "foreign": -0.15,
+            "incrimination": 0.0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        }
+      ]
+    },
+    {
+      "action": "Scientists are developing the technology to create synthetic cells and man-made organisms. What do you do?",
+      "options": [
+        {
+          "reaction": "Prohibit further work on this, it is unnatural",
+          "passLaw": false,
+          "partisan": 0.8,
+          "demAligned": -0.2,
+          "repAligned": 0.2,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 0,
+            "economy": -50,
+            "taxRate": 0.0,
+            "popular": 0.0,
+            "foreign": 0.0,
+            "incrimination": 0.0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        },
+        {
+          "reaction": "Fund studies to determine any medical uses for this tech",
+          "passLaw": false,
+          "partisan": 0.75,
+          "demAligned": 0.2,
+          "repAligned": -0.1,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": -600,
+            "economy": 100,
+            "taxRate": 0.0,
+            "popular": 0.0,
+            "foreign": 0.0,
+            "incrimination": 0.0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        },
+        {
+          "reaction": "Enact laws to restrict the complexity of synthetic life",
+          "passLaw": true,
+          "partisan": 1.0,
+          "demAligned": 0.2,
+          "repAligned": 0.1,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": -250,
+            "economy": 0,
+            "taxRate": 0.0,
+            "popular": 0.05,
+            "foreign": 0.0,
+            "incrimination": 0.0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        },
+        {
+          "reaction": "Obtain some synthetic bacteria and keep it in a jar as a pet",
+          "passLaw": false,
+          "partisan": 0.75,
+          "demAligned": 0.0,
+          "repAligned": -0.2,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": -250,
+            "economy": 0,
+            "taxRate": 0.0,
+            "popular": 0.0,
+            "foreign": 0.0,
+            "incrimination": 0.0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        }
+      ]
+    },
+    {
+      "action": "Parents are concerned that popular video games are including casino-inspired mechanics and children are getting addicted. What do you do?",
+      "options": [
+        {
+          "reaction": "Encourage parents to monitor the content their children consume",
+          "passLaw": false,
+          "partisan": 0.0,
+          "demAligned": 0.0,
+          "repAligned": 0.0,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 0,
+            "economy": 0,
+            "taxRate": 0.0,
+            "popular": 0.0,
+            "foreign": 0.0,
+            "incrimination": 0.0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        },
+        {
+          "reaction": "Prohibit games targeted at children from simulating gambling",
+          "passLaw": true,
+          "partisan": 0.0,
+          "demAligned": 0.1,
+          "repAligned": 0.1,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 0,
+            "economy": -100,
+            "taxRate": 0.0,
+            "popular": 0.1,
+            "foreign": 0.0,
+            "incrimination": 0.0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        },
+        {
+          "reaction": "Let platform holders moderate the content on their stores",
+          "passLaw": false,
+          "partisan": 0.0,
+          "demAligned": 0.0,
+          "repAligned": 0.1,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 0,
+            "economy": 0,
+            "taxRate": 0.0,
+            "popular": -0.15,
+            "foreign": 0.0,
+            "incrimination": 0.0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        },
+        {
+          "reaction": "Legalize gambling for all ages",
+          "passLaw": true,
+          "partisan": 0.0,
+          "demAligned": -0.2,
+          "repAligned": -0.2,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 0,
+            "economy": 150,
+            "taxRate": 0.0,
+            "popular": -0.2,
+            "foreign": 0.0,
+            "incrimination": 0.0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        }
+      ]
+    },
+    {
+      "action": "Bacteria are becoming highly resistant to existing antibiotics and mild infections are becoming more lethal. What do you do?",
+      "options": [
+        {
+          "reaction": "Add antibiotics to the Controlled Substances Act",
+          "passLaw": true,
+          "partisan": 1.0,
+          "demAligned": -0.1,
+          "repAligned": 0.1,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 0,
+            "economy": -50,
+            "taxRate": 0.0,
+            "popular": 0.0,
+            "foreign": 0.0,
+            "incrimination": 0.0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        },
+        {
+          "reaction": "Fund the development of stronger antibiotics",
+          "passLaw": false,
+          "partisan": 0.0,
+          "demAligned": 0.1,
+          "repAligned": 0.0,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": -750,
+            "economy": 0,
+            "taxRate": 0.0,
+            "popular": 0.1,
+            "foreign": 0.0,
+            "incrimination": 0.0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        },
+        {
+          "reaction": "Let nature run its course",
+          "passLaw": false,
+          "partisan": 1.0,
+          "demAligned": -0.2,
+          "repAligned": -0.1,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 0,
+            "economy": -150,
+            "taxRate": 0.0,
+            "popular": -0.05,
+            "foreign": 0.0,
+            "incrimination": 0.0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        },
+        {
+          "reaction": "Run a PSA encouraging the public to use less antibiotics",
+          "passLaw": false,
+          "partisan": 0.0,
+          "demAligned": 0.0,
+          "repAligned": 0.0,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": -500,
+            "economy": -75,
+            "taxRate": 0.0,
+            "popular": 0.0,
+            "foreign": 0.0,
+            "incrimination": 0.0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        }
+      ]
+    }
+  ],
+  "endings": [
+    {
+      "title": "Reanimated",
+      "description": "You regrettably died while in office. As per your wishes, your body is frozen immediately and stored for over 100 years. When medical tech catches up, you are reanimated and find a totally different world than you left.",
+      "imageName": "LongSleep",
+      "priority": 10,
+      "flagConditions": {
+        "died": true,
+        "cryo": true
+      }
+    }
+  ],
+  "overlays": null,
+  "endingImageLocation": "https://raw.githubusercontent.com/Sn0wCh1ld/Various-Files/master/Impeached2/Packs/Endings/",
+  "title": "The R&D Party",
+  "updateURL": null,
+  "version": 1
+}
