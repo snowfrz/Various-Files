@@ -820,7 +820,7 @@
   "endings": [
     {
       "title": "Reanimated",
-      "description": "You died in office, but as per your wishes your body is frozen and stored for decades. Once medicine catches up, you are reanimated and find a totally different world than you left.",
+      "description": "You died in office, but your body is frozen and stored for decades. Once medicine catches up, you are reanimated and find a totally different world than you left.",
       "imageName": "LongSleep",
       "priority": 10,
       "flagConditions": {
@@ -833,5 +833,5 @@
   "endingImageLocation": "https://raw.githubusercontent.com/Sn0wCh1ld/Various-Files/master/Impeached2/Packs/Endings/",
   "title": "The R&D Party",
   "updateURL": "https://raw.githubusercontent.com/Sn0wCh1ld/Various-Files/master/Impeached2/Packs/The%20R%26D%20Party.json",
-  "version": 3
+  "version": 4
 }
