@@ -337,8 +337,8 @@
           "reaction": "Put a legal speed limit on computers & math",
           "passLaw": true,
           "partisan": 1.0,
-          "demAligned": -0.1,
-          "repAligned": 0.1,
+          "demAligned": 0.1,
+          "repAligned": -0.1,
           "effect": {
             "turnDelay": 0,
             "repeatEffect": 0,
@@ -820,7 +820,7 @@
   "endings": [
     {
       "title": "Reanimated",
-      "description": "You regrettably died while in office. As per your wishes, your body is frozen immediately and stored for over 100 years. When medical tech catches up, you are reanimated and find a totally different world than you left.",
+      "description": "You died in office, but as per your wishes your body is frozen and stored for decades. Once medicine catches up, you are reanimated and find a totally different world than you left.",
       "imageName": "LongSleep",
       "priority": 10,
       "flagConditions": {
@@ -833,5 +833,5 @@
   "endingImageLocation": "https://raw.githubusercontent.com/Sn0wCh1ld/Various-Files/master/Impeached2/Packs/Endings/",
   "title": "The R&D Party",
   "updateURL": "https://raw.githubusercontent.com/Sn0wCh1ld/Various-Files/master/Impeached2/Packs/The%20R%26D%20Party.json",
-  "version": 2
+  "version": 3
 }
