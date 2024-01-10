@@ -326,7 +326,11 @@
             "incrimination": 0.0
           },
           "futureEffects": null,
-          "deathFlags": null
+          "deathFlags": {
+            "flags": {
+              "corporate": true
+            }
+          }
         }
       ]
     },
@@ -827,11 +831,30 @@
         "died": true,
         "cryo": true
       }
+    },{
+      "title": "Corporatocracy",
+      "description": "As your government descended into chaos, powerful corporations stepped in to fill the void. All hail our corporate overlords.",
+      "imageName": "Corporatocracy",
+      "priority": 10,
+      "flagConditions": {
+        "corporate": true,
+        "broke": true
+      }
     }
   ],
-  "overlays": null,
+  "overlays": [
+    {
+      "title": "",
+      "description": "",
+      "imageName": "CorpoBanner",
+      "zPos": 13,
+      "flagConditions": {
+        "highTax": true
+      }
+    }
+  ],
   "endingImageLocation": "https://raw.githubusercontent.com/Sn0wCh1ld/Various-Files/master/Impeached2/Packs/Endings/",
   "title": "The R&D Party",
   "updateURL": "https://raw.githubusercontent.com/Sn0wCh1ld/Various-Files/master/Impeached2/Packs/The%20R%26D%20Party.json",
-  "version": 4
+  "version": 5
 }
