@@ -3,7 +3,7 @@
   "author": "Impeached",
   "updateURL": "https://raw.githubusercontent.com/Sn0wCh1ld/Various-Files/master/Impeached2/Packs/Re-Elected.json",
   "iapId": null,
-  "version": 41,
+  "version": 42,
   "scenarios": [
     {
       "action": "A major hurricane hits a heavily populated area of the country. What do you do?",
@@ -6943,6 +6943,87 @@
             "economy": 0,
             "taxRate": 0.0,
             "popular": -0.1,
+            "foreign": 0,
+            "incrimination": 0
+          },
+          "futureEffects": [],
+          "deathFlags": null
+        }
+      ]
+    },
+    {
+      "action": "A serial killer is on the loose, and the media is putting the spotlight on this issue. What do you do?",
+      "options": [
+        {
+          "reaction": "Order illegal searches of all public and private spaces to find them",
+          "passLaw": false,
+          "partisan": 0,
+          "demAligned": -0.1,
+          "repAligned": -0.1,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": -500,
+            "economy": 0,
+            "taxRate": 0.0,
+            "popular": -0.2,
+            "foreign": 0,
+            "incrimination": 0.2
+          },
+          "futureEffects": [],
+          "deathFlags": null
+        },
+        {
+          "reaction": "Use FBI resources to find their hideout",
+          "passLaw": false,
+          "partisan": 0,
+          "demAligned": 0.2,
+          "repAligned": 0.2,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": -600,
+            "economy": 0,
+            "taxRate": 0,
+            "popular": 0.1,
+            "foreign": 0,
+            "incrimination": 0
+          },
+          "futureEffects": [],
+          "deathFlags": null
+        },
+        {
+          "reaction": "Declare that it is a job for state police",
+          "passLaw": false,
+          "partisan": 0,
+          "demAligned": 0.1,
+          "repAligned": 0.2,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 0,
+            "economy": 0,
+            "taxRate": 0,
+            "popular": -0.15,
+            "foreign": 0,
+            "incrimination": 0
+          },
+          "futureEffects": [],
+          "deathFlags": null
+        },
+        {
+          "reaction": "Use public fear to push for more surveillance technology",
+          "passLaw": false,
+          "partisan": 0,
+          "demAligned": 0.2,
+          "repAligned": 0.2,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": -350,
+            "economy": 100,
+            "taxRate": 0.0,
+            "popular": -0.2,
             "foreign": 0,
             "incrimination": 0
           },
