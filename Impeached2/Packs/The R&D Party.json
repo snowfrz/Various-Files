@@ -165,6 +165,25 @@
           },
           "futureEffects": null,
           "deathFlags": null
+        },
+        {
+          "reaction": "Tell people to stop pocketwatching",
+          "passLaw": false,
+          "partisan": 0.75,
+          "demAligned": -0.1,
+          "repAligned": 0.2,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 0,
+            "economy": 0,
+            "taxRate": 0.0,
+            "popular": -0.05,
+            "foreign": 0.0,
+            "incrimination": 0.0
+          },
+          "futureEffects": null,
+          "deathFlags": null
         }
       ]
     },
@@ -250,7 +269,7 @@
       ]
     },
     {
-      "action": "A trillion-dollar tech giant buys a large defense company and starts building a fortress around their headquarters. What do you do?",
+      "action": "A trillion-dollar corporation buys a large defense company and starts building a fortress around their headquarters. What do you do?",
       "options": [
         {
           "reaction": "Monitor the company to ensure it does not go rogue",
@@ -303,6 +322,25 @@
             "economy": 0,
             "taxRate": 0.0,
             "popular": -0.1,
+            "foreign": 0.0,
+            "incrimination": 0.1
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        },
+        {
+          "reaction": "Claim the company is an illegal monopoly and break them up",
+          "passLaw": true,
+          "partisan": 0.75,
+          "demAligned": 0.2,
+          "repAligned": -0.2,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 0,
+            "economy": -100,
+            "taxRate": 0.0,
+            "popular": 0,
             "foreign": 0.0,
             "incrimination": 0.1
           },
@@ -574,6 +612,29 @@
           },
           "futureEffects": null,
           "deathFlags": null
+        },
+        {
+          "reaction": "Invade the E.U. to take control of those companies",
+          "passLaw": false,
+          "partisan": 0.0,
+          "demAligned": -0.2,
+          "repAligned": -0.2,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": -400,
+            "economy": 200,
+            "taxRate": 0.0,
+            "popular": -0.2,
+            "foreign": -0.3,
+            "incrimination": 0.0
+          },
+          "futureEffects": null,
+          "deathFlags": {
+            "flags": {
+              "worldwar": true
+            }
+          }
         }
       ]
     },
@@ -581,7 +642,7 @@
       "action": "Scientists are developing the technology to create synthetic cells and man-made organisms. What do you do?",
       "options": [
         {
-          "reaction": "Prohibit further work on this, it is unnatural",
+          "reaction": "Prohibit further work on this, for it is unnatural",
           "passLaw": false,
           "partisan": 0.8,
           "demAligned": -0.2,
@@ -800,7 +861,7 @@
           "deathFlags": null
         },
         {
-          "reaction": "Run a PSA encouraging the public to use less antibiotics",
+          "reaction": "Run a PSA urging the public to use less antibiotics",
           "passLaw": false,
           "partisan": 0.0,
           "demAligned": 0.0,
@@ -831,8 +892,9 @@
         "died": true,
         "cryo": true
       }
-    },{
-      "title": "Corporatocracy",
+    },
+    {
+      "title": "Corpocracy",
       "description": "As your government descended into chaos, powerful corporations stepped in to fill the void. All hail our corporate overlords.",
       "imageName": "Corporatocracy",
       "priority": 10,
@@ -856,5 +918,5 @@
   "endingImageLocation": "https://raw.githubusercontent.com/Sn0wCh1ld/Various-Files/master/Impeached2/Packs/Endings/",
   "title": "The R&D Party",
   "updateURL": "https://raw.githubusercontent.com/Sn0wCh1ld/Various-Files/master/Impeached2/Packs/The%20R%26D%20Party.json",
-  "version": 6
+  "version": 7
 }
