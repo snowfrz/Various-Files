@@ -849,12 +849,12 @@
       "imageName": "CorpoBanner",
       "zPos": 13,
       "flagConditions": {
-        "highTax": true
+        "corporate": true
       }
     }
   ],
   "endingImageLocation": "https://raw.githubusercontent.com/Sn0wCh1ld/Various-Files/master/Impeached2/Packs/Endings/",
   "title": "The R&D Party",
   "updateURL": "https://raw.githubusercontent.com/Sn0wCh1ld/Various-Files/master/Impeached2/Packs/The%20R%26D%20Party.json",
-  "version": 5
+  "version": 6
 }
