@@ -2,13 +2,14 @@
     "title": "DefaultBundle",
     "source": "https://raw.githubusercontent.com/Sn0wCh1ld/Various-Files/master/Impeached2/Packs/",
     "updateURL": "https://raw.githubusercontent.com/Sn0wCh1ld/Various-Files/master/Impeached2/DefaultBundle.json",
-    "version": 6,
+    "version": 7,
     "packsAndId": {
         "Re-Elected": null,
         "We The People": "deck_general1",
         "The Divided Nations": "deck_international",
         "The Orwellian Dream": "deck_dystopian",
         "The Free Market": "deck_economy",
+        "The R&D Party": "deck_tech",
         "Space Force": "deck_aliens"
     }
 }
