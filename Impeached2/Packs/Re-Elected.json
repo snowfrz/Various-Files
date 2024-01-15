@@ -3,7 +3,7 @@
   "author": "Impeached",
   "updateURL": "https://raw.githubusercontent.com/Sn0wCh1ld/Various-Files/master/Impeached2/Packs/Re-Elected.json",
   "iapId": null,
-  "version": 42,
+  "version": 43,
   "scenarios": [
     {
       "action": "A major hurricane hits a heavily populated area of the country. What do you do?",
@@ -7031,6 +7031,91 @@
           "deathFlags": null
         }
       ]
+    },
+    {
+      "action": "The Pentagon is developing a super soldier serum to enhance the capabilities of the U.S. Army. What do you do?",
+      "options": [
+        {
+          "reaction": "Volunteer as the first test subject",
+          "passLaw": false,
+          "partisan": 0,
+          "demAligned": 0,
+          "repAligned": 0,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 0,
+            "economy": 0,
+            "taxRate": 0.0,
+            "popular": 0.1,
+            "foreign": 0,
+            "incrimination": 0
+          },
+          "futureEffects": [],
+          "deathFlags": {
+            "flags": {
+              "superhuman": true
+            }
+          }
+        },
+        {
+          "reaction": "Shut down the program",
+          "passLaw": false,
+          "partisan": 0,
+          "demAligned": -0.1,
+          "repAligned": -0.1,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 0,
+            "economy": -50,
+            "taxRate": 0,
+            "popular": 0,
+            "foreign": 0,
+            "incrimination": 0
+          },
+          "futureEffects": [],
+          "deathFlags": null
+        },
+        {
+          "reaction": "Test it on animals first",
+          "passLaw": false,
+          "partisan": 0,
+          "demAligned": -0.2,
+          "repAligned": 0.2,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": -400,
+            "economy": 50,
+            "taxRate": 0,
+            "popular": 0,
+            "foreign": 0,
+            "incrimination": 0
+          },
+          "futureEffects": [],
+          "deathFlags": null
+        },
+        {
+          "reaction": "Develop simulation technology to test it virtually",
+          "passLaw": false,
+          "partisan": 0,
+          "demAligned": 0.1,
+          "repAligned": 0.1,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": -650,
+            "economy": 100,
+            "taxRate": 0.0,
+            "popular": 0,
+            "foreign": 0,
+            "incrimination": 0
+          },
+          "futureEffects": [],
+          "deathFlags": null
+        }
+      ]
     }
   ],
   "endings": [
@@ -7145,6 +7230,27 @@
         "broke": true,
         "selfNuked": true
       }
+    },
+    {
+      "title": "Superhero",
+      "description": "The super soldier serum you took transforms you, granting you immense power. You retire as president and begin fighting crime full time.",
+      "imageName": "Superhero",
+      "priority": 15,
+      "flagConditions": {
+        "superhuman": true,
+        "criminal": false,
+        "national": false
+      }
+    },
+    {
+      "title": "Supervillain",
+      "description": "The super soldier serum you gives you immense power, and you seize the opportunity to try to take over the world. Good luck, citizens of Earth.",
+      "imageName": "Supervillain",
+      "priority": 15,
+      "flagConditions": {
+        "superhuman": true,
+        "criminal": true
+      }
     }
   ],
   "overlays": [
@@ -7174,6 +7280,15 @@
       "zPos": 30,
       "flagConditions": {
         "revolution": true
+      }
+    },
+    {
+      "title": "",
+      "description": "",
+      "imageName": "Superhuman",
+      "zPos": 30,
+      "flagConditions": {
+        "superhuman": true
       }
     }
   ],
