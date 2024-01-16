@@ -3,7 +3,7 @@
   "author": "Impeached",
   "updateURL": "https://raw.githubusercontent.com/Sn0wCh1ld/Various-Files/master/Impeached2/Packs/Re-Elected.json",
   "iapId": null,
-  "version": 43,
+  "version": 44,
   "scenarios": [
     {
       "action": "A major hurricane hits a heavily populated area of the country. What do you do?",
@@ -7233,7 +7233,7 @@
     },
     {
       "title": "Superhero",
-      "description": "The super soldier serum you took transforms you, granting you immense power. You retire as president and begin fighting crime full time.",
+      "description": "The super soldier serum you took transforms you, granting you immense power. You retire as president and become the protector of America.",
       "imageName": "Superhero",
       "priority": 15,
       "flagConditions": {
