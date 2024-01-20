@@ -3,7 +3,7 @@
   "author": "Impeached",
   "updateURL": "https://raw.githubusercontent.com/Sn0wCh1ld/Various-Files/master/Impeached2/Packs/Re-Elected.json",
   "iapId": null,
-  "version": 44,
+  "version": 45,
   "scenarios": [
     {
       "action": "A major hurricane hits a heavily populated area of the country. What do you do?",
@@ -6771,7 +6771,11 @@
             "incrimination": 0
           },
           "futureEffects": [],
-          "deathFlags": null
+          "deathFlags": {
+            "flags": {
+              "lostjet": true
+            }
+          }
         },
         {
           "reaction": "Keep it quiet, and send out a military search party for the jet",
@@ -6809,7 +6813,11 @@
             "incrimination": 0.1
           },
           "futureEffects": [],
-          "deathFlags": null
+          "deathFlags": {
+            "flags": {
+              "lostjet": true
+            }
+          }
         },
         {
           "reaction": "Evacuate the potential crash area and pay for any property damage",
@@ -6847,7 +6855,11 @@
             "incrimination": 0
           },
           "futureEffects": [],
-          "deathFlags": null
+          "deathFlags": {
+            "flags": {
+              "lostjet": true
+            }
+          }
         }
       ]
     },
@@ -7289,6 +7301,15 @@
       "zPos": 30,
       "flagConditions": {
         "superhuman": true
+      }
+    },
+    {
+      "title": "",
+      "description": "",
+      "imageName": "LostJet",
+      "zPos": -10,
+      "flagConditions": {
+        "lostjet": true
       }
     }
   ],
