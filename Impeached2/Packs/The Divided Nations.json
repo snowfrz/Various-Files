@@ -231,16 +231,16 @@
         {
           "reaction": "Sell weapons to both sides",
           "passLaw": false,
-          "partisan": 0.6,
+          "partisan": 0,
           "demAligned": -0.2,
-          "repAligned": 0,
+          "repAligned": -0.2,
           "effect": {
             "turnDelay": 0,
             "repeatEffect": 0,
             "budget": 300,
             "economy": 0,
             "taxRate": 0,
-            "popular": -0.2,
+            "popular": -0.1,
             "foreign": -0.2,
             "incrimination": 0
           },
@@ -1451,5 +1451,5 @@
   "endingImageLocation": "https://raw.githubusercontent.com/Sn0wCh1ld/Various-Files/master/Impeached2/Packs/Endings/",
   "title": "The Divided Nations",
   "updateURL": "https://raw.githubusercontent.com/Sn0wCh1ld/Various-Files/master/Impeached2/Packs/The%20Divided%20Nations.json",
-  "version": 10
+  "version": 11
 }
