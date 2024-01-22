@@ -3,7 +3,7 @@
   "author": "Impeached",
   "updateURL": "https://raw.githubusercontent.com/Sn0wCh1ld/Various-Files/master/Impeached2/Packs/Re-Elected.json",
   "iapId": null,
-  "version": 45,
+  "version": 46,
   "scenarios": [
     {
       "action": "A major hurricane hits a heavily populated area of the country. What do you do?",
@@ -7128,6 +7128,91 @@
           "deathFlags": null
         }
       ]
+    },
+    {
+      "action": "The Pentagon is accused of hiding important operations from yourself and Congress, disguised as \"secret projects\". What do you do?",
+      "options": [
+        {
+          "reaction": "Dismiss these claims and support the military",
+          "passLaw": false,
+          "partisan": 0,
+          "demAligned": 0,
+          "repAligned": 0,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 0,
+            "economy": 0,
+            "taxRate": 0.0,
+            "popular": 0,
+            "foreign": 0,
+            "incrimination": 0
+          },
+          "futureEffects": [],
+          "deathFlags": {
+            "flags": {
+              "militarycoup": true
+            }
+          }
+        },
+        {
+          "reaction": "Fire the secretary of defense and appoint a new one",
+          "passLaw": false,
+          "partisan": 0,
+          "demAligned": 0,
+          "repAligned": 0,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": -400,
+            "economy": 0,
+            "taxRate": 0,
+            "popular": 0,
+            "foreign": 0,
+            "incrimination": 0
+          },
+          "futureEffects": [],
+          "deathFlags": null
+        },
+        {
+          "reaction": "Conduct an investigation of the Department of Defense",
+          "passLaw": false,
+          "partisan": 0,
+          "demAligned": 0.2,
+          "repAligned": 0.2,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": -700,
+            "economy": 0,
+            "taxRate": 0,
+            "popular": 0.2,
+            "foreign": 0,
+            "incrimination": 0
+          },
+          "futureEffects": [],
+          "deathFlags": null
+        },
+        {
+          "reaction": "Grant Congress the power to supervise the Department of Defense",
+          "passLaw": true,
+          "partisan": 0,
+          "demAligned": 0.1,
+          "repAligned": 0.1,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 0,
+            "economy": -50,
+            "taxRate": 0.0,
+            "popular": 0,
+            "foreign": 0,
+            "incrimination": 0
+          },
+          "futureEffects": [],
+          "deathFlags": null
+        }
+      ]
     }
   ],
   "endings": [
@@ -7262,6 +7347,19 @@
       "flagConditions": {
         "superhuman": true,
         "criminal": true
+      }
+    },
+    {
+      "title": "Military Coup",
+      "description": "The military, having lost faith in your administration and in Congress, overthrows the government. You do not have enough time to flee.",
+      "imageName": "Coup",
+      "priority": 13.75,
+      "flagConditions": {
+        "militarycoup": true,
+        "criminal": true,
+        "revolution": false,
+        "noDem": false,
+        "noRep": false
       }
     }
   ],
