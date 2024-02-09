@@ -359,7 +359,7 @@
           "deathFlags": null
         },
         {
-          "reaction": "Support the telecom companies' push for prioritized traffic, citing potential for innovation and improved services",
+          "reaction": "Support the telecom companies' push for prioritized traffic",
           "passLaw": false,
           "partisan": 0.75,
           "demAligned": -0.2,
@@ -378,7 +378,7 @@
           "deathFlags": null
         },
         {
-          "reaction": "Propose a compromise that allows for limited prioritization under strict regulatory oversight",
+          "reaction": "Propose a compromise that allows for limited prioritization with strict oversight",
           "passLaw": true,
           "partisan": 1.0,
           "demAligned": -0.1,
@@ -444,5 +444,5 @@
   "endingImageLocation": "https://raw.githubusercontent.com/Sn0wCh1ld/Various-Files/master/Impeached2/Packs/Endings/",
   "title": "Free Beer",
   "updateURL": "https://raw.githubusercontent.com/Sn0wCh1ld/Various-Files/master/Impeached2/Packs/Free%20Beer.json",
-  "version": 2
+  "version": 3
 }
