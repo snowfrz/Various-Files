@@ -250,15 +250,15 @@
       "options": [
         {
           "reaction": "Use time travel to prevent time travel from being discovered",
-          "passLaw": true,
+          "passLaw": false,
           "partisan": 0,
           "demAligned": 0.2,
           "repAligned": 0.1,
           "effect": {
             "turnDelay": 0,
             "repeatEffect": 0,
-            "budget": 0,
-            "economy": 0,
+            "budget": -500,
+            "economy": -100,
             "taxRate": 0.0,
             "popular": 0,
             "foreign": 0,
@@ -288,7 +288,7 @@
         },
         {
           "reaction": "Publicly share the technology for the betterment of mankind",
-          "passLaw": true,
+          "passLaw": false,
           "partisan": 0,
           "demAligned": 0,
           "repAligned": 0,
@@ -312,7 +312,7 @@
         },
         {
           "reaction": "Try the time machine when nobody's looking",
-          "passLaw": true,
+          "passLaw": false,
           "partisan": 0,
           "demAligned": 0,
           "repAligned": 0,
@@ -444,5 +444,5 @@
   "endingImageLocation": "https://raw.githubusercontent.com/Sn0wCh1ld/Various-Files/master/Impeached2/Packs/Endings/",
   "title": "Free Beer",
   "updateURL": "https://raw.githubusercontent.com/Sn0wCh1ld/Various-Files/master/Impeached2/Packs/Free%20Beer.json",
-  "version": 3
+  "version": 4
 }
