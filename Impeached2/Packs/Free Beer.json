@@ -52,8 +52,8 @@
           "effect": {
             "turnDelay": 0,
             "repeatEffect": 0,
-            "budget": -100,
-            "economy": 0,
+            "budget": -300,
+            "economy": -50,
             "taxRate": 0.0,
             "popular": 0.05,
             "foreign": 0.0,
@@ -304,8 +304,10 @@
           },
           "futureEffects": [],
           "deathFlags": {
-            "died": true,
-            "timeparadox": true
+            "flags": {
+              "died": true,
+              "timeparadox": true
+            }
           }
         },
         {
@@ -326,8 +328,10 @@
           },
           "futureEffects": [],
           "deathFlags": {
-            "died": true,
-            "timetravel": true
+            "flags": {
+              "died": true,
+              "timetravel": true
+            }
           }
         }
       ]
@@ -440,5 +444,5 @@
   "endingImageLocation": "https://raw.githubusercontent.com/Sn0wCh1ld/Various-Files/master/Impeached2/Packs/Endings/",
   "title": "Free Beer",
   "updateURL": "https://raw.githubusercontent.com/Sn0wCh1ld/Various-Files/master/Impeached2/Packs/Free%20Beer.json",
-  "version": 1
+  "version": 2
 }
