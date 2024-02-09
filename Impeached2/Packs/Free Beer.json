@@ -1,0 +1,444 @@
+{
+  "author": "Impeached 2",
+  "iapId": null,
+  "scenarios": [
+    {
+      "action": "The rise of the gig economy has led to widespread labor disputes. What do you do?",
+      "options": [
+        {
+          "reaction": "Enact strict labor laws for gig workers",
+          "passLaw": true,
+          "partisan": 0.5,
+          "demAligned": 0.3,
+          "repAligned": -0.2,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": -200,
+            "economy": 100,
+            "taxRate": 0.0,
+            "popular": 0.1,
+            "foreign": 0.0,
+            "incrimination": 0.0
+          },
+          "futureEffects": [],
+          "deathFlags": null
+        },
+        {
+          "reaction": "Promote self-regulation within the gig industry",
+          "passLaw": false,
+          "partisan": 0,
+          "demAligned": -0.1,
+          "repAligned": 0.1,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 0,
+            "economy": 50,
+            "taxRate": 0.0,
+            "popular": 0.05,
+            "foreign": 0.0,
+            "incrimination": 0.0
+          },
+          "futureEffects": [],
+          "deathFlags": null
+        },
+        {
+          "reaction": "Create a new worker classification for gig workers",
+          "passLaw": true,
+          "partisan": 0,
+          "demAligned": 0.05,
+          "repAligned": 0,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": -100,
+            "economy": 0,
+            "taxRate": 0.0,
+            "popular": 0.05,
+            "foreign": 0.0,
+            "incrimination": 0.0
+          },
+          "futureEffects": [],
+          "deathFlags": null
+        },
+        {
+          "reaction": "Do nothing, letting the market decide",
+          "passLaw": false,
+          "partisan": 0,
+          "demAligned": -0.1,
+          "repAligned": 0.1,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 0,
+            "economy": 100,
+            "taxRate": 0.0,
+            "popular": -0.05,
+            "foreign": 0.0,
+            "incrimination": 0.0
+          },
+          "futureEffects": [],
+          "deathFlags": null
+        }
+      ]
+    },
+    {
+      "action": "Rural Americans are complaining about the availability and quality of Internet infrastructure. What do you do?",
+      "options": [
+        {
+          "reaction": "Invest heavily in rural internet infrastructure",
+          "passLaw": true,
+          "partisan": 0,
+          "demAligned": 0.2,
+          "repAligned": 0.2,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": -500,
+            "economy": 200,
+            "taxRate": 0.01,
+            "popular": 0.15,
+            "foreign": 0.0,
+            "incrimination": 0.0
+          },
+          "futureEffects": [],
+          "deathFlags": null
+        },
+        {
+          "reaction": "Encourage private investment through tax incentives",
+          "passLaw": false,
+          "partisan": 0,
+          "demAligned": 0.1,
+          "repAligned": 0.2,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 0,
+            "economy": 100,
+            "taxRate": -0.01,
+            "popular": 0.1,
+            "foreign": 0.0,
+            "incrimination": 0.0
+          },
+          "futureEffects": [],
+          "deathFlags": null
+        },
+        {
+          "reaction": "Launch digital literacy programs in rural areas",
+          "passLaw": true,
+          "partisan": 0,
+          "demAligned": 0.2,
+          "repAligned": 0,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": -300,
+            "economy": 50,
+            "taxRate": 0.0,
+            "popular": 0.12,
+            "foreign": 0.0,
+            "incrimination": 0.0
+          },
+          "futureEffects": [],
+          "deathFlags": null
+        },
+        {
+          "reaction": "Ignore, focusing on urban technological advancements",
+          "passLaw": false,
+          "partisan": 0,
+          "demAligned": -0.1,
+          "repAligned": -0.2,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 0,
+            "economy": 150,
+            "taxRate": 0.0,
+            "popular": 0,
+            "foreign": 0.0,
+            "incrimination": 0.0
+          },
+          "futureEffects": [],
+          "deathFlags": null
+        }
+      ]
+    },
+    {
+      "action": "The emergence of political deepfakes is disrupting political campaigns, including yours. What do you do?",
+      "options": [
+        {
+          "reaction": "Implement strict laws against deepfakes",
+          "passLaw": true,
+          "partisan": 0.5,
+          "demAligned": 0.2,
+          "repAligned": -0.1,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": -100,
+            "economy": 0,
+            "taxRate": 0.0,
+            "popular": 0,
+            "foreign": 0.0,
+            "incrimination": 0.0
+          },
+          "futureEffects": [],
+          "deathFlags": null
+        },
+        {
+          "reaction": "Develop technology to detect deepfakes",
+          "passLaw": false,
+          "partisan": 0,
+          "demAligned": 0.15,
+          "repAligned": 0.15,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": -600,
+            "economy": 50,
+            "taxRate": 0.0,
+            "popular": 0.1,
+            "foreign": 0.0,
+            "incrimination": 0.0
+          },
+          "futureEffects": [],
+          "deathFlags": null
+        },
+        {
+          "reaction": "Promote media literacy education",
+          "passLaw": true,
+          "partisan": 0.2,
+          "demAligned": 0.2,
+          "repAligned": -0.1,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": -450,
+            "economy": 25,
+            "taxRate": 0.0,
+            "popular": 0.18,
+            "foreign": 0.0,
+            "incrimination": 0.0
+          },
+          "futureEffects": [],
+          "deathFlags": null
+        },
+        {
+          "reaction": "Do nothing, citing freedom of expression",
+          "passLaw": false,
+          "partisan": 0.5,
+          "demAligned": -0.2,
+          "repAligned": 0.2,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 0,
+            "economy": 0,
+            "taxRate": 0.0,
+            "popular": 0,
+            "foreign": 0.0,
+            "incrimination": 0
+          },
+          "futureEffects": [],
+          "deathFlags": null
+        }
+      ]
+    },
+    {
+      "action": "You find out that Pentagon researchers have accidentally discovered time travel. What do you do?",
+      "options": [
+        {
+          "reaction": "Use time travel to prevent time travel from being discovered",
+          "passLaw": true,
+          "partisan": 0,
+          "demAligned": 0.2,
+          "repAligned": 0.1,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 0,
+            "economy": 0,
+            "taxRate": 0.0,
+            "popular": 0,
+            "foreign": 0,
+            "incrimination": 0.0
+          },
+          "futureEffects": [],
+          "deathFlags": null
+        },
+        {
+          "reaction": "Update nuclear secrets laws to cover time travel",
+          "passLaw": true,
+          "partisan": 0,
+          "demAligned": 0.2,
+          "repAligned": 0.2,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": -300,
+            "economy": 0,
+            "taxRate": 0.0,
+            "popular": 0,
+            "foreign": 0,
+            "incrimination": 0
+          },
+          "futureEffects": [],
+          "deathFlags": null
+        },
+        {
+          "reaction": "Publicly share the technology for the betterment of mankind",
+          "passLaw": true,
+          "partisan": 0,
+          "demAligned": 0,
+          "repAligned": 0,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 0,
+            "economy": 350,
+            "taxRate": 0.0,
+            "popular": 0,
+            "foreign": 0,
+            "incrimination": 0
+          },
+          "futureEffects": [],
+          "deathFlags": {
+            "died": true,
+            "timeparadox": true
+          }
+        },
+        {
+          "reaction": "Try the time machine when nobody's looking",
+          "passLaw": true,
+          "partisan": 0,
+          "demAligned": 0,
+          "repAligned": 0,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 0,
+            "economy": 0,
+            "taxRate": 0,
+            "popular": 0,
+            "foreign": 0,
+            "incrimination": 0
+          },
+          "futureEffects": [],
+          "deathFlags": {
+            "died": true,
+            "timetravel": true
+          }
+        }
+      ]
+    },
+    {
+      "action": "A major debate arises over net neutrality, with major telecom companies pushing for the right to prioritize internet traffic. How do you respond?",
+      "options": [
+        {
+          "reaction": "Push for net neutrality laws to ensure all internet traffic is treated equally",
+          "passLaw": true,
+          "partisan": 0.75,
+          "demAligned": 0.2,
+          "repAligned": -0.2,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": -400,
+            "economy": -50,
+            "taxRate": 0.0,
+            "popular": 0,
+            "foreign": 0.0,
+            "incrimination": 0.0
+          },
+          "futureEffects": [],
+          "deathFlags": null
+        },
+        {
+          "reaction": "Support the telecom companies' push for prioritized traffic, citing potential for innovation and improved services",
+          "passLaw": false,
+          "partisan": 0.75,
+          "demAligned": -0.2,
+          "repAligned": 0.2,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 0,
+            "economy": 100,
+            "taxRate": 0.0,
+            "popular": 0,
+            "foreign": 0.0,
+            "incrimination": 0
+          },
+          "futureEffects": [],
+          "deathFlags": null
+        },
+        {
+          "reaction": "Propose a compromise that allows for limited prioritization under strict regulatory oversight",
+          "passLaw": true,
+          "partisan": 1.0,
+          "demAligned": -0.1,
+          "repAligned": 0.1,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 0,
+            "economy": 50,
+            "taxRate": 0.0,
+            "popular": 0.05,
+            "foreign": 0.0,
+            "incrimination": 0.0
+          },
+          "futureEffects": [],
+          "deathFlags": null
+        },
+        {
+          "reaction": "Launch a public consultation to gather opinions before making a decision",
+          "passLaw": false,
+          "partisan": 0,
+          "demAligned": 0.2,
+          "repAligned": -0.1,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": -600,
+            "economy": 0,
+            "taxRate": 0.0,
+            "popular": 0.1,
+            "foreign": 0.0,
+            "incrimination": 0.0
+          },
+          "futureEffects": [],
+          "deathFlags": null
+        }
+      ]
+    }
+  ],
+  "endings": [
+    {
+      "title": "The Future",
+      "description": "You emerge from the time machine to an eagerly awaiting crowd. A doctor asks how you feel, but you just mumble something incomprehensible then collapse, dead.",
+      "imageName": "LongSleep",
+      "priority": 10,
+      "flagConditions": {
+        "died": true,
+        "timetravel": true
+      }
+    },
+    {
+      "title": "Time Paradox",
+      "description": "Somebody tries to kill their own grandfather just to see what happens, creating a time paradox. A black hole begins consuming the universe. Oops.",
+      "imageName": "BlackHole",
+      "priority": 10,
+      "flagConditions": {
+        "died": true,
+        "timeparadox": true
+      }
+    }
+  ],
+  "overlays": [],
+  "endingImageLocation": "https://raw.githubusercontent.com/Sn0wCh1ld/Various-Files/master/Impeached2/Packs/Endings/",
+  "title": "Free Beer",
+  "updateURL": "https://raw.githubusercontent.com/Sn0wCh1ld/Various-Files/master/Impeached2/Packs/Free%20Beer.json",
+  "version": 1
+}
