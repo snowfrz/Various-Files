@@ -3,7 +3,7 @@
   "author": "Impeached",
   "updateURL": "https://raw.githubusercontent.com/Sn0wCh1ld/Various-Files/master/Impeached2/Packs/Re-Elected.json",
   "iapId": null,
-  "version": 48,
+  "version": 49,
   "scenarios": [
     {
       "action": "A major hurricane hits a heavily populated area of the country. What do you do?",
@@ -3909,6 +3909,27 @@
             "foreign": 0.1
           },
           "futureEffects": []
+        },
+        {
+          "reaction": "Pirate the game out of spite",
+          "passLaw": false,
+          "partisan": 0,
+          "demAligned": 0,
+          "repAligned": 0,
+          "effect": {
+            "incrimination": 0.1,
+            "budget": 0,
+            "economy": -50,
+            "taxRate": 0,
+            "popular": -0.1,
+            "foreign": 0.1
+          },
+          "futureEffects": [],
+          "deathFlags": {
+            "flags": {
+              "smited": true
+            }
+          }
         }
       ]
     },
@@ -7460,6 +7481,15 @@
         "revolution": false,
         "noDem": false,
         "noRep": false
+      }
+    },
+    {
+      "title": "Smited",
+      "description": "A mysterious force unleashes a terrifying energy bolt from the sky, vaporizing you. But why?",
+      "imageName": "Smited",
+      "priority": 20,
+      "flagConditions": {
+        "smited": true
       }
     }
   ],
