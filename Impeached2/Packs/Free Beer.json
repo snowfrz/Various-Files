@@ -499,7 +499,7 @@
       ]
     },
     {
-      "action": "Dreamer, a new 'social' media app, has just been released. It offers endless, personalized AI-generated videos, resulting in mass user addiction and significant societal impact. What do you do?",
+      "action": "A new 'social' media app is rising the charts, with an endless feed of personalized AI-generated videos. Users are becoming addicted and productivity is declining. What do you do?",
       "options": [
         {
           "reaction": "Give the FDA the power to regulate highly addictive AI systems",
@@ -549,7 +549,7 @@
             "turnDelay": 0,
             "repeatEffect": 0,
             "budget": -500,
-            "economy": 100,
+            "economy": 50,
             "taxRate": 0.0,
             "popular": 0.1,
             "foreign": 0.0,
@@ -559,7 +559,7 @@
           "deathFlags": null
         },
         {
-          "reaction": "Force Dreamer to insert government propaganda in their users' feeds",
+          "reaction": "Force them to insert government propaganda in their users' feeds",
           "passLaw": false,
           "partisan": 0,
           "demAligned": 0.1,
@@ -706,5 +706,5 @@
   "endingImageLocation": "https://raw.githubusercontent.com/Sn0wCh1ld/Various-Files/master/Impeached2/Packs/Endings/",
   "title": "Free Beer",
   "updateURL": "https://raw.githubusercontent.com/Sn0wCh1ld/Various-Files/master/Impeached2/Packs/Free%20Beer.json",
-  "version": 5
+  "version": 6
 }
