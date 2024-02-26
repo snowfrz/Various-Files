@@ -7334,6 +7334,95 @@
           "deathFlags": null
         }
       ]
+    },
+    {
+      "action": "You receive a mysterious phone call offering you even more power in exchange for a small fee. What do you do?",
+      "options": [
+        {
+          "reaction": "Refuse",
+          "passLaw": false,
+          "partisan": 0.0,
+          "demAligned": 0.0,
+          "repAligned": 0.0,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 0,
+            "economy": 0,
+            "taxRate": 0.0,
+            "popular": 0.0,
+            "foreign": 0.0,
+            "incrimination": 0.0
+          },
+          "futureEffects": null,
+          "deathFlags": {
+            "flags": {
+              "deepStateRefuse": true
+            }
+          }
+        },
+        {
+          "reaction": "Report them to the police",
+          "passLaw": false,
+          "partisan": 1.0,
+          "demAligned": -0.1,
+          "repAligned": 0.1,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 0,
+            "economy": 0,
+            "taxRate": 0.0,
+            "popular": 0.0,
+            "foreign": 0.0,
+            "incrimination": 0.0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        },
+        {
+          "reaction": "Accept",
+          "passLaw": false,
+          "partisan": 0.0,
+          "demAligned": 0.0,
+          "repAligned": 0.0,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": -1000,
+            "economy": 0,
+            "taxRate": 0.0,
+            "popular": 0.0,
+            "foreign": 0.0,
+            "incrimination": 0.2
+          },
+          "futureEffects": null,
+          "deathFlags": {
+            "flags": {
+              "deepStateAccept": true
+            }
+          }
+        },
+        {
+          "reaction": "Have the CIA investigate call center scammers",
+          "passLaw": false,
+          "partisan": 0.0,
+          "demAligned": 0.1,
+          "repAligned": 0.1,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": -500,
+            "economy": 0,
+            "taxRate": 0.0,
+            "popular": 0.1,
+            "foreign": 0.1,
+            "incrimination": 0.0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        }
+      ]
     }
   ],
   "endings": [
@@ -7490,6 +7579,27 @@
       "priority": 20,
       "flagConditions": {
         "smited": true
+      }
+    },
+    {
+      "title": "Graduated",
+      "description": "The Deep State demands that you to join their ranks. They coordinate your removal from office to avoid any suspicion.",
+      "imageName": "DeepStateHappy",
+      "priority": 20,
+      "flagConditions": {
+        "deepStateAccept": true,
+        "broke": false,
+        "lowGDP": false
+      }
+    },
+    {
+      "title": "Unfulfilled Obligations",
+      "description": "You were previously removed from office, but got assistance from power in the shadows. Should have paid your dues!",
+      "imageName": "DeepStateAngry",
+      "priority": 10,
+      "flagConditions": {
+        "resurrected": true,
+        "deepStateRefuse": true
       }
     }
   ],
