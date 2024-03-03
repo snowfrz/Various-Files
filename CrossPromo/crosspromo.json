@@ -6,6 +6,12 @@
         "buttonText": "Play Now!",
         "bundleID": "com.lbastudios.Impeached2",
         "productURL": "https://impeached.app/get.html",
-        "platforms": "ios,android,macos,linux,windows"
+        "platforms": [
+            "ios",
+            "android",
+            "macos",
+            "linux",
+            "windows"
+        ]
     }
 ]
