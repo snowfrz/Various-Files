@@ -1,0 +1,17 @@
+[
+    {
+        "title": "Impeached 2",
+        "imageURL": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/b0/c2/ce/b0c2ce03-73da-a55b-ac8d-709b45a52903/AppIcon-1x_U007emarketing-0-7-0-85-220.png/460x0w.png",
+        "description": "Become President in Impeached 2 to make laws, fight wars, commit crimes and change the world, all on the taxpayer's dime! Supports custom content.",
+        "buttonText": "Play Now!",
+        "bundleID": "com.lbastudios.Impeached2",
+        "productURL": "https://impeached.app/get.html",
+        "platforms": [
+            "ios",
+            "android",
+            "macos",
+            "linux",
+            "windows"
+        ]
+    }
+]
