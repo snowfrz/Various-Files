@@ -3,7 +3,7 @@
   "author": "Impeached",
   "updateURL": "https://raw.githubusercontent.com/Sn0wCh1ld/Various-Files/master/Impeached2/Packs/Re-Elected.json",
   "iapId": null,
-  "version": 50,
+  "version": 51,
   "scenarios": [
     {
       "action": "A major hurricane hits a heavily populated area of the country. What do you do?",
@@ -7418,6 +7418,91 @@
             "popular": 0.1,
             "foreign": 0.1,
             "incrimination": 0.0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        }
+      ]
+    },
+    {
+      "action": "You are not feeling well, but need to climb down the stairs of Air Force One. What do you do?",
+      "options": [
+        {
+          "reaction": "Ask the Secret Service to hold your hand",
+          "passLaw": false,
+          "partisan": 0.0,
+          "demAligned": 0.0,
+          "repAligned": 0.0,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 0,
+            "economy": 0,
+            "taxRate": 0.0,
+            "popular": -0.05,
+            "foreign": 0.0,
+            "incrimination": 0.0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        },
+        {
+          "reaction": "Fall down the stairs like Justin Trudeau",
+          "passLaw": false,
+          "partisan": 0,
+          "demAligned": -0.1,
+          "repAligned": -0.1,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 0,
+            "economy": 0,
+            "taxRate": 0.0,
+            "popular": -0.1,
+            "foreign": 0.0,
+            "incrimination": 0.0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        },
+        {
+          "reaction": "Have an elevator installed",
+          "passLaw": false,
+          "partisan": 0.0,
+          "demAligned": 0.0,
+          "repAligned": 0.0,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": -250,
+            "economy": 0,
+            "taxRate": 0.0,
+            "popular": 0.0,
+            "foreign": 0.0,
+            "incrimination": 0
+          },
+          "futureEffects": null,
+          "deathFlags": {
+            "flags": {
+              "deepStateAccept": true
+            }
+          }
+        },
+        {
+          "reaction": "Ban the press from taking photos",
+          "passLaw": false,
+          "partisan": 0.0,
+          "demAligned": -0.1,
+          "repAligned": -0.1,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 0,
+            "economy": 0,
+            "taxRate": 0.0,
+            "popular": -0.1,
+            "foreign": 0,
+            "incrimination": 0.1
           },
           "futureEffects": null,
           "deathFlags": null
