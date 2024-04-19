@@ -7482,11 +7482,7 @@
             "incrimination": 0
           },
           "futureEffects": null,
-          "deathFlags": {
-            "flags": {
-              "deepStateAccept": true
-            }
-          }
+          "deathFlags": null
         },
         {
           "reaction": "Ban the press from taking photos",
@@ -7498,6 +7494,87 @@
             "turnDelay": 0,
             "repeatEffect": 0,
             "budget": 0,
+            "economy": 0,
+            "taxRate": 0.0,
+            "popular": -0.1,
+            "foreign": 0,
+            "incrimination": 0.1
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        }
+      ]
+    },
+    {
+      "action": "Some major U.S. cities are sinking below sea level, threatening floods and economic damage. What do you do?",
+      "options": [
+        {
+          "reaction": "Pump concrete underground to raise the land",
+          "passLaw": false,
+          "partisan": 0.0,
+          "demAligned": 0.2,
+          "repAligned": 0.0,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": -700,
+            "economy": 0,
+            "taxRate": 0.0,
+            "popular": 0.0,
+            "foreign": 0.0,
+            "incrimination": 0.0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        },
+        {
+          "reaction": "Tell them to invest in floating cities",
+          "passLaw": false,
+          "partisan": 0,
+          "demAligned": -0.1,
+          "repAligned": -0.1,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 0,
+            "economy": 100,
+            "taxRate": 0.0,
+            "popular": -0.2,
+            "foreign": 0.0,
+            "incrimination": 0.0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        },
+        {
+          "reaction": "Ban groundwater extraction in sinking cities",
+          "passLaw": false,
+          "partisan": 0.5,
+          "demAligned": 0.3,
+          "repAligned": 0.1,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": -100,
+            "economy": 0,
+            "taxRate": 0.0,
+            "popular": 0.0,
+            "foreign": 0.0,
+            "incrimination": 0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        },
+        {
+          "reaction": "Send ShamWows to help absorb any excess water",
+          "passLaw": false,
+          "partisan": 0.0,
+          "demAligned": -0.1,
+          "repAligned": -0.1,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": -300,
             "economy": 0,
             "taxRate": 0.0,
             "popular": -0.1,
