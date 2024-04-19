@@ -7567,11 +7567,7 @@
             "incrimination": 0
           },
           "futureEffects": null,
-          "deathFlags": {
-            "flags": {
-              "deepStateAccept": true
-            }
-          }
+          "deathFlags": null
         },
         {
           "reaction": "Send ShamWows to help absorb any excess water",
