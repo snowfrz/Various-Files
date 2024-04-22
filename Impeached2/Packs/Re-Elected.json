@@ -3,7 +3,7 @@
   "author": "Impeached",
   "updateURL": "https://raw.githubusercontent.com/Sn0wCh1ld/Various-Files/master/Impeached2/Packs/Re-Elected.json",
   "iapId": null,
-  "version": 53,
+  "version": 54,
   "scenarios": [
     {
       "action": "A major hurricane hits a heavily populated area of the country. What do you do?",
@@ -4747,6 +4747,22 @@
             "incrimination": 0,
             "budget": -300,
             "economy": -200,
+            "taxRate": 0,
+            "popular": 0,
+            "foreign": 0
+          },
+          "futureEffects": []
+        },
+        {
+          "reaction": "Invest in new oil discovery projects",
+          "passLaw": true,
+          "partisan": 0.7,
+          "demAligned": -0.1,
+          "repAligned": 0.2,
+          "effect": {
+            "incrimination": 0,
+            "budget": -500,
+            "economy": 100,
             "taxRate": 0,
             "popular": 0,
             "foreign": 0
