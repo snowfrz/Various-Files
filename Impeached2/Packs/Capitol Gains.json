@@ -1,0 +1,1974 @@
+{
+  "author": "Impeached 2",
+  "iapId": "deck_general2",
+  "scenarios": [
+    {
+      "action": "Cities are enacting laws and installing barriers to prevent homeless people from camping in public. What do you do?",
+      "options": [
+        {
+          "reaction": "Let cities and states deal with their own problems",
+          "passLaw": false,
+          "partisan": 0.5,
+          "demAligned": -0.199999988,
+          "repAligned": 0.199999988,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 0,
+            "economy": 0,
+            "taxRate": 0.0,
+            "popular": 0.0,
+            "foreign": 0.0,
+            "incrimination": 0.0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        },
+        {
+          "reaction": "Provide funding to build new shelters",
+          "passLaw": false,
+          "partisan": 0.5,
+          "demAligned": 0.199999988,
+          "repAligned": -0.199999988,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": -400,
+            "economy": 0,
+            "taxRate": 0.0,
+            "popular": 0.0,
+            "foreign": 0.0,
+            "incrimination": 0.0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        },
+        {
+          "reaction": "Implement UBI to cover basic expenses like housing",
+          "passLaw": true,
+          "partisan": 1.0,
+          "demAligned": 0.199999988,
+          "repAligned": -0.199999988,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 0,
+            "economy": -150,
+            "taxRate": 0.0,
+            "popular": 0.0,
+            "foreign": 0.0,
+            "incrimination": 0.0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        },
+        {
+          "reaction": "Designate specific parks as free camp sites",
+          "passLaw": false,
+          "partisan": 0.0,
+          "demAligned": -0.099999994,
+          "repAligned": -0.099999994,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 0,
+            "economy": 0,
+            "taxRate": 0.0,
+            "popular": -0.099999994,
+            "foreign": 0.0,
+            "incrimination": 0.0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        },
+        {
+          "reaction": "Send the National Guard to help cities",
+          "passLaw": false,
+          "partisan": 0.0,
+          "demAligned": 0.0,
+          "repAligned": 0.099999994,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": -300,
+            "economy": 0,
+            "taxRate": 0.0,
+            "popular": 0.099999994,
+            "foreign": 0.0,
+            "incrimination": 0.0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        },
+        {
+          "reaction": "Offer nationwide social services for homeless people",
+          "passLaw": false,
+          "partisan": 0.669999957,
+          "demAligned": 0.149999991,
+          "repAligned": -0.149999991,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": -500,
+            "economy": 0,
+            "taxRate": 0.0,
+            "popular": 0.0,
+            "foreign": 0.0,
+            "incrimination": 0.0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        }
+      ]
+    },
+    {
+      "action": "Record-breaking heat waves are spreading across the country. What do you do?",
+      "options": [
+        {
+          "reaction": "Pass a law to require air conditioning in all buildings",
+          "passLaw": true,
+          "partisan": 0.0,
+          "demAligned": 0.099999994,
+          "repAligned": 0.099999994,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": -350,
+            "economy": -100,
+            "taxRate": 0.0,
+            "popular": 0.099999994,
+            "foreign": 0.0,
+            "incrimination": 0.0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        },
+        {
+          "reaction": "Enact a carbon tax to punish consumers",
+          "passLaw": true,
+          "partisan": 1.0,
+          "demAligned": 0.099999994,
+          "repAligned": -0.199999988,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 0,
+            "economy": -100,
+            "taxRate": 0.01,
+            "popular": -0.049999997,
+            "foreign": 0.0,
+            "incrimination": 0.0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        },
+        {
+          "reaction": "Drag an iceberg from the Arctic to cool off America",
+          "passLaw": false,
+          "partisan": 0.0,
+          "demAligned": -0.149999991,
+          "repAligned": -0.149999991,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": -700,
+            "economy": 0,
+            "taxRate": 0.0,
+            "popular": -0.099999994,
+            "foreign": -0.149999991,
+            "incrimination": 0.0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        },
+        {
+          "reaction": "Inject sulphur dioxide into the atmosphere",
+          "passLaw": false,
+          "partisan": 0.0,
+          "demAligned": -0.099999994,
+          "repAligned": -0.099999994,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": -500,
+            "economy": 0,
+            "taxRate": 0.0,
+            "popular": 0.099999994,
+            "foreign": -0.199999988,
+            "incrimination": 0.0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        },
+        {
+          "reaction": "Encourage at-risk individuals to stay indoors",
+          "passLaw": false,
+          "partisan": 0.0,
+          "demAligned": 0.0,
+          "repAligned": 0.099999994,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 0,
+            "economy": 0,
+            "taxRate": 0.0,
+            "popular": -0.099999994,
+            "foreign": 0.0,
+            "incrimination": 0.0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        },
+        {
+          "reaction": "Introduce a color-coding system for heat warnings",
+          "passLaw": false,
+          "partisan": 0.0,
+          "demAligned": 0.099999994,
+          "repAligned": 0.0,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": -250,
+            "economy": 0,
+            "taxRate": 0.0,
+            "popular": -0.049999997,
+            "foreign": 0.0,
+            "incrimination": 0.0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        }
+      ]
+    },
+    {
+      "action": "Traffic jams on various interstates are causing delays and frustration for drivers. What do you do?",
+      "options": [
+        {
+          "reaction": "Widen existing interstates",
+          "passLaw": false,
+          "partisan": 0.0,
+          "demAligned": 0.099999994,
+          "repAligned": 0.099999994,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": -500,
+            "economy": 50,
+            "taxRate": 0.0,
+            "popular": 0.099999994,
+            "foreign": 0.0,
+            "incrimination": 0.0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        },
+        {
+          "reaction": "Add autobahn-style lanes with no speed limits",
+          "passLaw": false,
+          "partisan": 0.5,
+          "demAligned": -0.199999988,
+          "repAligned": 0.099999994,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 0,
+            "economy": 50,
+            "taxRate": 0.0,
+            "popular": 0.0,
+            "foreign": 0.0,
+            "incrimination": 0.0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        },
+        {
+          "reaction": "Add carpooling lanes",
+          "passLaw": false,
+          "partisan": 0.0,
+          "demAligned": 0.199999988,
+          "repAligned": 0.099999994,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 0,
+            "economy": 50,
+            "taxRate": 0.0,
+            "popular": -0.099999994,
+            "foreign": 0.0,
+            "incrimination": 0.0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        },
+        {
+          "reaction": "Add tolls to the most affected interstates",
+          "passLaw": false,
+          "partisan": 1.0,
+          "demAligned": -0.099999994,
+          "repAligned": 0.099999994,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 200,
+            "economy": 50,
+            "taxRate": 0.0,
+            "popular": -0.049999997,
+            "foreign": 0.0,
+            "incrimination": 0.0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        },
+        {
+          "reaction": "Build new interstates to take excess traffic",
+          "passLaw": false,
+          "partisan": 0.0,
+          "demAligned": 0.099999994,
+          "repAligned": 0.099999994,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": -750,
+            "economy": 100,
+            "taxRate": 0.0,
+            "popular": 0.099999994,
+            "foreign": 0.0,
+            "incrimination": 0.0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        },
+        {
+          "reaction": "Build a cross-country bullet train system",
+          "passLaw": false,
+          "partisan": 0.5,
+          "demAligned": 0.199999988,
+          "repAligned": -0.199999988,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": -1000,
+            "economy": 150,
+            "taxRate": 0.0,
+            "popular": 0.0,
+            "foreign": 0.0,
+            "incrimination": 0.0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        }
+      ]
+    },
+    {
+      "action": "A drought has reduced American agricultural output, driving up grocery store prices. What do you do?",
+      "options": [
+        {
+          "reaction": "Invest in indoor climate-controlled farming",
+          "passLaw": false,
+          "partisan": 0.0,
+          "demAligned": 0.099999994,
+          "repAligned": -0.099999994,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": -600,
+            "economy": 100,
+            "taxRate": 0.0,
+            "popular": 0.099999994,
+            "foreign": 0.0,
+            "incrimination": 0.0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        },
+        {
+          "reaction": "Temporarily ban exporting American food",
+          "passLaw": false,
+          "partisan": 0.5,
+          "demAligned": -0.199999988,
+          "repAligned": 0.199999988,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 0,
+            "economy": -100,
+            "taxRate": 0.0,
+            "popular": 0.049999997,
+            "foreign": 0.0,
+            "incrimination": 0.0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        },
+        {
+          "reaction": "Ask farmers to switch to more resilient crops",
+          "passLaw": false,
+          "partisan": 0.0,
+          "demAligned": 0.099999994,
+          "repAligned": 0.099999994,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 0,
+            "economy": -50,
+            "taxRate": 0.0,
+            "popular": 0.0,
+            "foreign": 0.0,
+            "incrimination": 0.0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        },
+        {
+          "reaction": "Build desalination plants to provide more water",
+          "passLaw": false,
+          "partisan": 0.0,
+          "demAligned": 0.099999994,
+          "repAligned": 0.099999994,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": -700,
+            "economy": 100,
+            "taxRate": 0.0,
+            "popular": 0.099999994,
+            "foreign": 0.0,
+            "incrimination": 0.0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        },
+        {
+          "reaction": "Put price controls on grocery stores",
+          "passLaw": false,
+          "partisan": 0.5,
+          "demAligned": 0.099999994,
+          "repAligned": -0.199999988,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 0,
+            "economy": -100,
+            "taxRate": 0.0,
+            "popular": 0.049999997,
+            "foreign": 0.0,
+            "incrimination": 0.0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        },
+        {
+          "reaction": "Invest in cloud seeding technology to make it rain more",
+          "passLaw": false,
+          "partisan": 0.5,
+          "demAligned": 0.199999988,
+          "repAligned": -0.099999994,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": -750,
+            "economy": 100,
+            "taxRate": 0.0,
+            "popular": 0.0,
+            "foreign": 0.0,
+            "incrimination": 0.0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        }
+      ]
+    },
+    {
+      "action": "A major bridge collapses, cutting off important land and water shipping routes. What do you do?",
+      "options": [
+        {
+          "reaction": "Provide emergency funds to rapidly build a new bridge",
+          "passLaw": true,
+          "partisan": 0.0,
+          "demAligned": 0.099999994,
+          "repAligned": 0.099999994,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": -600,
+            "economy": 0,
+            "taxRate": 0.0,
+            "popular": 0.099999994,
+            "foreign": 0.049999997,
+            "incrimination": 0.0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        },
+        {
+          "reaction": "Reroute land traffic to reopen the waterway",
+          "passLaw": false,
+          "partisan": 0.0,
+          "demAligned": 0.099999994,
+          "repAligned": 0.099999994,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 0,
+            "economy": -50,
+            "taxRate": 0.0,
+            "popular": -0.049999997,
+            "foreign": 0.049999997,
+            "incrimination": 0.0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        },
+        {
+          "reaction": "Rebuild the bridge normally",
+          "passLaw": false,
+          "partisan": 0.0,
+          "demAligned": 0.0,
+          "repAligned": 0.0,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": -400,
+            "economy": -100,
+            "taxRate": 0.0,
+            "popular": -0.049999997,
+            "foreign": 0.0,
+            "incrimination": 0.0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        },
+        {
+          "reaction": "Sue the corporations involved in the collapse",
+          "passLaw": false,
+          "partisan": 0.0,
+          "demAligned": 0.0,
+          "repAligned": 0.0,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 150,
+            "economy": 0,
+            "taxRate": 0.0,
+            "popular": 0.049999997,
+            "foreign": 0.0,
+            "incrimination": 0.0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        }
+      ]
+    },
+    {
+      "action": "A train carrying toxic chemicals derails near a small town, spilling its contents into the environment. What do you do?",
+      "options": [
+        {
+          "reaction": "Evacuate the affected area during cleanup",
+          "passLaw": false,
+          "partisan": 0.0,
+          "demAligned": 0.0,
+          "repAligned": 0.0,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": -400,
+            "economy": 0,
+            "taxRate": 0.0,
+            "popular": 0.0,
+            "foreign": 0.0,
+            "incrimination": 0.0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        },
+        {
+          "reaction": "Allow residents to sue the rail company",
+          "passLaw": false,
+          "partisan": 0.0,
+          "demAligned": 0.099999994,
+          "repAligned": 0.0,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 0,
+            "economy": -100,
+            "taxRate": 0.0,
+            "popular": 0.099999994,
+            "foreign": 0.0,
+            "incrimination": 0.0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        },
+        {
+          "reaction": "Enact new rail safety and speed regulations",
+          "passLaw": false,
+          "partisan": 1.0,
+          "demAligned": 0.099999994,
+          "repAligned": 0.0,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": -200,
+            "economy": -50,
+            "taxRate": 0.0,
+            "popular": 0.0,
+            "foreign": 0.0,
+            "incrimination": 0.0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        },
+        {
+          "reaction": "Let the town handle the situation themselves",
+          "passLaw": false,
+          "partisan": 0.0,
+          "demAligned": -0.199999988,
+          "repAligned": -0.099999994,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 0,
+            "economy": 0,
+            "taxRate": 0.0,
+            "popular": -0.099999994,
+            "foreign": 0.0,
+            "incrimination": 0.0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        }
+      ]
+    },
+    {
+      "action": "Entrepreneurs and investors are prospering. Their businesses are boosting the economy and creating jobs, but are also widening the wealth gap. What do you do?",
+      "options": [
+        {
+          "reaction": "Reduce the capital gains tax to incentivize reinvesting profits",
+          "passLaw": false,
+          "partisan": 0.5,
+          "demAligned": -0.19,
+          "repAligned": 0.199999988,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 0,
+            "economy": 200,
+            "taxRate": -0.02,
+            "popular": 0.0,
+            "foreign": 0.0,
+            "incrimination": 0.0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        },
+        {
+          "reaction": "Increase the capital gains tax to reduce the wealth gap and fund social programs",
+          "passLaw": false,
+          "partisan": 0.5,
+          "demAligned": 0.199999988,
+          "repAligned": -0.199999988,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 0,
+            "economy": -200,
+            "taxRate": 0.02,
+            "popular": 0.0,
+            "foreign": 0.0,
+            "incrimination": 0.0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        },
+        {
+          "reaction": "Make it easier for international entrepreneurs to immigrate to America",
+          "passLaw": true,
+          "partisan": 1.0,
+          "demAligned": 0.099999994,
+          "repAligned": 0.0,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 0,
+            "economy": 100,
+            "taxRate": 0.0,
+            "popular": 0.0,
+            "foreign": 0.0,
+            "incrimination": 0.0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        },
+        {
+          "reaction": "Create a national startup incubator so more Americans can try to start a business",
+          "passLaw": false,
+          "partisan": 0.0,
+          "demAligned": 0.099999994,
+          "repAligned": 0.099999994,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": -500,
+            "economy": 100,
+            "taxRate": 0.0,
+            "popular": 0.099999994,
+            "foreign": 0.0,
+            "incrimination": 0.0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        }
+      ]
+    },
+    {
+      "action": "Inflation has been running wild, and people are getting frustrated with seemingly ever-rising prices for day-to-day items. What do you do?",
+      "options": [
+        {
+          "reaction": "Bring back the gold standard",
+          "passLaw": false,
+          "partisan": 0.0,
+          "demAligned": -0.099999994,
+          "repAligned": -0.099999994,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 0,
+            "economy": -150,
+            "taxRate": 0.0,
+            "popular": 0.049999997,
+            "foreign": 0.0,
+            "incrimination": 0.0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        },
+        {
+          "reaction": "Raise interest rates to cool off the economy",
+          "passLaw": false,
+          "partisan": 0.0,
+          "demAligned": 0.099999994,
+          "repAligned": 0.099999994,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 0,
+            "economy": -100,
+            "taxRate": 0.0,
+            "popular": 0.0,
+            "foreign": 0.0,
+            "incrimination": 0.0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        },
+        {
+          "reaction": "Set a legal limit on price increases for essential items",
+          "passLaw": false,
+          "partisan": 1.0,
+          "demAligned": 0.149999991,
+          "repAligned": -0.149999991,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 0,
+            "economy": -100,
+            "taxRate": 0.0,
+            "popular": 0.0,
+            "foreign": 0.0,
+            "incrimination": 0.0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        },
+        {
+          "reaction": "Require companies to give employees yearly raises which at least match inflation",
+          "passLaw": false,
+          "partisan": 1.0,
+          "demAligned": 0.099999994,
+          "repAligned": -0.099999994,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 0,
+            "economy": -100,
+            "taxRate": 0.0,
+            "popular": 0.0,
+            "foreign": 0.0,
+            "incrimination": 0.0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        },
+        {
+          "reaction": "Do nothing",
+          "passLaw": false,
+          "partisan": 1.0,
+          "demAligned": -0.099999994,
+          "repAligned": 0.0,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 0,
+            "economy": 0,
+            "taxRate": 0.0,
+            "popular": 0.0,
+            "foreign": 0.0,
+            "incrimination": 0.0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        }
+      ]
+    },
+    {
+      "action": "The birth rate in the U.S. has fallen below the necessary level to maintain population size. What do you do?",
+      "options": [
+        {
+          "reaction": "Offer tax incentives to parents to encourage having more kids",
+          "passLaw": false,
+          "partisan": 1.0,
+          "demAligned": 0.099999994,
+          "repAligned": 0.199999988,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 0,
+            "economy": 100,
+            "taxRate": -0.01,
+            "popular": 0.0,
+            "foreign": 0.0,
+            "incrimination": 0.0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        },
+        {
+          "reaction": "Increase immigration to offset the lower birth rate",
+          "passLaw": false,
+          "partisan": 1.0,
+          "demAligned": 0.099999994,
+          "repAligned": -0.099999994,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 0,
+            "economy": 100,
+            "taxRate": 0.0,
+            "popular": 0.0,
+            "foreign": 0.0,
+            "incrimination": 0.0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        },
+        {
+          "reaction": "Ban contraceptives nationwide",
+          "passLaw": true,
+          "partisan": 0.5,
+          "demAligned": -0.199999988,
+          "repAligned": 0.099999994,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 0,
+            "economy": 50,
+            "taxRate": 0.0,
+            "popular": -0.049999997,
+            "foreign": 0.0,
+            "incrimination": 0.0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        },
+        {
+          "reaction": "Provide housing rebates to young married adults to reduce financial stress",
+          "passLaw": false,
+          "partisan": 1.0,
+          "demAligned": 0.099999994,
+          "repAligned": 0.0,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": -500,
+            "economy": 100,
+            "taxRate": 0.0,
+            "popular": 0.0,
+            "foreign": 0.0,
+            "incrimination": 0.0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        },
+        {
+          "reaction": "Allow the U.S. population to shrink",
+          "passLaw": false,
+          "partisan": 0.0,
+          "demAligned": -0.099999994,
+          "repAligned": -0.099999994,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 0,
+            "economy": -100,
+            "taxRate": 0.0,
+            "popular": 0.0,
+            "foreign": 0.0,
+            "incrimination": 0.0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        }
+      ]
+    },
+    {
+      "action": "Universities are reporting that high school students are not being adequately prepared for college. What do you do?",
+      "options": [
+        {
+          "reaction": "Invest in teacher training and development at public schools",
+          "passLaw": false,
+          "partisan": 0.5,
+          "demAligned": 0.199999988,
+          "repAligned": 0.0,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": -500,
+            "economy": 0,
+            "taxRate": 0.0,
+            "popular": 0.0,
+            "foreign": 0.0,
+            "incrimination": 0.0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        },
+        {
+          "reaction": "Expand charter school systems",
+          "passLaw": false,
+          "partisan": 0.0,
+          "demAligned": 0.099999994,
+          "repAligned": 0.099999994,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": -700,
+            "economy": 50,
+            "taxRate": 0.0,
+            "popular": 0.099999994,
+            "foreign": 0.0,
+            "incrimination": 0.0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        },
+        {
+          "reaction": "Encourage privatization of schools",
+          "passLaw": false,
+          "partisan": 0.5,
+          "demAligned": -0.199999988,
+          "repAligned": 0.099999994,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 0,
+            "economy": 100,
+            "taxRate": 0.0,
+            "popular": 0.0,
+            "foreign": 0.0,
+            "incrimination": 0.0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        },
+        {
+          "reaction": "Reduce class sizes for more personalized instruction",
+          "passLaw": false,
+          "partisan": 0.0,
+          "demAligned": 0.099999994,
+          "repAligned": 0.0,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": -500,
+            "economy": 0,
+            "taxRate": 0.0,
+            "popular": 0.099999994,
+            "foreign": 0.0,
+            "incrimination": 0.0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        },
+        {
+          "reaction": "Implement strict education standards for standardized testing organizations",
+          "passLaw": false,
+          "partisan": 0.0,
+          "demAligned": 0.099999994,
+          "repAligned": 0.0,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 0,
+            "economy": -50,
+            "taxRate": 0.0,
+            "popular": 0.0,
+            "foreign": 0.0,
+            "incrimination": 0.0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        }
+      ]
+    },
+    {
+      "action": "Electric vehicles are increasing in popularity and EV owners demand more charging stations nationwide. What do you do?",
+      "options": [
+        {
+          "reaction": "Offer tax incentives to gas stations who install charging stations",
+          "passLaw": false,
+          "partisan": 0.0,
+          "demAligned": 0.099999994,
+          "repAligned": 0.0,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 0,
+            "economy": 0,
+            "taxRate": -0.01,
+            "popular": 0.049999997,
+            "foreign": 0.0,
+            "incrimination": 0.0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        },
+        {
+          "reaction": "Allocate government funds to build public charging infrastructure",
+          "passLaw": false,
+          "partisan": 0.0,
+          "demAligned": 0.0,
+          "repAligned": 0.0,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": -600,
+            "economy": 50,
+            "taxRate": 0.0,
+            "popular": 0.099999994,
+            "foreign": 0.0,
+            "incrimination": 0.0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        },
+        {
+          "reaction": "Let private companies figure out standardization and installation",
+          "passLaw": false,
+          "partisan": 1.0,
+          "demAligned": -0.099999994,
+          "repAligned": 0.099999994,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 0,
+            "economy": 100,
+            "taxRate": 0.0,
+            "popular": 0.0,
+            "foreign": 0.0,
+            "incrimination": 0.0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        },
+        {
+          "reaction": "Encourage consumers to buy combustion or hybrid cars",
+          "passLaw": false,
+          "partisan": 1.0,
+          "demAligned": -0.099999994,
+          "repAligned": 0.099999994,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 0,
+            "economy": 0,
+            "taxRate": 0.0,
+            "popular": 0.0,
+            "foreign": -0.049999997,
+            "incrimination": 0.0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        },
+        {
+          "reaction": "Offer rebates on mini gasoline generators for EV owners",
+          "passLaw": false,
+          "partisan": 0.0,
+          "demAligned": -0.099999994,
+          "repAligned": -0.099999994,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": -300,
+            "economy": 0,
+            "taxRate": 0.0,
+            "popular": 0.0,
+            "foreign": 0.0,
+            "incrimination": 0.0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        }
+      ]
+    },
+    {
+      "action": "The fast-food industry is booming, but concerned citizens are worried about the health effects of eating it regularly. What do you do?",
+      "options": [
+        {
+          "reaction": "Implement a tax on fast food and sugary drinks",
+          "passLaw": false,
+          "partisan": 0.5,
+          "demAligned": 0.099999994,
+          "repAligned": -0.199999988,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 0,
+            "economy": -100,
+            "taxRate": 0.01,
+            "popular": -0.049999997,
+            "foreign": 0.0,
+            "incrimination": 0.0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        },
+        {
+          "reaction": "Ban half the ingredients used, European style",
+          "passLaw": true,
+          "partisan": 0.5,
+          "demAligned": 0.0,
+          "repAligned": -0.199999988,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 0,
+            "economy": -100,
+            "taxRate": 0.0,
+            "popular": -0.049999997,
+            "foreign": 0.0,
+            "incrimination": 0.0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        },
+        {
+          "reaction": "Implement stricter nutritional labeling laws",
+          "passLaw": true,
+          "partisan": 0.0,
+          "demAligned": 0.099999994,
+          "repAligned": 0.0,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 0,
+            "economy": -50,
+            "taxRate": 0.0,
+            "popular": 0.099999994,
+            "foreign": 0.0,
+            "incrimination": 0.0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        },
+        {
+          "reaction": "Fund public health campaigns about healthy eating",
+          "passLaw": false,
+          "partisan": 0.0,
+          "demAligned": 0.099999994,
+          "repAligned": 0.0,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": -350,
+            "economy": 0,
+            "taxRate": 0.0,
+            "popular": 0.0,
+            "foreign": 0.0,
+            "incrimination": 0.0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        },
+        {
+          "reaction": "Let consumers make their own choices",
+          "passLaw": false,
+          "partisan": 0.0,
+          "demAligned": 0.099999994,
+          "repAligned": 0.199999988,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 0,
+            "economy": 0,
+            "taxRate": 0.0,
+            "popular": 0.099999994,
+            "foreign": 0.0,
+            "incrimination": 0.0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        }
+      ]
+    },
+    {
+      "action": "The rise of online shopping giants is causing small businesses to struggle. What do you do?",
+      "options": [
+        {
+          "reaction": "Offer small business grants to local retailers",
+          "passLaw": false,
+          "partisan": 0.0,
+          "demAligned": 0.099999994,
+          "repAligned": 0.199999988,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": -450,
+            "economy": -50,
+            "taxRate": 0.0,
+            "popular": 0.099999994,
+            "foreign": 0.0,
+            "incrimination": 0.0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        },
+        {
+          "reaction": "Prohibit online retail platforms from accessing their merchants? sales data",
+          "passLaw": true,
+          "partisan": 0.0,
+          "demAligned": 0.099999994,
+          "repAligned": 0.099999994,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 0,
+            "economy": -50,
+            "taxRate": 0.0,
+            "popular": 0.099999994,
+            "foreign": 0.0,
+            "incrimination": 0.0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        },
+        {
+          "reaction": "Run ads encouraging consumers to shop locally",
+          "passLaw": false,
+          "partisan": 0.0,
+          "demAligned": 0.099999994,
+          "repAligned": 0.0,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": -450,
+            "economy": 50,
+            "taxRate": 0.0,
+            "popular": 0.0,
+            "foreign": 0.0,
+            "incrimination": 0.0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        },
+        {
+          "reaction": "Allow the market to self-regulate",
+          "passLaw": false,
+          "partisan": 0.5,
+          "demAligned": 0.0,
+          "repAligned": 0.199999988,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 0,
+            "economy": 100,
+            "taxRate": 0.0,
+            "popular": 0.0,
+            "foreign": 0.0,
+            "incrimination": 0.0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        }
+      ]
+    },
+    {
+      "action": "Celebrity influence in politics is growing, with many celebrities running for office. What do you do?",
+      "options": [
+        {
+          "reaction": "Hire a Zoomer social media intern with a broccoli haircut to make you go viral",
+          "passLaw": false,
+          "partisan": 0.0,
+          "demAligned": 0.0,
+          "repAligned": 0.0,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": -300,
+            "economy": 0,
+            "taxRate": 0.0,
+            "popular": 0.049999997,
+            "foreign": 0.0,
+            "incrimination": 0.0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        },
+        {
+          "reaction": "Bribe political celebrities to endorse you instead",
+          "passLaw": false,
+          "partisan": 0.0,
+          "demAligned": -0.099999994,
+          "repAligned": -0.11,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": -500,
+            "economy": 0,
+            "taxRate": 0.0,
+            "popular": 0.099999994,
+            "foreign": 0.0,
+            "incrimination": 0.099999994
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        },
+        {
+          "reaction": "Create a reality TV show for traditional politicians to reach the masses",
+          "passLaw": false,
+          "partisan": 0.0,
+          "demAligned": 0.099999994,
+          "repAligned": 0.099999994,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": -600,
+            "economy": 0,
+            "taxRate": 0.0,
+            "popular": 0.099999994,
+            "foreign": 0.0,
+            "incrimination": 0.0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        },
+        {
+          "reaction": "Run ads focusing on their lack of political experience",
+          "passLaw": false,
+          "partisan": 0.0,
+          "demAligned": 0.0,
+          "repAligned": 0.0,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": -350,
+            "economy": 0,
+            "taxRate": 0.0,
+            "popular": 0.0,
+            "foreign": 0.0,
+            "incrimination": 0.0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        }
+      ]
+    },
+    {
+      "action": "A foreign government is suspected of using social media bots to influence elections. What do you do?",
+      "options": [
+        {
+          "reaction": "Impose economic sanctions on that country",
+          "passLaw": false,
+          "partisan": 0.0,
+          "demAligned": 0.099999994,
+          "repAligned": 0.099999994,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 0,
+            "economy": -100,
+            "taxRate": 0.0,
+            "popular": 0.0,
+            "foreign": -0.099999994,
+            "incrimination": 0.0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        },
+        {
+          "reaction": "Provide funding to social media platforms for bot detection and removal",
+          "passLaw": false,
+          "partisan": 0.0,
+          "demAligned": 0.099999994,
+          "repAligned": 0.099999994,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": -500,
+            "economy": 0,
+            "taxRate": 0.0,
+            "popular": 0.099999994,
+            "foreign": 0.0,
+            "incrimination": 0.0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        },
+        {
+          "reaction": "Run your own propaganda bots to counteract any foreign influence",
+          "passLaw": false,
+          "partisan": 0.0,
+          "demAligned": 0.0,
+          "repAligned": 0.0,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": -300,
+            "economy": 0,
+            "taxRate": 0.0,
+            "popular": 0.049999997,
+            "foreign": 0.0,
+            "incrimination": 0.049999997
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        },
+        {
+          "reaction": "Fine social media companies who fail to remove foreign propaganda bots",
+          "passLaw": false,
+          "partisan": 0.0,
+          "demAligned": 0.099999994,
+          "repAligned": 0.099999994,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 150,
+            "economy": 0,
+            "taxRate": 0.0,
+            "popular": 0.0,
+            "foreign": 0.0,
+            "incrimination": 0.0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        }
+      ]
+    },
+    {
+      "action": "The rise of remote work is reducing traffic to business districts, harming local businesses and collapsing commercial property value. What do you do?",
+      "options": [
+        {
+          "reaction": "Override city zoning to let owners turn offices into housing & nightlife",
+          "passLaw": true,
+          "partisan": 0.0,
+          "demAligned": -0.099999994,
+          "repAligned": -0.099999994,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 0,
+            "economy": 150,
+            "taxRate": 0.0,
+            "popular": 0.099999994,
+            "foreign": 0.0,
+            "incrimination": 0.0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        },
+        {
+          "reaction": "Force companies to require at least 50% of employees be onsite",
+          "passLaw": true,
+          "partisan": 0.0,
+          "demAligned": 0.0,
+          "repAligned": 0.099999994,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 0,
+            "economy": 50,
+            "taxRate": 0.0,
+            "popular": -0.099999994,
+            "foreign": 0.0,
+            "incrimination": 0.0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        },
+        {
+          "reaction": "Subsidize downtown businesses to help them survive",
+          "passLaw": false,
+          "partisan": 1.0,
+          "demAligned": 0.099999994,
+          "repAligned": -0.099999994,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 0,
+            "economy": -50,
+            "taxRate": 0.0,
+            "popular": 0.0,
+            "foreign": 0.0,
+            "incrimination": 0.0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        },
+        {
+          "reaction": "Refuse to interfere with the property market",
+          "passLaw": false,
+          "partisan": 1.0,
+          "demAligned": -0.099999994,
+          "repAligned": 0.099999994,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 0,
+            "economy": -100,
+            "taxRate": 0.0,
+            "popular": 0.0,
+            "foreign": 0.0,
+            "incrimination": 0.0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        }
+      ]
+    },
+    {
+      "action": "Reports of a mysterious creature in a national park have gone viral. Some are claiming it to be a werewolf or a chupacabra. What do you do?",
+      "options": [
+        {
+          "reaction": "Fund a scientific expedition to find the creature",
+          "passLaw": false,
+          "partisan": 0.5,
+          "demAligned": 0.099999994,
+          "repAligned": -0.099999994,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": -500,
+            "economy": 0,
+            "taxRate": 0.0,
+            "popular": 0.049999997,
+            "foreign": 0.0,
+            "incrimination": 0.0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        },
+        {
+          "reaction": "Dismiss the reports as hoaxes, saying it was probably just a stray dog",
+          "passLaw": false,
+          "partisan": 0.0,
+          "demAligned": 0.099999994,
+          "repAligned": 0.099999994,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 0,
+            "economy": 0,
+            "taxRate": 0.0,
+            "popular": -0.049999997,
+            "foreign": 0.0,
+            "incrimination": 0.0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        },
+        {
+          "reaction": "Use the creature as a mascot for national park funding",
+          "passLaw": false,
+          "partisan": 0.0,
+          "demAligned": 0.099999994,
+          "repAligned": 0.0,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": -400,
+            "economy": 0,
+            "taxRate": 0.0,
+            "popular": 0.049999997,
+            "foreign": 0.0,
+            "incrimination": 0.0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        },
+        {
+          "reaction": "Offer a reward for credible footage of the creature",
+          "passLaw": false,
+          "partisan": 0.0,
+          "demAligned": 0.0,
+          "repAligned": -0.099999994,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": -400,
+            "economy": 0,
+            "taxRate": 0.0,
+            "popular": 0.049999997,
+            "foreign": 0.0,
+            "incrimination": 0.0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        },
+        {
+          "reaction": "Create a themed restaurant in the park based on the mystery",
+          "passLaw": false,
+          "partisan": 0.0,
+          "demAligned": 0.099999994,
+          "repAligned": 0.149999991,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": -450,
+            "economy": 100,
+            "taxRate": 0.0,
+            "popular": 0.049999997,
+            "foreign": 0.0,
+            "incrimination": 0.0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        },
+        {
+          "reaction": "Offer the creature tree fiddy to see if it is actually the Loch Ness monster",
+          "passLaw": false,
+          "partisan": 0.0,
+          "demAligned": -0.099999994,
+          "repAligned": -0.099999994,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": -350,
+            "economy": 0,
+            "taxRate": 0.0,
+            "popular": 0.0,
+            "foreign": 0.0,
+            "incrimination": 0.0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        }
+      ]
+    },
+    {
+      "action": "Plastic garbage is building up in landfills across the nation, and is becoming difficult to manage. What do you do?",
+      "options": [
+        {
+          "reaction": "Nothing, there is plenty of space for cities to build new landfills",
+          "passLaw": false,
+          "partisan": 0.0,
+          "demAligned": -0.099999994,
+          "repAligned": 0.0,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 0,
+            "economy": 0,
+            "taxRate": 0.0,
+            "popular": 0.0,
+            "foreign": 0.0,
+            "incrimination": 0.0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        },
+        {
+          "reaction": "Build incinerators at power stations to convert garbage into electricity",
+          "passLaw": false,
+          "partisan": 0.5,
+          "demAligned": -0.199999988,
+          "repAligned": 0.099999994,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": -650,
+            "economy": 100,
+            "taxRate": 0.0,
+            "popular": 0.0,
+            "foreign": -0.099999994,
+            "incrimination": 0.0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        },
+        {
+          "reaction": "Pay other nations to accept shipments of plastic garbage",
+          "passLaw": false,
+          "partisan": 0.0,
+          "demAligned": 0.0,
+          "repAligned": 0.099999994,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": -400,
+            "economy": 0,
+            "taxRate": 0.0,
+            "popular": 0.0,
+            "foreign": -0.049999997,
+            "incrimination": 0.0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        },
+        {
+          "reaction": "Invest in biodegradable hemp-based alternatives to plastic",
+          "passLaw": false,
+          "partisan": 0.0,
+          "demAligned": 0.199999988,
+          "repAligned": 0.0,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": -500,
+            "economy": 0,
+            "taxRate": 0.0,
+            "popular": 0.099999994,
+            "foreign": 0.0,
+            "incrimination": 0.0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        },
+        {
+          "reaction": "Expand recycling programs at the request of the plastic industry",
+          "passLaw": false,
+          "partisan": 0.5,
+          "demAligned": 0.099999994,
+          "repAligned": -0.099999994,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": -500,
+            "economy": -50,
+            "taxRate": 0.0,
+            "popular": 0.049999997,
+            "foreign": 0.0,
+            "incrimination": 0.099999994
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        },
+        {
+          "reaction": "Ban single-use plastics",
+          "passLaw": true,
+          "partisan": 0.5,
+          "demAligned": 0.099999994,
+          "repAligned": -0.199999988,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 0,
+            "economy": -100,
+            "taxRate": 0.0,
+            "popular": -0.049999997,
+            "foreign": 0.0,
+            "incrimination": 0.0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        },
+        {
+          "reaction": "Dump it in the ocean",
+          "passLaw": false,
+          "partisan": 0.0,
+          "demAligned": -0.199999988,
+          "repAligned": -0.199999988,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 0,
+            "economy": 0,
+            "taxRate": 0.0,
+            "popular": -0.099999994,
+            "foreign": -0.199999988,
+            "incrimination": 0.099999994
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        }
+      ]
+    },
+    {
+      "action": "The Supreme Court publishes a series of decisions that you and your supporters strongly dislike. What do you do?",
+      "options": [
+        {
+          "reaction": "Try to appoint additional justices who are loyal to your views",
+          "passLaw": false,
+          "partisan": 0.0,
+          "demAligned": -0.099999994,
+          "repAligned": -0.099999994,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 0,
+            "economy": 0,
+            "taxRate": 0.0,
+            "popular": 0.099999994,
+            "foreign": 0.0,
+            "incrimination": 0.099999994
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        },
+        {
+          "reaction": "Voice your opinion on these decisions but reaffirm the Court?s independence",
+          "passLaw": false,
+          "partisan": 0.0,
+          "demAligned": 0.099999994,
+          "repAligned": 0.099999994,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 0,
+            "economy": 0,
+            "taxRate": 0.0,
+            "popular": 0.0,
+            "foreign": 0.0,
+            "incrimination": 0.0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        },
+        {
+          "reaction": "Pass laws to try to limit the effects of these rulings",
+          "passLaw": true,
+          "partisan": 0.0,
+          "demAligned": 0.0,
+          "repAligned": 0.0,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 0,
+            "economy": 0,
+            "taxRate": 0.0,
+            "popular": 0.099999994,
+            "foreign": 0.0,
+            "incrimination": 0.0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        },
+        {
+          "reaction": "Give gifts to some of the justices so that they align with you in the future",
+          "passLaw": false,
+          "partisan": 0.0,
+          "demAligned": -0.199999988,
+          "repAligned": -0.199999988,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": -300,
+            "economy": 0,
+            "taxRate": 0.0,
+            "popular": -0.099999994,
+            "foreign": 0.0,
+            "incrimination": 0.149999991
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        }
+      ]
+    },
+    {
+      "action": "A small nearby nation discovers a massive supply of oil that is cheap to extract in their territory, crashing oil prices. What do you do?",
+      "options": [
+        {
+          "reaction": "Embrace the cheaper oil prices for the benefit of American industry",
+          "passLaw": false,
+          "partisan": 0.0,
+          "demAligned": 0.099999994,
+          "repAligned": 0.099999994,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 0,
+            "economy": 75,
+            "taxRate": 0.0,
+            "popular": 0.099999994,
+            "foreign": 0.0,
+            "incrimination": 0.0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        },
+        {
+          "reaction": "Offer them military protection in exchange for exclusive drilling rights",
+          "passLaw": false,
+          "partisan": 0.0,
+          "demAligned": 0.0,
+          "repAligned": 0.0,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": -400,
+            "economy": 150,
+            "taxRate": 0.0,
+            "popular": 0.0,
+            "foreign": 0.0,
+            "incrimination": 0.0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        },
+        {
+          "reaction": "Impose tariffs to protect American oil companies",
+          "passLaw": false,
+          "partisan": 0.0,
+          "demAligned": 0.0,
+          "repAligned": 0.099999994,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 0,
+            "economy": 0,
+            "taxRate": 0.0,
+            "popular": -0.049999997,
+            "foreign": -0.099999994,
+            "incrimination": 0.0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        },
+        {
+          "reaction": "Annex the country to get their oil supply",
+          "passLaw": false,
+          "partisan": 0.0,
+          "demAligned": -0.099999994,
+          "repAligned": 0.0,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": -750,
+            "economy": 200,
+            "taxRate": 0.0,
+            "popular": 0.0,
+            "foreign": -0.25,
+            "incrimination": 0.0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        }
+      ]
+    }
+  ],
+  "endings": null,
+  "overlays": null,
+  "endingImageLocation": null,
+  "title": "Capitol Gains",
+  "updateURL": "https://raw.githubusercontent.com/Sn0wCh1ld/Various-Files/master/Impeached2/Packs/Capitol%20Gains.json",
+  "version": 20
+}
