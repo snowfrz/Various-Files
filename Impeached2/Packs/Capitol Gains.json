@@ -1244,7 +1244,7 @@
           "deathFlags": null
         },
         {
-          "reaction": "Prohibit online retail platforms from accessing their merchants? sales data",
+          "reaction": "Prohibit online retail platforms from accessing merchant sales data",
           "passLaw": true,
           "partisan": 0.0,
           "demAligned": 0.1,
@@ -1825,7 +1825,7 @@
           "deathFlags": null
         },
         {
-          "reaction": "Voice your opinion on these decisions but reaffirm the Court?s independence",
+          "reaction": "Voice your opinion but reaffirm the independence of the Court",
           "passLaw": false,
           "partisan": 0.0,
           "demAligned": 0.1,
@@ -1970,5 +1970,5 @@
   "endingImageLocation": null,
   "title": "Capitol Gains",
   "updateURL": "https://raw.githubusercontent.com/Sn0wCh1ld/Various-Files/master/Impeached2/Packs/Capitol%20Gains.json",
-  "version": 21
+  "version": 22
 }
