@@ -1,0 +1,159 @@
+{
+  "title": "DefaultEndings",
+  "author": "Impeached",
+  "updateURL": "https://raw.githubusercontent.com/Sn0wCh1ld/Various-Files/master/Impeached2/Packs/DefaultEndings.json",
+  "iapId": null,
+  "version": 3,
+  "scenarios": [],
+  "endings": [
+    {
+      "title": "Retired",
+      "description": "You served two full terms as President. You made some friends, but far more enemies and will live the rest of your life restricted by the Secret Service. I hope it was all worth it.",
+      "imageName": "Retired",
+      "hint": "Survive two full terms, then retire.",
+      "priority": -14,
+      "flagConditions": {
+        "retired": true
+      }
+    },
+    {
+      "title": "Killed by Player",
+      "description": "The player (trying to be clever) has interfered with the world of Impeached 2. The President has been killed, and the order of things has been disrupted.",
+      "imageName": "Kill",
+      "hint": "Get creative. Break the rules. Think outside the box.",
+      "priority": -13,
+      "flagConditions": {
+        "kill": true
+      }
+    },
+    {
+      "title": "Resigned",
+      "description": "You couldn't take the heat and resigned from office. You go down in history with Richard Nixon as the only U.S. Presidents to have quit the job.",
+      "imageName": "Capitol",
+      "hint": "Give up on your presidency",
+      "priority": -12,
+      "flagConditions": {
+        "resigned": true
+      }
+    },
+    {
+      "title": "Collapsed",
+      "description": "Your mismanagement has singlehandedly destroyed the most powerful nation on Earth, and it will take generations to rectify your misdeeds.",
+      "imageName": "Collapsed",
+      "hint": "You gotta be intentionally horrible to get this one. Destroy all the main stats and commit lots of crime.",
+      "priority": -11,
+      "flagConditions": {
+        "national": true,
+        "global": true,
+        "broke": true,
+        "criminal": true
+      }
+    },
+    {
+      "title": "Civil War",
+      "description": "Your inflammatory and polarizing policies have driven Americans from both sides to their respective extremes. There's no coming back from this one.",
+      "imageName": "Collapsed",
+      "hint": "What if you turned the nation against itself?",
+      "priority": -10,
+      "flagConditions": {
+        "noDem": true,
+        "noRep": true,
+        "national": true
+      }
+    },
+    {
+      "title": "Died in Office",
+      "description": "You regrettably died while in office. You are remembered as one of the presidents of all time.",
+      "imageName": "Died",
+      "hint": "Make questionable health choices.",
+      "priority": 10000,
+      "flagConditions": {
+        "died": true
+      }
+    },
+    {
+      "title": "Incarcerated",
+      "description": "You were more like a mob boss than a U.S. President. You are impeached by Congress and convicted by a federal court. Guess you'll need an inmate simulator now #ImprisonedGame",
+      "imageName": "Incarcerated",
+      "hint": "Become the Wolf of D.C.",
+      "priority": 10001,
+      "flagConditions": {
+        "broke": true,
+        "criminal": true
+      }
+    },
+    {
+      "title": "Overthrown",
+      "description": "Your people have had enough. Backed by foreign militaries, they turned against your administration and somehow won.",
+      "imageName": "Overthrown",
+      "hint": "Anger the whole world",
+      "priority": 10002,
+      "flagConditions": {
+        "national": true,
+        "global": true
+      }
+    },
+    {
+      "title": "Fled",
+      "description": "Your former supporters have abandoned you and the government is hunting you down, so you run away to the jungle. You go down in history as the worst U.S. President of all time.",
+      "imageName": "Fled",
+      "hint": "You can run, and turns out you can hide too. Turn the People and the government against you.",
+      "priority": 10003,
+      "flagConditions": {
+        "national": true,
+        "criminal": true
+      }
+    },
+    {
+      "title": "Invaded",
+      "description": "You pushed your allies away and infuriated your enemies. In a few short years, the U.S.A. has become a global pariah.",
+      "imageName": "Invaded",
+      "hint": "Push your foreign enemies over the edge",
+      "priority": 10004,
+      "flagConditions": {
+        "global": true
+      }
+    },
+    {
+      "title": "Assassinated",
+      "description": "You were gonna be removed from office in the next election anyway, but apparently someone thought that wasn't soon enough.",
+      "imageName": "Assassinated",
+      "hint": "Lose the confidence of the People",
+      "priority": 10005,
+      "flagConditions": {
+        "national": true
+      }
+    },
+    {
+      "title": "Impeached",
+      "description": "Due to excessive spending, you have been impeached by Congress. At least now you can play golf full time, or maybe become a motivational speaker!",
+      "imageName": "Broke",
+      "hint": "Spend, spend, spend.",
+      "priority": 10006,
+      "flagConditions": {
+        "broke": true
+      }
+    },
+    {
+      "title": "Impeached",
+      "description": "For your crimes, you have been impeached by Congress. You receive a pardon from the next president, but your name is disgraced forever.",
+      "imageName": "Capitol",
+      "hint": "A little bit of crime, as a treat.",
+      "priority": 10007,
+      "flagConditions": {
+        "criminal": true
+      }
+    },
+    {
+      "title": "Impeached",
+      "description": "Due to your general incompetence and apparent corruption, you have been impeached by Congress. You are the laughingstock of the international community.",
+      "imageName": "Capitol",
+      "hint": "Get impeached for no apparent reason.",
+      "priority": 10008,
+      "flagConditions": {
+        "impeached": true
+      }
+    }
+  ],
+  "endingImageLocation": "https://raw.githubusercontent.com/Sn0wCh1ld/Various-Files/master/Impeached2/Packs/Endings/"
+}
