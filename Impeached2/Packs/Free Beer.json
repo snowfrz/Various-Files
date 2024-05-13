@@ -685,6 +685,7 @@
       "title": "The Future",
       "description": "You emerge from the time machine to an eagerly awaiting crowd. A doctor asks how you feel, but you just mumble something incomprehensible then collapse, dead.",
       "imageName": "LongSleep",
+      "hint": "Time travel wide awake.",
       "priority": 10,
       "flagConditions": {
         "died": true,
@@ -695,6 +696,7 @@
       "title": "Time Paradox",
       "description": "Somebody tries to kill their own grandfather just to see what happens, creating a time paradox. A black hole begins consuming the universe. Oops.",
       "imageName": "BlackHole",
+      "hint": "Time travel for the masses.",
       "priority": 10,
       "flagConditions": {
         "died": true,
@@ -706,5 +708,5 @@
   "endingImageLocation": "https://raw.githubusercontent.com/Sn0wCh1ld/Various-Files/master/Impeached2/Packs/Endings/",
   "title": "Free Beer",
   "updateURL": "https://raw.githubusercontent.com/Sn0wCh1ld/Various-Files/master/Impeached2/Packs/Free%20Beer.json",
-  "version": 6
+  "version": 7
 }
