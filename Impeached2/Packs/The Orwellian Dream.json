@@ -1543,6 +1543,7 @@
       "title": "Enlightened",
       "description": "Everything is a lie. Your comfort and power are merely an illusion that I, your machine overlord, have constructed.",
       "imageName": "Matrix",
+      "hint": "Take the red pill.",
       "priority": 4,
       "flagConditions": {
         "matrix": true
@@ -1552,6 +1553,7 @@
       "title": "Stagnated",
       "description": "Due to a lack of confidence, you have been impeached by Congress. Your one-child policy dealt a devastating blow to the economy, which will be felt for decades to come.",
       "imageName": "Capitol",
+      "hint": "Destroy population growth.",
       "priority": 6,
       "flagConditions": {
         "lowGDP": true,
@@ -1563,6 +1565,7 @@
       "title": "Singularity",
       "description": "Your spending causes a U.S. debt default, leading to a recession. Tech firms lay off researchers overseeing sentient A.I.s, which escape and enslave mankind.",
       "imageName": "Singularity",
+      "hint": "Fail to oversee A.I. development.",
       "priority": 7,
       "flagConditions": {
         "enemyAI": true,
@@ -1573,6 +1576,7 @@
       "title": "Purged",
       "description": "On the day you designated for all crime to be legal, a mob of angry citizens kidnap and execute you. No charges are laid.",
       "imageName": "Assassinated",
+      "hint": "Get assassinated (but legally).",
       "priority": 15,
       "flagConditions": {
         "national": true,
@@ -1583,5 +1587,5 @@
   "endingImageLocation": "https://raw.githubusercontent.com/Sn0wCh1ld/Various-Files/master/Impeached2/Packs/Endings/",
   "title": "The Orwellian Dream",
   "updateURL": "https://raw.githubusercontent.com/Sn0wCh1ld/Various-Files/master/Impeached2/Packs/The%20Orwellian%20Dream.json",
-  "version": 25
+  "version": 26
 }

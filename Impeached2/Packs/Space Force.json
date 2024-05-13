@@ -845,6 +845,7 @@
       "title": "Apocalypse",
       "description": "As you were being removed from office, the asteroid you previously ignored unexpectedly collided with the Earth. Well, unexpectedly to you anyway. Humanity is finished.",
       "imageName": "Apocalypse",
+      "hint": "Go the way of the dinosaurs.",
       "priority": 13.7,
       "flagConditions": {
         "asteroid": true
@@ -854,6 +855,7 @@
       "title": "Abducted",
       "description": "Your signal was heard by nearby aliens, who abduct you to be Earth's galactic representative. But they let Jerry drive so you never make it to the Mothership. America is confused.",
       "imageName": "Aliens",
+      "hint": "Disturb the dark forest.",
       "priority": 5,
       "flagConditions": {
         "aliens": true,
@@ -885,5 +887,5 @@
   "endingImageLocation": "https://raw.githubusercontent.com/Sn0wCh1ld/Various-Files/master/Impeached2/Packs/Endings/",
   "title": "Space Force",
   "updateURL": "https://raw.githubusercontent.com/Sn0wCh1ld/Various-Files/master/Impeached2/Packs/Space%20Force.json",
-  "version": 18
+  "version": 19
 }

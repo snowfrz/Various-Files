@@ -887,6 +887,7 @@
       "title": "Reanimated",
       "description": "You died in office, but your body is frozen and stored for decades. Once medicine catches up, you are reanimated and find a totally different world than you left.",
       "imageName": "LongSleep",
+      "hint": "Die, but come back.",
       "priority": 10,
       "flagConditions": {
         "died": true,
@@ -897,6 +898,7 @@
       "title": "Corpocracy",
       "description": "As your government descended into chaos, powerful corporations stepped in to fill the void. All hail our corporate overlords.",
       "imageName": "Corporatocracy",
+      "hint": "Who needs government when you have companies?",
       "priority": 10,
       "flagConditions": {
         "corporate": true,
@@ -918,5 +920,5 @@
   "endingImageLocation": "https://raw.githubusercontent.com/Sn0wCh1ld/Various-Files/master/Impeached2/Packs/Endings/",
   "title": "The R&D Party",
   "updateURL": "https://raw.githubusercontent.com/Sn0wCh1ld/Various-Files/master/Impeached2/Packs/The%20R%26D%20Party.json",
-  "version": 7
+  "version": 8
 }
