@@ -8,7 +8,7 @@
         {
           "reaction": "Let cities and states deal with their own problems",
           "passLaw": false,
-          "partisan": 0.5,
+          "partisan": 0.75,
           "demAligned": -0.2,
           "repAligned": 0.2,
           "effect": {
@@ -27,7 +27,7 @@
         {
           "reaction": "Provide funding to build new shelters",
           "passLaw": false,
-          "partisan": 0.5,
+          "partisan": 0.75,
           "demAligned": 0.2,
           "repAligned": -0.2,
           "effect": {
@@ -103,7 +103,7 @@
         {
           "reaction": "Offer nationwide social services for homeless people",
           "passLaw": false,
-          "partisan": 0.67,
+          "partisan": 1.0,
           "demAligned": 0.15,
           "repAligned": -0.15,
           "effect": {
@@ -174,8 +174,8 @@
             "budget": -700,
             "economy": 0,
             "taxRate": 0.0,
-            "popular": -0.1,
-            "foreign": -0.15,
+            "popular": -0.15,
+            "foreign": -0.2,
             "incrimination": 0.0
           },
           "futureEffects": null,
@@ -210,7 +210,7 @@
             "turnDelay": 0,
             "repeatEffect": 0,
             "budget": 0,
-            "economy": 0,
+            "economy": -100,
             "taxRate": 0.0,
             "popular": -0.1,
             "foreign": 0.0,
@@ -231,7 +231,7 @@
             "budget": -250,
             "economy": 0,
             "taxRate": 0.0,
-            "popular": -0.05,
+            "popular": -0.1,
             "foreign": 0.0,
             "incrimination": 0.0
           },
@@ -265,7 +265,7 @@
         {
           "reaction": "Add autobahn-style lanes with no speed limits",
           "passLaw": false,
-          "partisan": 0.5,
+          "partisan": 1.0,
           "demAligned": -0.2,
           "repAligned": 0.1,
           "effect": {
@@ -290,7 +290,7 @@
           "effect": {
             "turnDelay": 0,
             "repeatEffect": 0,
-            "budget": 0,
+            "budget": -250,
             "economy": 50,
             "taxRate": 0.0,
             "popular": -0.1,
@@ -384,9 +384,9 @@
         {
           "reaction": "Temporarily ban exporting American food",
           "passLaw": false,
-          "partisan": 0.5,
+          "partisan": 1.0,
           "demAligned": -0.2,
-          "repAligned": 0.2,
+          "repAligned": 0.1,
           "effect": {
             "turnDelay": 0,
             "repeatEffect": 0,
@@ -412,7 +412,7 @@
             "budget": 0,
             "economy": -50,
             "taxRate": 0.0,
-            "popular": 0.0,
+            "popular": -0.1,
             "foreign": 0.0,
             "incrimination": 0.0
           },
@@ -460,9 +460,9 @@
         {
           "reaction": "Invest in cloud seeding technology to make it rain more",
           "passLaw": false,
-          "partisan": 0.5,
+          "partisan": 0.75,
           "demAligned": 0.2,
-          "repAligned": -0.1,
+          "repAligned": -0.2,
           "effect": {
             "turnDelay": 0,
             "repeatEffect": 0,
@@ -512,7 +512,7 @@
             "budget": 0,
             "economy": -50,
             "taxRate": 0.0,
-            "popular": -0.05,
+            "popular": -0.1,
             "foreign": 0.05,
             "incrimination": 0.0
           },
@@ -531,7 +531,7 @@
             "budget": -400,
             "economy": -100,
             "taxRate": 0.0,
-            "popular": -0.05,
+            "popular": -0.2,
             "foreign": 0.0,
             "incrimination": 0.0
           },
@@ -550,7 +550,7 @@
             "budget": 150,
             "economy": 0,
             "taxRate": 0.0,
-            "popular": 0.05,
+            "popular": 0.0,
             "foreign": 0.0,
             "incrimination": 0.0
           },
@@ -605,7 +605,7 @@
           "passLaw": false,
           "partisan": 1.0,
           "demAligned": 0.1,
-          "repAligned": 0.0,
+          "repAligned": -0.1,
           "effect": {
             "turnDelay": 0,
             "repeatEffect": 0,
@@ -631,7 +631,7 @@
             "budget": 0,
             "economy": 0,
             "taxRate": 0.0,
-            "popular": -0.1,
+            "popular": -0.2,
             "foreign": 0.0,
             "incrimination": 0.0
           },
@@ -812,7 +812,7 @@
             "budget": 0,
             "economy": 0,
             "taxRate": 0.0,
-            "popular": 0.0,
+            "popular": -0.05,
             "foreign": 0.0,
             "incrimination": 0.0
           },
@@ -910,9 +910,9 @@
             "turnDelay": 0,
             "repeatEffect": 0,
             "budget": 0,
-            "economy": -100,
+            "economy": -150,
             "taxRate": 0.0,
-            "popular": 0.0,
+            "popular": -0.1,
             "foreign": 0.0,
             "incrimination": 0.0
           },
@@ -1155,7 +1155,7 @@
             "budget": 0,
             "economy": -100,
             "taxRate": 0.0,
-            "popular": -0.05,
+            "popular": -0.1,
             "foreign": 0.0,
             "incrimination": 0.0
           },
@@ -1498,7 +1498,7 @@
             "budget": 0,
             "economy": 50,
             "taxRate": 0.0,
-            "popular": -0.1,
+            "popular": -0.2,
             "foreign": 0.0,
             "incrimination": 0.0
           },
@@ -1517,7 +1517,7 @@
             "budget": 0,
             "economy": -50,
             "taxRate": 0.0,
-            "popular": 0.0,
+            "popular": -0.05,
             "foreign": 0.0,
             "incrimination": 0.0
           },
@@ -1560,7 +1560,7 @@
             "budget": -500,
             "economy": 0,
             "taxRate": 0.0,
-            "popular": 0.05,
+            "popular": 0.0,
             "foreign": 0.0,
             "incrimination": 0.0
           },
@@ -1679,7 +1679,7 @@
             "budget": 0,
             "economy": 0,
             "taxRate": 0.0,
-            "popular": 0.0,
+            "popular": -0.1,
             "foreign": 0.0,
             "incrimination": 0.0
           },
@@ -1689,7 +1689,7 @@
         {
           "reaction": "Build incinerators at power stations to convert garbage into electricity",
           "passLaw": false,
-          "partisan": 0.5,
+          "partisan": 1.0,
           "demAligned": -0.2,
           "repAligned": 0.1,
           "effect": {
@@ -1717,8 +1717,8 @@
             "budget": -400,
             "economy": 0,
             "taxRate": 0.0,
-            "popular": 0.0,
-            "foreign": -0.05,
+            "popular": -0.1,
+            "foreign": -0.2,
             "incrimination": 0.0
           },
           "futureEffects": null,
@@ -1727,16 +1727,16 @@
         {
           "reaction": "Invest in biodegradable hemp-based alternatives to plastic",
           "passLaw": false,
-          "partisan": 0.0,
-          "demAligned": 0.2,
-          "repAligned": 0.0,
+          "partisan": 1.0,
+          "demAligned": 0.1,
+          "repAligned": -0.1,
           "effect": {
             "turnDelay": 0,
             "repeatEffect": 0,
             "budget": -500,
             "economy": 0,
             "taxRate": 0.0,
-            "popular": 0.1,
+            "popular": 0,
             "foreign": 0.0,
             "incrimination": 0.0
           },
@@ -1755,7 +1755,7 @@
             "budget": -500,
             "economy": -50,
             "taxRate": 0.0,
-            "popular": 0.05,
+            "popular": -0.05,
             "foreign": 0.0,
             "incrimination": 0.1
           },
@@ -1765,7 +1765,7 @@
         {
           "reaction": "Ban single-use plastics",
           "passLaw": true,
-          "partisan": 0.5,
+          "partisan": 1.0,
           "demAligned": 0.1,
           "repAligned": -0.2,
           "effect": {
@@ -1793,8 +1793,8 @@
             "budget": 0,
             "economy": 0,
             "taxRate": 0.0,
-            "popular": -0.1,
-            "foreign": -0.2,
+            "popular": -0.2,
+            "foreign": -0.25,
             "incrimination": 0.1
           },
           "futureEffects": null,
@@ -1836,7 +1836,7 @@
             "budget": 0,
             "economy": 0,
             "taxRate": 0.0,
-            "popular": 0.0,
+            "popular": -0.1,
             "foreign": 0.0,
             "incrimination": 0.0
           },
@@ -1874,7 +1874,7 @@
             "budget": -300,
             "economy": 0,
             "taxRate": 0.0,
-            "popular": -0.1,
+            "popular": -0.2,
             "foreign": 0.0,
             "incrimination": 0.15
           },
@@ -1936,8 +1936,8 @@
             "budget": 0,
             "economy": 0,
             "taxRate": 0.0,
-            "popular": -0.05,
-            "foreign": -0.1,
+            "popular": -0.1,
+            "foreign": -0.2,
             "incrimination": 0.0
           },
           "futureEffects": null,
@@ -1955,7 +1955,7 @@
             "budget": -750,
             "economy": 200,
             "taxRate": 0.0,
-            "popular": 0.0,
+            "popular": 0.1,
             "foreign": -0.25,
             "incrimination": 0.0
           },
@@ -1970,5 +1970,5 @@
   "endingImageLocation": null,
   "title": "Capitol Gains",
   "updateURL": "https://raw.githubusercontent.com/Sn0wCh1ld/Various-Files/master/Impeached2/Packs/Capitol%20Gains.json",
-  "version": 22
+  "version": 23
 }
