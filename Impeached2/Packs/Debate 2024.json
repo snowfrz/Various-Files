@@ -1,0 +1,842 @@
+{
+  "author": "Impeached 2",
+  "iapId": null,
+  "scenarios": [
+    {
+      "action": "During a speech, you need to gain political favor with the people. What do you do?",
+      "options": [
+        {
+          "reaction": "Name drop a previous popular president",
+          "passLaw": false,
+          "partisan": 0.0,
+          "demAligned": 0.0,
+          "repAligned": 0.0,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 0,
+            "economy": 0,
+            "taxRate": 0.0,
+            "popular": 0.049999997,
+            "foreign": 0.0,
+            "incrimination": 0.0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        },
+        {
+          "reaction": "Talk about granting more rights and freedoms",
+          "passLaw": false,
+          "partisan": 0.0,
+          "demAligned": 0.0,
+          "repAligned": 0.0,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 0,
+            "economy": 0,
+            "taxRate": 0.0,
+            "popular": 0.049999997,
+            "foreign": 0.0,
+            "incrimination": 0.0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        },
+        {
+          "reaction": "Attack your political opponents",
+          "passLaw": false,
+          "partisan": 0.0,
+          "demAligned": 0.0,
+          "repAligned": 0.0,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 0,
+            "economy": 0,
+            "taxRate": 0.0,
+            "popular": -0.049999997,
+            "foreign": 0.0,
+            "incrimination": 0.0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        },
+        {
+          "reaction": "Talk about your achievements as president",
+          "passLaw": false,
+          "partisan": 0.0,
+          "demAligned": 0.0,
+          "repAligned": 0.0,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 0,
+            "economy": 0,
+            "taxRate": 0.0,
+            "popular": 0.049999997,
+            "foreign": 0.0,
+            "incrimination": 0.0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        }
+      ]
+    },
+    {
+      "action": "During a debate, you are asked about the increase of illegal immigration across the southern border. What do you do?",
+      "options": [
+        {
+          "reaction": "Claim that your opponent would do worse",
+          "passLaw": false,
+          "partisan": 0.0,
+          "demAligned": 0.0,
+          "repAligned": 0.0,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 0,
+            "economy": 0,
+            "taxRate": 0.0,
+            "popular": -0.049999997,
+            "foreign": 0.0,
+            "incrimination": 0.0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        },
+        {
+          "reaction": "Claim that you?ll be harsher on illegal immigration during your next term",
+          "passLaw": false,
+          "partisan": 0.0,
+          "demAligned": 0.0,
+          "repAligned": 0.0,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 0,
+            "economy": 0,
+            "taxRate": 0.0,
+            "popular": 0.049999997,
+            "foreign": -0.099999994,
+            "incrimination": 0.0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        },
+        {
+          "reaction": "Claim that it?s a lie and that there has been no increase",
+          "passLaw": false,
+          "partisan": 0.0,
+          "demAligned": 0.0,
+          "repAligned": 0.0,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 0,
+            "economy": 0,
+            "taxRate": 0.0,
+            "popular": -0.049999997,
+            "foreign": 0.0,
+            "incrimination": 0.0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        },
+        {
+          "reaction": "Claim that these immigrants are boosting the economy",
+          "passLaw": false,
+          "partisan": 0.0,
+          "demAligned": 0.0,
+          "repAligned": 0.0,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 0,
+            "economy": 0,
+            "taxRate": 0.0,
+            "popular": -0.04,
+            "foreign": 0.0,
+            "incrimination": 0.0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        }
+      ]
+    },
+    {
+      "action": "At a debate, you are asked about how you dealt with foreign terrorism. What do you do?",
+      "options": [
+        {
+          "reaction": "Say that no-one else is harder on terrorists than you",
+          "passLaw": false,
+          "partisan": 0.0,
+          "demAligned": 0.0,
+          "repAligned": 0.0,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 0,
+            "economy": 0,
+            "taxRate": 0.0,
+            "popular": 0.049999997,
+            "foreign": 0.0,
+            "incrimination": 0.0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        },
+        {
+          "reaction": "Claim that you?ve done the most for veterans that combat terrorism",
+          "passLaw": false,
+          "partisan": 0.0,
+          "demAligned": 0.0,
+          "repAligned": 0.0,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 0,
+            "economy": 0,
+            "taxRate": 0.0,
+            "popular": 0.0,
+            "foreign": 0.0,
+            "incrimination": 0.0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        },
+        {
+          "reaction": "Claim that your opponent would let terrorists win",
+          "passLaw": false,
+          "partisan": 0.0,
+          "demAligned": 0.0,
+          "repAligned": 0.0,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 0,
+            "economy": 0,
+            "taxRate": 0.0,
+            "popular": -0.049999997,
+            "foreign": 0.0,
+            "incrimination": 0.0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        },
+        {
+          "reaction": "Claim that your opponent would lose thousands and thousands of troops",
+          "passLaw": false,
+          "partisan": 0.0,
+          "demAligned": 0.0,
+          "repAligned": 0.0,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 0,
+            "economy": 0,
+            "taxRate": 0.0,
+            "popular": -0.049999997,
+            "foreign": 0.0,
+            "incrimination": 0.0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        }
+      ]
+    },
+    {
+      "action": "At a debate, you are asked what leverage you will use against your enemies. How do you respond?",
+      "options": [
+        {
+          "reaction": "Say you will fund your local allies to fight them",
+          "passLaw": false,
+          "partisan": 0.0,
+          "demAligned": 0.049999997,
+          "repAligned": 0.0,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 0,
+            "economy": 0,
+            "taxRate": 0.0,
+            "popular": 0.049999997,
+            "foreign": 0.049999997,
+            "incrimination": 0.0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        },
+        {
+          "reaction": "Claim that your opponent wants to leave NATO",
+          "passLaw": false,
+          "partisan": 0.0,
+          "demAligned": 0.0,
+          "repAligned": 0.0,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 0,
+            "economy": 0,
+            "taxRate": 0.0,
+            "popular": -0.049999997,
+            "foreign": 0.0,
+            "incrimination": 0.0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        },
+        {
+          "reaction": "Claim that you got NATO to invest hundreds of millions of dollars",
+          "passLaw": false,
+          "partisan": 0.0,
+          "demAligned": 0.0,
+          "repAligned": 0.0,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 0,
+            "economy": 0,
+            "taxRate": 0.0,
+            "popular": 0.049999997,
+            "foreign": 0.0,
+            "incrimination": 0.0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        },
+        {
+          "reaction": "Claim that you will invest in and support your military",
+          "passLaw": false,
+          "partisan": 0.0,
+          "demAligned": 0.0,
+          "repAligned": 0.0,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 0,
+            "economy": 0,
+            "taxRate": 0.0,
+            "popular": 0.049999997,
+            "foreign": 0.0,
+            "incrimination": 0.0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        },
+        {
+          "reaction": "Claim that your enemies are broke",
+          "passLaw": false,
+          "partisan": 0.0,
+          "demAligned": 0.0,
+          "repAligned": 0.0,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 0,
+            "economy": 0,
+            "taxRate": 0.0,
+            "popular": 0.049999997,
+            "foreign": 0.0,
+            "incrimination": 0.0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        }
+      ]
+    },
+    {
+      "action": "At a debate, you are asked about an alleged insurrection that occurred during your term. What do you do?",
+      "options": [
+        {
+          "reaction": "Blame the speaker of the house",
+          "passLaw": false,
+          "partisan": 0.0,
+          "demAligned": 0.0,
+          "repAligned": 0.0,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 0,
+            "economy": 0,
+            "taxRate": 0.0,
+            "popular": -0.049999997,
+            "foreign": 0.0,
+            "incrimination": 0.0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        },
+        {
+          "reaction": "Say that it was a tragedy",
+          "passLaw": false,
+          "partisan": 0.0,
+          "demAligned": 0.0,
+          "repAligned": 0.0,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 0,
+            "economy": 0,
+            "taxRate": 0.0,
+            "popular": 0.049999997,
+            "foreign": 0.0,
+            "incrimination": 0.0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        },
+        {
+          "reaction": "Claim that it was your opponent?s fault",
+          "passLaw": false,
+          "partisan": 0.0,
+          "demAligned": 0.0,
+          "repAligned": 0.0,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 0,
+            "economy": 0,
+            "taxRate": 0.0,
+            "popular": -0.049999997,
+            "foreign": 0.0,
+            "incrimination": 0.0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        },
+        {
+          "reaction": "Say that it wasn?t the first insurrection and not that big of a deal",
+          "passLaw": false,
+          "partisan": 0.0,
+          "demAligned": 0.0,
+          "repAligned": 0.0,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 0,
+            "economy": 0,
+            "taxRate": 0.0,
+            "popular": -0.049999997,
+            "foreign": 0.0,
+            "incrimination": 0.0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        }
+      ]
+    },
+    {
+      "action": "You are asked about the climate at a debate. What do you say?",
+      "options": [
+        {
+          "reaction": "Say you support having clean H2O",
+          "passLaw": false,
+          "partisan": 0.0,
+          "demAligned": 0.0,
+          "repAligned": 0.0,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 0,
+            "economy": 0,
+            "taxRate": 0.0,
+            "popular": 0.049999997,
+            "foreign": 0.0,
+            "incrimination": 0.0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        },
+        {
+          "reaction": "Say that your administration had the cleanest environment",
+          "passLaw": false,
+          "partisan": 0.0,
+          "demAligned": 0.0,
+          "repAligned": 0.0,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 0,
+            "economy": 0,
+            "taxRate": 0.0,
+            "popular": -0.049999997,
+            "foreign": 0.0,
+            "incrimination": 0.0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        },
+        {
+          "reaction": "Say that your opponent wouldn?t do a damn thing for the climate",
+          "passLaw": false,
+          "partisan": 0.0,
+          "demAligned": 0.0,
+          "repAligned": 0.0,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 0,
+            "economy": 0,
+            "taxRate": 0.0,
+            "popular": 0.0,
+            "foreign": 0.0,
+            "incrimination": 0.0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        },
+        {
+          "reaction": "Pledge to support climate change action",
+          "passLaw": false,
+          "partisan": 0.0,
+          "demAligned": 0.0,
+          "repAligned": 0.0,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 0,
+            "economy": 0,
+            "taxRate": 0.0,
+            "popular": 0.0,
+            "foreign": 0.0,
+            "incrimination": 0.0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        }
+      ]
+    },
+    {
+      "action": "At a debate, you are asked about how you will keep Social Security solvent. What do you do?",
+      "options": [
+        {
+          "reaction": "Claim that you?ll make the wealthy pay their ?fair share?",
+          "passLaw": false,
+          "partisan": 0.0,
+          "demAligned": 0.0,
+          "repAligned": 0.0,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 0,
+            "economy": -25,
+            "taxRate": 0.0,
+            "popular": 0.049999997,
+            "foreign": 0.0,
+            "incrimination": 0.0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        },
+        {
+          "reaction": "Claim that your opponent is spouting misinformation about you",
+          "passLaw": false,
+          "partisan": 0.0,
+          "demAligned": 0.0,
+          "repAligned": 0.0,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 0,
+            "economy": 0,
+            "taxRate": 0.0,
+            "popular": -0.049999997,
+            "foreign": 0.02,
+            "incrimination": 0.0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        },
+        {
+          "reaction": "Claim that social security is being scammed and you?ll take action",
+          "passLaw": false,
+          "partisan": 0.0,
+          "demAligned": 0.0,
+          "repAligned": 0.0,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 0,
+            "economy": 0,
+            "taxRate": 0.0,
+            "popular": 0.049999997,
+            "foreign": 0.0,
+            "incrimination": 0.0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        },
+        {
+          "reaction": "Claim that 159 publications called your opponent ?the worst President in history?",
+          "passLaw": false,
+          "partisan": 0.0,
+          "demAligned": 0.0,
+          "repAligned": 0.0,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 0,
+            "economy": 0,
+            "taxRate": 0.0,
+            "popular": -0.099999994,
+            "foreign": 0.0,
+            "incrimination": 0.0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        }
+      ]
+    },
+    {
+      "action": "During a debate, the host asks a question that you don?t like. How do you respond?",
+      "options": [
+        {
+          "reaction": "Talk about another issue",
+          "passLaw": false,
+          "partisan": 0.0,
+          "demAligned": 0.0,
+          "repAligned": 0.0,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 0,
+            "economy": 0,
+            "taxRate": 0.0,
+            "popular": -0.049999997,
+            "foreign": 0.0,
+            "incrimination": 0.0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        },
+        {
+          "reaction": "Blame COVID",
+          "passLaw": false,
+          "partisan": 0.0,
+          "demAligned": 0.0,
+          "repAligned": 0.0,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 0,
+            "economy": 0,
+            "taxRate": 0.0,
+            "popular": -0.049999997,
+            "foreign": -0.049999997,
+            "incrimination": 0.0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        },
+        {
+          "reaction": "Roast your opponent",
+          "passLaw": false,
+          "partisan": 0.0,
+          "demAligned": 0.0,
+          "repAligned": 0.0,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 0,
+            "economy": 0,
+            "taxRate": 0.0,
+            "popular": -0.049999997,
+            "foreign": -0.049999997,
+            "incrimination": 0.0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        },
+        {
+          "reaction": "Answer the question honestly",
+          "passLaw": false,
+          "partisan": 0.0,
+          "demAligned": 0.0,
+          "repAligned": 0.0,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 0,
+            "economy": 0,
+            "taxRate": 0.0,
+            "popular": -0.099999994,
+            "foreign": 0.0,
+            "incrimination": 0.0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        }
+      ]
+    },
+    {
+      "action": "Voters have some concerns about your physical and mental health. What do you do?",
+      "options": [
+        {
+          "reaction": "Reassure them about your fitness",
+          "passLaw": false,
+          "partisan": 0.0,
+          "demAligned": 0.0,
+          "repAligned": 0.0,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 0,
+            "economy": 0,
+            "taxRate": 0.0,
+            "popular": 0.049999997,
+            "foreign": 0.0,
+            "incrimination": 0.0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        },
+        {
+          "reaction": "Say your doctor has verified that your health is good",
+          "passLaw": false,
+          "partisan": 0.0,
+          "demAligned": 0.0,
+          "repAligned": 0.0,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 0,
+            "economy": 0,
+            "taxRate": 0.0,
+            "popular": 0.049999997,
+            "foreign": 0.0,
+            "incrimination": 0.0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        },
+        {
+          "reaction": "Claim that your opponents? health is even worse",
+          "passLaw": false,
+          "partisan": 0.0,
+          "demAligned": 0.0,
+          "repAligned": 0.0,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 0,
+            "economy": 0,
+            "taxRate": 0.0,
+            "popular": 0.0,
+            "foreign": 0.049999997,
+            "incrimination": 0.0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        },
+        {
+          "reaction": "Say that you workout regularly",
+          "passLaw": false,
+          "partisan": 0.0,
+          "demAligned": 0.0,
+          "repAligned": 0.0,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 0,
+            "economy": 0,
+            "taxRate": 0.0,
+            "popular": -0.049999997,
+            "foreign": 0.0,
+            "incrimination": 0.0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        }
+      ]
+    },
+    {
+      "action": "Voters are concerned about your policies? effects on the economy. What do you do?",
+      "options": [
+        {
+          "reaction": "Say that you?re from a small town and that you support blue collar workers",
+          "passLaw": false,
+          "partisan": 0.0,
+          "demAligned": 0.0,
+          "repAligned": 0.0,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 0,
+            "economy": 0,
+            "taxRate": 0.0,
+            "popular": 0.0,
+            "foreign": 0.049999997,
+            "incrimination": 0.0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        },
+        {
+          "reaction": "Say that you made the economy stronger and the stock market was great",
+          "passLaw": false,
+          "partisan": 0.0,
+          "demAligned": 0.0,
+          "repAligned": 0.0,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 0,
+            "economy": 0,
+            "taxRate": 0.0,
+            "popular": 0.0,
+            "foreign": -0.049999997,
+            "incrimination": 0.0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        },
+        {
+          "reaction": "Say that you?ll bring more jobs back to America",
+          "passLaw": false,
+          "partisan": 0.0,
+          "demAligned": 0.0,
+          "repAligned": 0.0,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 0,
+            "economy": 0,
+            "taxRate": 0.0,
+            "popular": 0.0,
+            "foreign": 0.049999997,
+            "incrimination": 0.0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        },
+        {
+          "reaction": "Say that your opponent would run a huge deficit",
+          "passLaw": false,
+          "partisan": 0.0,
+          "demAligned": 0.0,
+          "repAligned": 0.0,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 0,
+            "economy": 0,
+            "taxRate": 0.0,
+            "popular": 0.0,
+            "foreign": -0.049999997,
+            "incrimination": 0.0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        }
+      ]
+    }
+  ],
+  "endings": null,
+  "overlays": null,
+  "endingImageLocation": null,
+  "title": "Debate 2024",
+  "updateURL": "https://raw.githubusercontent.com/Sn0wCh1ld/Various-Files/master/Impeached2/Packs/Debate%202024.json",
+  "version": 17,
+  "enabled": true
+}
