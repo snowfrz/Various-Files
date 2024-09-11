@@ -17,7 +17,7 @@
             "budget": 0,
             "economy": 0,
             "taxRate": 0.0,
-            "popular": 0.049999997,
+            "popular": 0.05,
             "foreign": 0.0,
             "incrimination": 0.0
           },
@@ -36,7 +36,7 @@
             "budget": 0,
             "economy": 0,
             "taxRate": 0.0,
-            "popular": 0.049999997,
+            "popular": 0.05,
             "foreign": 0.0,
             "incrimination": 0.0
           },
@@ -55,7 +55,7 @@
             "budget": 0,
             "economy": 0,
             "taxRate": 0.0,
-            "popular": -0.049999997,
+            "popular": -0.05,
             "foreign": 0.0,
             "incrimination": 0.0
           },
@@ -74,7 +74,7 @@
             "budget": 0,
             "economy": 0,
             "taxRate": 0.0,
-            "popular": 0.049999997,
+            "popular": 0.05,
             "foreign": 0.0,
             "incrimination": 0.0
           },
@@ -98,7 +98,7 @@
             "budget": 0,
             "economy": 0,
             "taxRate": 0.0,
-            "popular": -0.049999997,
+            "popular": -0.05,
             "foreign": 0.0,
             "incrimination": 0.0
           },
@@ -106,7 +106,7 @@
           "deathFlags": null
         },
         {
-          "reaction": "Claim that you?ll be harsher on illegal immigration during your next term",
+          "reaction": "Promise to be harsher on illegal immigration during your next term",
           "passLaw": false,
           "partisan": 0.0,
           "demAligned": 0.0,
@@ -117,15 +117,15 @@
             "budget": 0,
             "economy": 0,
             "taxRate": 0.0,
-            "popular": 0.049999997,
-            "foreign": -0.099999994,
+            "popular": 0.05,
+            "foreign": -0.1,
             "incrimination": 0.0
           },
           "futureEffects": null,
           "deathFlags": null
         },
         {
-          "reaction": "Claim that it?s a lie and that there has been no increase",
+          "reaction": "Claim it is a lie and that there has been no increase",
           "passLaw": false,
           "partisan": 0.0,
           "demAligned": 0.0,
@@ -136,7 +136,7 @@
             "budget": 0,
             "economy": 0,
             "taxRate": 0.0,
-            "popular": -0.049999997,
+            "popular": -0.05,
             "foreign": 0.0,
             "incrimination": 0.0
           },
@@ -155,7 +155,26 @@
             "budget": 0,
             "economy": 0,
             "taxRate": 0.0,
-            "popular": -0.04,
+            "popular": -0.05,
+            "foreign": 0.0,
+            "incrimination": 0.0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        },
+        {
+          "reaction": "Claim that illegal immigrants are eating people's pets",
+          "passLaw": false,
+          "partisan": 0.0,
+          "demAligned": -0.2,
+          "repAligned": -0.1,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 0,
+            "economy": 0,
+            "taxRate": 0.0,
+            "popular": -0.05,
             "foreign": 0.0,
             "incrimination": 0.0
           },
@@ -179,7 +198,7 @@
             "budget": 0,
             "economy": 0,
             "taxRate": 0.0,
-            "popular": 0.049999997,
+            "popular": 0.05,
             "foreign": 0.0,
             "incrimination": 0.0
           },
@@ -187,7 +206,7 @@
           "deathFlags": null
         },
         {
-          "reaction": "Claim that you?ve done the most for veterans that combat terrorism",
+          "reaction": "Claim that you have done the most for veterans that combat terrorism",
           "passLaw": false,
           "partisan": 0.0,
           "demAligned": 0.0,
@@ -217,7 +236,7 @@
             "budget": 0,
             "economy": 0,
             "taxRate": 0.0,
-            "popular": -0.049999997,
+            "popular": -0.05,
             "foreign": 0.0,
             "incrimination": 0.0
           },
@@ -236,7 +255,7 @@
             "budget": 0,
             "economy": 0,
             "taxRate": 0.0,
-            "popular": -0.049999997,
+            "popular": -0.05,
             "foreign": 0.0,
             "incrimination": 0.0
           },
@@ -252,7 +271,7 @@
           "reaction": "Say you will fund your local allies to fight them",
           "passLaw": false,
           "partisan": 0.0,
-          "demAligned": 0.049999997,
+          "demAligned": 0.05,
           "repAligned": 0.0,
           "effect": {
             "turnDelay": 0,
@@ -260,8 +279,8 @@
             "budget": 0,
             "economy": 0,
             "taxRate": 0.0,
-            "popular": 0.049999997,
-            "foreign": 0.049999997,
+            "popular": 0.05,
+            "foreign": 0.05,
             "incrimination": 0.0
           },
           "futureEffects": null,
@@ -279,7 +298,7 @@
             "budget": 0,
             "economy": 0,
             "taxRate": 0.0,
-            "popular": -0.049999997,
+            "popular": -0.05,
             "foreign": 0.0,
             "incrimination": 0.0
           },
@@ -298,7 +317,7 @@
             "budget": 0,
             "economy": 0,
             "taxRate": 0.0,
-            "popular": 0.049999997,
+            "popular": 0.05,
             "foreign": 0.0,
             "incrimination": 0.0
           },
@@ -317,7 +336,7 @@
             "budget": 0,
             "economy": 0,
             "taxRate": 0.0,
-            "popular": 0.049999997,
+            "popular": 0.05,
             "foreign": 0.0,
             "incrimination": 0.0
           },
@@ -336,7 +355,7 @@
             "budget": 0,
             "economy": 0,
             "taxRate": 0.0,
-            "popular": 0.049999997,
+            "popular": 0.05,
             "foreign": 0.0,
             "incrimination": 0.0
           },
@@ -360,7 +379,7 @@
             "budget": 0,
             "economy": 0,
             "taxRate": 0.0,
-            "popular": -0.049999997,
+            "popular": -0.05,
             "foreign": 0.0,
             "incrimination": 0.0
           },
@@ -379,7 +398,7 @@
             "budget": 0,
             "economy": 0,
             "taxRate": 0.0,
-            "popular": 0.049999997,
+            "popular": 0.05,
             "foreign": 0.0,
             "incrimination": 0.0
           },
@@ -387,7 +406,7 @@
           "deathFlags": null
         },
         {
-          "reaction": "Claim that it was your opponent?s fault",
+          "reaction": "Claim that it was your opponents fault",
           "passLaw": false,
           "partisan": 0.0,
           "demAligned": 0.0,
@@ -398,7 +417,7 @@
             "budget": 0,
             "economy": 0,
             "taxRate": 0.0,
-            "popular": -0.049999997,
+            "popular": -0.05,
             "foreign": 0.0,
             "incrimination": 0.0
           },
@@ -406,7 +425,7 @@
           "deathFlags": null
         },
         {
-          "reaction": "Say that it wasn?t the first insurrection and not that big of a deal",
+          "reaction": "Say that it was not the first insurrection and not that big of a deal",
           "passLaw": false,
           "partisan": 0.0,
           "demAligned": 0.0,
@@ -417,7 +436,7 @@
             "budget": 0,
             "economy": 0,
             "taxRate": 0.0,
-            "popular": -0.049999997,
+            "popular": -0.05,
             "foreign": 0.0,
             "incrimination": 0.0
           },
@@ -441,7 +460,7 @@
             "budget": 0,
             "economy": 0,
             "taxRate": 0.0,
-            "popular": 0.049999997,
+            "popular": 0.05,
             "foreign": 0.0,
             "incrimination": 0.0
           },
@@ -460,7 +479,7 @@
             "budget": 0,
             "economy": 0,
             "taxRate": 0.0,
-            "popular": -0.049999997,
+            "popular": -0.05,
             "foreign": 0.0,
             "incrimination": 0.0
           },
@@ -468,7 +487,7 @@
           "deathFlags": null
         },
         {
-          "reaction": "Say that your opponent wouldn?t do a damn thing for the climate",
+          "reaction": "Say that your opponent wouldn't do a damn thing for the climate",
           "passLaw": false,
           "partisan": 0.0,
           "demAligned": 0.0,
@@ -511,7 +530,7 @@
       "action": "At a debate, you are asked about how you will keep Social Security solvent. What do you do?",
       "options": [
         {
-          "reaction": "Claim that you?ll make the wealthy pay their ?fair share?",
+          "reaction": "Claim that you’ll make the wealthy pay their “fair share”",
           "passLaw": false,
           "partisan": 0.0,
           "demAligned": 0.0,
@@ -522,7 +541,7 @@
             "budget": 0,
             "economy": -25,
             "taxRate": 0.0,
-            "popular": 0.049999997,
+            "popular": 0.05,
             "foreign": 0.0,
             "incrimination": 0.0
           },
@@ -541,7 +560,7 @@
             "budget": 0,
             "economy": 0,
             "taxRate": 0.0,
-            "popular": -0.049999997,
+            "popular": -0.05,
             "foreign": 0.02,
             "incrimination": 0.0
           },
@@ -549,7 +568,7 @@
           "deathFlags": null
         },
         {
-          "reaction": "Claim that social security is being scammed and you?ll take action",
+          "reaction": "Claim that social security is being scammed and you'll take action",
           "passLaw": false,
           "partisan": 0.0,
           "demAligned": 0.0,
@@ -560,7 +579,7 @@
             "budget": 0,
             "economy": 0,
             "taxRate": 0.0,
-            "popular": 0.049999997,
+            "popular": 0.05,
             "foreign": 0.0,
             "incrimination": 0.0
           },
@@ -568,7 +587,7 @@
           "deathFlags": null
         },
         {
-          "reaction": "Claim that 159 publications called your opponent ?the worst President in history?",
+          "reaction": "Claim that 159 publications called your opponent “the worst President in history”",
           "passLaw": false,
           "partisan": 0.0,
           "demAligned": 0.0,
@@ -579,7 +598,7 @@
             "budget": 0,
             "economy": 0,
             "taxRate": 0.0,
-            "popular": -0.099999994,
+            "popular": -0.1,
             "foreign": 0.0,
             "incrimination": 0.0
           },
@@ -589,7 +608,7 @@
       ]
     },
     {
-      "action": "During a debate, the host asks a question that you don?t like. How do you respond?",
+      "action": "During a debate, the host asks a question that you don't like. How do you respond?",
       "options": [
         {
           "reaction": "Talk about another issue",
@@ -603,7 +622,7 @@
             "budget": 0,
             "economy": 0,
             "taxRate": 0.0,
-            "popular": -0.049999997,
+            "popular": -0.05,
             "foreign": 0.0,
             "incrimination": 0.0
           },
@@ -622,8 +641,8 @@
             "budget": 0,
             "economy": 0,
             "taxRate": 0.0,
-            "popular": -0.049999997,
-            "foreign": -0.049999997,
+            "popular": -0.05,
+            "foreign": -0.05,
             "incrimination": 0.0
           },
           "futureEffects": null,
@@ -641,8 +660,8 @@
             "budget": 0,
             "economy": 0,
             "taxRate": 0.0,
-            "popular": -0.049999997,
-            "foreign": -0.049999997,
+            "popular": -0.05,
+            "foreign": -0.05,
             "incrimination": 0.0
           },
           "futureEffects": null,
@@ -660,7 +679,7 @@
             "budget": 0,
             "economy": 0,
             "taxRate": 0.0,
-            "popular": -0.099999994,
+            "popular": -0.1,
             "foreign": 0.0,
             "incrimination": 0.0
           },
@@ -684,7 +703,7 @@
             "budget": 0,
             "economy": 0,
             "taxRate": 0.0,
-            "popular": 0.049999997,
+            "popular": 0.05,
             "foreign": 0.0,
             "incrimination": 0.0
           },
@@ -703,7 +722,7 @@
             "budget": 0,
             "economy": 0,
             "taxRate": 0.0,
-            "popular": 0.049999997,
+            "popular": 0.05,
             "foreign": 0.0,
             "incrimination": 0.0
           },
@@ -711,7 +730,7 @@
           "deathFlags": null
         },
         {
-          "reaction": "Claim that your opponents? health is even worse",
+          "reaction": "Claim that your opponents is in even worse health",
           "passLaw": false,
           "partisan": 0.0,
           "demAligned": 0.0,
@@ -723,7 +742,7 @@
             "economy": 0,
             "taxRate": 0.0,
             "popular": 0.0,
-            "foreign": 0.049999997,
+            "foreign": 0.05,
             "incrimination": 0.0
           },
           "futureEffects": null,
@@ -741,7 +760,7 @@
             "budget": 0,
             "economy": 0,
             "taxRate": 0.0,
-            "popular": -0.049999997,
+            "popular": -0.05,
             "foreign": 0.0,
             "incrimination": 0.0
           },
@@ -751,10 +770,10 @@
       ]
     },
     {
-      "action": "Voters are concerned about your policies? effects on the economy. What do you do?",
+      "action": "Voters are concerned about the effects your policies have had on the economy. What do you do?",
       "options": [
         {
-          "reaction": "Say that you?re from a small town and that you support blue collar workers",
+          "reaction": "Say that you’re from a small town and that you support blue collar workers",
           "passLaw": false,
           "partisan": 0.0,
           "demAligned": 0.0,
@@ -766,7 +785,7 @@
             "economy": 0,
             "taxRate": 0.0,
             "popular": 0.0,
-            "foreign": 0.049999997,
+            "foreign": 0.05,
             "incrimination": 0.0
           },
           "futureEffects": null,
@@ -785,14 +804,14 @@
             "economy": 0,
             "taxRate": 0.0,
             "popular": 0.0,
-            "foreign": -0.049999997,
+            "foreign": -0.05,
             "incrimination": 0.0
           },
           "futureEffects": null,
           "deathFlags": null
         },
         {
-          "reaction": "Say that you?ll bring more jobs back to America",
+          "reaction": "Say that you'll bring more jobs back to America",
           "passLaw": false,
           "partisan": 0.0,
           "demAligned": 0.0,
@@ -804,7 +823,7 @@
             "economy": 0,
             "taxRate": 0.0,
             "popular": 0.0,
-            "foreign": 0.049999997,
+            "foreign": 0.05,
             "incrimination": 0.0
           },
           "futureEffects": null,
@@ -823,7 +842,307 @@
             "economy": 0,
             "taxRate": 0.0,
             "popular": 0.0,
-            "foreign": -0.049999997,
+            "foreign": -0.05,
+            "incrimination": 0.0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        }
+      ]
+    },
+    {
+      "action": "At a debate, you are asked about the rising cost of living during your term. How do you respond?",
+      "options": [
+        {
+          "reaction": "Promise tax cuts for families and small businesses",
+          "passLaw": false,
+          "partisan": 0.0,
+          "demAligned": 0.1,
+          "repAligned": 0.1,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 0,
+            "economy": 0,
+            "taxRate": 0.0,
+            "popular": 0.05,
+            "foreign": 0.0,
+            "incrimination": 0.0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        },
+        {
+          "reaction": "Claim that your opponent will increase prices for everyday goods",
+          "passLaw": false,
+          "partisan": 0.0,
+          "demAligned": 0.0,
+          "repAligned": 0.0,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 0,
+            "economy": 0,
+            "taxRate": 0.0,
+            "popular": -0.05,
+            "foreign": 0.0,
+            "incrimination": 0.0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        },
+        {
+          "reaction": "Say that you will impose tariffs on foreign goods to advantage American producers",
+          "passLaw": false,
+          "partisan": 0.0,
+          "demAligned": 0.0,
+          "repAligned": 0.0,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 0,
+            "economy": 0,
+            "taxRate": 0.0,
+            "popular": 0.0,
+            "foreign": 0.0,
+            "incrimination": 0.0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        },
+        {
+          "reaction": "Claim that illegal immigrants are causing everyday prices to go up",
+          "passLaw": false,
+          "partisan": 0.75,
+          "demAligned": -0.05,
+          "repAligned": 0.05,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 0,
+            "economy": 0,
+            "taxRate": 0.0,
+            "popular": 0.0,
+            "foreign": 0.0,
+            "incrimination": 0.0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        },
+        {
+          "reaction": "Blame it on environmental factors outside your control",
+          "passLaw": false,
+          "partisan": 0.0,
+          "demAligned": 0.0,
+          "repAligned": 0.0,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 0,
+            "economy": 0,
+            "taxRate": 0.0,
+            "popular": 0.0,
+            "foreign": 0.0,
+            "incrimination": 0.0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        },
+        {
+          "reaction": "Say that you granted more leases for fracking to reduce gas prices",
+          "passLaw": false,
+          "partisan": 0.0,
+          "demAligned": 0.0,
+          "repAligned": 0.0,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 0,
+            "economy": 0,
+            "taxRate": 0.0,
+            "popular": 0.0,
+            "foreign": 0.0,
+            "incrimination": 0.0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        }
+      ]
+    },
+    {
+      "action": "At a debate, you are asked about a war between one of your allies and another country. How do you respond?",
+      "options": [
+        {
+          "reaction": "Say that you stand with the civilians on both sides",
+          "passLaw": false,
+          "partisan": 0.0,
+          "demAligned": -0.05,
+          "repAligned": -0.05,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 0,
+            "economy": 0,
+            "taxRate": 0.0,
+            "popular": 0.05,
+            "foreign": 0.0,
+            "incrimination": 0.0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        },
+        {
+          "reaction": "Claim that your opponent hates your ally",
+          "passLaw": false,
+          "partisan": 0.0,
+          "demAligned": -0.05,
+          "repAligned": -0.05,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 0,
+            "economy": 0,
+            "taxRate": 0.0,
+            "popular": -0.05,
+            "foreign": 0.0,
+            "incrimination": 0.0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        },
+        {
+          "reaction": "Say that you will support your ally's right to defend itself",
+          "passLaw": false,
+          "partisan": 0.0,
+          "demAligned": 0.05,
+          "repAligned": 0.05,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 0,
+            "economy": 0,
+            "taxRate": 0.0,
+            "popular": 0.0,
+            "foreign": 0.0,
+            "incrimination": 0.0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        },
+        {
+          "reaction": "Say that you would not allow another war to happen",
+          "passLaw": false,
+          "partisan": 0.0,
+          "demAligned": -0.05,
+          "repAligned": -0.05,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 0,
+            "economy": 0,
+            "taxRate": 0.0,
+            "popular": -0.05,
+            "foreign": 0.0,
+            "incrimination": 0.0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        },
+        {
+          "reaction": "Claim that your opponent wants to be friends with your enemies",
+          "passLaw": false,
+          "partisan": 0.0,
+          "demAligned": 0.0,
+          "repAligned": 0.0,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 0,
+            "economy": 0,
+            "taxRate": 0.0,
+            "popular": 0.0,
+            "foreign": 0.0,
+            "incrimination": 0.0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        }
+      ]
+    },
+    {
+      "action": "You are asked about your plan to deal with a major issue. What do you do?",
+      "options": [
+        {
+          "reaction": "Say you have a concept of a plan",
+          "passLaw": false,
+          "partisan": 0.0,
+          "demAligned": -0.05,
+          "repAligned": -0.05,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 0,
+            "economy": 0,
+            "taxRate": 0.0,
+            "popular": -0.05,
+            "foreign": 0.0,
+            "incrimination": 0.0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        },
+        {
+          "reaction": "Make something up on the spot",
+          "passLaw": false,
+          "partisan": 0.0,
+          "demAligned": 0.0,
+          "repAligned": 0.0,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 0,
+            "economy": 0,
+            "taxRate": 0.0,
+            "popular": 0.0,
+            "foreign": 0.0,
+            "incrimination": 0.0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        },
+        {
+          "reaction": "Beat around the bush without answering the question",
+          "passLaw": false,
+          "partisan": 0.0,
+          "demAligned": -0.05,
+          "repAligned": -0.05,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 0,
+            "economy": 0,
+            "taxRate": 0.0,
+            "popular": -0.05,
+            "foreign": 0.0,
+            "incrimination": 0.0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        },
+        {
+          "reaction": "Say that it is not a priority",
+          "passLaw": false,
+          "partisan": 0.0,
+          "demAligned": -0.05,
+          "repAligned": -0.05,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 0,
+            "economy": 0,
+            "taxRate": 0.0,
+            "popular": -0.1,
+            "foreign": 0.0,
             "incrimination": 0.0
           },
           "futureEffects": null,
@@ -837,6 +1156,6 @@
   "endingImageLocation": null,
   "title": "Debate 2024",
   "updateURL": "https://raw.githubusercontent.com/Sn0wCh1ld/Various-Files/master/Impeached2/Packs/Debate%202024.json",
-  "version": 17,
+  "version": 34,
   "enabled": true
 }
