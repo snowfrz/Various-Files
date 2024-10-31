@@ -572,7 +572,7 @@
             "budget": 0,
             "economy": 0,
             "taxRate": 0.0,
-            "popular": 0.0,
+            "popular": -1.0,
             "foreign": 0.0,
             "incrimination": 0.0
           },
@@ -712,6 +712,6 @@
   "endingImageLocation": "https://raw.githubusercontent.com/snowfrz/Various-Files/master/Impeached2/Packs/Endings/",
   "title": "Haunted White House",
   "updateURL": "https://raw.githubusercontent.com/snowfrz/Various-Files/master/Impeached2/Packs/Haunted%20White%20House.json",
-  "version": 8,
+  "version": 9,
   "enabled": true
 }
