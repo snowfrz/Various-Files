@@ -579,7 +579,6 @@
           "futureEffects": null,
           "deathFlags": {
             "flags": {
-              "died": true,
               "national": true
             }
           }
@@ -712,6 +711,6 @@
   "endingImageLocation": "https://raw.githubusercontent.com/snowfrz/Various-Files/master/Impeached2/Packs/Endings/",
   "title": "Haunted White House",
   "updateURL": "https://raw.githubusercontent.com/snowfrz/Various-Files/master/Impeached2/Packs/Haunted%20White%20House.json",
-  "version": 9,
+  "version": 10,
   "enabled": true
 }
