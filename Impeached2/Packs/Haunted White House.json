@@ -1,0 +1,717 @@
+{
+  "author": "Impeached 2",
+  "iapId": null,
+  "scenarios": [
+    {
+      "action": "A new virus is identified in a small American town, which turns people into zombies. What do you do?",
+      "options": [
+        {
+          "reaction": "Research a vaccine",
+          "passLaw": false,
+          "partisan": 0.5,
+          "demAligned": 0.2,
+          "repAligned": -0.1,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": -900,
+            "economy": 100,
+            "taxRate": 0.0,
+            "popular": 0.0,
+            "foreign": 0.05,
+            "incrimination": 0.0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        },
+        {
+          "reaction": "Send the army to quarantine the town",
+          "passLaw": false,
+          "partisan": 0.0,
+          "demAligned": 0.1,
+          "repAligned": -0.1,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": -350,
+            "economy": -100,
+            "taxRate": 0.0,
+            "popular": -0.1,
+            "foreign": 0.0,
+            "incrimination": 0.0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        },
+        {
+          "reaction": "Provide emergency funding to hospitals",
+          "passLaw": false,
+          "partisan": 0.0,
+          "demAligned": 0.1,
+          "repAligned": 0.1,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": -500,
+            "economy": -100,
+            "taxRate": 0.0,
+            "popular": 0.1,
+            "foreign": 0.0,
+            "incrimination": 0.0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        },
+        {
+          "reaction": "Encourage survivors to get armed",
+          "passLaw": false,
+          "partisan": 0.0,
+          "demAligned": 0.0,
+          "repAligned": 0.0,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 0,
+            "economy": 0,
+            "taxRate": 0.0,
+            "popular": 0.0,
+            "foreign": 0.0,
+            "incrimination": 0.0
+          },
+          "futureEffects": null,
+          "deathFlags": {
+            "flags": {
+              "zombie": true
+            }
+          }
+        }
+      ]
+    },
+    {
+      "action": "On Halloween, a bunch of kids try to trick or treat at the White House. What do you do?",
+      "options": [
+        {
+          "reaction": "Give them candy",
+          "passLaw": false,
+          "partisan": 0.0,
+          "demAligned": 0.0,
+          "repAligned": 0.0,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": -50,
+            "economy": 0,
+            "taxRate": 0.0,
+            "popular": 0.05,
+            "foreign": 0.0,
+            "incrimination": 0.0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        },
+        {
+          "reaction": "Refuse to see them on grounds of national security",
+          "passLaw": false,
+          "partisan": 0.0,
+          "demAligned": 0.0,
+          "repAligned": 0.0,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 0,
+            "economy": 0,
+            "taxRate": 0.0,
+            "popular": -0.05,
+            "foreign": 0.0,
+            "incrimination": 0.0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        },
+        {
+          "reaction": "Give them trail mix and vegetables",
+          "passLaw": false,
+          "partisan": 0.0,
+          "demAligned": 0.0,
+          "repAligned": 0.0,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 0,
+            "economy": 0,
+            "taxRate": 0.0,
+            "popular": -0.05,
+            "foreign": 0.0,
+            "incrimination": 0.0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        },
+        {
+          "reaction": "Hand out religious tracts",
+          "passLaw": false,
+          "partisan": 0.0,
+          "demAligned": 0.0,
+          "repAligned": 0.0,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 0,
+            "economy": 0,
+            "taxRate": 0.0,
+            "popular": -0.05,
+            "foreign": 0.0,
+            "incrimination": 0.0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        }
+      ]
+    },
+    {
+      "action": "There is a rumor that the White House is haunted by the ghosts of assassinated Presidents. What do you do?",
+      "options": [
+        {
+          "reaction": "Hire a clairvoyant to try to communicate with them",
+          "passLaw": false,
+          "partisan": 0.0,
+          "demAligned": 0.0,
+          "repAligned": -0.1,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": -200,
+            "economy": 0,
+            "taxRate": 0.0,
+            "popular": -0.05,
+            "foreign": 0.0,
+            "incrimination": 0.0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        },
+        {
+          "reaction": "Claim it is nonsense",
+          "passLaw": false,
+          "partisan": 0.0,
+          "demAligned": 0.0,
+          "repAligned": 0.0,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 0,
+            "economy": 0,
+            "taxRate": 0.0,
+            "popular": 0.0,
+            "foreign": 0.0,
+            "incrimination": 0.0
+          },
+          "futureEffects": null,
+          "deathFlags": {
+            "flags": {
+              "haunted": true
+            }
+          }
+        },
+        {
+          "reaction": "Hire a religious leader to exorcize the supposed ghosts",
+          "passLaw": false,
+          "partisan": 0.0,
+          "demAligned": 0.0,
+          "repAligned": 0.1,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": -300,
+            "economy": 0,
+            "taxRate": 0.0,
+            "popular": 0.0,
+            "foreign": 0.0,
+            "incrimination": 0.0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        },
+        {
+          "reaction": "Have the Secret Service watch out for them while you sleep",
+          "passLaw": false,
+          "partisan": 0.0,
+          "demAligned": 0.0,
+          "repAligned": 0.0,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": -200,
+            "economy": 0,
+            "taxRate": 0.0,
+            "popular": 0.0,
+            "foreign": 0.0,
+            "incrimination": 0.0
+          },
+          "futureEffects": null,
+          "deathFlags": {
+            "flags": {
+              "haunted": true
+            }
+          }
+        }
+      ]
+    },
+    {
+      "action": "There is a rise of occult practitioners in the U.S. \nWhat do you do?",
+      "options": [
+        {
+          "reaction": "Nothing, citing religious freedom",
+          "passLaw": false,
+          "partisan": 1.0,
+          "demAligned": 0.05,
+          "repAligned": -0.05,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 0,
+            "economy": 0,
+            "taxRate": 0.0,
+            "popular": 0.0,
+            "foreign": 0.0,
+            "incrimination": 0.0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        },
+        {
+          "reaction": "Ban occult practices nationwide",
+          "passLaw": false,
+          "partisan": 0.5,
+          "demAligned": -0.2,
+          "repAligned": 0.0,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 0,
+            "economy": 0,
+            "taxRate": 0.0,
+            "popular": 0.0,
+            "foreign": 0.0,
+            "incrimination": 0.15
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        },
+        {
+          "reaction": "Outlaw the summoning of demons",
+          "passLaw": true,
+          "partisan": 0.0,
+          "demAligned": 0.15,
+          "repAligned": 0.15,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": -200,
+            "economy": 0,
+            "taxRate": 0.0,
+            "popular": 0.05,
+            "foreign": 0.0,
+            "incrimination": 0.0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        },
+        {
+          "reaction": "Require professional occultists to provide proof of supernatural ability",
+          "passLaw": true,
+          "partisan": 0.0,
+          "demAligned": 0.1,
+          "repAligned": 0.0,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": -200,
+            "economy": -50,
+            "taxRate": 0.0,
+            "popular": 0.0,
+            "foreign": 0.0,
+            "incrimination": 0.0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        }
+      ]
+    },
+    {
+      "action": "Parents are concerned about rumors that Halloween candy is being spiked with drugs and sharp objects. What do you do?",
+      "options": [
+        {
+          "reaction": "Cite hospital data to show that it virtually never happens",
+          "passLaw": false,
+          "partisan": 0.0,
+          "demAligned": 0.1,
+          "repAligned": 0.0,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 0,
+            "economy": 0,
+            "taxRate": 0.0,
+            "popular": 0.05,
+            "foreign": 0.0,
+            "incrimination": 0.0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        },
+        {
+          "reaction": "Require candy manufacturers to use tamper-resistant seals on candy",
+          "passLaw": false,
+          "partisan": 1.0,
+          "demAligned": 0.1,
+          "repAligned": -0.1,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 0,
+            "economy": -100,
+            "taxRate": 0.0,
+            "popular": 0.0,
+            "foreign": 0.0,
+            "incrimination": 0.0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        },
+        {
+          "reaction": "Encourage parents to check their children's candy",
+          "passLaw": false,
+          "partisan": 0.0,
+          "demAligned": 0.1,
+          "repAligned": 0.1,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 0,
+            "economy": 0,
+            "taxRate": 0.0,
+            "popular": -0.1,
+            "foreign": 0.0,
+            "incrimination": 0.0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        },
+        {
+          "reaction": "Fund the distribution of free drug testing kits at pharmacies",
+          "passLaw": false,
+          "partisan": 0.0,
+          "demAligned": 0.1,
+          "repAligned": -0.1,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": -400,
+            "economy": 0,
+            "taxRate": 0.0,
+            "popular": 0.05,
+            "foreign": 0.0,
+            "incrimination": 0.0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        }
+      ]
+    },
+    {
+      "action": "A mad scientist has created a monster from the body parts of dead people, and it goes on a rampage, killing its creator and several others. What do you do?",
+      "options": [
+        {
+          "reaction": "Send the army to neutralize the threat",
+          "passLaw": false,
+          "partisan": 0.0,
+          "demAligned": 0.1,
+          "repAligned": 0.2,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": -400,
+            "economy": 0,
+            "taxRate": 0.0,
+            "popular": 0.1,
+            "foreign": 0.0,
+            "incrimination": 0.0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        },
+        {
+          "reaction": "Arrest the monster, give it a fair trial and send it to prison",
+          "passLaw": false,
+          "partisan": 0.67,
+          "demAligned": 0.15,
+          "repAligned": -0.15,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": -600,
+            "economy": 0,
+            "taxRate": 0.0,
+            "popular": -0.05,
+            "foreign": 0.0,
+            "incrimination": 0.0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        },
+        {
+          "reaction": "Prohibit the creation of synthetic life",
+          "passLaw": false,
+          "partisan": 0.5,
+          "demAligned": -0.2,
+          "repAligned": 0.2,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 0,
+            "economy": 0,
+            "taxRate": 0.0,
+            "popular": 0.0,
+            "foreign": 0.0,
+            "incrimination": 0.0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        },
+        {
+          "reaction": "Capture it for study by regular scientists",
+          "passLaw": false,
+          "partisan": 0.5,
+          "demAligned": 0.2,
+          "repAligned": -0.2,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": -600,
+            "economy": 0,
+            "taxRate": 0.0,
+            "popular": 0.0,
+            "foreign": 0.0,
+            "incrimination": 0.0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        }
+      ]
+    },
+    {
+      "action": "You wake up in the middle of the night and hear weird sounds from the hallway. You call for the Secret Service but nobody comes. What do you do?",
+      "options": [
+        {
+          "reaction": "Quietly hide until morning, getting no sleep",
+          "passLaw": false,
+          "partisan": 0.0,
+          "demAligned": 0.0,
+          "repAligned": 0.0,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 0,
+            "economy": -100,
+            "taxRate": 0.0,
+            "popular": 0.0,
+            "foreign": 0.0,
+            "incrimination": 0.0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        },
+        {
+          "reaction": "Go back to sleep",
+          "passLaw": false,
+          "partisan": 0.0,
+          "demAligned": 0.0,
+          "repAligned": 0.0,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 0,
+            "economy": 0,
+            "taxRate": 0.0,
+            "popular": 0.0,
+            "foreign": 0.0,
+            "incrimination": 0.0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        },
+        {
+          "reaction": "Use your phone to call the Secret Service",
+          "passLaw": false,
+          "partisan": 0.0,
+          "demAligned": 0.0,
+          "repAligned": 0.0,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": -250,
+            "economy": 0,
+            "taxRate": 0.0,
+            "popular": 0.0,
+            "foreign": 0.0,
+            "incrimination": 0.0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        },
+        {
+          "reaction": "Go check outside your room",
+          "passLaw": false,
+          "partisan": 0.0,
+          "demAligned": 0.0,
+          "repAligned": 0.0,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 0,
+            "economy": 0,
+            "taxRate": 0.0,
+            "popular": 0.0,
+            "foreign": 0.0,
+            "incrimination": 0.0
+          },
+          "futureEffects": null,
+          "deathFlags": {
+            "flags": {
+              "died": true,
+              "national": true
+            }
+          }
+        }
+      ]
+    },
+    {
+      "action": "You wake up one day with an odd craving to drink blood. What do you do?",
+      "options": [
+        {
+          "reaction": "Order your steak raw that day",
+          "passLaw": false,
+          "partisan": 0.0,
+          "demAligned": 0.0,
+          "repAligned": 0.0,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 0,
+            "economy": 0,
+            "taxRate": 0.0,
+            "popular": -0.05,
+            "foreign": 0.0,
+            "incrimination": 0.0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        },
+        {
+          "reaction": "Eat an entire jar of garlic to remind yourself of your humanity",
+          "passLaw": false,
+          "partisan": 0.0,
+          "demAligned": 0.0,
+          "repAligned": 0.0,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": -100,
+            "economy": -100,
+            "taxRate": 0.0,
+            "popular": 0.0,
+            "foreign": 0.0,
+            "incrimination": 0.0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        },
+        {
+          "reaction": "Take your iron supplements",
+          "passLaw": false,
+          "partisan": 0.0,
+          "demAligned": 0.0,
+          "repAligned": 0.0,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": -100,
+            "economy": 0,
+            "taxRate": 0.0,
+            "popular": 0.0,
+            "foreign": 0.0,
+            "incrimination": 0.0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        },
+        {
+          "reaction": "Wait until nightfall, then go out to find victims",
+          "passLaw": false,
+          "partisan": 0.0,
+          "demAligned": -0.2,
+          "repAligned": -0.2,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 0,
+            "economy": -200,
+            "taxRate": 0.0,
+            "popular": -0.2,
+            "foreign": 0.0,
+            "incrimination": 0.3
+          },
+          "futureEffects": null,
+          "deathFlags": {
+            "flags": {
+              "vampire": true,
+              "died": true
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "endings": [
+    {
+      "title": "Zombie Nation",
+      "description": "You weren't able to keep up with the spread of the zombie virus, but survivors are well armed. America is undead.",
+      "imageName": "Zombie",
+      "hint": "Start a zombie apocalypse.",
+      "priority": 9,
+      "flagConditions": {
+        "zombie": true,
+        "broke": true
+      }
+    },
+    {
+      "title": "Haunted",
+      "description": "The rumor turns out to be true, and you join the other spirits haunting the White House.",
+      "imageName": "Haunted",
+      "hint": "Become a ghost.",
+      "priority": 9,
+      "flagConditions": {
+        "haunted": true,
+        "national": true
+      }
+    },
+    {
+      "title": "Vampirism",
+      "description": "You couldn't control your thirst for blood, and become possessed by a vampiric spirit. You become the first Vampire President of the U.S.",
+      "imageName": "Vampire",
+      "hint": "Thirst for blood.",
+      "priority": 9,
+      "flagConditions": {
+        "vampire": true,
+        "died": true
+      }
+    }
+  ],
+  "overlays": null,
+  "endingImageLocation": "https://raw.githubusercontent.com/snowfrz/Various-Files/master/Impeached2/Packs/Endings/",
+  "title": "Haunted White House",
+  "updateURL": "https://raw.githubusercontent.com/snowfrz/Various-Files/master/Impeached2/Packs/Haunted%20White%20House.json",
+  "version": 8,
+  "enabled": true
+}
