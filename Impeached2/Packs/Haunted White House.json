@@ -597,7 +597,7 @@
           "effect": {
             "turnDelay": 0,
             "repeatEffect": 0,
-            "budget": 0,
+            "budget": -100,
             "economy": 0,
             "taxRate": 0.0,
             "popular": -0.05,
@@ -617,7 +617,7 @@
             "turnDelay": 0,
             "repeatEffect": 0,
             "budget": -100,
-            "economy": -100,
+            "economy": 0,
             "taxRate": 0.0,
             "popular": 0.0,
             "foreign": 0.0,
@@ -711,6 +711,6 @@
   "endingImageLocation": "https://raw.githubusercontent.com/snowfrz/Various-Files/master/Impeached2/Packs/Endings/",
   "title": "Haunted White House",
   "updateURL": "https://raw.githubusercontent.com/snowfrz/Various-Files/master/Impeached2/Packs/Haunted%20White%20House.json",
-  "version": 10,
+  "version": 11,
   "enabled": true
 }
