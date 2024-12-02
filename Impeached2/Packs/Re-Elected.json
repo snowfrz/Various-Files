@@ -3,7 +3,7 @@
   "author": "Impeached",
   "updateURL": "https://raw.githubusercontent.com/Sn0wCh1ld/Various-Files/master/Impeached2/Packs/Re-Elected.json",
   "iapId": null,
-  "version": 55,
+  "version": 56,
   "scenarios": [
     {
       "action": "A major hurricane hits a heavily populated area of the country. What do you do?",
@@ -7594,6 +7594,87 @@
             "economy": 0,
             "taxRate": 0.0,
             "popular": -0.1,
+            "foreign": 0,
+            "incrimination": 0.1
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        }
+      ]
+    },
+    {
+      "action": "A family member is charged with several federal crimes. What do you do?",
+      "options": [
+        {
+          "reaction": "Pardon them for everything they may have done",
+          "passLaw": false,
+          "partisan": 0.0,
+          "demAligned": -0.2,
+          "repAligned": -0.2,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": 0,
+            "economy": 0,
+            "taxRate": 0.0,
+            "popular": -0.25,
+            "foreign": 0.0,
+            "incrimination": -0.1
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        },
+        {
+          "reaction": "Hire them a lawyer",
+          "passLaw": false,
+          "partisan": 0,
+          "demAligned": -0.1,
+          "repAligned": -0.1,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": -400,
+            "economy": 0,
+            "taxRate": 0.0,
+            "popular": -0.15,
+            "foreign": 0.0,
+            "incrimination": 0.0
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        },
+        {
+          "reaction": "Bribe the investigators to drop the cases",
+          "passLaw": false,
+          "partisan": 0.5,
+          "demAligned": 0.3,
+          "repAligned": 0.1,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": -500,
+            "economy": 0,
+            "taxRate": 0.0,
+            "popular": -0.2,
+            "foreign": 0.0,
+            "incrimination": 0.1
+          },
+          "futureEffects": null,
+          "deathFlags": null
+        },
+        {
+          "reaction": "Pressure the media to suppress coverage",
+          "passLaw": false,
+          "partisan": 0.0,
+          "demAligned": -0.1,
+          "repAligned": -0.1,
+          "effect": {
+            "turnDelay": 0,
+            "repeatEffect": 0,
+            "budget": -300,
+            "economy": 0,
+            "taxRate": 0.0,
+            "popular": 0,
             "foreign": 0,
             "incrimination": 0.1
           },
