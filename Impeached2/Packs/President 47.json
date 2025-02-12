@@ -838,7 +838,7 @@
   ],
   "endings": [
     {
-      "title": "Destiny Manifested",
+      "title": "Empire",
       "description": "Your term may have ended sooner than expected but the effects of your expansionist policies will last a very long time.",
       "imageName": "Empire",
       "hint": "Gain a new state.",
@@ -862,5 +862,5 @@
   "endingImageLocation": "https://raw.githubusercontent.com/Sn0wCh1ld/Various-Files/master/Impeached2/Packs/Endings/",
   "title": "President 47",
   "updateURL": "https://raw.githubusercontent.com/snowfrz/Various-Files/master/Impeached2/Packs/President%2047.json",
-  "version": 14
+  "version": 15
 }
