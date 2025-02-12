@@ -853,7 +853,7 @@
       "title": "",
       "description": "",
       "imageName": "EmpireOverlay",
-      "zPos": 20,
+      "zPos": 14,
       "flagConditions": {
         "canada": true
       }
