@@ -2,7 +2,7 @@
     "title": "DefaultBundle",
     "source": "https://raw.githubusercontent.com/Sn0wCh1ld/Various-Files/master/Impeached2/Packs/",
     "updateURL": "https://raw.githubusercontent.com/Sn0wCh1ld/Various-Files/master/Impeached2/DefaultBundle.json",
-    "version": 8,
+    "version": 9,
     "packsAndId": {
         "Re-Elected": null,
         "We The People": "deck_general1",
