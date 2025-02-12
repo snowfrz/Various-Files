@@ -446,7 +446,11 @@
             "incrimination": 0.0
           },
           "futureEffects": null,
-          "deathFlags": null
+          "deathFlags": {
+            "flags": {
+              "canada": true
+            }
+          }
         },
         {
           "reaction": "Impose tariffs on their products",
@@ -832,10 +836,31 @@
       ]
     }
   ],
-  "endings": null,
-  "overlays": null,
+  "endings": [
+    {
+      "title": "United Empire of America",
+      "description": "Your term may have ended sooner than expected, but North America, united under your administration, will last a very long time.",
+      "imageName": "Empire",
+      "hint": "Gain a new state.",
+      "priority": 10,
+      "flagConditions": {
+        "canada": true
+      }
+    }
+  ],
+  "overlays": [
+    {
+      "title": "",
+      "description": "",
+      "imageName": "EmpireOverlay",
+      "zPos": 20,
+      "flagConditions": {
+        "canada": true
+      }
+    }
+  ],
   "endingImageLocation": "https://raw.githubusercontent.com/Sn0wCh1ld/Various-Files/master/Impeached2/Packs/Endings/",
   "title": "President 47",
   "updateURL": "https://raw.githubusercontent.com/snowfrz/Various-Files/master/Impeached2/Packs/President%2047.json",
-  "version": 11
+  "version": 12
 }
