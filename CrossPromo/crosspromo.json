@@ -13,5 +13,17 @@
             "linux",
             "windows"
         ]
+    },
+    {
+        "title": "Mind Dash",
+        "imageURL": "https://raw.githubusercontent.com/Sn0wCh1ld/Various-Files/master/CrossPromo/Images/MindDash.png",
+        "description": "Supercharge your brain with Mind Dash⚡️ Compete with friends and strangers on daily puzzles & more to prove you're the smartest!",
+        "buttonText": "Play Now!",
+        "bundleID": "com.lbastudios.MindDash",
+        "productURL": "https://minddash.app/",
+        "platforms": [
+            "ios",
+            "macos"
+        ]
     }
 ]
