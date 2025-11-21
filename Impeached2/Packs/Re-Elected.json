@@ -3,7 +3,7 @@
   "author": "Impeached",
   "updateURL": "https://raw.githubusercontent.com/Sn0wCh1ld/Various-Files/master/Impeached2/Packs/Re-Elected.json",
   "iapId": null,
-  "version": 57,
+  "version": 58,
   "scenarios": [
     {
       "action": "A major hurricane hits a heavily populated area of the country. What do you do?",
@@ -895,8 +895,8 @@
             "budget": -550,
             "economy": 0,
             "taxRate": 0,
-            "popular": -0.3,
-            "foreign": -0.2
+            "popular": -0.15,
+            "foreign": -0.15
           },
           "futureEffects": []
         },
