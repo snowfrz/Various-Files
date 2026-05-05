@@ -3,6 +3,7 @@
     "update": "https://raw.githubusercontent.com/snowfrz/Various-Files/master/BankruptCW/Bundle.json",
     "version": 1,
     "campaigns": [
-        "Tutorial"
+        "Tutorial",
+        "Outskirts"
     ]
 }
