@@ -15,12 +15,12 @@
         ]
     },
     {
-        "title": "Mind Dash",
-        "imageURL": "https://raw.githubusercontent.com/Sn0wCh1ld/Various-Files/master/CrossPromo/Images/MindDash.png",
-        "description": "Supercharge your brain with Mind Dash! Compete with friends and strangers on daily puzzles & more to prove you're the smartest!",
+        "title": "Bankrupt: Corporate Warfare",
+        "imageURL": "https://raw.githubusercontent.com/Sn0wCh1ld/Various-Files/master/CrossPromo/Images/Bankrupt.png",
+        "description": "Land on an alien planet, gather resources, and annihilate the competition. With over 18 quintillion unique planets to conquer, you will never run out of war to wage.",
         "buttonText": "Play Now!",
-        "bundleID": "com.lbastudios.MindDash",
-        "productURL": "https://minddash.app/",
+        "bundleID": "com.lbastudios.Industry",
+        "productURL": "https://playbankrupt.com/",
         "platforms": [
             "ios",
             "macos"
